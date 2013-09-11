@@ -1,0 +1,50 @@
+Fri Apr 15 11:23:13 2011
+
+Project path: /home/student/MentorGraphics/7.9EE/SDD_HOME/standard/templates/pcb/Central Library/Templates/Layout/4 Layer Template/keyin.icdb
+
+Before global upgrade from version: 7.10.5 to version: 7.10.6
+
+BeforeGlobalUpgrade took 20ms, 0s
+
+Upgrade snapshot PCB
+UpgradeSnapshot took 10ms, 0s
+
+Upgrade snapshot PCB_Layout_Temp
+UpgradeSnapshot took 10ms, 0s
+
+After global upgrade
+Constraints definition "DP_CDT" default value set to: 635000.
+Constraints definition "DP_MDC" default value set to: 2540000.
+Constraints definition "DP_MSD" default value set to: 0.
+Constraints definition "LOSS_TAN" default value set to: 0.020000000000000.
+Constraints definition "HLT_CASING_TACT" deleted.
+Constraints definition "HLT_JUNCTION_TACT" deleted.
+Constraints definition "HLT_CASING_TACT" added.
+Constraints definition "HLT_JUNCTION_TACT" added.
+Constraints definition "TOPO_NET_PCLASS" levels updated.
+Constraints definition "STUB_LENGTH" levels updated.
+Constraints definition "MATCH_GROUP" levels updated.
+Constraints definition "SIM_DELAY_TYPE" levels updated.
+Constraints definition "SIM_MIN_DELAY" levels updated.
+Constraints definition "SIM_MAX_DELAY" levels updated.
+Constraints definition "SIM_MAX_RANGE" levels updated.
+Constraints definition "HLT_POWER_SCALING_FACT" levels updated.
+Constraints definition "HLT_THETA_JC" levels updated.
+Constraints definition "SIM_DELAY_MATCH_TO" levels updated.
+Constraints definition "MATCH_GROUP" parents updated.
+Constraints definition "MATCH_TOLERANCE" parents updated.
+Constraints definition "MAX_STATIC_LO_OVERSHOOT" parents updated.
+Constraints definition "MAX_STATIC_HI_OVERSHOOT" parents updated.
+Constraints definition "MAX_DYN_LO_OVERSHOOT" parents updated.
+Constraints definition "MAX_DYN_HI_OVERSHOOT" parents updated.
+Constraints definition "MAX_HIGH_RINGBACK" parents updated.
+Constraints definition "MAX_LOW_RINGBACK" parents updated.
+Constraints definition "SIM_DELAY_OFFSET" parents updated.
+Constraints definition "SIM_MATCH_TOL" parents updated.
+Constraints definition "DP_SPACE" parents updated.
+Constraints definition "HLT_POWER_SCALING_FACT" parents updated.
+Constraints definition "HLT_THETA_JC" parents updated.
+Constraints definition "HLT_CASING_TLIMIT" parents updated.
+Constraints definition "HLT_JUNCTION_TLIMIT" parents updated.
+AfterGlobalUpgrade took 0ms, 0s
+

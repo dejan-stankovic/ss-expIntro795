@@ -1,0 +1,6 @@
+[2013.08.16 06:14:07] [0000m.44s.811ms] [1] Notifier: OnErrorAdd: ClientObserver[0F08D130] SnapshotName[DXD_1_layout_temp] SubClientName[Expedition PCB_2164109] ParentUID[2-2-21 (CesDesign)] AddedUID[314-1-62 (CesVia)] EventAdd[CesVia]
+[2013.08.16 06:14:07] [0000m.44s.827ms] [1] Notifier: OnErrorAdd: ClientObserver[0F08D130] SnapshotName[DXD_1_layout_temp] SubClientName[Expedition PCB_2164109] ParentUID[2-2-21 (CesDesign)] AddedUID[314-2-62 (CesVia)] EventAdd[CesVia]
+[2013.08.16 06:14:07] [0000m.44s.827ms] [1] Notifier: OnErrorAdd: ClientObserver[0F08D130] SnapshotName[DXD_1_layout_temp] SubClientName[Expedition PCB_2164109] ParentUID[2-2-21 (CesDesign)] AddedUID[314-3-62 (CesVia)] EventAdd[CesVia]
+[2013.08.16 06:14:08] [0000m.45s.858ms] [0] Notifier: ERROR: No snapshot for RemoveEventObserver: SubClientID[1] SnapshotID[9] EventObserver[07400EB8]
+[2013.08.16 06:14:08] [0000m.45s.858ms] [0] Notifier: ERROR: No PIMgr for RemovePIMObserver: SubClientID[1] PIIndex[0-6-127 (ProjectIntegration)] ProjectIntegrationEventObserver[0EFCAFF8]
+[2013.08.16 06:14:42] [0001m.19s.982ms] [0] .

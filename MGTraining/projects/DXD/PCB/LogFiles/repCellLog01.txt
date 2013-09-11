@@ -1,0 +1,27 @@
+=======================================================================
+Expedition PCB - Pinnacle - Version 2013.0.543.380
+=======================================================================
+
+RELOAD CELLS
+
+Job Directory:  C:\MGTraining\projects\DXD\PCB\
+
+
+Design Units:(th)
+
+Replace Cell Log:   repCellLog01.txt
+
+Fri Aug 16 06:14:08 2013
+
+Reference Designator            Cell Name                         New Cell Name
+===============================================================================
+
+
+---------------  RELOAD CELLS  Fri Aug 16 06:14:08 2013  ---------------
+
+
+
+
+---------------    Fri Aug 16 06:14:08 2013  ---------------
+
+

@@ -1,0 +1,195 @@
+
+                               Forward Annotation
+                               ------------------
+
+                        06:13 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+
+Version:  01.01.00
+
+     The PDBs listed in the project file will be searched to satisfy the parts
+      requirements of the iCDB only for parts not already found in the
+      Target PDB.
+
+     The schematic source is a Common Data Base.
+
+     The AllowAlphaRefDes status indicates that reference
+      designators containing all alpha characters should be deleted
+      and the relevant symbols repackaged.
+
+
+
+     Common Data Base has been read
+
+     Target PDB Name: Work\Layout_Temp\PartsDB.pdb
+
+     Number of Part Numbers: 21
+          Part Numb: CAP-SMD0603-100P -> Vend Part: CAP-SMD0603-100P 
+          Part Numb: CAP-SMD0805-5P -> Vend Part: CAP-SMD0805-5P 
+          Part Numb: CAP-SMD1206-10P -> Vend Part: CAP-SMD1206-10P 
+          Part Numb: CTX071-ND -> Vend Part: CTX071-ND 
+          Part Numb: ECONN44X50 -> Vend Part: ECONN44X50 
+          Part Numb: OP215A -> Vend Part: OP215A 
+          Part Numb: PCAP-SM7343-100U -> Vend Part: PCAP-SM7343-100U 
+          Part Numb: RES-SMD1206-3K -> Vend Part: RES-SMD1206-3K 
+          Part Numb: RES-SMD1206-100K -> Vend Part: RES-SMD1206-100K 
+          Part Numb: 9P_PCONN -> Vend Part: 9P_PCONN 
+          Part Numb: 54ALS1008_LCC -> Vend Part: 54ALS1008_LCC 
+          Part Numb: 74ALS00_SOP -> Vend Part: 74ALS00_SOP 
+          Part Numb: 74ALS04_SOP -> Vend Part: 74ALS04_SOP 
+          Part Numb: 74ALS30_SOP -> Vend Part: 74ALS30_SOP 
+          Part Numb: 74ALS32_SOP -> Vend Part: 74ALS32_SOP 
+          Part Numb: 74ALS49_SOP -> Vend Part: 74ALS49_SOP 
+          Part Numb: 74ALS187_DIP -> Vend Part: 74ALS187_DIP 
+          Part Numb: 74ALS240_SOP -> Vend Part: 74ALS240_SOP 
+          Part Numb: 74ALS655_SOP -> Vend Part: 74ALS655_SOP 
+          Part Numb: 3296P-103-ND -> Vend Part: 3296P-103-ND 
+          Part Numb: 4310R-1-103-ND -> Vend Part: 4310R-1-103-ND 
+
+     Number of Part Names: 0
+
+     Number of Part Labels: 0
+
+
+     Checking for value differences between symbol properties and PartsDB properties
+
+     Checking the validity of the packaging of prepackaged schematic
+      symbols.  Only the first error in symbols having the same
+      Reference Designator will be reported.
+
+     The packaging of all prepackaged schematic symbols is consistent
+      with the Parts DataBase data for the cross mapping of
+      symbol pin names to Part Number pin numbers.
+      Symbols that were not prepackaged will now be packaged correctly.
+      
+     No errors in Existing Schematic Packaging.
+
+     The Common DataBase has been read and will be packaged.
+     Clustering 75 Symbols:
+              75  ************************
+              50  **************************************************
+     Clustering is Complete
+
+     Packager Assignments successfully completed
+
+
+
+     85 nets were found containing 319 pins
+     51 components were found
+
+     Creating a formatted Schematic Netlist (LogFiles\SchematicNetlist.txt)...
+     A formatted Schematic Netlist has been created.
+
+     The Logic DataBase has been compiled from the Schematic Design.
+      Use Netload to bring the Component Design into sync.
+
+     Logic Data has been successfully Compiled with no errors or warnings.
+      Please proceed with your component Design.
+                                     NetLoad
+                                     -------
+
+                        06:14 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+
+Version:  02.11.12
+
+	Netloading the Layout.  Unused components will be changed to spares.
+
+	Unconnected pins will be set to net "(Net0)".
+
+	Schematic reference designator changes will be forward annotated.
+
+
+     The following 51 components have not been placed:
+
+        C1
+        C2
+        C3
+        C4
+        C5
+        C6
+        C7
+        C8
+        C9
+        C10
+        C11
+        C12
+        C13
+        C14
+        C15
+        C16
+        C19
+        C20
+        C21
+        C22
+        C23
+        C24
+        C25
+        C26
+        J1
+        J2
+        RN1
+        RN2
+        R1
+        R2
+        R3
+        R4
+        R5
+        R6
+        R7
+        R8
+        R9
+        U5
+        U7
+        U9
+        U10
+        U11
+        U12
+        U13
+        U14
+        U15
+        U16
+        U17
+        U18
+        U19
+        Y1
+
+     Netload completed successfully with 0 warning(s).
+     
+     Back Annotating...
+
+  Updating Logic Database...
+
+     Version:  99.00.05
+
+     No changes made to Existing Schematic Packaging.
+
+
+     There is no symbol data to be back annotated to the schematic source.
+
+
+     The Logic DataBase has been updated and the Common DataBase has
+      automatically been brought into sync with the Logic DataBase.
+      Please proceed with your design.
+
+     Finished updating the Logic Database.
+
+     Creating a formatted Schematic Netlist (LogFiles\AfterBakAnnoNetlist.txt)...
+     A formatted Schematic Netlist has been created.
+
+     Creating a new netlist text file (LogFiles\KeyinNetList.txt)
+      from the Logic Database (Work\Layout_Temp\LogicDB.lgc)...
+  A new netlist text file has been generated.
+
+
+
+                 Beginning Netload on the Layout Design.
+           ---------------------------------------------------
+
+Forward-Annotation on the Layout Design has been successfully completed.
+
+There were 0 reassignments of nets.
+There were 0 traces broken back.
+There were 0 nets removed from the Layout Design.

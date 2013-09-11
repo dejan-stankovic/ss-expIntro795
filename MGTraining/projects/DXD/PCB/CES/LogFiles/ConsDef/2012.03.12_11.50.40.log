@@ -1,0 +1,22 @@
+Mon Mar 12 11:50:40 2012
+
+Project path: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb
+
+Loaded cns info: C:\MentorGraphics\7.9.3EE\SDD_HOME\standard\ce_ee.cns=7.10.23;C:\MGTraining\common\config\user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8
+Before global upgrade from version: 7.10.16 to version: 7.10.23
+
+Constraints definition "TOPO_PATTERN_NAME" added.
+Constraints definition "POWERNET_PINCOUNT_TYPE" added (default value: FALSE).
+Constraints definition "POWERNET_MANUAL_TYPE" added (default value: FALSE).
+BeforeGlobalUpgrade took 32ms, 0s
+
+Upgrade snapshot PCB
+UpgradeSnapshot took 15ms, 0s
+
+Upgrade snapshot PCB_Layout_Temp
+UpgradeSnapshot took 0ms, 0s
+
+After global upgrade
+Constraints definition "DSN_DISCRETES" default value set to: CAPACITOR=C,#_C;CONNECTOR=P,J;DIODE=D,CR;INDUCTOR=L,#_L;RESISTOR=R,#_R.
+AfterGlobalUpgrade took 0ms, 0s
+

@@ -1,0 +1,42 @@
+[2013.08.16 06:13:15] [0000m.00s.046ms] [0] WELCOME
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] iCDB API ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Base flow version [7.9.4]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Machine [ESVM01]  User [student]  PID [3488]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] SDD_PLATFORM [win32]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [0] PM: Entering client mode
+[2013.08.16 06:13:15] [0000m.00s.046ms] [0] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] size [494992 (483.4 kB)]
+[2013.08.16 06:13:15] [0000m.00s.046ms] [1] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] opened in read-only mode
+[2013.08.16 06:13:15] [0000m.00s.046ms] [0] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] closed with size [494992 (483.4 kB)]
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] DiagProperties: ERROR: iCDB Server Monitor address file not found
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] size [494992 (483.4 kB)]
+[2013.08.16 06:13:15] [0000m.00s.062ms] [1] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] opened in read-write mode
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] Database GUARD OK: [494992]
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] Database GUARD OK: [494992]
+[2013.08.16 06:13:15] [0000m.00s.062ms] [0] SingleFile: [cd2e-0dae-a49c-2374] SFI version check [1009] [1009]
+[2013.08.16 06:13:15] [0000m.00s.078ms] [0] SingleFile: [cd2e-0dae-a49c-2374] Database SFI header has been read in [11ms 797us]
+[2013.08.16 06:13:15] [0000m.00s.078ms] [0] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] closed with size [494992 (483.4 kB)]
+[2013.08.16 06:13:16] [0000m.01s.031ms] [0] AMC: Event: ProjectConnectionSucceed
+[2013.08.16 06:13:16] [0000m.01s.124ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\keyin.icdb\icdb.dat] size [56368 (55.0 kB)]
+[2013.08.16 06:13:16] [0000m.01s.124ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\keyin.icdb\icdb.dat] opened in read-only mode
+[2013.08.16 06:13:16] [0000m.01s.124ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\keyin.icdb\icdb.dat] closed with size [56368 (55.0 kB)]
+[2013.08.16 06:13:16] [0000m.01s.171ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\keyin.icdb\icdb.dat] size [56368 (55.0 kB)]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\keyin.icdb\icdb.dat] opened in read-write mode
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] Database GUARD OK: [56368]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] Database GUARD OK: [56368]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] SingleFile: [a54a-b892-44cb-2be6] SFI version check [1009] [1009]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] SingleFile: [a54a-b892-44cb-2be6] Database SFI header has been read in [1ms 451us]
+[2013.08.16 06:13:16] [0000m.01s.187ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\keyin.icdb\icdb.dat] closed with size [56368 (55.0 kB)]
+[2013.08.16 06:13:17] [0000m.02s.062ms] [0] PM: Closing client mode
+[2013.08.16 06:13:17] [0000m.02s.062ms] [0] .

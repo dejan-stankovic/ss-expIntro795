@@ -1,3 +1,27 @@
+SECTION DXD_1
+KEY CADBackAnno "1"
+KEY ConfigType "PCB"
+KEY LayoutTemplate "training"
+KEY RootBlock "DiscreteCircuit"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY PCBDesignPath "PCB\DXD_1.pcb"
+KEY PCBForwardAnno "0"
+KEY FwdAnnoExtractFlag "1"
+KEY FwdAnnoRebuildFlag "0"
+KEY FwdAnnoReplaceFlag "0"
+KEY FwdAnnoCleanBuildFlag "0"
+KEY UnusedPartsFlag "0"
+KEY DisableBackAnnoChanges "0"
+KEY FanoutSinglePinNets "0"
+KEY FwdAnnoSchematicRefDesChanges "1"
+KEY FwdAnnoRemoveTraces "1"
+KEY FwdAnnoRemoveHangers "1"
+KEY AllowAlpha "0"
+KEY UpdateJobPrefsDB "CAD"
+ENDSECTION
 SECTION DesignInfo
 KEY BorderSymbols "./borders.ini"
 KEY Bus_Contents "./busconts.ini"
@@ -11,7 +35,18 @@ SECTION FlowSettings
 KEY FlowType "DX"
 ENDSECTION
 SECTION ICXProInfo
-KEY ICXProDir "ICXPro"
+KEY ICXProDir "./HighSpeed/ICXPro"
+KEY HighSpeedPathsVersion "1"
+KEY ICXProDir_old "ICXPro"
+KEY IBISModelMgrDir "./HighSpeed/ICXPro/Model_Manager"
+KEY VerifyDir "./HighSpeed/ICXPro/Verify"
+KEY VerifyResultsDir "./HighSpeed/ICXPro/Verify/DataBases"
+KEY VerifyLogFilesDir "./HighSpeed/ICXPro/Verify/LogFiles"
+KEY VerifyWaveformsDir "./HighSpeed/ICXPro/Verify/Waveforms"
+KEY VerifySandBoxDir "./HighSpeed/ICXPro/Verify"
+KEY SimTemplatesDir "./HighSpeed/ICXPro/Simulation_Templates"
+KEY PostLayoutExplorerDir "./HighSpeed/ICXPro/PostLayoutExplorer"
+KEY PostLayoutLineSim "./HighSpeed/HyperLynx/PostLayoutLineSim"
 ENDSECTION
 SECTION ProjectBackup
 KEY ConfigFile ".\ProjectBackup\ProjectBackup.cfg"
@@ -33,13 +68,4 @@ VALUE "DXD_1"
 ENDLIST
 KEY DedicatedServerName ""
 KEY iCDBDir "database"
-ENDSECTION
-SECTION DXD_1
-KEY CADBackAnno "0"
-KEY ConfigType "PCB"
-KEY RootBlock "DiscreteCircuit"
-KEY SchematicConflict "FE"
-KEY SchematicDesignBackAnno "0"
-KEY SchematicDesignStatus "0"
-KEY SearchPathScheme "(Default)"
 ENDSECTION

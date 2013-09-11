@@ -1,0 +1,18 @@
+Wed Jun 15 09:43:21 2011
+
+Project path: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb
+
+Loaded cns info: C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard\ce_ee.cns=7.10.16
+Before global upgrade from version: 7.10.16 to version: 7.10.16
+
+BeforeGlobalUpgrade took 31ms, 0s
+
+Upgrade snapshot PCB
+UpgradeSnapshot took 15ms, 0s
+
+Upgrade snapshot PCB_Layout_Temp
+UpgradeSnapshot took 0ms, 0s
+
+After global upgrade
+AfterGlobalUpgrade took 0ms, 0s
+

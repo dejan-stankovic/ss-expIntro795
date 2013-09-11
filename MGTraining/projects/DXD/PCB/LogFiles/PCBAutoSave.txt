@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                        06:14 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                        06:18 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+

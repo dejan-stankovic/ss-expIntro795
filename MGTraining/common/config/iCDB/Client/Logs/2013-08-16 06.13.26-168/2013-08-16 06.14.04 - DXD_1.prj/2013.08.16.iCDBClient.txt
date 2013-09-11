@@ -1,0 +1,46 @@
+[2013.08.16 06:14:04] [0000m.41s.920ms] [0] WELCOME
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] iCDB Client ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] Base flow version [7.9.4]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] Machine [ESVM01]  User [student]  PID [168]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] Current working dir [C:\MGTraining\projects\DXD\PCB]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] SDD_PLATFORM [win32]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [3] AMP: CREATE
+[2013.08.16 06:14:04] [0000m.41s.920ms] [2] NE: CREATE
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] IC: Project GUID [c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [2] AMP: START
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] IC: Project path [C:\MGTraining\projects\DXD\database] on file system [NTFS]
+[2013.08.16 06:14:04] [0000m.41s.920ms] [1] IC: Working in FULL access mode
+[2013.08.16 06:14:04] [0000m.41s.920ms] [2] IC: EDM BLP: Trying to log with empty user id.
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\projects\DXD\database]
+[2013.08.16 06:14:04] [0000m.41s.983ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [5e6a-88d0-7a72-fe10-c852-e021-952e-0250-e591-418f-2c7c-0ac5]  for project [C:\MGTraining\projects\DXD\database] with GUID [c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8]
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] Network: DNS query IP [127.0.0.1]
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] Connecting to iCDB Server:  Host [esvm01] IP [127.0.0.1]  Port [10000]
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] Network: DNS query IP [127.0.0.1]
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] Connected to iCDB Server [127.0.0.1]
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] Session [314] opened
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] Working mode: Online
+[2013.08.16 06:14:04] [0000m.41s.983ms] [1] C: Registered sub-client: [Expedition PCB_2164109] with ID: [1]
+[2013.08.16 06:14:05] [0000m.42s.905ms] [1] C: Registered sub-client: [JobPrefsDBPI_2165109] with ID: [2]
+[2013.08.16 06:14:05] [0000m.42s.920ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_2165109] with ID: [2]
+[2013.08.16 06:14:07] [0000m.44s.842ms] [1] C: Registered sub-client: [JobPrefsDBPI_2167031] with ID: [3]
+[2013.08.16 06:14:07] [0000m.44s.858ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_2167031] with ID: [3]
+[2013.08.16 06:14:07] [0000m.44s.858ms] [1] C: Registered sub-client: [ExpeditionCrossProber] with ID: [4]
+[2013.08.16 06:14:41] [0001m.19s.123ms] [1] C: Registered sub-client: [JobPrefsDBPI_2201328] with ID: [5]
+[2013.08.16 06:14:41] [0001m.19s.216ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_2201328] with ID: [5]
+[2013.08.16 06:14:41] [0001m.19s.248ms] [1] C: Registered sub-client: [JobPrefsDBPI_2201437] with ID: [6]
+[2013.08.16 06:14:41] [0001m.19s.248ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_2201437] with ID: [6]
+[2013.08.16 06:14:41] [0001m.19s.263ms] [1] C: Registered sub-client: [JobPrefsDBPI_2201453] with ID: [7]
+[2013.08.16 06:14:41] [0001m.19s.263ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_2201453] with ID: [7]
+[2013.08.16 06:14:41] [0001m.19s.638ms] [1] C: Unregistered sub-client: [ExpeditionCrossProber] with ID: [4]
+[2013.08.16 06:14:41] [0001m.19s.748ms] [1] C: Unregistered sub-client: [Expedition PCB_2164109] with ID: [1]
+[2013.08.16 06:14:42] [0001m.19s.794ms] [1] Disconnected from iCDB Server
+[2013.08.16 06:14:42] [0001m.19s.794ms] [1] Working mode: Offline
+[2013.08.16 06:14:42] [0001m.19s.982ms] [0] C: Stop
+[2013.08.16 06:14:42] [0001m.19s.982ms] [0] .

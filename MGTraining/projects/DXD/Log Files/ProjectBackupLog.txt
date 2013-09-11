@@ -26,3 +26,9 @@
 [2012-09-24 11.29.40] Migrated iCDB content backup file [cdbback\2012-09-24 11.29.40-340.zip] removed.
 [2013-04-30 13.42.36] Successfully created [Constraints Definition Upgrade] backup [2013-04-30 13.42.36 - consDefUpgr.zip] requested by [ESVM01:student].
 [2013-04-30 13.42.36] Migrated iCDB content backup file [cdbback\2013-04-30 13.42.34-2696.zip] removed.
+[2013-08-16 06.13.48] Migrating iCDB upgrade backups from directory [DXD\database\cdbback] to Project Backup format.
+[2013-08-16 06.13.48] Migrating iCDB upgrade backup file [2013-08-16 06.13.16-4004].
+[2013-08-16 06.13.49] Successfully created [Database Upgrade] backup [2013-08-16 06.13.16 - upgrade.zip] requested by [ESVM01:student].
+[2013-08-16 06.13.49] Migrated iCDB content backup file [cdbback\2013-08-16 06.13.16-4004.zip] removed.
+[2013-08-16 06.13.49] Successfully migrated iCDB upgrade backup file [2013-08-16 06.13.16-4004] to Project Backup format [2013-08-16 06.13.16 - upgrade.zip]
+[2013-08-16 06.14.19] Successfully created [AutoSave] backup [2013-08-16 06.14.19 - auto.zip] requested by [ESVM01:student].

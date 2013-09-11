@@ -1,0 +1,61 @@
+
+                                Library Services
+                                ----------------
+
+                       03:02 PM Thursday, August 15, 2013
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\Work\Layout_Temp\Design.llm
+
+
+
+Operation: Import Cells to Library (copy)
+Source:    C:\MGTraining\common\libraries\master-DXD\master-DXD.lmc,
+           Cell partition 'misc'
+Target:    C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\Work\Layout_Temp\Design.llm,
+           Cell partition 'CellDB'
+
+Pad '35th round' was copied because it didn't exist.
+Pad '40th round' was copied because it didn't exist.
+Pad '41th round' was copied because it didn't exist.
+Pad '46th round' was copied because it didn't exist.
+
+Hole '13th +/-3' was copied because it didn't exist.
+
+Padstack '35th pad 17th hole' was copied because it didn't exist.
+Padstack '35th test pad' was copied because it didn't exist.
+Padstack '40th test pad' was copied because it didn't exist.
+
+Cell '#4NUT' was copied because it didn't exist.
+Cell '#4SCREW' was copied because it didn't exist.
+Cell '#4WASHER' was copied because it didn't exist.
+Cell 'B SIZE SHEET' was copied because it didn't exist.
+Cell 'Mentor_logo' was copied because it didn't exist.
+Cell 'TESTPAD35' was copied because it didn't exist.
+Cell 'TESTPAD35THRU' was copied because it didn't exist.
+Cell 'TESTPAD40' was copied because it didn't exist.
+
+
+Operation completed successfully.
+---------------------------------
+
+
+Operation: Import Padstacks to Library (copy)
+Source:    C:\MGTraining\common\libraries\master-DXD\master-DXD.lmc,
+           Padstack partition 'Padstack'
+Target:    C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\Work\Layout_Temp\Design.llm,
+           Padstack partition 'Padstack'
+
+Pad '25th round' was copied because it didn't exist.
+Pad '31th round' was copied because it didn't exist.
+Pad '37th round' was copied because it didn't exist.
+Pad '37th thermal ' was copied because it didn't exist.
+Pad '54th round' was copied because it didn't exist.
+Pad '54th thermal' was copied because it didn't exist.
+
+Hole '17th +/-3' was copied because it didn't exist.
+
+Padstack '25th via pad' was copied because it didn't exist.
+Padstack '40th via pad' was copied because it didn't exist.
+
+
+Operation completed successfully.
+---------------------------------
