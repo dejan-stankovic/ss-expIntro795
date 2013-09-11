@@ -1,0 +1,68 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 250283486500 74ls183
+DW 74act183
+Q Case
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:nor3 1
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+|Q builtin:nor4 1
+AS builtin:nor4 PINORDER=QN A B C D
+AP builtin:nor4 1 PINTYPE=OUT
+AP builtin:nor4 2 PINTYPE=IN
+AP builtin:nor4 3 PINTYPE=IN
+AP builtin:nor4 4 PINTYPE=IN
+AP builtin:nor4 5 PINTYPE=IN
+M builtin:and2 $1I105
+I $1I105 builtin:and2 $1N60 $1N21 $1N11 
+M builtin:and2 $1I108
+I $1I108 builtin:and2 $1N57 $1N11 $1N1 
+M builtin:and2 $1I109
+I $1I109 builtin:and2 $1N52 $1N21 $1N1 
+M builtin:and3 $1I103
+I $1I103 builtin:and3 $1N47 CN $1N11 A 
+M builtin:and3 $1I106
+I $1I106 builtin:and3 $1N32 $1N21 B A 
+M builtin:and3 $1I102
+I $1I102 builtin:and3 $1N42 CN B $1N1 
+M builtin:and3 $1I107
+I $1I107 builtin:and3 $1N37 $1N21 $1N11 $1N1 
+M builtin:not $1I101
+I $1I101 builtin:not $1N1 A 
+M builtin:not $1I110
+I $1I110 builtin:not $1N11 B 
+M builtin:not $1I104
+I $1I104 builtin:not $1N21 CN 
+M builtin:nor3 $1I100
+I $1I100 builtin:nor3 CN1 $1N60 $1N57 $1N52 TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+M builtin:nor4 $1I99
+I $1I99 builtin:nor4 S $1N47 $1N32 $1N37 $1N42 TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+P ? CN
+I CN ? CN
+P ? CN1
+I CN1 ? CN1
+P ? S
+I S ? S
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

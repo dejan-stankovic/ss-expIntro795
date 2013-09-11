@@ -1,0 +1,33 @@
+[2012-03-12 08.27.22] -------------------- CREATE --------------------
+[2012-03-12 08.27.22] Creating Project Backup infrastructure for project [C:\MGTraining\projects\PRACTICE\PRACTICE.prj].
+[2012-03-12 08.27.22] Migrating AutoBackup directory [PRACTICE\AutoBackup] content to Project Backup format.
+[2012-03-12 08.27.22] Migrating AutoBackup [1244757222]
+[2012-03-12 08.27.22] Successfully migrated AutoBackup [1244757222] to Project Backup format [2009-06-11 14.53.42 - app.zip]
+[2012-03-12 08.27.22] Migrated AutoBackup [1244757222] removed.
+[2012-03-12 08.27.22] Migrating AutoBackup [1254939359]
+[2012-03-12 08.27.22] Successfully migrated AutoBackup [1254939359] to Project Backup format [2009-10-07 11.15.59 - app.zip]
+[2012-03-12 08.27.22] Migrated AutoBackup [1254939359] removed.
+[2012-03-12 08.27.22] Migrating AutoBackup [1276286997]
+[2012-03-12 08.27.22] Successfully migrated AutoBackup [1276286997] to Project Backup format [2010-06-11 13.09.57 - app.zip]
+[2012-03-12 08.27.22] Migrated AutoBackup [1276286997] removed.
+[2012-03-12 08.27.22] Whole AutoBackup content migrated. AutoBackup directory [PRACTICE\AutoBackup] removed.
+[2012-03-12 08.27.22] Migrating iCDB upgrade backups from directory [PRACTICE\database\cdbback] to Project Backup format.
+[2012-03-12 08.27.22] Migrating iCDB upgrade backup file [2010-06-11 13.09.25-3808].
+[2012-03-12 08.27.22] Successfully created [Database Upgrade] backup [2010-06-11 13.09.25 - upgrade.zip] requested by [esvm01:student].
+[2012-03-12 08.27.22] Migrated iCDB content backup file [cdbback\2010-06-11 13.09.25-3808.zip] removed.
+[2012-03-12 08.27.22] Successfully migrated iCDB upgrade backup file [2010-06-11 13.09.25-3808] to Project Backup format [2010-06-11 13.09.25 - upgrade.zip]
+[2012-03-12 08.27.22] Migrating iCDB upgrade backup file [2009-10-07 11.13.30-2332].
+[2012-03-12 08.27.23] Successfully created [Database Upgrade] backup [2009-10-07 11.13.30 - upgrade.zip] requested by [esvm01:student].
+[2012-03-12 08.27.23] Migrated iCDB content backup file [cdbback\2009-10-07 11.13.30-2332.zip] removed.
+[2012-03-12 08.27.23] Successfully migrated iCDB upgrade backup file [2009-10-07 11.13.30-2332] to Project Backup format [2009-10-07 11.13.30 - upgrade.zip]
+[2012-03-12 08.27.23] Migrating iCDB upgrade backup file [2009-05-22 07.23.52-2852].
+[2012-03-12 08.27.23] Successfully created [Database Upgrade] backup [2009-05-22 07.23.52 - upgrade.zip] requested by [:].
+[2012-03-12 08.27.23] Migrated iCDB content backup file [cdbback\2009-05-22 07.23.52-2852.zip] removed.
+[2012-03-12 08.27.23] Successfully migrated iCDB upgrade backup file [2009-05-22 07.23.52-2852] to Project Backup format [2009-05-22 07.23.52 - upgrade.zip]
+[2012-03-12 08.27.25] Successfully created [Database Upgrade] backup [2012-03-12 08.27.25 - upgrade.zip] requested by [ESVM01:student].
+[2012-03-12 08.27.25] Migrated iCDB content backup file [cdbback\2012-03-12 08.27.24-4084.zip] removed.
+[2012-03-12 08.27.26] Successfully created [AutoSave] backup [2012-03-12 08.27.25 - auto.zip] requested by [ESVM01:student].
+[2012-09-24 11.24.47] Successfully created [Database Upgrade] backup [2012-09-24 11.24.46 - upgrade.zip] requested by [ESVM01:student].
+[2012-09-24 11.24.47] Migrated iCDB content backup file [cdbback\2012-09-24 11.24.46-3432.zip] removed.
+[2013-04-30 13.26.51] Successfully created [Constraints Definition Upgrade] backup [2013-04-30 13.26.46 - consDefUpgr.zip] requested by [ESVM01:student].
+[2013-04-30 13.26.51] Migrated iCDB content backup file [cdbback\2013-04-30 13.26.45-3124.zip] removed.

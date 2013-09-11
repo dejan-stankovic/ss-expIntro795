@@ -1,0 +1,82 @@
+[2010.06.11 14:04:36] [0000m.00s.109ms] [0] WELCOME
+[2010.06.11 14:04:36] [0000m.00s.125ms] [1] iCDB Server ver.1.009, ubDiQQ9snidtGpRfU+XMOQ, build:403588 created 2010-05-25 11:54:37, sources stamp:ubDiQQ9snidtGpRfU+XMOQ
+[2010.06.11 14:04:36] [0000m.00s.140ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2010.06.11 14:04:36] [0000m.00s.140ms] [1] Base flow version [7.9]
+[2010.06.11 14:04:36] [0000m.00s.140ms] [1] GBS Install Id [14584], Flow Id [EE 7.9], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2010]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] Machine [esvm01]  User [student]  PID [296]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] PATH [C:\MentorGraphics\7.9EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\lib;]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] SDD_HOME [C:\MentorGraphics\7.9EE\SDD_HOME] on file system [NTFS]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] SDD_PLATFORM [win32]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2010.06.11 14:04:36] [0000m.00s.156ms] [2] S: Loading config files
+[2010.06.11 14:04:36] [0000m.00s.156ms] [1] Config: WARNING: Could not open config file [C:\MGTraining\common\config\iCDB\Server\Server.cfg]
+[2010.06.11 14:04:36] [0000m.00s.203ms] [0] Config: ERROR: Could not open config file [C:\MGTraining\common\config\iCDB\Server\Server.cfg]
+[2010.06.11 14:04:36] [0000m.00s.203ms] [1] Config: WARNING: Could not open config file [C:\MGTraining\projects\PRACTICE\database\cdbsvr\Server.cfg]
+[2010.06.11 14:04:36] [0000m.00s.203ms] [3] S: Config loaded
+[2010.06.11 14:04:36] [0000m.00s.203ms] [0] S: Project path [C:\MGTraining\projects\PRACTICE\database] on file system [NTFS]
+[2010.06.11 14:04:36] [0000m.00s.203ms] [0] S: Single-user mode (auto)
+[2010.06.11 14:04:36] [0000m.00s.203ms] [0] S: Event polling mode autodetection
+[2010.06.11 14:04:36] [0000m.00s.218ms] [0] S: Started up automatically by iCDB Client: esvm01:student:2668
+[2010.06.11 14:04:36] [0000m.00s.218ms] [0] S: Auto close mode
+[2010.06.11 14:04:36] [0000m.00s.218ms] [0] S: Database ID [e2ba-73da-a508-9ed0-2f79-21c6-f792-1c40-8a18-a775-4210-7da8]
+[2010.06.11 14:04:36] [0000m.00s.218ms] [0] S: START
+[2010.06.11 14:04:36] [0000m.00s.218ms] [0] S: Server startup lock file created
+[2010.06.11 14:04:36] [0000m.00s.234ms] [0] S: Listening for client connections on port [10001]
+[2010.06.11 14:04:36] [0000m.00s.234ms] [0] S: Server network ID [esvm01:192.168.1.110,192.168.247.156,esvm01:10001]
+[2010.06.11 14:04:36] [0000m.00s.234ms] [0] S: Server GUID [37f6-4087-8f05-e083-4e4a-21c8-e4a2-1c40-4e78-a775-4210-7da8]
+[2010.06.11 14:04:36] [0000m.00s.234ms] [0] S: Project GUID [e2ba-73da-a508-9ed0-2f79-21c6-f792-1c40-8a18-a775-4210-7da8]
+[2010.06.11 14:04:36] [0000m.00s.250ms] [0] S: Wrote data to server address file
+[2010.06.11 14:04:36] [0000m.00s.250ms] [0] S: Server startup lock file removed
+[2010.06.11 14:04:36] [0000m.00s.531ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2010.06.11 14:04:36] [0000m.00s.531ms] [0] S: Local disc access time: 85 us
+[2010.06.11 14:04:36] [0000m.00s.531ms] [0] S: File server access time: 52 us
+[2010.06.11 14:04:36] [0000m.00s.531ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2010.06.11 14:04:36] [0000m.00s.546ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2010.06.11 14:04:36] [0000m.00s.546ms] [0] SingleFile: [8c4c-4c07-efaa-18d9] SFI version check [1008] [1008]
+[2010.06.11 14:04:36] [0000m.00s.562ms] [0] iCDB Server PI: Server & plugin session [425]
+[2010.06.11 14:04:36] [0000m.00s.562ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2010.06.11 14:04:36] [0000m.00s.562ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2010.06.11 14:04:36] [0000m.00s.562ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2010.06.11 14:04:36] [0000m.00s.562ms] [0] iCDB Server PI: Checking constraint definitions version
+[2010.06.11 14:04:36] [0000m.00s.640ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.9.6] up to date
+[2010.06.11 14:04:36] [0000m.00s.640ms] [0] iCDB Server PI: Initializing plugins
+[2010.06.11 14:04:36] [0000m.00s.656ms] [0] iCDB Server PI: Plugins initialized
+[2010.06.11 14:04:36] [0000m.00s.656ms] [0] S: iCDB database loaded
+[2010.06.11 14:04:36] [0000m.00s.656ms] [0] S: Starting threads
+[2010.06.11 14:04:36] [0000m.00s.656ms] [0] BT: Listening for broadcast messages on port [10000]
+[2010.06.11 14:04:36] [0000m.00s.671ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2010.06.11 14:04:36] [0000m.00s.671ms] [0] IT: Session [426] for host [esvm01] user [student] with process ID [2668] created
+[2010.06.11 14:04:37] [0000m.00s.687ms] [1] SC[426]: Registered sub-client [EEVM_EEVM_106675268] with ID [1] for session ID [426] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:37] [0000m.00s.796ms] [1] CMT: There are [1] clients now
+[2010.06.11 14:04:37] [0000m.00s.812ms] [1] SC[426]: UnRegistered sub-client [EEVM_EEVM_106675268] with ID [1] for session ID [426] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:37] [0000m.00s.921ms] [1] CMT: Removed client [426]
+[2010.06.11 14:04:37] [0000m.00s.921ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2010.06.11 14:04:37] [0000m.01s.281ms] [0] IT: Session [427] for host [esvm01] user [student] with process ID [2668] created
+[2010.06.11 14:04:37] [0000m.01s.281ms] [1] SC[427]: Registered sub-client [EEVM_EEVM_106675268] with ID [1] for session ID [427] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:37] [0000m.01s.343ms] [1] SC[427]: UnRegistered sub-client [EEVM_EEVM_106675268] with ID [1] for session ID [427] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:37] [0000m.01s.421ms] [1] CMT: Removed client [427]
+[2010.06.11 14:04:37] [0000m.01s.421ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2010.06.11 14:04:38] [0000m.02s.156ms] [0] IT: Session [428] for host [esvm01] user [student] with process ID [2668] created
+[2010.06.11 14:04:38] [0000m.02s.156ms] [1] SC[428]: Registered sub-client [Expedition PCB_9746203] with ID [1] for session ID [428] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:40] [0000m.04s.171ms] [1] SC[428]: Registered sub-client [ExpeditionCrossProber] with ID [2] for session ID [428] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:49] [0000m.13s.484ms] [1] SC[428]: UnRegistered sub-client [ExpeditionCrossProber] with ID [2] for session ID [428] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:50] [0000m.13s.781ms] [1] SC[428]: UnRegistered sub-client [Expedition PCB_9746203] with ID [1] for session ID [428] host [esvm01] user [student] process ID [2668]
+[2010.06.11 14:04:50] [0000m.13s.812ms] [1] CMT: Removed client [428]
+[2010.06.11 14:04:50] [0000m.13s.812ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2010.06.11 14:04:52] [0000m.15s.687ms] [0] CMT: Starting server auto-close
+[2010.06.11 14:04:52] [0000m.15s.703ms] [0] S: Closing server
+[2010.06.11 14:04:52] [0000m.15s.828ms] [0] iCDB Server PI: Closing plugins
+[2010.06.11 14:04:52] [0000m.15s.828ms] [0] iCDB Server PI: Plugins closed
+[2010.06.11 14:04:52] [0000m.15s.828ms] [0] iCDB Server PI: Unloading database
+[2010.06.11 14:04:52] [0000m.15s.828ms] [0] iCDB Server PI: Saving storage
+[2010.06.11 14:04:52] [0000m.15s.828ms] [0] iCDB Server PI: Closing database
+[2010.06.11 14:04:52] [0000m.15s.828ms] [1] iCDB Server PI: Stats: Database defragmentation: max[1] avg[1] holes[0%] data[98%]
+[2010.06.11 14:04:52] [0000m.15s.828ms] [1] iCDB Server PI: Stats: Database file size [193592] bytes
+[2010.06.11 14:04:52] [0000m.15s.875ms] [0] iCDB Server PI: Database closed
+[2010.06.11 14:04:52] [0000m.15s.875ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [2253] ticks
+[2010.06.11 14:04:52] [0000m.15s.875ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [629] microseconds
+[2010.06.11 14:04:52] [0000m.15s.875ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [4]
+[2010.06.11 14:04:52] [0000m.15s.875ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [6355] commands per second
+[2010.06.11 14:04:52] [0000m.15s.921ms] [0] S: STOP

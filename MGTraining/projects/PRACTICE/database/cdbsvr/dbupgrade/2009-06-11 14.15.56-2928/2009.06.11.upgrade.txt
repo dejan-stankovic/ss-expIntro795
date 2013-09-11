@@ -1,0 +1,12 @@
+[2009.06.11 14:15:56] [0000m.03s.750ms] [0] WELCOME
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] iCDB Server ver.1.006, 5Wyqp1/W6wQfmjAJU2QbDw, build:348347 created 2009-06-05 12:47:29, sources stamp:5Wyqp1/W6wQfmjAJU2QbDw
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] Copyright 2009 Mentor Graphics Corporation. All Rights Reserved.
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] GBS Install Id [10487], Flow Id [EE2007.6], Full Flow Name[Expedition Enterprise Flow], Exact Access Date[May 1 2009]
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] Machine [esvm01]  User [student]  PID [2928]
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] SDD_HOME [C:\MentorGraphics\2007.6EE\SDD_HOME]
+[2009.06.11 14:15:57] [0000m.03s.765ms] [1] SDD_PLATFORM [win32]
+[2009.06.11 14:15:57] [0000m.03s.765ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.6.3]
+[2009.06.11 14:15:57] [0000m.04s.062ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.6.4]
+[2009.06.11 14:15:57] [0000m.04s.125ms] [0] DONE

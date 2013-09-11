@@ -1,0 +1,44 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing capacitors
+	ERROR -  Opening viewdraw symbol cap.1
+	ERROR -  Opening viewdraw symbol pcap.1
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing capacitors
+	ERROR -  Opening viewdraw symbol cap.1
+	ERROR -  Opening viewdraw symbol pcap.1
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing capacitors
+	ERROR -  Opening viewdraw symbol cap.1
+	ERROR -  Opening viewdraw symbol pcap.1
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing capacitors
+	ERROR -  Opening viewdraw symbol cap.1
+	ERROR -  Opening viewdraw symbol pcap.1
+DXLIB2LMC utility complete

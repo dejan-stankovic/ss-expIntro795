@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                       07:04 AM Tuesday, February 05, 2008
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Drawing\4 Layer Template\template.mdf
+
+
+                               Autosave log closed
+                               -------------------
+
+                       07:09 AM Tuesday, February 05, 2008
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Drawing\4 Layer Template\template.mdf
+

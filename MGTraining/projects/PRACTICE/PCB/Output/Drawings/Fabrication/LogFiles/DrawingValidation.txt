@@ -1,0 +1,13 @@
+=======================================================================
+Drawing Editor - Version 2008.0.275.154
+=======================================================================
+
+Job Directory:        C:\MGTraining\projects\DEMO\PCB\Output\Drawings\Fabrication\
+
+ Drawing Validation Log: C:\MGTraining\projects\DEMO\PCB\Output\Drawings\Fabrication\LogFiles\DrawingValidation.txt
+
+Mon Feb 04 14:39:26 2008
+
+==============================================================================================================================================
+
+Validating design: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb

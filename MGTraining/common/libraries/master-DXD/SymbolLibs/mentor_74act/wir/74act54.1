@@ -1,0 +1,56 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 244633825900 74ls54
+DW 74act54
+Q Case
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:nor4 1
+AS builtin:nor4 PINORDER=QN A B C D
+AP builtin:nor4 1 PINTYPE=OUT
+AP builtin:nor4 2 PINTYPE=IN
+AP builtin:nor4 3 PINTYPE=IN
+AP builtin:nor4 4 PINTYPE=IN
+AP builtin:nor4 5 PINTYPE=IN
+M builtin:and3 $1I51
+I $1I51 builtin:and3 $1N49 C D E 
+M builtin:and2 $1I52
+I $1I52 builtin:and2 $1N44 A B 
+M builtin:and2 $1I53
+I $1I53 builtin:and2 $1N39 I J 
+M builtin:and3 $1I54
+I $1I54 builtin:and3 $1N34 F G H 
+M builtin:nor4 $1I50
+I $1I50 builtin:nor4 Y $1N34 $1N39 $1N44 $1N49 TPLH=@INTOOUTY1`TPHL=@INTOOUTY0`
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? I
+I I ? I
+P ? J
+I J ? J
+P ? F
+I F ? F
+P ? G
+I G ? G
+P ? H
+I H ? H
+P ? C
+I C ? C
+P ? D
+I D ? D
+P ? E
+I E ? E
+P ? Y
+I Y ? Y
+EW

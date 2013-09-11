@@ -1,0 +1,19 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 69794220890 74ls132
+DW 74act132
+Q Case
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+M builtin:nand2 $1I8
+I $1I8 builtin:nand2 Y A B TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+P ? Y
+I Y ? Y
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

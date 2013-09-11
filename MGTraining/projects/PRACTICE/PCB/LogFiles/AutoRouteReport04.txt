@@ -1,0 +1,185 @@
+
+=======================================================================
+Expedition PCB - Pinnacle - Version 2008.0.273.242
+=======================================================================
+Job Directory:
+	C:\MGTraining\projects\DEMO\PCB\LogFiles\
+Auto Route Report:   AutoRouteReport04.txt
+Auto Route Scheme (Local):   Tuned Nets
+
+Tue Jan 22 13:36:04 2008
+
+=======================================================================
+=======================================================================
+EDITOR CONTROL SETTINGS
+=======================================================================
+Layers Enabled & Bias ............... 1H 2V 3H 4V 5H 6V 
+Allow 45 Degree Corners ............. Yes
+Max Pins for Each Plane Fanout Via .. 2
+Use Part Outlines as Via Blocks ..... No
+
+Allow One Additional Via / SMD Pin .. No
+Allow Vias .......................... No
+Regular Pattern ..................... Allow
+Semi-Regular Pattern ................ Allow
+Irregular Pattern ................... Prevent
+Non-Serpentine Pattern .............. Allow
+
+=======================================================================
+AUTO ROUTE SETUP INFORMATION
+=======================================================================
+                    - Effort -
+Router              Start  End
+--------------------------------
+Fanout............. 1      3
+Net Selection ..... Tuned Nets
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = No
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = No
+No Via............. 1      2
+Net Selection ..... Tuned Nets
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = No
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = Yes
+Route.............. 1      4
+Net Selection ..... Tuned Nets
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = No
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = No
+Via Min............ 1      1
+Net Selection ..... Tuned Nets
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = No
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = No
+Tune Delay......... 1      1
+Net Selection ..... Tuned Nets
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = Yes
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = No
+Allow Final Via Min and Finishing if not Routed 100% = Yes
+Allow trace spreading during finishing = Yes
+Checkpoint Interval = 10 (min)
+
+=======================================================================
+ROUTE REPORT SUMMARY AFTER LAST PASS
+=======================================================================
+=======================================================================
+VIA FANOUT RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:36:03 2008              Pins to Try   = 16
+
+          --Sig Pins--  --Pln Pins--  Total   Total  CPU Time  CLK Time
+Eff Tried Routed Opens  Routed Opens  Routed  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1   16    16     0      0      0      100.00% 17     00:00:00  00:00:00
+2   0     0      0      0      0        0.00% 17     00:00:00  00:00:00
+3   0     0      0      0      0        0.00% 17     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:00
+                   Total Time for Auto Route Session 00:00:00  00:00:00
+
+                                              Total % Routed    = 7.28
+                                                 Total Opens    = 242
+
+=======================================================================
+NO VIA RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:36:03 2008             Total Netlines = 261
+                                                 Total Opens    = 24
+
+    --Memory Netlines--  Total  Percent Added Total  CPU Time  CLK Time
+Eff Tried  Routed Opens  Opens  Routed  Vias  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1   24     8      16     16      33.33% 0     17     00:00:00  00:00:00
+2   16     4      12     12      25.00% 0     17     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:00
+                   Total Time for Auto Route Session 00:00:00  00:00:00
+
+                                              Total % Routed    = 11.88
+                                                 Total Opens    = 230
+
+=======================================================================
+ROUTE RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:36:03 2008             Total Netlines = 261
+                                                 Total Opens    = 12
+
+    -Remaining Netlines- Total  Percent Added Total  CPU Time  CLK Time
+Eff Tried  Routed Opens  Opens  Routed  Vias  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1   12     12     0      0      100.00% 10    27     00:00:00  00:00:00
+2   0      0      0      0      100.00% 0     27     00:00:00  00:00:00
+3   0      0      0      0      100.00% 0     27     00:00:00  00:00:00
+4   0      0      0      0      100.00% 0     27     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:00
+                   Total Time for Auto Route Session 00:00:00  00:00:00
+
+                                              Total % Routed    = 16.48
+                                                 Total Opens    = 218
+
+=======================================================================
+VIA MIN RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:36:04 2008             Total Nets     = 84
+                                                 Total Opens    = 218
+
+    Changed   Total
+    Length    Length     Total  Percent Del   Total  CPU Time  CLK Time
+Eff  (in)      (in)      Opens  Routed  Vias  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1     -1.07     18.69    218     16.48% 10    17     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:00
+                   Total Time for Auto Route Session 00:00:00  00:00:00
+
+
+# Nets with Min & Matched Length Adjustment = 0
+                                              Total % Routed    = 16.48
+                                                 Total Opens    = 218
+
+=======================================================================
+TUNING RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:36:04 2008          Pin Pairs to Try = 218
+
+                Vias                  Total   Total  CPU Time  CLK Time
+Eff Tried Tuned Added                 Routed  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1   218   0     0                      16.48% 17     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:00
+                   Total Time for Auto Route Session 00:00:01  00:00:00
+
+                                              Total % Routed    = 16.48
+                                                 Total Opens    = 218
+
+=======================================================================
+
+END OF AUTO ROUTE REPORT

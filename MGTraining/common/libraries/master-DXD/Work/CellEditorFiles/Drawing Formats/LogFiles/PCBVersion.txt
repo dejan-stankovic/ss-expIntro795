@@ -1,0 +1,15 @@
+ Version: 2008.0.275.154
+
+
+
+Environment Variables:
+----------------------
+GW2ODB_DIR = "C:\Valor\GW2ODB"
+HOMEDRIVE = "C:"
+HOMEPATH = "\Documents and Settings\student"
+MGC_HOME = "C:/MentorGraphics/2007EE/MGC_HOME.ixn"
+OS = "Windows_NT"
+PATH = "C:\MentorGraphics\2007EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\2007EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/2007EE/MGC_HOME.ixn/bin;C:/MentorGraphics/2007EE/MGC_HOME.ixn/lib;C:\MentorGraphics\2007EE\MGC_HOME.ixn\bin;C:\MentorGraphics\2007EE\MGC_HOME.ixn\lib"
+SDD_HOME = "C:\MentorGraphics\2007EE\SDD_HOME"
+TEMP = "C:\DOCUME~1\student\LOCALS~1\Temp"
+TMP = "C:\DOCUME~1\student\LOCALS~1\Temp"

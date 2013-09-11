@@ -1,0 +1,11 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing programmables
+	Adding symbol ram_ctl 
+	Adding symbol ram_ctl_pg 
+DXLIB2LMC utility complete

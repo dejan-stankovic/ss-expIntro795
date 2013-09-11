@@ -1,0 +1,312 @@
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als32.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als32.1
+setorigin 74als32.1 0,-5080
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als32.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition mentor_74act -- 74act32.1 74act32.2 74act32.3 74act32.4 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act32.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act32.2
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act32.3
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act32.4
+setorigin 74act32.4 0,-5080
+set_active_symbol sid2
+setorigin 74act32.2 0,-5080
+set_active_symbol sid3
+setorigin 74act32.3 0,-5080
+set_active_symbol sid4
+set_active_symbol sid3
+set_active_symbol sid2
+set_active_symbol sid1
+setorigin 74act32.1 0,-5080
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act -name 74act32.1 sid1
+# Export - 0 error(s), 0 warning(s)
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act -name 74act32.2 sid2
+# Export - 0 error(s), 0 warning(s)
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act -name 74act32.3 sid3
+# Export - 0 error(s), 0 warning(s)
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act -name 74act32.4 sid4
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+close_symbol {}
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als655.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als655.1
+setorigin 74als655.1 0,-5080
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als655.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als655.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition mentor_74act -- 74act166.1 74act166.3 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act166.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act166.3
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition mentor_74act -- 74act166.1 74act166.3 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act166.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act166.3
+set_active_symbol sid1
+set_active_symbol sid2
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als655_xx.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als655_xx.1
+copy 74als655_xx.1 11 12 13 14 15 16 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109
+new_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs unnamed.1
+paste unnamed.1 {items 0 0 {item {RECT {POSITION 5080 -58420 15240 -43180} {OUTLINE default solid 1} {FILL default nofill} {GRAPHSTYLE 0 3 -1 1}} {LINE {POINTS 7620 -40640 7620 -40640 30480 -40640 30480 -43180 33020 -43180 33020 -45720 33020 -78740 5080 -78740 5080 -43180 7620 -43180 7620 -40640} {OUTLINE default solid 1} {FILL default nofill} {GRAPHSTYLE 0 3 -1 1}} {LINE {POINTS 12700 -76200 12700 -78740} {OUTLINE default solid 1} {FILL default nofill} {GRAPHSTYLE 0 3 -1 1}} {RECT {POSITION 12700 -76200 33020 -60960} {OUTLINE default solid 1} {FILL default nofill} {GRAPHSTYLE 0 3 -1 1}} {RECT {POSITION 5080 -40640 33020 2540} {OUTLINE default solid 1} {FILL default nofill} {GRAPHSTYLE 0 3 -1 1}} {TEXT {STRING 2K} {POSITION 22860 -73660} {HALIGN CENTER} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME PI} {POSITION 0 -66040} {EXTTYPE IN} {LENGTH 5080} {SLOT 16} {LABEL CUSTOM} {CUSTOMLABEL PI} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 3} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL PI} {POSITION 5080 -66040} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY PI {Pin Type}} {POSITION 0 -66040} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY PI {Pin Number}} {POSITION 5080 -66040} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME OE2N} {POSITION 0 -55880} {EXTTYPE IN} {LENGTH 5080} {SLOT 15} {LABEL CUSTOM} {CUSTOMLABEL OE2N} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 23} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL OE2N} {POSITION 5080 -55880} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY OE2N {Pin Type}} {POSITION 0 -55880} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY OE2N {Pin Number}} {POSITION 5080 -55880} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME OE1N} {POSITION 0 -50800} {EXTTYPE IN} {LENGTH 5080} {SLOT 14} {LABEL CUSTOM} {CUSTOMLABEL OE1N} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 2} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL OE1N} {POSITION 5080 -50800} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY OE1N {Pin Type}} {POSITION 0 -50800} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY OE1N {Pin Number}} {POSITION 5080 -50800} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME OE0N} {POSITION 0 -45720} {EXTTYPE IN} {LENGTH 5080} {SLOT 13} {LABEL CUSTOM} {CUSTOMLABEL OE0N} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 1} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL OE0N} {POSITION 5080 -45720} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY OE0N {Pin Type}} {POSITION 0 -45720} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY OE0N {Pin Number}} {POSITION 5080 -45720} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D0} {POSITION 0 -35560} {EXTTYPE IN} {LENGTH 5080} {SLOT 12} {LABEL CUSTOM} {CUSTOMLABEL D0} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 4} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D0} {POSITION 5080 -35560} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D0 {Pin Type}} {POSITION 0 -35560} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D0 {Pin Number}} {POSITION 5080 -35560} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D1} {POSITION 0 -30480} {EXTTYPE IN} {LENGTH 5080} {SLOT 11} {LABEL CUSTOM} {CUSTOMLABEL D1} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 5} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D1} {POSITION 5080 -30480} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D1 {Pin Type}} {POSITION 0 -30480} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D1 {Pin Number}} {POSITION 5080 -30480} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D2} {POSITION 0 -25400} {EXTTYPE IN} {LENGTH 5080} {SLOT 10} {LABEL CUSTOM} {CUSTOMLABEL D2} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 6} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D2} {POSITION 5080 -25400} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D2 {Pin Type}} {POSITION 0 -25400} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D2 {Pin Number}} {POSITION 5080 -25400} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D3} {POSITION 0 -20320} {EXTTYPE IN} {LENGTH 5080} {SLOT 9} {LABEL CUSTOM} {CUSTOMLABEL D3} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 7} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D3} {POSITION 5080 -20320} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D3 {Pin Type}} {POSITION 0 -20320} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D3 {Pin Number}} {POSITION 5080 -20320} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D4} {POSITION 0 -15240} {EXTTYPE IN} {LENGTH 5080} {SLOT 8} {LABEL CUSTOM} {CUSTOMLABEL D4} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 8} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D4} {POSITION 5080 -15240} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D4 {Pin Type}} {POSITION 0 -15240} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D4 {Pin Number}} {POSITION 5080 -15240} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D5} {POSITION 0 -10160} {EXTTYPE IN} {LENGTH 5080} {SLOT 7} {LABEL CUSTOM} {CUSTOMLABEL D5} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 9} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D5} {POSITION 5080 -10160} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D5 {Pin Type}} {POSITION 0 -10160} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D5 {Pin Number}} {POSITION 5080 -10160} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D6} {POSITION 0 -5080} {EXTTYPE IN} {LENGTH 5080} {SLOT 6} {LABEL CUSTOM} {CUSTOMLABEL D6} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 10} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D6} {POSITION 5080 -5080} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D6 {Pin Type}} {POSITION 0 -5080} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D6 {Pin Number}} {POSITION 5080 -5080} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME D7} {POSITION 0 0} {EXTTYPE IN} {LENGTH 5080} {SLOT 2} {LABEL CUSTOM} {CUSTOMLABEL D7} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE IN} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 11} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL D7} {POSITION 5080 0} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D7 {Pin Type}} {POSITION 0 0} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY D7 {Pin Number}} {POSITION 5080 0} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME SUME} {POSITION 38100 -68580} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 25} {LABEL CUSTOM} {CUSTOMLABEL SUME} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 21} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL SUME} {POSITION 33020 -68580} {HALIGN RIGHT} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY SUME {Pin Type}} {POSITION 38100 -68580} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY SUME {Pin Number}} {POSITION 33020 -68580} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME SUMO} {POSITION 38100 -63500} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 26} {LABEL CUSTOM} {CUSTOMLABEL SUMO} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 22} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL SUMO} {POSITION 33020 -63500} {HALIGN RIGHT} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY SUMO {Pin Type}} {POSITION 38100 -63500} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY SUMO {Pin Number}} {POSITION 33020 -63500} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q0} {POSITION 38100 -35560} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 17} {LABEL CUSTOM} {CUSTOMLABEL Q0} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 20} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q0} {POSITION 33020 -35560} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q0 {Pin Type}} {POSITION 38100 -35560} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q0 {Pin Number}} {POSITION 33020 -35560} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q1} {POSITION 38100 -30480} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 18} {LABEL CUSTOM} {CUSTOMLABEL Q1} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 19} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q1} {POSITION 33020 -30480} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q1 {Pin Type}} {POSITION 38100 -30480} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q1 {Pin Number}} {POSITION 33020 -30480} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q2} {POSITION 38100 -25400} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 19} {LABEL CUSTOM} {CUSTOMLABEL Q2} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 18} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q2} {POSITION 33020 -25400} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q2 {Pin Type}} {POSITION 38100 -25400} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q2 {Pin Number}} {POSITION 33020 -25400} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q3} {POSITION 38100 -20320} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 20} {LABEL CUSTOM} {CUSTOMLABEL Q3} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 17} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q3} {POSITION 33020 -20320} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q3 {Pin Type}} {POSITION 38100 -20320} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q3 {Pin Number}} {POSITION 33020 -20320} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q4} {POSITION 38100 -15240} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 21} {LABEL CUSTOM} {CUSTOMLABEL Q4} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 16} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q4} {POSITION 33020 -15240} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q4 {Pin Type}} {POSITION 38100 -15240} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q4 {Pin Number}} {POSITION 33020 -15240} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q5} {POSITION 38100 -10160} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 22} {LABEL CUSTOM} {CUSTOMLABEL Q5} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 15} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q5} {POSITION 33020 -10160} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q5 {Pin Type}} {POSITION 38100 -10160} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q5 {Pin Number}} {POSITION 33020 -10160} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q6} {POSITION 38100 -5080} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 23} {LABEL CUSTOM} {CUSTOMLABEL Q6} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 14} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q6} {POSITION 33020 -5080} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q6 {Pin Type}} {POSITION 38100 -5080} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q6 {Pin Number}} {POSITION 33020 -5080} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {PORT {TYPE PIN} {NAME Q7} {POSITION 38100 0} {EXTTYPE TRI} {ROTATION 180} {LENGTH 5080} {SLOT 24} {LABEL CUSTOM} {CUSTOMLABEL Q7} {ELEMENTS {LINE {POINTS 0 0 5080 0}}} {ATTRIBUTES {ATTRIBUTE {NAME {Pin Type}} {VALUE TRI} {OWNER ICDBDXD}} {ATTRIBUTE {NAME {Pin Number}} {VALUE 13} {OWNER ICDBDXD}}} {OUTLINE Cyan solid 1} {FILL Cyan nofill} {GRAPHSTYLE 0 3 16842751 1}} {TEXT {LABEL Q7} {POSITION 33020 0} {ANGLE 180} {VALIGN CENTER} {FONT FONT_0 10} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q7 {Pin Type}} {POSITION 38100 0} {HALIGN RIGHT} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}} {TEXT {PORTPROPERTY Q7 {Pin Number}} {POSITION 33020 0} {VALIGN BOTTOM} {FONT FONT_0 10} {HIDDEN T} {FONTSTYLE 0 -1}}}}
+delete unnamed.1 11
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name XXXXXX.1 sid2
+# Export - 0 error(s), 0 warning(s)
+setorigin XXXXXX.1 2540,2540
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name XXXXXX.1 sid2
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als655_xx.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als655_xx.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition mentor_74act -- 74act132.1 74act132.2 74act132.3 74act132.4 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act132.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act132.2
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act132.3
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition mentor_74act 74act132.4
+close_symbol {}
+close_symbol {}
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als32.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als32.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als655.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als655.1
+setattrib -index 0 -owner ICDBDXD 74als655.1 Level STD
+changeattribvisibility -owner ICDBDXD -value -label under 74als655.1 Level
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als655.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition A_temp -- 54als1008.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition A_temp 54als1008.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition A_temp -- 54als1008.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition A_temp 54als1008.1
+setattrib -index 0 -owner ICDBDXD 54als1008.1 {Part Number} {}
+setattrib -index 0 -owner ICDBDXD 54als1008.1 PKG_TYPE {}
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition A_temp -name 54als1008.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_54 -- 54als1008.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_54 54als1008.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als655.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als655.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition memory -- 74als187.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition memory 74als187.1
+set_graphics_style -fontindex 0 74als187.1 41
+setalign -center -bottom 74als187.1 41
+set_graphics_style -fontindex 0 74als187.1 34
+set_graphics_style -fontindex 0 74als187.1 33 35 36
+delete 74als187.1 37
+setorigin 74als187.1 0,-27940
+set_graphics_style -fontindex 0 74als187.1 38 39 42 43 44
+set_graphics_style -fontindex 0 74als187.1 74 78
+setalign -left -vcenter 74als187.1 74 78
+set_graphics_style -fontindex 0 74als187.1 82 86 90 94
+set_graphics_style -fontindex 0 74als187.1 54 58 62 66 70 98
+set_graphics_style -fontindex 0 74als187.1 46 50
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition memory -name 74als187.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_54 -- 54als1008.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_54 54als1008.1
+setorigin 54als1008.1 0,-5080
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_54 -name 54als1008.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition opamp -- opamp5.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition opamp opamp5.1
+setattrib -index 0 -owner ICDBDXD opamp5.1 Level STD
+changeattribvisibility -owner ICDBDXD -value -label under opamp5.1 Level
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition opamp -name opamp5.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240.1
+setorigin 74als240.1 0,-10160
+set_graphics_style -fontindex 0 74als240.1 36 40 44 48 52 56 60 64 68
+changeattribvisibility -owner ICDBDXD -value -label under 74als240.1 {Ref Designator}
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als240.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als240_a.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_a.1
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_a.1 {Ref Designator}
+set_graphics_style -fontindex 0 74als240_a.1 29 33 37
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als240_a.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als240_ansi.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_ansi.1
+setalign -center -top 74als240_ansi.1 24
+setalign -left -top 74als240_ansi.1 24
+addline -symbol 74als240_ansi.1 25400,-22860 25400,-22860
+addline -symbol 74als240_ansi.1 40640,2540 40640,0
+addline -symbol 74als240_ansi.1 40640,-12700 40640,-12700
+addline -symbol 74als240_ansi.1 43180,0 58420,-7620
+delete 74als240_ansi.1 63 65
+addline -symbol 74als240_ansi.1 7620,-20320 7620,-22860
+reshapeline -symbol 74als240_ansi.1 -id 66 7620,-20320 7620,-22860 7620,-22860 5080,-22860
+reshapeline -symbol 74als240_ansi.1 -id 66 7620,-20320 7620,-22860 5080,-22860 5080,-22860 5080,-27940
+reshapeline -symbol 74als240_ansi.1 -id 66 7620,-20320 7620,-22860 5080,-22860 5080,-27940 5080,-27940 25400,-27940
+reshapeline -symbol 74als240_ansi.1 -id 62 25400,-27940 25400,-22860 25400,-22860 25400,-22860
+reshapeline -symbol 74als240_ansi.1 -id 62 25400,-27940 25400,-22860 25400,-22860 22860,-22860
+reshapeline -symbol 74als240_ansi.1 -id 62 25400,-27940 25400,-22860 22860,-22860 22860,-22860 22860,-20320
+rotate -center 15240,7620 74als240_ansi.1 90 58
+rotate -center 5080,-25400 74als240_ansi.1 90 59
+undo
+undo
+setalign -left -vcenter 74als240_ansi.1 59
+setalign -center -vcenter 74als240_ansi.1 25
+setalign -center -bottom 74als240_ansi.1 25
+reshaperect -symbol 74als240_ansi.1 -id 11 5080,-20320,20320,22860
+addline -symbol 74als240_ansi.1 5080,-2540 25400,-2540
+addline -symbol 74als240_ansi.1 5080,-7620 25400,-7620
+addline -symbol 74als240_ansi.1 5080,-12700 25400,-12700
+addline -symbol 74als240_ansi.1 15240,-20320 15240,-17780
+delete 74als240_ansi.1 70
+reshaperect -symbol 74als240_ansi.1 -id 11 5080,-17780,20320,20320
+setinvert 74als240_ansi.1 58
+changeattribvisibility -port 54 -owner ICDBDXD -value -label under 74als240_ansi.1 {Pin Number}
+changeattribvisibility -port 54 -owner ICDBDXD -label under 74als240_ansi.1 {Pin Number}
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als240_ansi.1 sid1
+# Export - 0 error(s), 0 warning(s)
+setpinlabel -symbol 74als240_ansi.1 -port 58 -recreate true -labeltype 6 EN
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als240_ansi.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als240_ansi.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_ansi.1
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+setalign -center -bottom 74als240_ansi.1 30
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als240_ansi.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition res_pak -- rn_10_pack.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition res_pak rn_10_pack.1
+delete rn_10_pack.1 13
+changelabelvisibility rn_10_pack.1 60 false
+changelabelvisibility rn_10_pack.1 56 false
+changelabelvisibility rn_10_pack.1 52 false
+changelabelvisibility rn_10_pack.1 48 false
+changelabelvisibility rn_10_pack.1 44 false
+changelabelvisibility rn_10_pack.1 40 false
+changelabelvisibility rn_10_pack.1 36 false
+changelabelvisibility rn_10_pack.1 32 false
+changelabelvisibility rn_10_pack.1 28 false
+changelabelvisibility rn_10_pack.1 64 false
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition res_pak -name rn_10_pack.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.1
+close_symbol {}
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.2
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.1
+setattrib -index 0 -owner ICDBDXD pcap.1 Value *OPT*
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps -name pcap.1 sid2
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition caps -- pcap.1 pcap.2 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.2
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition caps -- pcap.1 pcap.2 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.2
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition caps -- pcap.1 pcap.2 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.1
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps pcap.2
+setattrib -index 0 -owner ICDBDXD pcap.2 TOLERANCE {}
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition caps -name pcap.2 sid2
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als240_ansi.1 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_ansi.1
+setpinlabel -symbol 74als240_ansi.1 -port 64 -recreate true -labeltype 6 GN
+changeattribvisibility -port 64 -owner ICDBDXD -value -label under 74als240_ansi.1 {Pin Number}
+rotate -center 5080,-27940 74als240_ansi.1 90 67
+changeattribvisibility -port 64 -owner ICDBDXD -label under 74als240_ansi.1 {Pin Number}
+reshapeoutline 74als240_ansi.1 0,-27940,35560,35560
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 HETERO
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 HETERO
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Ref Designator}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Ref Designator}
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Ref Designator}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 HETERO
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 HETERO
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Ref Designator}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 @INTOOUT0
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 @INTOOUT1
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 @INTOOUTHZ
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 @INTOOUTLZ
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 @INTOOUTZH
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 @INTOOUTZL
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 HETERO
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 Level
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 PARTS
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 PKG_TYPE
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 SIGNAL
+changeattribvisibility -index 1 -owner ICDBDXD -value -label under 74als240_ansi.1 SIGNAL
+changeattribvisibility -index 1 -owner ICDBDXD -label under 74als240_ansi.1 SIGNAL
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 SIGNAL
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 PKG_TYPE
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 PARTS
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 Level
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 HETERO
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 @INTOOUTZL
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 @INTOOUTZH
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 @INTOOUTLZ
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 @INTOOUTHZ
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 @INTOOUT1
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 @INTOOUT0
+changeattribvisibility -owner ICDBDXD -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -both -label under 74als240_ansi.1 {Part Number}
+changeattribvisibility -owner ICDBDXD -value -label under 74als240_ansi.1 {Part Number}
+save_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name 74als240_ansi.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm 
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm 
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining\common\libraries\master-DXD\SymbolLibs -parent flm 
+open_symbol -lmc C:\\MGTraining\\common\\libraries\\master-DXD\\SymbolLibs -partition Borders csheet.1
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining GOLD\MGTraining_release\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- 74als240_a.1 
+open_symbol -lmc C:\\MGTraining\ GOLD\\MGTraining_release\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_a.1
+open_symbol -lmc C:\\MGTraining\ GOLD\\MGTraining_release\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_ansi.1
+open_symbol -lmc C:\\MGTraining\ GOLD\\MGTraining_release\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 74als240_ansi.1
+close_symbol {}
+close_symbol {}
+close_symbol {}
+# C:\MentorGraphics\2007EE\SDD_HOME\nse\win32\nse.exe -lmc C:\MGTraining GOLD\MGTraining_release\common\libraries\master-DXD\SymbolLibs -parent flm -partition als_74 -- xxx240.1 
+open_symbol -lmc C:\\MGTraining\ GOLD\\MGTraining_release\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 xxx240.1
+setattrib -index 0 -owner ICDBDXD xxx240.1 {Part Number} {}
+save_symbol -lmc C:\\MGTraining\ GOLD\\MGTraining_release\\common\\libraries\\master-DXD\\SymbolLibs -partition als_74 -name xxx240.1 sid1
+# Export - 0 error(s), 0 warning(s)
+close_symbol {}

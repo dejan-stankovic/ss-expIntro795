@@ -1,0 +1,6 @@
+
+Can not open Multiple Via Rules file. File doesn't exist:
+       'C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\misc\Config\MultiViaRules.txt'
+
+Can not open Multiple Via Rules file. File doesn't exist:
+       'C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\misc\Layout\MVO_Rules.txt'

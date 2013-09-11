@@ -1,0 +1,38 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 123451899000 74ls245
+DW 74act245_8slot
+Q Case
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+M builtin:or2 $1I84
+I $1I84 builtin:or2 BA GN DIR 
+M builtin:or2 $1I85
+I $1I85 builtin:or2 AB $1N1 GN 
+M builtin:not $1I86
+I $1I86 builtin:not $1N1 DIR 
+M builtin:tribuf $1I117
+I $1I117 builtin:tribuf B AB A TPLZ=@INTOOUTLZ`TPHZ=@INTOOUTHZ`TPZL=@INTOOUTZL`TPZH=@INTOOUTZH`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:tribuf $1I106
+I $1I106 builtin:tribuf A BA B TPLH=@INTOOUT1`TPHL=@INTOOUT0`TPZH=@INTOOUTZH`TPZL=@INTOOUTZL`TPHZ=@INTOOUTHZ`TPLZ=@INTOOUTLZ`
+P ? DIR
+I DIR ? DIR
+P ? GN
+I GN ? GN
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

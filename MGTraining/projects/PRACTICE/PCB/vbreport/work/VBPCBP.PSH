@@ -1,0 +1,9 @@
+HoleID	Name                                                            	Shape 	X           	Y           	PositiveTol 	NegativeTol 	Plated	Method    
+1     	Rnd 19 +Tol 0 -Tol -3                                           	ROUND 	19.000      	0.000       	0.000       	-3.000      	YES   	DRILLED   
+2     	13th +/-3                                                       	ROUND 	13.000      	0.000       	3.000       	-3.000      	YES   	DRILLED   
+3     	17th +/-3                                                       	ROUND 	17.000      	0.000       	3.000       	-3.000      	YES   	DRILLED   
+4     	129th +/-8                                                      	ROUND 	129.000     	0.000       	8.000       	-8.000      	YES   	DRILLED   
+5     	34th +/-3                                                       	ROUND 	34.000      	0.000       	3.000       	-3.000      	YES   	DRILLED   
+6     	41th +/-4                                                       	ROUND 	41.000      	0.000       	4.000       	-4.000      	YES   	DRILLED   
+7     	62th +/-2, non-plated                                           	ROUND 	62.000      	0.000       	2.000       	-2.000      	NO    	DRILLED   
+8     	96th +/-2, non-plated                                           	ROUND 	96.000      	0.000       	2.000       	-2.000      	NO    	DRILLED   

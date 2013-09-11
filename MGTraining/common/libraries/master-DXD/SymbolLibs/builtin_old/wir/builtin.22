@@ -1,0 +1,12 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $22I5, Symbol=builtin:8b_rip at (900, 400), is not connected.
+| Sch_Warning - Component $22I4, Symbol=builtin:4b_rip at (550, 400), is not connected.
+| Sch_Warning - Component $22I3, Symbol=builtin:1b_rip at (200, 400), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:8b_rip 1
+|Q builtin:4b_rip 1
+|Q builtin:1b_rip 1
+EW

@@ -1,0 +1,68 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing 74als
+	ERROR -  Opening viewdraw symbol 74als00.1
+	ERROR -  Opening viewdraw symbol 74als04.1
+	ERROR -  Opening viewdraw symbol 74als240.1
+	ERROR -  Opening viewdraw symbol 74als30.1
+	ERROR -  Opening viewdraw symbol 74als32.1
+	ERROR -  Opening viewdraw symbol 74als49.1
+	ERROR -  Opening viewdraw symbol 74als655.1
+	ERROR -  Opening viewdraw symbol nand2.1
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing 74als
+	ERROR -  Opening viewdraw symbol 74als00.1
+	ERROR -  Opening viewdraw symbol 74als04.1
+	ERROR -  Opening viewdraw symbol 74als240.1
+	ERROR -  Opening viewdraw symbol 74als30.1
+	ERROR -  Opening viewdraw symbol 74als32.1
+	ERROR -  Opening viewdraw symbol 74als49.1
+	ERROR -  Opening viewdraw symbol 74als655.1
+	ERROR -  Opening viewdraw symbol nand2.1
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing 74als
+	ERROR -  Opening viewdraw symbol 74als00.1
+	ERROR -  Opening viewdraw symbol 74als04.1
+	ERROR -  Opening viewdraw symbol 74als240.1
+	ERROR -  Opening viewdraw symbol 74als30.1
+	ERROR -  Opening viewdraw symbol 74als32.1
+	ERROR -  Opening viewdraw symbol 74als49.1
+	ERROR -  Opening viewdraw symbol 74als655.1
+	ERROR -  Opening viewdraw symbol nand2.1
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing 74als
+	ERROR -  Opening viewdraw symbol 74als00.1
+	ERROR -  Opening viewdraw symbol 74als04.1
+	ERROR -  Opening viewdraw symbol 74als240.1
+	ERROR -  Opening viewdraw symbol 74als30.1
+	ERROR -  Opening viewdraw symbol 74als32.1
+	ERROR -  Opening viewdraw symbol 74als49.1
+	ERROR -  Opening viewdraw symbol 74als655.1
+	ERROR -  Opening viewdraw symbol nand2.1
+DXLIB2LMC utility complete

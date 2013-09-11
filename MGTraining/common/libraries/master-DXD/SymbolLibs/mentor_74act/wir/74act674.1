@@ -1,0 +1,213 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 212058327900 74ls674
+DW 74act674
+Q Case
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:dand3 1
+AS builtin:dand3 PINORDER=Q QN A B C
+AP builtin:dand3 1 PINTYPE=OUT
+AP builtin:dand3 2 PINTYPE=OUT
+AP builtin:dand3 3 PINTYPE=IN
+AP builtin:dand3 4 PINTYPE=IN
+AP builtin:dand3 5 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+M builtin:tribuf $1I698
+I $1I698 builtin:tribuf SERQ15 $1N630 $1N259 TPLZ=@CRTOQLZ`TPHZ=@CRTOQHZ`TPZH=@CRTOQZH`TPZL=@CRTOQZL`TPLH=@CLKTOQ151`TPHL=@CLKTOQ150`
+M builtin:shre $1I661
+I $1I661 builtin:shre CLK MODE TSU=@TSU_MODE`THOLD=@THOLD_MODE`
+M builtin:udfdl $1I732
+I $1I732 builtin:udfdl ? $1N535 $1N516 ? ? $1N35 ? ? ? ? 
+M builtin:shre $1I706
+I $1I706 builtin:shre $1N35 P4 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:dand3 $1I665
+I $1I665 builtin:dand3 $1N221 $1N658 RW $1N209 MODE 
+M builtin:udfdl $1I726
+I $1I726 builtin:udfdl ? $1N580 $1N421 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I727
+I $1I727 builtin:udfdl ? $1N575 $1N494 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I728
+I $1I728 builtin:udfdl ? $1N609 $1N475 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I729
+I $1I729 builtin:udfdl ? $1N616 $1N440 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I730
+I $1I730 builtin:udfdl ? $1N623 $1N323 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I731
+I $1I731 builtin:udfdl ? $1N259 $1N263 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I724
+I $1I724 builtin:udfdl ? $1N585 $1N304 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I725
+I $1I725 builtin:udfdl ? $1N590 $1N342 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I722
+I $1I722 builtin:udfdl ? $1N560 $1N285 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I720
+I $1I720 builtin:udfdl ? $1N545 $1N282 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I721
+I $1I721 builtin:udfdl ? $1N550 $1N364 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I717
+I $1I717 builtin:udfdl ? $1N540 $1N399 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I718
+I $1I718 builtin:udfdl ? $1N565 $1N402 ? ? $1N35 ? ? ? ? 
+M builtin:udfdl $1I719
+I $1I719 builtin:udfdl ? $1N570 $1N513 ? ? $1N35 ? ? ? ? 
+M builtin:shre $1I659
+I $1I659 builtin:shre $1N35 P0 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I660
+I $1I660 builtin:shre CLK RW TSU=@TSU_RW`THOLD=@THOLD_RW`
+M builtin:andnor22 $1I662
+I $1I662 builtin:andnor22 $1N494 P2 $1N221 $1N658 $1N570 
+M builtin:nand2 $1I666
+I $1I666 builtin:nand2 $1N35 CLK $1N209 
+M builtin:andnor22 $1I667
+I $1I667 builtin:andnor22 $1N342 P14 $1N221 $1N658 $1N555 
+M builtin:andnor22 $1I669
+I $1I669 builtin:andnor22 $1N516 P0 $1N221 $1N658 SERQ15 
+M builtin:andnor22 $1I672
+I $1I672 builtin:andnor22 $1N513 P1 $1N221 $1N658 $1N535 
+M builtin:andnor22 $1I675
+I $1I675 builtin:andnor22 $1N475 P3 $1N221 $1N658 $1N575 
+M builtin:andnor22 $1I676
+I $1I676 builtin:andnor22 $1N440 P7 $1N221 $1N658 $1N580 
+M builtin:andnor22 $1I678
+I $1I678 builtin:andnor22 $1N421 P6 $1N221 $1N658 $1N565 
+M builtin:andnor22 $1I680
+I $1I680 builtin:andnor22 $1N402 P5 $1N221 $1N658 $1N540 
+M builtin:andnor22 $1I683
+I $1I683 builtin:andnor22 $1N399 P4 $1N221 $1N658 $1N609 
+M builtin:andnor22 $1I684
+I $1I684 builtin:andnor22 $1N364 P12 $1N221 $1N658 $1N623 
+M builtin:andnor22 $1I687
+I $1I687 builtin:andnor22 $1N361 P13 $1N221 $1N658 $1N550 
+M builtin:andnor22 $1I688
+I $1I688 builtin:andnor22 $1N323 P11 $1N221 $1N658 $1N585 
+M builtin:andnor22 $1I690
+I $1I690 builtin:andnor22 $1N304 P10 $1N221 $1N658 $1N560 
+M builtin:andnor22 $1I692
+I $1I692 builtin:andnor22 $1N285 P9 $1N221 $1N658 $1N545 
+M builtin:andnor22 $1I695
+I $1I695 builtin:andnor22 $1N282 P8 $1N221 $1N658 $1N616 
+M builtin:andnor22 $1I697
+I $1I697 builtin:andnor22 $1N263 P15 $1N221 $1N658 $1N590 
+M builtin:nand2 $1I699
+I $1I699 builtin:nand2 $1N630 RW $1N209 
+M builtin:shre $1I700
+I $1I700 builtin:shre $1N35 P1 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I701
+I $1I701 builtin:shre $1N35 P2 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I702
+I $1I702 builtin:shre $1N35 P3 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I703
+I $1I703 builtin:shre $1N35 P7 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I704
+I $1I704 builtin:shre $1N35 P6 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I705
+I $1I705 builtin:shre $1N35 P5 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I707
+I $1I707 builtin:shre $1N35 P8 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I708
+I $1I708 builtin:shre $1N35 P9 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I709
+I $1I709 builtin:shre $1N35 P10 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I710
+I $1I710 builtin:shre $1N35 P11 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I712
+I $1I712 builtin:shre $1N35 P14 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I713
+I $1I713 builtin:shre $1N35 P13 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:shre $1I714
+I $1I714 builtin:shre $1N35 P12 THOLD=@THOLD_P`TSU=@TSU_P`
+M builtin:shre $1I715
+I $1I715 builtin:shre CLK ~CS THOLD=@THOLD_CS`TSU=@TSU_CS`
+M builtin:shre $1I716
+I $1I716 builtin:shre $1N35 SERQ15 THOLD=@THOLD_SERQ15`TSU=@TSU_SERQ15`
+M builtin:shre $1I711
+I $1I711 builtin:shre $1N35 P15 TSU=@TSU_P`THOLD=@THOLD_P`
+M builtin:udfdl $1I723
+I $1I723 builtin:udfdl ? $1N555 $1N361 ? ? $1N35 ? ? ? ? 
+M builtin:not $1I664
+I $1I664 builtin:not $1N209 ~CS 
+M builtin:pw $1I663
+I $1I663 builtin:pw CLK TPOS=@PWCLK1`TNEG=@PWCLK0`
+M builtin:shre $1I734
+I $1I734 builtin:shre MODE CLK THOLD=@THOLD_CLK`TSU=@TSU_CLK`
+P ? SERQ15
+I SERQ15 ? SERQ15
+P ? MODE
+I MODE ? MODE
+P ? CLK
+I CLK ? CLK
+P ? RW
+I RW ? RW
+P ? P0
+I P0 ? P0
+P ? P4
+I P4 ? P4
+P ? P1
+I P1 ? P1
+P ? P2
+I P2 ? P2
+P ? P3
+I P3 ? P3
+P ? P7
+I P7 ? P7
+P ? P6
+I P6 ? P6
+P ? P5
+I P5 ? P5
+P ? P8
+I P8 ? P8
+P ? P9
+I P9 ? P9
+P ? P10
+I P10 ? P10
+P ? P11
+I P11 ? P11
+P ? P15
+I P15 ? P15
+P ? P14
+I P14 ? P14
+P ? P13
+I P13 ? P13
+P ? P12
+I P12 ? P12
+P ? ~CS
+I ~CS ? ~CS
+EW

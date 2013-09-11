@@ -1,0 +1,60 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 61024713190 74ls293
+DW 74act293
+Q Case
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:ujkff 1
+AS builtin:ujkff PINORDER=Q QN J K S R CK PRE CLR
+AP builtin:ujkff 1 PINTYPE=OUT
+AP builtin:ujkff 2 PINTYPE=OUT
+AP builtin:ujkff 3 PINTYPE=IN
+AP builtin:ujkff 4 PINTYPE=IN
+AP builtin:ujkff 5 PINTYPE=IN
+AP builtin:ujkff 6 PINTYPE=IN
+AP builtin:ujkff 7 PINTYPE=IN
+AP builtin:ujkff 8 PINTYPE=IN
+AP builtin:ujkff 9 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+G VDD
+M builtin:pw $1I118
+I $1I118 builtin:pw ~A TPOS=@PWA1`TNEG=@PWA0`
+M builtin:ujkff $1I136
+I $1I136 builtin:ujkff QC $1N17 VDD VDD ? $1N1 $1N115 ? ? TPLHCQ=@CLKBTOQC1`TPHLCQ=@CLKBTOQC0`TPHLRQ=@RESET0TOQ0`
+M builtin:ujkff $1I135
+I $1I135 builtin:ujkff QB $1N115 VDD VDD ? $1N1 ~B ? ? TPHLRQ=@RESET0TOQ0`TPHLCQ=@CLKBTOQB0`TPLHCQ=@CLKBTOQB1`ACEDGE=0`
+M builtin:ujkff $1I123
+I $1I123 builtin:ujkff QA ? VDD VDD ? $1N1 ~A ? ? ACEDGE=0`TPLHCQ=@CLKATOQA1`TPHLCQ=@CLKATOQA0`TPHLRQ=@RESET0TOQ0`TRECR=@TR_RESET`
+M builtin:pw $1I134
+I $1I134 builtin:pw R01 TNEG=@PWRESET0`TPOS=@PWRESET1`
+M builtin:and2 $1I120
+I $1I120 builtin:and2 $1N1 R01 R02 
+M builtin:ujkff $1I137
+I $1I137 builtin:ujkff QD ? VDD VDD ? $1N1 $1N17 ? ? TPHLRQ=@RESET0TOQ0`TPHLCQ=@CLKBTOQD0`TPLHCQ=@CLKBTOQD1`
+M builtin:pw $1I119
+I $1I119 builtin:pw ~B TPOS=@PWB1`TNEG=@PWB0`
+M builtin:pw $1I117
+I $1I117 builtin:pw R02 TPOS=@PWRESET1`TNEG=@PWRESET0`
+P ? QD
+I QD ? QD
+P ? QC
+I QC ? QC
+P ? QB
+I QB ? QB
+P ? QA
+I QA ? QA
+P ? R02
+I R02 ? R02
+P ? R01
+I R01 ? R01
+P ? ~A
+I ~A ? ~A
+P ? ~B
+I ~B ? ~B
+EW

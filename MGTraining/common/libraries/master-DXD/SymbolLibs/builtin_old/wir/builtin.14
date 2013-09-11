@@ -1,0 +1,127 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $14I2, Symbol=builtin:ram1kx1 at (290, 250), is not connected.
+| Sch_Warning - Component $14I3, Symbol=builtin:ram1kx4 at (540, 250), is not connected.
+| Sch_Warning - Component $14I1, Symbol=builtin:ram512x8 at (50, 210), is not connected.
+| Sch_Warning - Component $14I4, Symbol=builtin:ram1kx8 at (840, 200), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:ram1kx1 1
+AS builtin:ram1kx1 PINORDER=DO A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 DSBL R/W DI
+AS builtin:ram1kx1 MODEL=RAM
+AS builtin:ram1kx1 WIDTH=1
+AS builtin:ram1kx1 LENGTH=1024
+AP builtin:ram1kx1 1 PINTYPE=TRI
+AP builtin:ram1kx1 2 PINTYPE=IN
+AP builtin:ram1kx1 3 PINTYPE=IN
+AP builtin:ram1kx1 4 PINTYPE=IN
+AP builtin:ram1kx1 5 PINTYPE=IN
+AP builtin:ram1kx1 6 PINTYPE=IN
+AP builtin:ram1kx1 7 PINTYPE=IN
+AP builtin:ram1kx1 8 PINTYPE=IN
+AP builtin:ram1kx1 9 PINTYPE=IN
+AP builtin:ram1kx1 10 PINTYPE=IN
+AP builtin:ram1kx1 11 PINTYPE=IN
+AP builtin:ram1kx1 12 PINTYPE=IN
+AP builtin:ram1kx1 13 PINTYPE=IN
+AP builtin:ram1kx1 14 PINTYPE=IN
+|Q builtin:ram1kx4 1
+AS builtin:ram1kx4 PINORDER=DO0 DO1 DO2 DO3 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 DSBL R/W DI0 DI1 DI2 DI3
+AS builtin:ram1kx4 WIDTH=4
+AS builtin:ram1kx4 LENGTH=1024
+AS builtin:ram1kx4 MODEL=RAM
+AP builtin:ram1kx4 1 PINTYPE=TRI
+AP builtin:ram1kx4 2 PINTYPE=TRI
+AP builtin:ram1kx4 3 PINTYPE=TRI
+AP builtin:ram1kx4 4 PINTYPE=TRI
+AP builtin:ram1kx4 5 PINTYPE=IN
+AP builtin:ram1kx4 6 PINTYPE=IN
+AP builtin:ram1kx4 7 PINTYPE=IN
+AP builtin:ram1kx4 8 PINTYPE=IN
+AP builtin:ram1kx4 9 PINTYPE=IN
+AP builtin:ram1kx4 10 PINTYPE=IN
+AP builtin:ram1kx4 11 PINTYPE=IN
+AP builtin:ram1kx4 12 PINTYPE=IN
+AP builtin:ram1kx4 13 PINTYPE=IN
+AP builtin:ram1kx4 14 PINTYPE=IN
+AP builtin:ram1kx4 15 PINTYPE=IN
+AP builtin:ram1kx4 16 PINTYPE=IN
+AP builtin:ram1kx4 17 PINTYPE=IN
+AP builtin:ram1kx4 18 PINTYPE=IN
+AP builtin:ram1kx4 19 PINTYPE=IN
+AP builtin:ram1kx4 20 PINTYPE=IN
+|Q builtin:ram512x8 1
+AS builtin:ram512x8 LENGTH=512
+AS builtin:ram512x8 WIDTH=8
+AS builtin:ram512x8 MODEL=RAM
+AS builtin:ram512x8 PINORDER=DO0 DO1 DO2 DO3 DO4 DO5 DO6 DO7 A0 A1 A2 A3 A4 A5 A6 A7 A8 DSBL R/W DI0 DI1 DI2 DI3 DI4 DI5 DI6 DI7
+AP builtin:ram512x8 1 PINTYPE=TRI
+AP builtin:ram512x8 2 PINTYPE=TRI
+AP builtin:ram512x8 3 PINTYPE=TRI
+AP builtin:ram512x8 4 PINTYPE=TRI
+AP builtin:ram512x8 5 PINTYPE=TRI
+AP builtin:ram512x8 6 PINTYPE=TRI
+AP builtin:ram512x8 7 PINTYPE=TRI
+AP builtin:ram512x8 8 PINTYPE=TRI
+AP builtin:ram512x8 9 PINTYPE=IN
+AP builtin:ram512x8 10 PINTYPE=IN
+AP builtin:ram512x8 11 PINTYPE=IN
+AP builtin:ram512x8 12 PINTYPE=IN
+AP builtin:ram512x8 13 PINTYPE=IN
+AP builtin:ram512x8 14 PINTYPE=IN
+AP builtin:ram512x8 15 PINTYPE=IN
+AP builtin:ram512x8 16 PINTYPE=IN
+AP builtin:ram512x8 17 PINTYPE=IN
+AP builtin:ram512x8 18 PINTYPE=IN
+AP builtin:ram512x8 19 PINTYPE=IN
+AP builtin:ram512x8 20 PINTYPE=IN
+AP builtin:ram512x8 21 PINTYPE=IN
+AP builtin:ram512x8 22 PINTYPE=IN
+AP builtin:ram512x8 23 PINTYPE=IN
+AP builtin:ram512x8 24 PINTYPE=IN
+AP builtin:ram512x8 25 PINTYPE=IN
+AP builtin:ram512x8 26 PINTYPE=IN
+AP builtin:ram512x8 27 PINTYPE=IN
+|Q builtin:ram1kx8 1
+AS builtin:ram1kx8 LENGTH=1024
+AS builtin:ram1kx8 MODEL=RAM
+AS builtin:ram1kx8 WIDTH=8
+AS builtin:ram1kx8 PINORDER=DO0 DO1 DO2 DO3 DO4 DO5 DO6 DO7 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 DSBL R/W DI0 DI1 DI2 DI3 DI4 DI5 DI6 DI7
+AP builtin:ram1kx8 1 PINTYPE=TRI
+AP builtin:ram1kx8 2 PINTYPE=TRI
+AP builtin:ram1kx8 3 PINTYPE=TRI
+AP builtin:ram1kx8 4 PINTYPE=TRI
+AP builtin:ram1kx8 5 PINTYPE=TRI
+AP builtin:ram1kx8 6 PINTYPE=TRI
+AP builtin:ram1kx8 7 PINTYPE=TRI
+AP builtin:ram1kx8 8 PINTYPE=TRI
+AP builtin:ram1kx8 9 PINTYPE=IN
+AP builtin:ram1kx8 10 PINTYPE=IN
+AP builtin:ram1kx8 11 PINTYPE=IN
+AP builtin:ram1kx8 12 PINTYPE=IN
+AP builtin:ram1kx8 13 PINTYPE=IN
+AP builtin:ram1kx8 14 PINTYPE=IN
+AP builtin:ram1kx8 15 PINTYPE=IN
+AP builtin:ram1kx8 16 PINTYPE=IN
+AP builtin:ram1kx8 17 PINTYPE=IN
+AP builtin:ram1kx8 18 PINTYPE=IN
+AP builtin:ram1kx8 19 PINTYPE=IN
+AP builtin:ram1kx8 20 PINTYPE=IN
+AP builtin:ram1kx8 21 PINTYPE=IN
+AP builtin:ram1kx8 22 PINTYPE=IN
+AP builtin:ram1kx8 23 PINTYPE=IN
+AP builtin:ram1kx8 24 PINTYPE=IN
+AP builtin:ram1kx8 25 PINTYPE=IN
+AP builtin:ram1kx8 26 PINTYPE=IN
+AP builtin:ram1kx8 27 PINTYPE=IN
+AP builtin:ram1kx8 28 PINTYPE=IN
+M builtin:ram1kx1 $14I2
+I $14I2 builtin:ram1kx1 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram1kx4 $14I3
+I $14I3 builtin:ram1kx4 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram512x8 $14I1
+I $14I1 builtin:ram512x8 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram1kx8 $14I4
+I $14I4 builtin:ram1kx8 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+EW

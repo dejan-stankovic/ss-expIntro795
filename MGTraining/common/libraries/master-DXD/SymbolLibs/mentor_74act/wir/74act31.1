@@ -1,0 +1,59 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 192223571700 74ls31
+DW 74act31
+Q Case
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+M builtin:not $1I24
+I $1I24 builtin:not ~6Y 6A TPHL=@A16TOY160`TPLH=@A16TOY161`
+M builtin:delay $1I21
+I $1I21 builtin:delay 5Y 5A TPHL=@A25TOY250`TPLH=@A25TOY251`
+M builtin:nand2 $1I2
+I $1I2 builtin:nand2 ~4Y 4A 4B TPHL=@A34TOY340`TPLH=@A34TOY341`
+M builtin:nand2 $1I1
+I $1I1 builtin:nand2 ~3Y 3A 3B TPHL=@A34TOY340`TPLH=@A34TOY341`
+M builtin:delay $1I12
+I $1I12 builtin:delay 2Y 2A TPHL=@A25TOY250`TPLH=@A25TOY251`
+M builtin:not $1I11
+I $1I11 builtin:not ~1Y 1A TPHL=@A16TOY160`TPLH=@A16TOY161`
+P ? ~1Y
+I ~1Y ? ~1Y
+P ? 2Y
+I 2Y ? 2Y
+P ? ~3Y
+I ~3Y ? ~3Y
+P ? ~4Y
+I ~4Y ? ~4Y
+P ? 5Y
+I 5Y ? 5Y
+P ? ~6Y
+I ~6Y ? ~6Y
+P ? 6A
+I 6A ? 6A
+P ? 5A
+I 5A ? 5A
+P ? 4B
+I 4B ? 4B
+P ? 4A
+I 4A ? 4A
+P ? 3B
+I 3B ? 3B
+P ? 3A
+I 3A ? 3A
+P ? 2A
+I 2A ? 2A
+P ? 1A
+I 1A ? 1A
+EW

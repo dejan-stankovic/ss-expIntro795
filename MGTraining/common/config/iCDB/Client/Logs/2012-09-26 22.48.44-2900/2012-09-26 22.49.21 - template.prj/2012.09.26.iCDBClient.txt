@@ -1,0 +1,50 @@
+[2012.09.26 22:49:21] [0000m.41s.252ms] [0] WELCOME
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] iCDB Client ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] Base flow version [7.9.4]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] Machine [ESVM01]  User [student]  PID [2900]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] SDD_PLATFORM [win32]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [3] AMP: CREATE
+[2012.09.26 22:49:21] [0000m.41s.252ms] [2] NE: CREATE
+[2012.09.26 22:49:21] [0000m.41s.252ms] [2] AMP: START
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] IC: Project GUID [9cfa-3278-3cb7-d7b3-1e8e-3606-e8e3-6050-1251-718f-2c7c-0ac5]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] IC: Project path [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb] on file system [NTFS]
+[2012.09.26 22:49:21] [0000m.41s.252ms] [1] IC: Working in FULL access mode
+[2012.09.26 22:49:21] [0000m.41s.252ms] [2] IC: EDM BLP: Trying to log with empty user id.
+[2012.09.26 22:49:21] [0000m.41s.299ms] [0] ServerToolkit: Running server: command [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin\iCDBNetServer.exe] with parameters [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin\iCDBNetServer.exe -db "C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb" -prj "C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\template.prj" -dbid "9cfa-3278-3cb7-d7b3-1e8e-3606-e8e3-6050-1251-718f-2c7c-0ac5" -autoclose -client "ESVM01:student:2900" -configname "ServerWG.cfg" 
+[2012.09.26 22:49:21] [0000m.41s.299ms] [0] ServerToolkit: Server command executed
+[2012.09.26 22:49:22] [0000m.41s.424ms] [0] ServerToolkit: Server for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb] is running
+[2012.09.26 22:49:22] [0000m.41s.424ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb]
+[2012.09.26 22:49:22] [0000m.41s.439ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [a129-193b-1455-c0e5-1e8e-3606-e8e3-6050-d0f1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb] with GUID [9cfa-3278-3cb7-d7b3-1e8e-3606-e8e3-6050-1251-718f-2c7c-0ac5]
+[2012.09.26 22:49:22] [0000m.41s.439ms] [1] Connecting to iCDB Server:  Host [esvm01] IP [127.0.0.1]  Port [10000]
+[2012.09.26 22:49:22] [0000m.41s.439ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:49:22] [0000m.41s.455ms] [1] Connected to iCDB Server [127.0.0.1]
+[2012.09.26 22:49:22] [0000m.41s.752ms] [1] Session [44] opened
+[2012.09.26 22:49:22] [0000m.41s.752ms] [1] Working mode: Online
+[2012.09.26 22:49:22] [0000m.41s.752ms] [1] C: Registered sub-client: [Expedition PCB_174652750] with ID: [1]
+[2012.09.26 22:49:22] [0000m.41s.767ms] [1] CORE: Applying a fix no 93 stage [fsAtlasLoaded] to atlas [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s1\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.41s.767ms] [1] CORE: Applying a fix no 99 stage [fsAtlasLoaded] to atlas [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s1\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.41s.767ms] [1] CORE: Applying a fix no 101 stage [fsAtlasLoaded] to atlas [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s1\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.41s.767ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s1\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.41s.783ms] [1] C: Registered sub-client: [EEVM_EEVM_121888556] with ID: [2]
+[2012.09.26 22:49:22] [0000m.41s.783ms] [1] C: Unregistered sub-client: [EEVM_EEVM_121888556] with ID: [2]
+[2012.09.26 22:49:22] [0000m.42s.049ms] [1] CORE: Applying a fix no 93 stage [fsAtlasLoaded] to atlas [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s2\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.42s.049ms] [1] CORE: Applying a fix no 99 stage [fsAtlasLoaded] to atlas [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s2\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.42s.049ms] [1] CORE: Applying a fix no 101 stage [fsAtlasLoaded] to atlas [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s2\cdbcatlg\catlgatl]
+[2012.09.26 22:49:22] [0000m.42s.049ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\s2\cdbcatlg\catlgatl]
+[2012.09.26 22:49:23] [0000m.42s.830ms] [1] C: Registered sub-client: [ExpeditionCrossProber] with ID: [3]
+[2012.09.26 22:49:25] [0000m.44s.440ms] [1] C: Registered sub-client: [JobPrefsDBPI_174655984] with ID: [4]
+[2012.09.26 22:49:25] [0000m.44s.455ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_174655984] with ID: [4]
+[2012.09.26 22:49:35] [0000m.55s.128ms] [1] C: Unregistered sub-client: [ExpeditionCrossProber] with ID: [3]
+[2012.09.26 22:49:36] [0000m.55s.425ms] [1] C: Unregistered sub-client: [Expedition PCB_174652750] with ID: [1]
+[2012.09.26 22:49:36] [0000m.55s.425ms] [1] Disconnected from iCDB Server
+[2012.09.26 22:49:36] [0000m.55s.425ms] [1] Working mode: Offline
+[2012.09.26 22:49:36] [0000m.55s.753ms] [0] C: Stop
+[2012.09.26 22:49:36] [0000m.55s.753ms] [0] .

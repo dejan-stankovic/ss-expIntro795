@@ -1,0 +1,87 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $1I4, Symbol=builtin:pullup at (170, 40), is not connected.
+| Sch_Warning - Component $?, Symbol=builtin:out at (260, 220), is not connected.
+| Sch_Warning - Component GND, Symbol=builtin:gnd at (900, 220), is not connected.
+| Sch_Warning - Component VDD, Symbol=builtin:pwr at (650, 220), is not connected.
+| Sch_Warning - Component $1I3, Symbol=builtin:pulldown at (335, 20), is not connected.
+| Sch_Warning - Component $1I7, Symbol=builtin:not at (310, 485), is not connected.
+| Sch_Warning - Component $1I8, Symbol=builtin:buf at (120, 490), is not connected.
+| Sch_Warning - Component $1I9, Symbol=builtin:p at (90, 600), is not connected.
+| Sch_Warning - Component $1I10, Symbol=builtin:e at (280, 600), is not connected.
+| Sch_Warning - Component $1I11, Symbol=builtin:d at (455, 595), is not connected.
+| Sch_Warning - Component $1I12, Symbol=builtin:delay at (670, 440), is not connected.
+| Sch_Warning - Component $?, Symbol=builtin:in at (140, 220), is not connected.
+| Sch_Warning - Component $?, Symbol=builtin:bi at (390, 220), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:pullup 1
+AS builtin:pullup PINORDER=OUT
+AS builtin:pullup LEVEL=STD
+AP builtin:pullup 1 PINTYPE=OUT
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+|Q builtin:pulldown 1
+AS builtin:pulldown PINORDER=OUT
+AS builtin:pulldown LEVEL=STD
+AP builtin:pulldown 1 PINTYPE=OUT
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:buf 1
+AS builtin:buf PINORDER=Q A
+AP builtin:buf 1 PINTYPE=OUT
+AP builtin:buf 2 PINTYPE=IN
+|Q builtin:p 1
+AS builtin:p PINORDER=G S D
+AP builtin:p 1 PINTYPE=IN
+AP builtin:p 2 PINTYPE=BI
+AP builtin:p 3 PINTYPE=BI
+|Q builtin:e 1
+AS builtin:e PINORDER=G S D
+AP builtin:e 1 PINTYPE=IN
+AP builtin:e 2 PINTYPE=BI
+AP builtin:e 3 PINTYPE=BI
+|Q builtin:d 1
+AS builtin:d PINORDER=G S D
+AP builtin:d 1 PINTYPE=IN
+AP builtin:d 2 PINTYPE=BI
+AP builtin:d 3 PINTYPE=BI
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+AS builtin:bi BI
+AS builtin:bi PINORDER=OUT
+AP builtin:bi 1 PINTYPE=BI
+G VDD
+G GND
+W builtin:pullup $1I4
+I $1I4 builtin:pullup ? 
+P builtin:out $?
+I $? builtin:out ? 
+W builtin:pulldown $1I3
+I $1I3 builtin:pulldown ? 
+M builtin:not $1I7
+I $1I7 builtin:not ? ? 
+M builtin:buf $1I8
+I $1I8 builtin:buf ? ? 
+M builtin:p $1I9
+I $1I9 builtin:p ? ? ? 
+M builtin:e $1I10
+I $1I10 builtin:e ? ? ? 
+M builtin:d $1I11
+I $1I11 builtin:d ? ? ? 
+M builtin:delay $1I12
+I $1I12 builtin:delay ? ? 
+P builtin:in $?
+I $? builtin:in ? 
+P builtin:bi $?
+I $? builtin:bi ? 
+EW

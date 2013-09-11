@@ -1,0 +1,176 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $13I7, Symbol=builtin:ram256x8 at (580, 40), is not connected.
+| Sch_Warning - Component $13I6, Symbol=builtin:ram256x4 at (300, 80), is not connected.
+| Sch_Warning - Component $13I5, Symbol=builtin:ram256x1 at (20, 100), is not connected.
+| Sch_Warning - Component $13I4, Symbol=builtin:ram32x8 at (880, 480), is not connected.
+| Sch_Warning - Component $13I1, Symbol=builtin:ram4x4 at (40, 500), is not connected.
+| Sch_Warning - Component $13I2, Symbol=builtin:ram8x2 at (300, 500), is not connected.
+| Sch_Warning - Component $13I3, Symbol=builtin:ram16x4 at (570, 480), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:ram256x8 1
+AS builtin:ram256x8 MODEL=RAM
+AS builtin:ram256x8 LENGTH=256
+AS builtin:ram256x8 WIDTH=8
+AS builtin:ram256x8 PINORDER=DO0 DO1 DO2 DO3 DO4 DO5 DO6 DO7 A0 A1 A2 A3 A4 A5 A6 A7 DSBL R/W DI0 DI1 DI2 DI3 DI4 DI5 DI6 DI7
+AP builtin:ram256x8 1 PINTYPE=TRI
+AP builtin:ram256x8 2 PINTYPE=TRI
+AP builtin:ram256x8 3 PINTYPE=TRI
+AP builtin:ram256x8 4 PINTYPE=TRI
+AP builtin:ram256x8 5 PINTYPE=TRI
+AP builtin:ram256x8 6 PINTYPE=TRI
+AP builtin:ram256x8 7 PINTYPE=TRI
+AP builtin:ram256x8 8 PINTYPE=TRI
+AP builtin:ram256x8 9 PINTYPE=IN
+AP builtin:ram256x8 10 PINTYPE=IN
+AP builtin:ram256x8 11 PINTYPE=IN
+AP builtin:ram256x8 12 PINTYPE=IN
+AP builtin:ram256x8 13 PINTYPE=IN
+AP builtin:ram256x8 14 PINTYPE=IN
+AP builtin:ram256x8 15 PINTYPE=IN
+AP builtin:ram256x8 16 PINTYPE=IN
+AP builtin:ram256x8 17 PINTYPE=IN
+AP builtin:ram256x8 18 PINTYPE=IN
+AP builtin:ram256x8 19 PINTYPE=IN
+AP builtin:ram256x8 20 PINTYPE=IN
+AP builtin:ram256x8 21 PINTYPE=IN
+AP builtin:ram256x8 22 PINTYPE=IN
+AP builtin:ram256x8 23 PINTYPE=IN
+AP builtin:ram256x8 24 PINTYPE=IN
+AP builtin:ram256x8 25 PINTYPE=IN
+AP builtin:ram256x8 26 PINTYPE=IN
+|Q builtin:ram256x4 1
+AS builtin:ram256x4 PINORDER=DO0 DO1 DO2 DO3 A0 A1 A2 A3 A4 A5 A6 A7 DSBL R/W DI0 DI1 DI2 DI3
+AS builtin:ram256x4 MODEL=RAM
+AS builtin:ram256x4 LENGTH=256
+AS builtin:ram256x4 WIDTH=4
+AP builtin:ram256x4 1 PINTYPE=TRI
+AP builtin:ram256x4 2 PINTYPE=TRI
+AP builtin:ram256x4 3 PINTYPE=TRI
+AP builtin:ram256x4 4 PINTYPE=TRI
+AP builtin:ram256x4 5 PINTYPE=IN
+AP builtin:ram256x4 6 PINTYPE=IN
+AP builtin:ram256x4 7 PINTYPE=IN
+AP builtin:ram256x4 8 PINTYPE=IN
+AP builtin:ram256x4 9 PINTYPE=IN
+AP builtin:ram256x4 10 PINTYPE=IN
+AP builtin:ram256x4 11 PINTYPE=IN
+AP builtin:ram256x4 12 PINTYPE=IN
+AP builtin:ram256x4 13 PINTYPE=IN
+AP builtin:ram256x4 14 PINTYPE=IN
+AP builtin:ram256x4 15 PINTYPE=IN
+AP builtin:ram256x4 16 PINTYPE=IN
+AP builtin:ram256x4 17 PINTYPE=IN
+AP builtin:ram256x4 18 PINTYPE=IN
+|Q builtin:ram256x1 1
+AS builtin:ram256x1 MODEL=RAM
+AS builtin:ram256x1 LENGTH=256
+AS builtin:ram256x1 WIDTH=1
+AS builtin:ram256x1 PINORDER=DOUT A0 A1 A2 A3 A4 A5 A6 A7 DSBL R/W DIN
+AP builtin:ram256x1 1 PINTYPE=TRI
+AP builtin:ram256x1 2 PINTYPE=IN
+AP builtin:ram256x1 3 PINTYPE=IN
+AP builtin:ram256x1 4 PINTYPE=IN
+AP builtin:ram256x1 5 PINTYPE=IN
+AP builtin:ram256x1 6 PINTYPE=IN
+AP builtin:ram256x1 7 PINTYPE=IN
+AP builtin:ram256x1 8 PINTYPE=IN
+AP builtin:ram256x1 9 PINTYPE=IN
+AP builtin:ram256x1 10 PINTYPE=IN
+AP builtin:ram256x1 11 PINTYPE=IN
+AP builtin:ram256x1 12 PINTYPE=IN
+|Q builtin:ram32x8 1
+AS builtin:ram32x8 MODEL=RAM
+AS builtin:ram32x8 WIDTH=8
+AS builtin:ram32x8 LENGTH=32
+AS builtin:ram32x8 PINORDER=DO0 DO1 DO2 DO3 DO4 DO5 DO6 DO7 A0 A1 A2 A3 A4 DSBL R/W DI0 DI1 DI2 DI3 DI4 DI5 DI6 DI7
+AP builtin:ram32x8 1 PINTYPE=TRI
+AP builtin:ram32x8 2 PINTYPE=TRI
+AP builtin:ram32x8 3 PINTYPE=TRI
+AP builtin:ram32x8 4 PINTYPE=TRI
+AP builtin:ram32x8 5 PINTYPE=TRI
+AP builtin:ram32x8 6 PINTYPE=TRI
+AP builtin:ram32x8 7 PINTYPE=TRI
+AP builtin:ram32x8 8 PINTYPE=TRI
+AP builtin:ram32x8 9 PINTYPE=IN
+AP builtin:ram32x8 10 PINTYPE=IN
+AP builtin:ram32x8 11 PINTYPE=IN
+AP builtin:ram32x8 12 PINTYPE=IN
+AP builtin:ram32x8 13 PINTYPE=IN
+AP builtin:ram32x8 14 PINTYPE=IN
+AP builtin:ram32x8 15 PINTYPE=IN
+AP builtin:ram32x8 16 PINTYPE=IN
+AP builtin:ram32x8 17 PINTYPE=IN
+AP builtin:ram32x8 18 PINTYPE=IN
+AP builtin:ram32x8 19 PINTYPE=IN
+AP builtin:ram32x8 20 PINTYPE=IN
+AP builtin:ram32x8 21 PINTYPE=IN
+AP builtin:ram32x8 22 PINTYPE=IN
+AP builtin:ram32x8 23 PINTYPE=IN
+|Q builtin:ram4x4 1
+AS builtin:ram4x4 PINORDER=DO0 DO1 DO2 DO3 A0 A1 DSBL R/W DI0 DI1 DI2 DI3
+AS builtin:ram4x4 LENGTH=4
+AS builtin:ram4x4 MODEL = RAM
+AS builtin:ram4x4 WIDTH = 4
+AP builtin:ram4x4 1 PINTYPE=TRI
+AP builtin:ram4x4 2 PINTYPE=TRI
+AP builtin:ram4x4 3 PINTYPE=TRI
+AP builtin:ram4x4 4 PINTYPE=TRI
+AP builtin:ram4x4 5 PINTYPE=IN
+AP builtin:ram4x4 6 PINTYPE=IN
+AP builtin:ram4x4 7 PINTYPE=IN
+AP builtin:ram4x4 8 PINTYPE=IN
+AP builtin:ram4x4 9 PINTYPE=IN
+AP builtin:ram4x4 10 PINTYPE=IN
+AP builtin:ram4x4 11 PINTYPE=IN
+AP builtin:ram4x4 12 PINTYPE=IN
+|Q builtin:ram8x2 1
+AS builtin:ram8x2 PINORDER=DO0 DO1 A0 A1 A2 DSBL R/W DI0 DI1
+AS builtin:ram8x2 LENGTH=8
+AS builtin:ram8x2 WIDTH=2
+AS builtin:ram8x2 MODEL = RAM
+AP builtin:ram8x2 1 PINTYPE=TRI
+AP builtin:ram8x2 2 PINTYPE=TRI
+AP builtin:ram8x2 3 PINTYPE=IN
+AP builtin:ram8x2 4 PINTYPE=IN
+AP builtin:ram8x2 5 PINTYPE=IN
+AP builtin:ram8x2 6 PINTYPE=IN
+AP builtin:ram8x2 7 PINTYPE=IN
+AP builtin:ram8x2 8 PINTYPE=IN
+AP builtin:ram8x2 9 PINTYPE=IN
+|Q builtin:ram16x4 1
+AS builtin:ram16x4 WIDTH = 4
+AS builtin:ram16x4 LENGTH = 16
+AS builtin:ram16x4 MODEL = RAM
+AS builtin:ram16x4 PINORDER = DOUT0 DOUT1 DOUT2 DOUT3 A0 A1 A2 A3 DSBL R/W DIN0 DIN1 DIN2 DIN3
+AP builtin:ram16x4 1 PINTYPE=TRI
+AP builtin:ram16x4 2 PINTYPE=TRI
+AP builtin:ram16x4 3 PINTYPE=TRI
+AP builtin:ram16x4 4 PINTYPE=TRI
+AP builtin:ram16x4 5 PINTYPE=IN
+AP builtin:ram16x4 6 PINTYPE=IN
+AP builtin:ram16x4 7 PINTYPE=IN
+AP builtin:ram16x4 8 PINTYPE=IN
+AP builtin:ram16x4 9 PINTYPE=IN
+AP builtin:ram16x4 10 PINTYPE=IN
+AP builtin:ram16x4 11 PINTYPE=IN
+AP builtin:ram16x4 12 PINTYPE=IN
+AP builtin:ram16x4 13 PINTYPE=IN
+AP builtin:ram16x4 14 PINTYPE=IN
+M builtin:ram256x8 $13I7
+I $13I7 builtin:ram256x8 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram256x4 $13I6
+I $13I6 builtin:ram256x4 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram256x1 $13I5
+I $13I5 builtin:ram256x1 ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram32x8 $13I4
+I $13I4 builtin:ram32x8 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram4x4 $13I1
+I $13I1 builtin:ram4x4 ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:ram8x2 $13I2
+I $13I2 builtin:ram8x2 ? ? ? ? ? ? ? ? ? 
+M builtin:ram16x4 $13I3
+I $13I3 builtin:ram16x4 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+EW

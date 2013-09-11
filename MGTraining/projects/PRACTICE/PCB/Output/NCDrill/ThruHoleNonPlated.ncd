@@ -1,0 +1,26 @@
+; Version : LOCAL
+; Job     : C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+; User    : FLO-JOES-LT2:joes
+; Date    : Thu Jan 24 17:16:52 2008
+; Format  : 2.4 / Absolute / Inch / Trailing
+; Contents: Thru / Drill / Non-Plated
+; Project 2007, MGC Training
+M48
+INCH,LZ
+FMAT,2
+ICI,OFF
+T06C0.0620
+T05C0.0960
+%
+M72
+G90
+G93X0Y0
+T06
+X0Y0
+Y0255
+T05
+X03Y001
+Y0245
+T00
+M30
+; See Drawing for Fabrication Notes

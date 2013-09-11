@@ -1,0 +1,91 @@
+PropID  	PartNumberID	PropertyName                    	PropertyValue
+1       	2           	Type                            	IC
+2       	2           	Tech                            	UNDEFINED
+3       	3           	Type                            	Jumper
+4       	3           	AP1                             	SCR4-438,2
+5       	3           	AP2                             	NUT4,2
+6       	3           	AP3                             	WASH4,2
+7       	4           	Type                            	Resistor
+8       	4           	Power Dissipation               	0.125
+9       	4           	Value                           	3000
+10      	4           	Tolerance                       	.05
+11      	5           	Type                            	Resistor
+12      	5           	Power Dissipation               	0.125
+13      	5           	Value                           	100000
+14      	5           	Tolerance                       	.05
+15      	7           	Type                            	Capacitor
+16      	7           	Value                           	0.0001
+17      	7           	Tolerance                       	05%
+18      	8           	Type                            	Capacitor
+19      	8           	Value                           	0.000000000005
+20      	9           	Type                            	Capacitor
+21      	9           	Value                           	0.000000000010
+22      	11          	Type                            	Misc
+23      	11          	Tech                            	UNDEFINED
+24      	10          	Type                            	Capacitor
+25      	10          	Value                           	0.0000000001
+26      	10          	Verilog Model                   	RC_OPEN
+27      	10          	VHDL Model                      	RC_OPEN
+28      	6           	Type                            	Resistor
+29      	6           	Tech                            	UNDEFINED
+30      	12          	Type                            	Resistor
+31      	12          	Value                           	10000
+32      	12          	Power Dissipation               	0.125
+33      	12          	Tolerance                       	.5
+34      	22          	Type                            	IC
+35      	22          	Tech                            	analog
+36      	22          	Simulation Model                	OP215A
+37      	13          	Type                            	IC
+38      	13          	Tech                            	ALS
+39      	13          	Verilog Model                   	54ALS1008
+40      	13          	VHDL Model                      	54ALS1008
+41      	13          	Simulation Model                	54ALS1008
+42      	14          	Type                            	IC
+43      	14          	Tech                            	ALS
+44      	14          	Verilog Model                   	74ALS00
+45      	14          	VHDL Model                      	74ALS00
+46      	14          	Simulation Model                	74ALS00
+47      	15          	Type                            	IC
+48      	15          	Tech                            	ALS
+49      	15          	Verilog Model                   	74ALS04
+50      	15          	VHDL Model                      	74ALS04
+51      	15          	Simulation Model                	74ALS04
+52      	15          	Power Dissipation               	0.02
+53      	15          	IBIS                            	74ALS04
+54      	16          	Type                            	IC
+55      	16          	Tech                            	ALS
+56      	16          	Verilog Model                   	74ALS240
+57      	16          	VHDL Model                      	74ALS240
+58      	16          	Simulation Model                	74ALS240
+59      	17          	Type                            	IC
+60      	17          	Tech                            	ALS
+61      	17          	Verilog Model                   	74ALS30
+62      	17          	VHDL Model                      	74ALS30
+63      	17          	Simulation Model                	74ALS30
+64      	18          	Type                            	IC
+65      	18          	Tech                            	ALS
+66      	18          	Verilog Model                   	74ALS32
+67      	18          	VHDL Model                      	74ALS32
+68      	18          	Simulation Model                	74ALS32
+69      	18          	Power Dissipation               	0.02
+70      	18          	IBIS                            	74ALS32
+71      	19          	Type                            	IC
+72      	19          	Tech                            	ALS
+73      	19          	Verilog Model                   	74ALS49
+74      	19          	VHDL Model                      	74ALS49
+75      	19          	Simulation Model                	74ALS49
+76      	20          	Type                            	IC
+77      	20          	Tech                            	ALS
+78      	20          	Verilog Model                   	74ALS655
+79      	20          	VHDL Model                      	74ALS655
+80      	20          	Simulation Model                	74ALS655
+81      	21          	Type                            	IC
+82      	21          	Tech                            	ALS
+83      	21          	Verilog Model                   	74ALS187
+84      	21          	VHDL Model                      	74ALS187
+85      	21          	Simulation Model                	74ALS187
+86      	23          	Type                            	IC
+87      	23          	Tech                            	ALS
+88      	23          	Verilog Model                   	74ALS240
+89      	23          	VHDL Model                      	74ALS240
+90      	23          	Simulation Model                	74ALS240

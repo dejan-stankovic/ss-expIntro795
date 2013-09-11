@@ -1,0 +1,33 @@
+[2012.03.12 08:29:38] [0000m.00s.171ms] [0] WELCOME
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] iCDB Client ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] Base flow version [7.9.3]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] GBS Install Id [23291], Flow Id [EE7.9.3], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Nov 1 2011]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] Machine [ESVM01]  User [student]  PID [3688]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] PATH [C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] SDD_HOME [C:\MentorGraphics\7.9.3EE\SDD_HOME] on file system [NTFS]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] SDD_PLATFORM [win32]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.3EE\SDD_HOME\standard]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [3] AMP: CREATE
+[2012.03.12 08:29:38] [0000m.00s.171ms] [2] NE: CREATE
+[2012.03.12 08:29:38] [0000m.00s.171ms] [2] AMP: START
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] IC: Project GUID [03fb-d901-1a75-c214-9d51-e5fd-d51e-5f40-f8a8-5765-72cf-9da8]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] IC: Project path [C:\MGTraining\projects\PRACTICE\database] on file system [NTFS]
+[2012.03.12 08:29:38] [0000m.00s.171ms] [1] IC: Working in FULL access mode
+[2012.03.12 08:29:38] [0000m.00s.203ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\projects\PRACTICE\database]
+[2012.03.12 08:29:38] [0000m.00s.203ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [d74f-18fa-dd06-ae4b-7461-e5fb-461e-5f40-f9a8-5765-72cf-9da8]  for project [C:\MGTraining\projects\PRACTICE\database] with GUID [03fb-d901-1a75-c214-9d51-e5fd-d51e-5f40-f8a8-5765-72cf-9da8]
+[2012.03.12 08:29:38] [0000m.00s.203ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.03.12 08:29:38] [0000m.00s.218ms] [1] Connecting to iCDB Server:  Host [esvm01] IP [127.0.0.1]  Port [10000]
+[2012.03.12 08:29:38] [0000m.00s.218ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.03.12 08:29:38] [0000m.00s.218ms] [1] Connected to iCDB Server [127.0.0.1]
+[2012.03.12 08:29:38] [0000m.00s.218ms] [1] Session [433] opened
+[2012.03.12 08:29:38] [0000m.00s.218ms] [1] Working mode: Online
+[2012.03.12 08:29:38] [0000m.00s.218ms] [1] C: Registered sub-client: [Expedition_398343] with ID: [1]
+[2012.03.12 08:29:38] [0000m.00s.359ms] [1] C: Unregistered sub-client: [Expedition_398343] with ID: [1]
+[2012.03.12 08:29:38] [0000m.00s.406ms] [1] Disconnected from iCDB Server
+[2012.03.12 08:29:38] [0000m.00s.406ms] [1] Working mode: Offline
+[2012.03.12 08:29:38] [0000m.00s.750ms] [0] C: Stop
+[2012.03.12 08:29:38] [0000m.00s.750ms] [0] .

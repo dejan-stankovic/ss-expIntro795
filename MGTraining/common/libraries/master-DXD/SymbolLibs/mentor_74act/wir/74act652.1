@@ -1,0 +1,220 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 79091749190 74ls652
+DW 74act652
+Q Case
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+M builtin:not $1I679
+I $1I679 builtin:not $1N682 GAB 
+M builtin:not $1I666
+I $1I666 builtin:not $1N370 B4 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:not $1I663
+I $1I663 builtin:not $1N354 B3 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:not $1I659
+I $1I659 builtin:not $1N322 B2 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:udfdl $1I657
+I $1I657 builtin:udfdl ? $1N628 B2 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I656
+I $1I656 builtin:tribuf A1 ~GBA $1N116 TPHZ=@GBATOAHZ`TPLZ=@GBATOALZ`TPZL=@GBATOAZL`TPZH=@GBATOAZH`
+M builtin:not $1I654
+I $1I654 builtin:not $1N108 B1 TPLH=@BTOA0`TPHL=@BTOA1`
+M builtin:tribuf $1I556
+I $1I556 builtin:tribuf B1 $1N682 $1N113 TPZH=@GABTOBZH`TPZL=@GABTOBZL`TPLZ=@GABTOBLZ`TPHZ=@GABTOBHZ`
+M builtin:udfdl $1I655
+I $1I655 builtin:udfdl ? $1N632 B1 ? ? CBA ? ? ? ? TPHLCQN=@CBATOA1`TPLHCQN=@CBATOA0`THOLDD=@THOLD_B`TSUD=@TSU_B`TNEGC=@CBA_PULSE0`TPOSC=@CBA_PULSE1`
+M builtin:not $1I552
+I $1I552 builtin:not $1N119 A1 TPLH=@ATOB0`TPHL=@ATOB1`
+M builtin:not $1I633
+I $1I633 builtin:not $1N317 A2 TPHL=@ATOB1`TPLH=@ATOB0`
+M builtin:udfdl $1I553
+I $1I553 builtin:udfdl ? $1N630 A1 ? ? CAB ? ? ? ? TPOSC=@CAB_PULSE1`TNEGC=@CAB_PULSE0`TSUD=@TSU_A`THOLDD=@THOLD_A`TPLHCQN=@CABTOB0`TPHLCQN=@CABTOB1`
+M builtin:andnor22 $1I117
+I $1I117 builtin:andnor22 $1N116 $1N108 $1N491 $1N497 $1N632 
+M builtin:not $1I569
+I $1I569 builtin:not $1N488 SAB TPLH=@SABTOB0B0`TPHL=@SABTOB0B1`
+M builtin:not $1I641
+I $1I641 builtin:not $1N393 A6 TPHL=@ATOB1`TPLH=@ATOB0`
+M builtin:udfdl $1I642
+I $1I642 builtin:udfdl ? $1N611 A6 ? ? CAB ? ? ? ? TPHLCQN=@CABTOB1`TPLHCQN=@CABTOB0`THOLDD=@THOLD_A`TSUD=@TSU_A`
+M builtin:not $1I637
+I $1I637 builtin:not $1N365 A4 TPHL=@ATOB1`TPLH=@ATOB0`
+M builtin:udfdl $1I638
+I $1I638 builtin:udfdl ? $1N617 A4 ? ? CAB ? ? ? ? TPHLCQN=@CABTOB1`TPLHCQN=@CABTOB0`THOLDD=@THOLD_A`TSUD=@TSU_A`
+M builtin:not $1I635
+I $1I635 builtin:not $1N349 A3 TPLH=@ATOB0`TPHL=@ATOB1`
+M builtin:udfdl $1I636
+I $1I636 builtin:udfdl ? $1N621 A3 ? ? CAB ? ? ? ? TSUD=@TSU_A`THOLDD=@THOLD_A`TPLHCQN=@CABTOB0`TPHLCQN=@CABTOB1`
+M builtin:udfdl $1I634
+I $1I634 builtin:udfdl ? $1N626 A2 ? ? CAB ? ? ? ? TPHLCQN=@CABTOB1`TPLHCQN=@CABTOB0`THOLDD=@THOLD_A`TSUD=@TSU_A`
+M builtin:andnor22 $1I114
+I $1I114 builtin:andnor22 $1N113 $1N630 $1N495 $1N488 $1N119 
+M builtin:delay $1I568
+I $1I568 builtin:delay $1N495 SAB TPLH=@SABTOB1B0`TPHL=@SABTOB1B1`
+M builtin:andnor22 $1I320
+I $1I320 builtin:andnor22 $1N321 $1N626 $1N495 $1N488 $1N317 
+M builtin:andnor22 $1I318
+I $1I318 builtin:andnor22 $1N319 $1N322 $1N491 $1N497 $1N628 
+M builtin:andnor22 $1I352
+I $1I352 builtin:andnor22 $1N353 $1N621 $1N495 $1N488 $1N349 
+M builtin:andnor22 $1I350
+I $1I350 builtin:andnor22 $1N351 $1N354 $1N491 $1N497 $1N624 
+M builtin:andnor22 $1I368
+I $1I368 builtin:andnor22 $1N369 $1N617 $1N495 $1N488 $1N365 
+M builtin:andnor22 $1I366
+I $1I366 builtin:andnor22 $1N367 $1N370 $1N491 $1N497 $1N619 
+M builtin:andnor22 $1I408
+I $1I408 builtin:andnor22 $1N407 $1N404 $1N491 $1N497 $1N605 
+M builtin:andnor22 $1I406
+I $1I406 builtin:andnor22 $1N405 $1N607 $1N495 $1N488 $1N409 
+M builtin:andnor22 $1I392
+I $1I392 builtin:andnor22 $1N391 $1N388 $1N491 $1N497 $1N609 
+M builtin:andnor22 $1I390
+I $1I390 builtin:andnor22 $1N389 $1N611 $1N495 $1N488 $1N393 
+M builtin:andnor22 $1I385
+I $1I385 builtin:andnor22 $1N386 $1N613 $1N495 $1N488 $1N382 
+M builtin:andnor22 $1I383
+I $1I383 builtin:andnor22 $1N384 $1N387 $1N491 $1N497 $1N615 
+M builtin:andnor22 $1I422
+I $1I422 builtin:andnor22 $1N421 $1N603 $1N495 $1N488 $1N425 
+M builtin:andnor22 $1I424
+I $1I424 builtin:andnor22 $1N423 $1N420 $1N491 $1N497 $1N602 
+M builtin:delay $1I601
+I $1I601 builtin:delay $1N497 SBA TPHL=@SBATOB1B1`TPLH=@SBATOB1B0`
+M builtin:not $1I138
+I $1I138 builtin:not $1N491 SBA TPHL=@SBATOB0B1`TPLH=@SBATOB0B0`
+M builtin:udfdl $1I640
+I $1I640 builtin:udfdl ? $1N613 A5 ? ? CAB ? ? ? ? TSUD=@TSU_A`THOLDD=@THOLD_A`TPLHCQN=@CABTOB0`TPHLCQN=@CABTOB1`
+M builtin:not $1I639
+I $1I639 builtin:not $1N382 A5 TPLH=@ATOB0`TPHL=@ATOB1`
+M builtin:udfdl $1I644
+I $1I644 builtin:udfdl ? $1N607 A7 ? ? CAB ? ? ? ? TSUD=@TSU_A`THOLDD=@THOLD_A`TPLHCQN=@CABTOB0`TPHLCQN=@CABTOB1`
+M builtin:not $1I643
+I $1I643 builtin:not $1N409 A7 TPLH=@ATOB0`TPHL=@ATOB1`
+M builtin:udfdl $1I646
+I $1I646 builtin:udfdl ? $1N603 A8 ? ? CAB ? ? ? ? TPHLCQN=@CABTOB1`TPLHCQN=@CABTOB0`THOLDD=@THOLD_A`TSUD=@TSU_A`
+M builtin:not $1I645
+I $1I645 builtin:not $1N425 A8 TPHL=@ATOB1`TPLH=@ATOB0`
+M builtin:tribuf $1I648
+I $1I648 builtin:tribuf B3 $1N682 $1N353 TPZH=@GABTOBZH`TPZL=@GABTOBZL`TPLZ=@GABTOBLZ`TPHZ=@GABTOBHZ`
+M builtin:tribuf $1I649
+I $1I649 builtin:tribuf B4 $1N682 $1N369 TPHZ=@GABTOBHZ`TPLZ=@GABTOBLZ`TPZL=@GABTOBZL`TPZH=@GABTOBZH`
+M builtin:tribuf $1I650
+I $1I650 builtin:tribuf B5 $1N682 $1N386 TPZH=@GABTOBZH`TPZL=@GABTOBZL`TPLZ=@GABTOBLZ`TPHZ=@GABTOBHZ`
+M builtin:tribuf $1I651
+I $1I651 builtin:tribuf B6 $1N682 $1N389 TPHZ=@GABTOBHZ`TPLZ=@GABTOBLZ`TPZL=@GABTOBZL`TPZH=@GABTOBZH`
+M builtin:tribuf $1I652
+I $1I652 builtin:tribuf B7 $1N682 $1N405 TPZH=@GABTOBZH`TPZL=@GABTOBZL`TPLZ=@GABTOBLZ`TPHZ=@GABTOBHZ`
+M builtin:tribuf $1I653
+I $1I653 builtin:tribuf B8 $1N682 $1N421 TPHZ=@GABTOBHZ`TPLZ=@GABTOBLZ`TPZL=@GABTOBZL`TPZH=@GABTOBZH`
+M builtin:tribuf $1I658
+I $1I658 builtin:tribuf B2 $1N682 $1N321 TPHZ=@GABTOBHZ`TPLZ=@GABTOBLZ`TPZL=@GABTOBZL`TPZH=@GABTOBZH`
+M builtin:tribuf $1I660
+I $1I660 builtin:tribuf A2 ~GBA $1N319 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+M builtin:udfdl $1I662
+I $1I662 builtin:udfdl ? $1N624 B3 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I661
+I $1I661 builtin:tribuf A3 ~GBA $1N351 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+M builtin:udfdl $1I665
+I $1I665 builtin:udfdl ? $1N619 B4 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I664
+I $1I664 builtin:tribuf A4 ~GBA $1N367 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+M builtin:not $1I669
+I $1I669 builtin:not $1N387 B5 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:udfdl $1I668
+I $1I668 builtin:udfdl ? $1N615 B5 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I667
+I $1I667 builtin:tribuf A5 ~GBA $1N384 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+M builtin:not $1I672
+I $1I672 builtin:not $1N388 B6 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:udfdl $1I671
+I $1I671 builtin:udfdl ? $1N609 B6 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I670
+I $1I670 builtin:tribuf A6 ~GBA $1N391 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+M builtin:not $1I675
+I $1I675 builtin:not $1N404 B7 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:udfdl $1I674
+I $1I674 builtin:udfdl ? $1N605 B7 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I673
+I $1I673 builtin:tribuf A7 ~GBA $1N407 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+M builtin:not $1I678
+I $1I678 builtin:not $1N420 B8 TPHL=@BTOA1`TPLH=@BTOA0`
+M builtin:udfdl $1I677
+I $1I677 builtin:udfdl ? $1N602 B8 ? ? CBA ? ? ? ? TSUD=@TSU_B`THOLDD=@THOLD_B`TPLHCQN=@CBATOA0`TPHLCQN=@CBATOA1`
+M builtin:tribuf $1I676
+I $1I676 builtin:tribuf A8 ~GBA $1N423 TPZH=@GBATOAZH`TPZL=@GBATOAZL`TPLZ=@GBATOALZ`TPHZ=@GBATOAHZ`
+P ? A1
+I A1 ? A1
+P ? SAB
+I SAB ? SAB
+P ? SBA
+I SBA ? SBA
+P ? CBA
+I CBA ? CBA
+P ? CAB
+I CAB ? CAB
+P ? B1
+I B1 ? B1
+P ? A5
+I A5 ? A5
+P ? B8
+I B8 ? B8
+P ? B7
+I B7 ? B7
+P ? B6
+I B6 ? B6
+P ? B5
+I B5 ? B5
+P ? B4
+I B4 ? B4
+P ? B3
+I B3 ? B3
+P ? B2
+I B2 ? B2
+P ? A7
+I A7 ? A7
+P ? A6
+I A6 ? A6
+P ? A4
+I A4 ? A4
+P ? A3
+I A3 ? A3
+P ? A2
+I A2 ? A2
+P ? A8
+I A8 ? A8
+P ? GAB
+I GAB ? GAB
+P ? ~GBA
+I ~GBA ? ~GBA
+EW

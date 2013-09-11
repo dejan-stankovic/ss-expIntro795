@@ -1,0 +1,19 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 254182389400 74ls32
+DW 74act32
+Q Case
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+M builtin:or2 $1I8
+I $1I8 builtin:or2 Y A B TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+P ? A
+I A ? A
+P ? Y
+I Y ? Y
+P ? B
+I B ? B
+EW

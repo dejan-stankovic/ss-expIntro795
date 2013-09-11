@@ -1,0 +1,8 @@
+Wed Oct 07 11:15:59 2009: iCDBReadSettings.
+Wed Oct 07 11:15:59 2009: iCDBBackup. ProjectFile: C:\MGTraining\projects\PRACTICE\PRACTICE.prj, Application: iCDBBackup
+Wed Oct 07 11:16:00 2009: C:\MGTraining\projects\PRACTICE\AutoBackup\1243002346 removed
+Wed Oct 07 11:16:00 2009: iCDBBackup complete
+Wed Oct 07 11:17:45 2009: iCDBReadSettings.
+Wed Oct 07 11:17:45 2009: iCDBBackup. ProjectFile: C:\MGTraining\projects\PRACTICE\PRACTICE.prj, Application: DxDesigner
+Wed Oct 07 11:20:22 2009: iCDBReadSettings.
+Wed Oct 07 11:20:22 2009: iCDBBackup. ProjectFile: C:\MGTraining\projects\PRACTICE\PRACTICE.prj, Application: iCDBBackup

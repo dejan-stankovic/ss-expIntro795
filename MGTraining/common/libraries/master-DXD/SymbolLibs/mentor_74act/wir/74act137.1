@@ -1,0 +1,89 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 121767675000 74ls137
+DW 74act137
+Q Case
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:ubdec38 1
+AS builtin:ubdec38 PINORDER=Y0 Y1 Y2 Y3 Y4 Y5 Y6 Y7 INHB SENSE S0 S1 S2
+AP builtin:ubdec38 1 PINTYPE=OUT
+AP builtin:ubdec38 2 PINTYPE=OUT
+AP builtin:ubdec38 3 PINTYPE=OUT
+AP builtin:ubdec38 4 PINTYPE=OUT
+AP builtin:ubdec38 5 PINTYPE=OUT
+AP builtin:ubdec38 6 PINTYPE=OUT
+AP builtin:ubdec38 7 PINTYPE=OUT
+AP builtin:ubdec38 8 PINTYPE=OUT
+AP builtin:ubdec38 9 PINTYPE=IN
+AP builtin:ubdec38 10 PINTYPE=IN
+AP builtin:ubdec38 11 PINTYPE=IN
+AP builtin:ubdec38 12 PINTYPE=IN
+AP builtin:ubdec38 13 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+G GND
+M builtin:or2 $1I134
+I $1I134 builtin:or2 $1N52 $1N103 $1N57 
+M builtin:ubdec38 $1I138
+I $1I138 builtin:ubdec38 ~O0 ~O1 ~O2 ~O3 ~O4 ~O5 ~O6 ~O7 $1N52 GND $1N31 $1N41 $1N36 
+M builtin:udfdl $1I135
+I $1I135 builtin:udfdl $1N31 ? ? ? ? ? ? ? A0 ~LE TPLHPDQ=@ATOOUT`TPHLPDQ=@ATOOUT`TPLHPEQ=@LETOOUT`TPHLPEQ=@LETOOUT`TPULSEPE0=@LE_PULSE0`TSUPD=@TSU_A`THOLDPD=@THOLD_A`APELEV=0`
+M builtin:udfdl $1I150
+I $1I150 builtin:udfdl $1N41 ? ? ? ? ? ? ? A1 ~LE THOLDPD=@THOLD_A`TSUPD=@TSU_A`TPULSEPE0=@LE_PULSE0`TPHLPEQ=@LETOOUT`TPLHPEQ=@LETOOUT`TPHLPDQ=@ATOOUT`TPLHPDQ=@ATOOUT`APELEV=0`
+M builtin:udfdl $1I151
+I $1I151 builtin:udfdl $1N36 ? ? ? ? ? ? ? A2 ~LE TPLHPDQ=@ATOOUT`TPHLPDQ=@ATOOUT`TPLHPEQ=@LETOOUT`TPHLPEQ=@LETOOUT`TPULSEPE0=@LE_PULSE0`TSUPD=@TSU_A`THOLDPD=@THOLD_A`APELEV=0`
+M builtin:delay $1I155
+I $1I155 builtin:delay $1N103 ~E1 TPHL=@E1TOOUT0`TPLH=@E1TOOUT1`
+M builtin:not $1I133
+I $1I133 builtin:not $1N57 E2 TPLH=@E2TOOUT1`TPHL=@E2TOOUT0`
+P ? ~O7
+I ~O7 ? ~O7
+P ? ~O6
+I ~O6 ? ~O6
+P ? ~O5
+I ~O5 ? ~O5
+P ? ~O4
+I ~O4 ? ~O4
+P ? ~O3
+I ~O3 ? ~O3
+P ? ~O2
+I ~O2 ? ~O2
+P ? ~O1
+I ~O1 ? ~O1
+P ? ~O0
+I ~O0 ? ~O0
+P ? E2
+I E2 ? E2
+P ? ~E1
+I ~E1 ? ~E1
+P ? A2
+I A2 ? A2
+P ? ~LE
+I ~LE ? ~LE
+P ? A1
+I A1 ? A1
+P ? A0
+I A0 ? A0
+EW

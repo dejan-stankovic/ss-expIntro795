@@ -1,0 +1,218 @@
+
+                                PLANES PROCESSOR
+                                ----------------
+
+                      02:28 PM Wednesday, January 23, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+
+
+    POSITIVE PLANE LAYER : 4
+
+        Plane Shapes Found On This Layer : 2
+        Plane Holes  Found On This Layer : 2
+
+
+        PLANE NET : VCC
+
+            Total Plane Shapes For This Net   : 1
+            Use Route Border As Plane Shape   : YES
+            Create Actual Plane Shapes        : NO
+            Regenerate APS Connections Only   : NO
+            Generate Plane Data               : YES
+            Plane To Plane Clearance          : 8th
+            Plane To Other Metal Clearance    : 10th
+            Mounting Hole / Contour Clearance : 20th
+            Minimum Plane Gap Distance        : NA
+            Use TieLeg Bridges If Needed      : NO
+            Use Padstack Thermal Definition   : YES
+            Default Via Tie Properties
+                Number Tie Legs               : BURIED
+            Default Thru Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Default SMD Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Eliminate Untied Areas            : Yes
+            Eliminate Single Tied Areas       : No
+            Orthogonal Data Only              : NO
+            Discard Areas By Dimension        : NO
+            Default Hatch Width               : 6th
+            Default Hatch Distance            : 6th
+            Default Hatch Pattern             : (-) Horizontal
+            Default Metal Percentage          : 100.00
+
+            Total Via  Pads Of This Net       : 25
+            Total Thru Pads Of This Net       : 5
+            Total SMD  Pads Of This Net       : 0
+
+            Plane Created : Layer 4 - Net VCC
+
+                Via Pads In This Plane           : 25
+                Thru Pads In This Plane          : 5
+                SMD Pads In This Plane           : 0
+                     
+                Pads With 4/4 Tie Connections    : 29
+                Pads With 3/4 Tie Connections    : 1
+
+                Pads With 3 Tie Legs : 1
+                        Coordinates (th) :
+                            1) X=2,700       Y=1,700         Pin: P1-1  (Thermal Override - 11/0/T4/P135)
+
+
+        PLANE NET : VDD
+
+            Total Plane Shapes For This Net   : 1
+            Use Route Border As Plane Shape   : NO
+            Create Actual Plane Shapes        : NO
+            Regenerate APS Connections Only   : NO
+            Generate Plane Data               : YES
+            Plane To Plane Clearance          : 8th
+            Plane To Other Metal Clearance    : 10th
+            Mounting Hole / Contour Clearance : 20th
+            Minimum Plane Gap Distance        : NA
+            Use TieLeg Bridges If Needed      : NO
+            Use Padstack Thermal Definition   : YES
+            Default Via Tie Properties
+                Number Tie Legs               : BURIED
+            Default Thru Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Default SMD Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Eliminate Untied Areas            : Yes
+            Eliminate Single Tied Areas       : No
+            Orthogonal Data Only              : NO
+            Discard Areas By Dimension        : NO
+            Default Hatch Width               : 6th
+            Default Hatch Distance            : 6th
+            Default Hatch Pattern             : (-) Horizontal
+            Default Metal Percentage          : 100.00
+
+            Total Via  Pads Of This Net       : 0
+            Total Thru Pads Of This Net       : 3
+            Total SMD  Pads Of This Net       : 0
+
+            Plane Created : Layer 4 - Net VDD
+
+                Via Pads In This Plane           : 0
+                Thru Pads In This Plane          : 3
+                SMD Pads In This Plane           : 0
+                     
+                Pads With 4/4 Tie Connections    : 3
+
+
+        PLANE NET : VEE
+
+            Total Plane Shapes For This Net   : 1
+            Use Route Border As Plane Shape   : NO
+            Create Actual Plane Shapes        : NO
+            Regenerate APS Connections Only   : NO
+            Generate Plane Data               : YES
+            Plane To Plane Clearance          : 8th
+            Plane To Other Metal Clearance    : 10th
+            Mounting Hole / Contour Clearance : 20th
+            Minimum Plane Gap Distance        : NA
+            Use TieLeg Bridges If Needed      : NO
+            Use Padstack Thermal Definition   : YES
+            Default Via Tie Properties
+                Number Tie Legs               : BURIED
+            Default Thru Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Default SMD Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Eliminate Untied Areas            : Yes
+            Eliminate Single Tied Areas       : No
+            Orthogonal Data Only              : NO
+            Discard Areas By Dimension        : NO
+            Default Hatch Width               : 6th
+            Default Hatch Distance            : 6th
+            Default Hatch Pattern             : (-) Horizontal
+            Default Metal Percentage          : 100.00
+
+            Total Via  Pads Of This Net       : 0
+            Total Thru Pads Of This Net       : 3
+            Total SMD  Pads Of This Net       : 0
+
+            Plane Created : Layer 4 - Net VEE
+
+                Via Pads In This Plane           : 0
+                Thru Pads In This Plane          : 3
+                SMD Pads In This Plane           : 0
+                     
+                Pads With 4/4 Tie Connections    : 3
+
+
+    POSITIVE PLANE LAYER : 6
+
+        Plane Shapes Found On This Layer : 1
+        Plane Holes  Found On This Layer : 2
+
+
+        PLANE NET : GND
+
+            Total Plane Shapes For This Net   : 1
+            Use Route Border As Plane Shape   : NO
+            Create Actual Plane Shapes        : NO
+            Regenerate APS Connections Only   : NO
+            Generate Plane Data               : YES
+            Plane To Plane Clearance          : 8th
+            Plane To Other Metal Clearance    : 10th
+            Mounting Hole / Contour Clearance : 20th
+            Minimum Plane Gap Distance        : NA
+            Use TieLeg Bridges If Needed      : NO
+            Use Padstack Thermal Definition   : YES
+            Default Via Tie Properties
+                Number Tie Legs               : BURIED
+            Default Thru Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Default SMD Tie Properties
+                Number Tie Legs               : BURIED
+            Eliminate Untied Areas            : Yes
+            Eliminate Single Tied Areas       : No
+            Orthogonal Data Only              : NO
+            Discard Areas By Dimension        : NO
+            Default Hatch Width               : 6th
+            Default Hatch Distance            : 6th
+            Default Hatch Pattern             : (-) Horizontal
+            Default Metal Percentage          : 100.00
+
+            Total Via  Pads Of This Net       : 35
+            Total Thru Pads Of This Net       : 5
+            Total SMD  Pads Of This Net       : 26
+
+            Plane Created : Layer 6 - Net GND
+
+                Via Pads In This Plane           : 3
+                Thru Pads In This Plane          : 0
+                SMD Pads In This Plane           : 4
+                     
+                Pads To Be Buried In Plane       : 4
+                    Unconnected To Plane         : 0
+                        Connected To Trace       : 0
+                Pads With 4/4 Tie Connections    : 2
+                Pads With 3/4 Tie Connections    : 1
+
+                Pads With 3 Tie Legs : 1
+                        Coordinates (th) :
+                            1) X=2,350       Y=585.5         Via  (Thermal Override - 7/0/T4/P135)

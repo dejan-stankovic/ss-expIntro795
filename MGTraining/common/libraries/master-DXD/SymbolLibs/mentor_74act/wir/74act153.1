@@ -1,0 +1,76 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 92539301090 74ls153
+DW 74act153
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:mux41 1
+AS builtin:mux41 PINORDER=Q INH S0 S1 D0 D1 D2 D3
+AP builtin:mux41 1 PINTYPE=OUT
+AP builtin:mux41 2 PINTYPE=IN
+AP builtin:mux41 3 PINTYPE=IN
+AP builtin:mux41 4 PINTYPE=IN
+AP builtin:mux41 5 PINTYPE=IN
+AP builtin:mux41 6 PINTYPE=IN
+AP builtin:mux41 7 PINTYPE=IN
+AP builtin:mux41 8 PINTYPE=IN
+M builtin:delay $1I71
+I $1I71 builtin:delay $1N76 1C1 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I89
+I $1I89 builtin:delay $1N96 2C3 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I88
+I $1I88 builtin:delay $1N94 2C2 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I87
+I $1I87 builtin:delay $1N92 2C1 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I86
+I $1I86 builtin:delay $1N90 2C0 TPHL=@DTOY1`TPLH=@DTOY1`
+M builtin:delay $1I70
+I $1I70 builtin:delay $1N74 1C0 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I66
+I $1I66 builtin:delay $1N13 ~1G TPHL=@GTOY0`TPLH=@GTOY1`
+M builtin:mux41 $1I68
+I $1I68 builtin:mux41 1Y $1N13 $1N18 $1N55 $1N74 $1N76 $1N78 $1N80 
+M builtin:mux41 $1I69
+I $1I69 builtin:mux41 2Y $1N63 $1N18 $1N55 $1N90 $1N92 $1N94 $1N96 
+M builtin:delay $1I64
+I $1I64 builtin:delay $1N55 B TPHL=@SELTOY`TPLH=@SELTOY`
+M builtin:delay $1I65
+I $1I65 builtin:delay $1N18 A TPHL=@SELTOY`TPLH=@SELTOY`
+M builtin:delay $1I73
+I $1I73 builtin:delay $1N80 1C3 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I72
+I $1I72 builtin:delay $1N78 1C2 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I67
+I $1I67 builtin:delay $1N63 ~2G TPHL=@GTOY0`TPLH=@GTOY1`
+P ? 1Y
+I 1Y ? 1Y
+P ? 2Y
+I 2Y ? 2Y
+P ? ~1G
+I ~1G ? ~1G
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? ~2G
+I ~2G ? ~2G
+P ? 1C0
+I 1C0 ? 1C0
+P ? 1C1
+I 1C1 ? 1C1
+P ? 1C2
+I 1C2 ? 1C2
+P ? 1C3
+I 1C3 ? 1C3
+P ? 2C0
+I 2C0 ? 2C0
+P ? 2C1
+I 2C1 ? 2C1
+P ? 2C2
+I 2C2 ? 2C2
+P ? 2C3
+I 2C3 ? 2C3
+EW

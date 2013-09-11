@@ -1,0 +1,80 @@
+V 50
+K 171958726000 builtin
+Y 0
+D 0 0 1100 850
+Z 10
+i 3
+T 520 720 20 0 5 REV 5.2-Alias builtin
+T 905 50 14 0 5 (BUILTIN.15)
+T 5 5 14 0 3 Copyright (c) 1985-1991 Viewlogic Systems, Inc.
+I 2 builtin:RAM2KX4 1 420 210 0 1 '
+X 3 0
+X 16 0
+X 17 0
+X 18 0
+X 4 0
+X 5 0
+X 6 0
+X 7 0
+X 8 0
+X 9 0
+X 10 0
+X 1 0
+X 11 0
+X 12 0
+X 19 0
+X 20 0
+X 21 0
+X 2 0
+X 13 0
+X 14 0
+X 15 0
+I 1 builtin:RAM2KX1 1 90 230 0 1 '
+X 12 0
+X 10 0
+X 11 0
+X 9 0
+X 8 0
+X 7 0
+X 6 0
+X 5 0
+X 14 0
+X 4 0
+X 3 0
+X 2 0
+X 1 0
+X 15 0
+X 13 0
+I 3 builtin:RAM2KX8 1 760 170 0 1 '
+X 11 0
+X 10 0
+X 9 0
+X 8 0
+X 7 0
+X 6 0
+X 5 0
+X 4 0
+X 3 0
+X 28 0
+X 27 0
+X 26 0
+X 25 0
+X 24 0
+X 23 0
+X 22 0
+X 21 0
+X 20 0
+X 2 0
+X 1 0
+X 29 0
+X 19 0
+X 18 0
+X 17 0
+X 16 0
+X 15 0
+X 14 0
+X 13 0
+X 12 0
+T 540 760 20 0 5 VIEWSIM RAM BUILTIN PARTS
+T 30 90 14 0 3 * FOR RAM DEFAULT ATTRIBUTES SEE BUILTIN.13
+E

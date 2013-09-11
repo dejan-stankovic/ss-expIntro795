@@ -1,0 +1,91 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 250250846500 74ls138
+DW 74act138
+Q Case
+|Q builtin:nor3 1
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+|Q builtin:nand4 1
+AS builtin:nand4 PINORDER=QN A B C D
+AP builtin:nand4 1 PINTYPE=OUT
+AP builtin:nand4 2 PINTYPE=IN
+AP builtin:nand4 3 PINTYPE=IN
+AP builtin:nand4 4 PINTYPE=IN
+AP builtin:nand4 5 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+M builtin:nor3 $1I103
+I $1I103 builtin:nor3 $1N145 $1N104 $1N168 $1N166 
+M builtin:nand4 $1I81
+I $1I81 builtin:nand4 ~Y7 $1N145 $1N151 $1N146 $1N155 
+M builtin:nand4 $1I80
+I $1I80 builtin:nand4 ~Y6 $1N137 $1N155 $1N151 $1N145 
+M builtin:nand4 $1I79
+I $1I79 builtin:nand4 ~Y5 $1N141 $1N155 $1N146 $1N145 
+M builtin:nand4 $1I78
+I $1I78 builtin:nand4 ~Y4 $1N137 $1N141 $1N155 $1N145 
+M builtin:nand4 $1I77
+I $1I77 builtin:nand4 ~Y3 $1N146 $1N151 $1N144 $1N145 
+M builtin:nand4 $1I76
+I $1I76 builtin:nand4 ~Y2 $1N137 $1N151 $1N144 $1N145 
+M builtin:nand4 $1I82
+I $1I82 builtin:nand4 ~Y1 $1N146 $1N141 $1N144 $1N145 
+M builtin:nand4 $1I83
+I $1I83 builtin:nand4 ~Y0 $1N137 $1N141 $1N144 $1N145 
+M builtin:not $1I105
+I $1I105 builtin:not $1N104 G1 TPLH=@ENTOY31`TPHL=@ENTOY30`
+M builtin:delay $1I160
+I $1I160 builtin:delay $1N166 ~G2A TPLH=@ENTOY21`TPHL=@ENTOY20`
+M builtin:delay $1I161
+I $1I161 builtin:delay $1N168 ~G2B TPLH=@ENTOY21`TPHL=@ENTOY20`
+M builtin:not $1I97
+I $1I97 builtin:not $1N137 A TPLH=@SELTOY20`TPHL=@SELTOY21`
+M builtin:delay $1I147
+I $1I147 builtin:delay $1N146 A TPHL=@SELTOY31`TPLH=@SELTOY30`
+M builtin:not $1I175
+I $1I175 builtin:not $1N141 B TPLH=@SELTOY20`TPHL=@SELTOY21`
+M builtin:not $1I176
+I $1I176 builtin:not $1N144 C TPHL=@SELTOY21`TPLH=@SELTOY20`
+M builtin:delay $1I177
+I $1I177 builtin:delay $1N151 B TPLH=@SELTOY30`TPHL=@SELTOY31`
+M builtin:delay $1I178
+I $1I178 builtin:delay $1N155 C TPHL=@SELTOY31`TPLH=@SELTOY30`
+P ? B
+I B ? B
+P ? ~G2B
+I ~G2B ? ~G2B
+P ? ~G2A
+I ~G2A ? ~G2A
+P ? ~Y7
+I ~Y7 ? ~Y7
+P ? ~Y6
+I ~Y6 ? ~Y6
+P ? ~Y5
+I ~Y5 ? ~Y5
+P ? ~Y4
+I ~Y4 ? ~Y4
+P ? ~Y3
+I ~Y3 ? ~Y3
+P ? ~Y2
+I ~Y2 ? ~Y2
+P ? ~Y1
+I ~Y1 ? ~Y1
+P ? ~Y0
+I ~Y0 ? ~Y0
+P ? G1
+I G1 ? G1
+P ? A
+I A ? A
+P ? C
+I C ? C
+EW

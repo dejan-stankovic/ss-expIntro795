@@ -1,0 +1,29 @@
+[2011.04.15 11:23:11] [0000m.00s.000ms.206us] [0] WELCOME
+[2011.04.15 11:23:11] [0000m.00s.000ms.355us] [1] iCDB Database ver.1.091, 0XsVZbnMvCAokxoWCsr9pA, build:426268 created 2010-10-27 08:23:57, sources stamp:0XsVZbnMvCAokxoWCsr9pA
+[2011.04.15 11:23:11] [0000m.00s.000ms.384us] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.04.15 11:23:11] [0000m.00s.000ms.435us] [1] Base flow version [7.9.1]
+[2011.04.15 11:23:11] [0000m.00s.000ms.463us] [1] GBS Install Id [16608], Flow Id [EE7.9.1], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2010]
+[2011.04.15 11:23:11] [0000m.00s.000ms.573us] [1] Machine [localhost.localdomain]  User [student]  PID [28729]
+[2011.04.15 11:23:11] [0000m.00s.000ms.605us] [1] Operating system [Linux 2.6.18-128.el5 #1 SMP Wed Dec 17 11:42:39 EST 2008 i686]
+[2011.04.15 11:23:11] [0000m.00s.000ms.635us] [1] Current working dir [/home/student/MentorGraphics/7.9EE/SDD_HOME/standard/templates/pcb/Central Library/Templates/Layout/4 Layer Template]
+[2011.04.15 11:23:11] [0000m.00s.000ms.665us] [1] PATH [/home/student/MentorGraphics/7.9EE/SDD_HOME/wg/linux/bin:/home/student/MentorGraphics/7.9EE/MGC_HOME.ixl/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin-linux_optimized:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin-i86_linux:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin-linux_optimized:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/X11R6/bin:/usr/NX/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/bin:/home/student/license/mgls_v9-3_4-2.0.ixl/bin:.:/usr/NX/bin:/usr/bin/X11]
+[2011.04.15 11:23:11] [0000m.00s.000ms.701us] [1] LD_LIBRARY_PATH [/home/student/MentorGraphics/7.9EE/SDD_HOME/xe/linux/lib:/home/student/MentorGraphics/7.9EE/SDD_HOME/wg/linux/lib:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/lib:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux_optimized:/home/student/MentorGraphics/7.9EE/MGC_HOME.ixl/lib:.:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux_optimized:::/usr/X11R6/lib]
+[2011.04.15 11:23:11] [0000m.00s.000ms.756us] [1] SDD_HOME [/home/student/MentorGraphics/7.9EE/SDD_HOME] on file system [Extended File System ver.2 (EXT2)]
+[2011.04.15 11:23:11] [0000m.00s.000ms.782us] [1] SDD_PLATFORM [linux]
+[2011.04.15 11:23:11] [0000m.00s.000ms.833us] [1] Local iCDB working dir [/home/student/MGTraining/common/config/iCDB] on file system [Extended File System ver.2 (EXT2)]
+[2011.04.15 11:23:11] [0000m.00s.000ms.860us] [3] WARNING: Database [/home/student/MentorGraphics/7.9EE/SDD_HOME/standard/templates/pcb/Central Library/Templates/Layout/4 Layer Template/keyin.icdb/icdb.dat] was manually copied
+[2011.04.15 11:23:11] [0000m.00s.000ms.888us] [3] File change time:        [2011-04-15 11.23.11]
+[2011.04.15 11:23:11] [0000m.00s.000ms.912us] [3] File modification time:  [2010-10-11 15.34.28]
+[2011.04.15 11:23:11] [0000m.00s.000ms.936us] [3] Last change time:        [2010-08-16 13.23.22]
+[2011.04.15 11:23:11] [0000m.00s.000ms.957us] [3] Last database open information:
+[2011.04.15 11:23:11] [0000m.00s.000ms.981us] [3] Time:             [2010-08-16 13.22.56]
+[2011.04.15 11:23:11] [0000m.00s.001ms.003us] [3] Location:         [T:\new_cls\cl_15595_dx\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat]
+[2011.04.15 11:23:11] [0000m.00s.001ms.026us] [3] Machine:          [XP32_LMQA_VM1]
+[2011.04.15 11:23:11] [0000m.00s.001ms.048us] [3] User:             [root]
+[2011.04.15 11:23:11] [0000m.00s.001ms.070us] [3] PID:              [2932]
+[2011.04.15 11:23:11] [0000m.00s.001ms.100us] [3] Application:      [iCDB Server]
+[2011.04.15 11:23:11] [0000m.00s.001ms.123us] [3] Operating system: [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.04.15 11:23:11] [0000m.00s.001ms.154us] [3] WARNING: Regenerating database GUID
+[2011.04.15 11:23:11] [0000m.00s.001ms.255us] [3] Previous database GUID [20be-8c0a-3eea-28e2-99d9-96cd-9d99-6c40-a9c4-32e0-f21b-ba0b]
+[2011.04.15 11:23:11] [0000m.00s.001ms.947us] [3] Current database GUID  [78d8-e3b5-98a6-fbdb-f0d8-8ad3-1d88-ad40-1960-7002-f68f-b060]
+[2011.04.15 11:23:11] [0000m.00s.002ms.075us] [3] DONE

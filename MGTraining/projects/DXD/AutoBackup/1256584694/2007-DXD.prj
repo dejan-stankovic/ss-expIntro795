@@ -1,0 +1,42 @@
+SECTION DesignInfo
+KEY CentralLibrary "C:\MGTraining\common\libraries\master-DXD\master-DXD.lmc"
+KEY PinComponents "./speccomp.ini"
+KEY BorderSymbols "./borders.ini"
+KEY Bus_Contents "./busconts.ini"
+KEY FrontEndSnapshot "DxD"
+KEY DxD_Version "2007.7"
+KEY HdlUtilsConfigFile "hdlutils.ini"
+ENDSECTION
+SECTION iCDB
+LIST Designs
+VALUE "2007-DXD"
+ENDLIST
+KEY iCDBDir "database"
+KEY DedicatedServerName ""
+ENDSECTION
+SECTION FlowSettings
+KEY FlowType "DX"
+ENDSECTION
+SECTION Template_Design
+KEY ConfigType "PCB"
+KEY SearchPathScheme "(Default)"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY CADBackAnno "0"
+KEY SchematicConflict "FE"
+ENDSECTION
+SECTION ICXProInfo
+KEY ICXProDir "ICXPro"
+ENDSECTION
+SECTION 2007-DXD
+KEY ConfigType "PCB"
+KEY SearchPathScheme "(Default)"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY CADBackAnno "0"
+KEY SchematicConflict "FE"
+KEY RootBlock "VBPCB1"
+ENDSECTION
+SECTION VBPCBIndicators
+KEY PkgrRunning "0"
+ENDSECTION

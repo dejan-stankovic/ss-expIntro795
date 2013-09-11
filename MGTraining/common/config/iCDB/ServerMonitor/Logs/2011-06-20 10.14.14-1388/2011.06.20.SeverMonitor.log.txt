@@ -1,0 +1,16 @@
+[2011.06.20 10:14:15] [0000m.00s.609ms] [0] WELCOME
+[2011.06.20 10:14:15] [0000m.00s.609ms] [1] iCDB Server Monitor ver.1.092, dDIpY0GKBXTaphtjZSQNoQ, build:455768 created 2011-06-08 17:52:47, sources stamp:dDIpY0GKBXTaphtjZSQNoQ
+[2011.06.20 10:14:15] [0000m.00s.609ms] [1] Copyright 2011 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.20 10:14:15] [0000m.00s.609ms] [1] Base flow version [7.9.2]
+[2011.06.20 10:14:15] [0000m.00s.609ms] [1] GBS Install Id [18853], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.20 10:14:15] [0000m.00s.609ms] [1] GBS Install Id [19252], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] Machine [esvm01]  User [student]  PID [1388]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] Current working dir [C:\MentorGraphics\7.9.2EE\win32]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] PATH [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] SDD_HOME [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME] on file system [NTFS]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] SDD_PLATFORM [win32]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard]
+[2011.06.20 10:14:15] [0000m.00s.625ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2011.06.20 10:14:16] [0000m.02s.093ms] [0] End logging
+[2011.06.20 10:14:16] [0000m.02s.093ms] [0] .

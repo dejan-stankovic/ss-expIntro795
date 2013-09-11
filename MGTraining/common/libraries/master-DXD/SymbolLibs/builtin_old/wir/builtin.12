@@ -1,0 +1,228 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $12I2 (U?), Symbol=builtin:con1r at (155, 690), is not connected.
+| Sch_Warning - Component $12I1 (U?), Symbol=builtin:con1l at (20, 690), is not connected.
+| Sch_Warning - Component $12I4 (U?), Symbol=builtin:con25r at (160, 70), is not connected.
+| Sch_Warning - Component $12I3 (U?), Symbol=builtin:con25l at (10, 70), is not connected.
+| Sch_Warning - Component $12I5, Symbol=builtin:resistor at (430, 365), is not connected.
+| Sch_Warning - Component $12I6, Symbol=builtin:deccap at (860, 350), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:con1r 1
+AS builtin:con1r LEVEL=STD
+AS builtin:con1r PARTS=100
+AS builtin:con1r PKG_TYPE=CONN
+AS builtin:con1r REFDES=U?
+AS builtin:con1r PINORDER=CON_PIN
+AP builtin:con1r 1 #=[1:100]
+AP builtin:con1r 1 PINTYPE=BI
+|Q builtin:con1l 1
+AS builtin:con1l REFDES=U?
+AS builtin:con1l PKG_TYPE=CONN
+AS builtin:con1l PARTS=100
+AS builtin:con1l LEVEL=STD
+AS builtin:con1l PINORDER=CON_PIN
+AP builtin:con1l 1 #=[1:100]
+AP builtin:con1l 1 PINTYPE=BI
+|Q builtin:con25r 1
+AS builtin:con25r LEVEL=STD
+AS builtin:con25r PARTS=1
+AS builtin:con25r PKG_TYPE=CONN
+AS builtin:con25r REFDES=U?
+AS builtin:con25r PINORDER=CONPIN1 CONPIN10 CONPIN11 CONPIN12 CONPIN13 CONPIN14 CONPIN15 CONPIN16 CONPIN17 CONPIN18 CONPIN19 CONPIN2 CONPIN20 CONPIN21 CONPIN22 CONPIN23 CONPIN24 CONPIN25 CONPIN3 CONPIN4 CONPIN5 CONPIN6 CONPIN7 CONPIN8 CONPIN9
+AP builtin:con25r 1 PINTYPE=BI
+AP builtin:con25r 1 #=1
+AP builtin:con25r 2 PINTYPE=BI
+AP builtin:con25r 2 #=10
+AP builtin:con25r 3 PINTYPE=BI
+AP builtin:con25r 3 #=11
+AP builtin:con25r 4 PINTYPE=BI
+AP builtin:con25r 4 #=12
+AP builtin:con25r 5 PINTYPE=BI
+AP builtin:con25r 5 #=13
+AP builtin:con25r 6 PINTYPE=BI
+AP builtin:con25r 6 #=14
+AP builtin:con25r 7 PINTYPE=BI
+AP builtin:con25r 7 #=15
+AP builtin:con25r 8 PINTYPE=BI
+AP builtin:con25r 8 #=16
+AP builtin:con25r 9 PINTYPE=BI
+AP builtin:con25r 9 #=17
+AP builtin:con25r 10 PINTYPE=BI
+AP builtin:con25r 10 #=18
+AP builtin:con25r 11 PINTYPE=BI
+AP builtin:con25r 11 #=19
+AP builtin:con25r 12 PINTYPE=BI
+AP builtin:con25r 12 #=2
+AP builtin:con25r 13 PINTYPE=BI
+AP builtin:con25r 13 #=20
+AP builtin:con25r 14 PINTYPE=BI
+AP builtin:con25r 14 #=21
+AP builtin:con25r 15 PINTYPE=BI
+AP builtin:con25r 15 #=22
+AP builtin:con25r 16 PINTYPE=BI
+AP builtin:con25r 16 #=23
+AP builtin:con25r 17 PINTYPE=BI
+AP builtin:con25r 17 #=24
+AP builtin:con25r 18 PINTYPE=BI
+AP builtin:con25r 18 #=25
+AP builtin:con25r 19 PINTYPE=BI
+AP builtin:con25r 19 #=3
+AP builtin:con25r 20 PINTYPE=BI
+AP builtin:con25r 20 #=4
+AP builtin:con25r 21 PINTYPE=BI
+AP builtin:con25r 21 #=5
+AP builtin:con25r 22 PINTYPE=BI
+AP builtin:con25r 22 #=6
+AP builtin:con25r 23 PINTYPE=BI
+AP builtin:con25r 23 #=7
+AP builtin:con25r 24 PINTYPE=BI
+AP builtin:con25r 24 #=8
+AP builtin:con25r 25 PINTYPE=BI
+AP builtin:con25r 25 #=9
+|Q builtin:con25l 1
+AS builtin:con25l LEVEL=STD
+AS builtin:con25l PARTS=1
+AS builtin:con25l PKG_TYPE=CONN
+AS builtin:con25l REFDES=U?
+AS builtin:con25l PINORDER=CONPIN1 CONPIN10 CONPIN11 CONPIN12 CONPIN13 CONPIN14 CONPIN15 CONPIN16 CONPIN17 CONPIN18 CONPIN19 CONPIN2 CONPIN20 CONPIN21 CONPIN22 CONPIN23 CONPIN24 CONPIN25 CONPIN3 CONPIN4 CONPIN5 CONPIN6 CONPIN7 CONPIN8 CONPIN9
+AP builtin:con25l 1 PINTYPE=BI
+AP builtin:con25l 1 #=1
+AP builtin:con25l 2 PINTYPE=BI
+AP builtin:con25l 2 #=10
+AP builtin:con25l 3 PINTYPE=BI
+AP builtin:con25l 3 #=11
+AP builtin:con25l 4 PINTYPE=BI
+AP builtin:con25l 4 #=12
+AP builtin:con25l 5 PINTYPE=BI
+AP builtin:con25l 5 #=13
+AP builtin:con25l 6 PINTYPE=BI
+AP builtin:con25l 6 #=14
+AP builtin:con25l 7 PINTYPE=BI
+AP builtin:con25l 7 #=15
+AP builtin:con25l 8 PINTYPE=BI
+AP builtin:con25l 8 #=16
+AP builtin:con25l 9 PINTYPE=BI
+AP builtin:con25l 9 #=17
+AP builtin:con25l 10 PINTYPE=BI
+AP builtin:con25l 10 #=18
+AP builtin:con25l 11 PINTYPE=BI
+AP builtin:con25l 11 #=19
+AP builtin:con25l 12 PINTYPE=BI
+AP builtin:con25l 12 #=2
+AP builtin:con25l 13 PINTYPE=BI
+AP builtin:con25l 13 #=20
+AP builtin:con25l 14 PINTYPE=BI
+AP builtin:con25l 14 #=21
+AP builtin:con25l 15 PINTYPE=BI
+AP builtin:con25l 15 #=22
+AP builtin:con25l 16 PINTYPE=BI
+AP builtin:con25l 16 #=23
+AP builtin:con25l 17 PINTYPE=BI
+AP builtin:con25l 17 #=24
+AP builtin:con25l 18 PINTYPE=BI
+AP builtin:con25l 18 #=25
+AP builtin:con25l 19 PINTYPE=BI
+AP builtin:con25l 19 #=3
+AP builtin:con25l 20 PINTYPE=BI
+AP builtin:con25l 20 #=4
+AP builtin:con25l 21 PINTYPE=BI
+AP builtin:con25l 21 #=5
+AP builtin:con25l 22 PINTYPE=BI
+AP builtin:con25l 22 #=6
+AP builtin:con25l 23 PINTYPE=BI
+AP builtin:con25l 23 #=7
+AP builtin:con25l 24 PINTYPE=BI
+AP builtin:con25l 24 #=8
+AP builtin:con25l 25 PINTYPE=BI
+AP builtin:con25l 25 #=9
+|Q builtin:resistor 1
+AS builtin:resistor PINOFF
+AS builtin:resistor PKG_TYPE=RES
+AS builtin:resistor PARTS=0
+AS builtin:resistor LEVEL=STD
+AS builtin:resistor PINORDER=IN OUT
+AP builtin:resistor 1 PINTYPE=IN
+AP builtin:resistor 1 #=1
+AP builtin:resistor 2 PINTYPE=OUT
+AP builtin:resistor 2 #=2
+|Q builtin:deccap 1
+AS builtin:deccap LEVEL=STD
+AS builtin:deccap PARTS=0
+AS builtin:deccap PKG_TYPE=CAP
+AS builtin:deccap PINOFF
+AS builtin:deccap PINORDER=GND PWR
+AP builtin:deccap 1 PINTYPE=BI
+AP builtin:deccap 1 #=2
+AP builtin:deccap 2 PINTYPE=BI
+AP builtin:deccap 2 #=1
+W builtin:con1r $12I2
+I $12I2 builtin:con1r ? REFDES=U?`
+API $12I2 builtin:con1r 1 #=1
+W builtin:con1l $12I1
+I $12I1 builtin:con1l ? REFDES=U?`
+API $12I1 builtin:con1l 1 #=1
+W builtin:con25r $12I4
+I $12I4 builtin:con25r ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? REFDES=U?`
+API $12I4 builtin:con25r 1 #=1
+API $12I4 builtin:con25r 2 #=10
+API $12I4 builtin:con25r 3 #=11
+API $12I4 builtin:con25r 4 #=12
+API $12I4 builtin:con25r 5 #=13
+API $12I4 builtin:con25r 6 #=14
+API $12I4 builtin:con25r 7 #=15
+API $12I4 builtin:con25r 8 #=16
+API $12I4 builtin:con25r 9 #=17
+API $12I4 builtin:con25r 10 #=18
+API $12I4 builtin:con25r 11 #=19
+API $12I4 builtin:con25r 12 #=2
+API $12I4 builtin:con25r 13 #=20
+API $12I4 builtin:con25r 14 #=21
+API $12I4 builtin:con25r 15 #=22
+API $12I4 builtin:con25r 16 #=23
+API $12I4 builtin:con25r 17 #=24
+API $12I4 builtin:con25r 18 #=25
+API $12I4 builtin:con25r 19 #=3
+API $12I4 builtin:con25r 20 #=4
+API $12I4 builtin:con25r 21 #=5
+API $12I4 builtin:con25r 22 #=6
+API $12I4 builtin:con25r 23 #=7
+API $12I4 builtin:con25r 24 #=8
+API $12I4 builtin:con25r 25 #=9
+W builtin:con25l $12I3
+I $12I3 builtin:con25l ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? REFDES=U?`
+API $12I3 builtin:con25l 1 #=1
+API $12I3 builtin:con25l 2 #=10
+API $12I3 builtin:con25l 3 #=11
+API $12I3 builtin:con25l 4 #=12
+API $12I3 builtin:con25l 5 #=13
+API $12I3 builtin:con25l 6 #=14
+API $12I3 builtin:con25l 7 #=15
+API $12I3 builtin:con25l 8 #=16
+API $12I3 builtin:con25l 9 #=17
+API $12I3 builtin:con25l 10 #=18
+API $12I3 builtin:con25l 11 #=19
+API $12I3 builtin:con25l 12 #=2
+API $12I3 builtin:con25l 13 #=20
+API $12I3 builtin:con25l 14 #=21
+API $12I3 builtin:con25l 15 #=22
+API $12I3 builtin:con25l 16 #=23
+API $12I3 builtin:con25l 17 #=24
+API $12I3 builtin:con25l 18 #=25
+API $12I3 builtin:con25l 19 #=3
+API $12I3 builtin:con25l 20 #=4
+API $12I3 builtin:con25l 21 #=5
+API $12I3 builtin:con25l 22 #=6
+API $12I3 builtin:con25l 23 #=7
+API $12I3 builtin:con25l 24 #=8
+API $12I3 builtin:con25l 25 #=9
+W builtin:resistor $12I5
+I $12I5 builtin:resistor ? ? 
+API $12I5 builtin:resistor 1 #=1
+API $12I5 builtin:resistor 2 #=2
+W builtin:deccap $12I6
+I $12I6 builtin:deccap ? ? 
+API $12I6 builtin:deccap 1 #=2
+API $12I6 builtin:deccap 2 #=1
+EW

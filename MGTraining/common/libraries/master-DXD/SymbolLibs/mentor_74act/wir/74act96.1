@@ -1,0 +1,71 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 335849339500 74ls96
+DW 74act96
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+M builtin:udfdl $1I145
+I $1I145 builtin:udfdl QA ? SER $1N11 ~CLR CK ? ? ? ? AASYNCLEV=0`TPOSC=@PWCLK1`TNEGC=@PWCLK0`TPULSES=@PWPRESET`TPULSER=@PWCLR`TSUD0=@TS_D0`TSUD1=@TS_D1`THOLDD0=@TH_D0`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPLHSQ=@PRETOQ1`TPHLRQ=@CLRTOQ0`
+M builtin:udfdl $1I176
+I $1I176 builtin:udfdl QE ? QD $1N14 ~CLR CK ? ? ? ? TPHLRQ=@CLRTOQ0`TPLHSQ=@PRETOQ1`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`AASYNCLEV=0`
+M builtin:udfdl $1I175
+I $1I175 builtin:udfdl QD ? QC $1N17 ~CLR CK ? ? ? ? TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPLHSQ=@PRETOQ1`TPHLRQ=@CLRTOQ0`AASYNCLEV=0`
+M builtin:udfdl $1I174
+I $1I174 builtin:udfdl QC ? QB $1N20 ~CLR CK ? ? ? ? TPHLRQ=@CLRTOQ0`TPLHSQ=@PRETOQ1`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`AASYNCLEV=0`
+M builtin:udfdl $1I172
+I $1I172 builtin:udfdl QB ? QA $1N23 ~CLR CK ? ? ? ? TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPLHSQ=@PRETOQ1`TPHLRQ=@CLRTOQ0`AASYNCLEV=0`
+M builtin:nand2 $1I181
+I $1I181 builtin:nand2 $1N17 PE D 
+M builtin:nand2 $1I180
+I $1I180 builtin:nand2 $1N20 PE C 
+M builtin:nand2 $1I179
+I $1I179 builtin:nand2 $1N23 PE B 
+M builtin:nand2 $1I178
+I $1I178 builtin:nand2 $1N11 PE A 
+M builtin:nand2 $1I182
+I $1I182 builtin:nand2 $1N14 PE E 
+P ? E
+I E ? E
+P ? D
+I D ? D
+P ? C
+I C ? C
+P ? B
+I B ? B
+P ? A
+I A ? A
+P ? QD
+I QD ? QD
+P ? QC
+I QC ? QC
+P ? QB
+I QB ? QB
+P ? CK
+I CK ? CK
+P ? QE
+I QE ? QE
+P ? QA
+I QA ? QA
+P ? SER
+I SER ? SER
+P ? ~CLR
+I ~CLR ? ~CLR
+P ? PE
+I PE ? PE
+EW

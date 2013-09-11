@@ -1,0 +1,132 @@
+[2008.07.25 07:42:41] [0000m.00s.093ms] [0] Start logging
+[2008.07.25 07:42:41] [0000m.00s.156ms] [1] Machine [esvm01]  User [student]  PID [3116]
+[2008.07.25 07:42:41] [0000m.00s.156ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2008.07.25 07:42:41] [0000m.00s.156ms] [2] PathTranslator: WARNING: Config file not found [C:\MGTraining\common\config\iCDB\PathsMap.cfg]
+[2008.07.25 07:42:41] [0000m.00s.156ms] [2] S: Loading config files
+[2008.07.25 07:42:41] [0000m.00s.156ms] [3] S: Config loaded
+[2008.07.25 07:42:41] [0000m.00s.218ms] [0] S: Starting server ver.1.002 (build 293638 created 2008-05-30 11:42:36) in auto execute mode
+[2008.07.25 07:42:41] [0000m.00s.234ms] [0] S: Project [C:\MGTraining\projects\2007-DXD\database]
+[2008.07.25 07:42:41] [0000m.00s.234ms] [0] S: START
+[2008.07.25 07:42:41] [0000m.00s.234ms] [0] S: Server startup lock file created
+[2008.07.25 07:42:41] [0000m.00s.328ms] [0] S: Listening for client connections on port [10000]
+[2008.07.25 07:42:41] [0000m.00s.328ms] [0] S: Server GUID [d568-28d7-4f89-1335-166e-9885-66e9-8840-5812-818f-2c8c-d9c5]
+[2008.07.25 07:42:42] [0000m.00s.953ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2008.07.25 07:42:42] [0000m.00s.953ms] [0] S: Local disc access time: 130 us
+[2008.07.25 07:42:42] [0000m.00s.953ms] [0] S: Filer access time: 88 us
+[2008.07.25 07:42:42] [0000m.00s.984ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\2007-DXD\database]
+[2008.07.25 07:42:42] [0000m.00s.984ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\2007-DXD\database] opened
+[2008.07.25 07:42:42] [0000m.00s.984ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2008.07.25 07:42:42] [0000m.00s.984ms] [0] iCDB Server PI: Constraint definitions already present in database
+[2008.07.25 07:42:42] [0000m.00s.984ms] [0] iCDB Server PI: Initializing plugins
+[2008.07.25 07:42:42] [0000m.01s.078ms] [0] iCDB Server PI: Plugins initialized
+[2008.07.25 07:42:42] [0000m.01s.078ms] [0] S: iCDB database loaded
+[2008.07.25 07:42:42] [0000m.01s.078ms] [0] S: Project GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2008.07.25 07:42:42] [0000m.01s.078ms] [0] S: Starting threads
+[2008.07.25 07:42:42] [0000m.01s.078ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2008.07.25 07:42:42] [0000m.01s.078ms] [0] S: Wrote data to server address file
+[2008.07.25 07:42:42] [0000m.01s.078ms] [0] S: Server startup lock file removed
+[2008.07.25 07:42:42] [0000m.01s.796ms] [0] IT: Session [244] for host [esvm01] user [student] with process ID [2984] created
+[2008.07.25 07:42:42] [0000m.01s.796ms] [1] SC[244]: Registered sub-client [DxD] with ID [1] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:43] [0000m.01s.859ms] [1] CMT: There are [1] clients now
+[2008.07.25 07:42:44] [0000m.03s.203ms] [1] SC[244]: Registered sub-client [xprob_icdb] with ID [2] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:46] [0000m.05s.453ms] [1] SC[244]: Registered sub-client [SelectionHolder] with ID [3] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:46] [0000m.05s.484ms] [1] SC[244]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:48] [0000m.07s.062ms] [1] SC[244]: Registered sub-client [Navigator] with ID [5] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:48] [0000m.07s.171ms] [1] SC[244]: Registered sub-client [PlaceDevice] with ID [6] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:49] [0000m.08s.750ms] [1] SC[244]: Registered sub-client [OutputWindow] with ID [7] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:49] [0000m.08s.750ms] [1] SC[244]: Registered sub-client [SAE] with ID [8] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:49] [0000m.08s.750ms] [1] SC[244]: Registered sub-client [ICE] with ID [9] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:49] [0000m.08s.765ms] [1] SC[244]: Registered sub-client [DxDbSearch] with ID [10] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:57] [0000m.16s.171ms] [1] SC[244]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:42:57] [0000m.16s.171ms] [1] SC[244]: Registered sub-client [ObjectHolder0] with ID [12] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 07:43:17] [0000m.36s.031ms] [0] IT: Session [245] for host [esvm01] user [student] with process ID [3292] created
+[2008.07.25 07:43:17] [0000m.36s.046ms] [1] SC[245]: Registered sub-client [Vdrc] with ID [1] for session ID [245] host [esvm01] user [student] process ID [3292]
+[2008.07.25 07:43:17] [0000m.36s.109ms] [1] CMT: There are [2] clients now
+[2008.07.25 07:43:17] [0000m.36s.390ms] [1] SC[245]: UnRegistered sub-client [Vdrc] with ID [1] for session ID [245] host [esvm01] user [student] process ID [3292]
+[2008.07.25 07:43:17] [0000m.36s.531ms] [1] CMT: Removed client [245]
+[2008.07.25 07:43:17] [0000m.36s.531ms] [1] CMT: There are [1] clients now
+[2008.07.25 07:43:32] [0000m.50s.906ms] [0] IT: Session [246] for host [esvm01] user [student] with process ID [3332] created
+[2008.07.25 07:43:32] [0000m.50s.906ms] [1] SC[246]: Registered sub-client [Vdrc] with ID [1] for session ID [246] host [esvm01] user [student] process ID [3332]
+[2008.07.25 07:43:32] [0000m.50s.953ms] [1] CMT: There are [2] clients now
+[2008.07.25 07:43:32] [0000m.51s.218ms] [1] SC[246]: UnRegistered sub-client [Vdrc] with ID [1] for session ID [246] host [esvm01] user [student] process ID [3332]
+[2008.07.25 07:43:32] [0000m.51s.343ms] [1] CMT: Removed client [246]
+[2008.07.25 07:43:32] [0000m.51s.343ms] [1] CMT: There are [1] clients now
+[2008.07.25 07:44:26] [0001m.45s.750ms] [0] IT: Session [247] for host [esvm01] user [student] with process ID [3452] created
+[2008.07.25 07:44:26] [0001m.45s.750ms] [1] SC[247]: Registered sub-client [Packager_2281421] with ID [1] for session ID [247] host [esvm01] user [student] process ID [3452]
+[2008.07.25 07:44:26] [0001m.45s.812ms] [1] CMT: There are [2] clients now
+[2008.07.25 07:44:27] [0001m.46s.218ms] [1] SC[247]: UnRegistered sub-client [Packager_2281421] with ID [1] for session ID [247] host [esvm01] user [student] process ID [3452]
+[2008.07.25 07:44:27] [0001m.46s.328ms] [1] CMT: Removed client [247]
+[2008.07.25 07:44:27] [0001m.46s.328ms] [1] CMT: There are [1] clients now
+[2008.07.25 08:54:32] [0071m.51s.656ms] [0] IT: Session [248] for host [esvm01] user [student] with process ID [2600] created
+[2008.07.25 08:54:32] [0071m.51s.656ms] [1] SC[248]: Registered sub-client [Packager_6487265] with ID [1] for session ID [248] host [esvm01] user [student] process ID [2600]
+[2008.07.25 08:54:32] [0071m.51s.750ms] [1] CMT: There are [2] clients now
+[2008.07.25 08:54:34] [0071m.53s.203ms] [1] SC[248]: UnRegistered sub-client [Packager_6487265] with ID [1] for session ID [248] host [esvm01] user [student] process ID [2600]
+[2008.07.25 08:54:34] [0071m.53s.312ms] [1] CMT: Removed client [248]
+[2008.07.25 08:54:34] [0071m.53s.312ms] [1] CMT: There are [1] clients now
+[2008.07.25 09:01:23] [0078m.42s.406ms] [0] IT: Session [249] for host [esvm01] user [student] with process ID [3800] created
+[2008.07.25 09:01:23] [0078m.42s.406ms] [1] SC[249]: Registered sub-client [Vdrc] with ID [1] for session ID [249] host [esvm01] user [student] process ID [3800]
+[2008.07.25 09:01:23] [0078m.42s.515ms] [1] CMT: There are [2] clients now
+[2008.07.25 09:01:23] [0078m.42s.671ms] [1] SC[249]: UnRegistered sub-client [Vdrc] with ID [1] for session ID [249] host [esvm01] user [student] process ID [3800]
+[2008.07.25 09:01:23] [0078m.42s.750ms] [1] CMT: Removed client [249]
+[2008.07.25 09:01:23] [0078m.42s.750ms] [1] CMT: There are [1] clients now
+[2008.07.25 09:01:43] [0079m.02s.703ms] [0] IT: Session [250] for host [esvm01] user [student] with process ID [3952] created
+[2008.07.25 09:01:43] [0079m.02s.703ms] [1] SC[250]: Registered sub-client [Packager_6918406] with ID [1] for session ID [250] host [esvm01] user [student] process ID [3952]
+[2008.07.25 09:01:43] [0079m.02s.718ms] [1] CMT: There are [2] clients now
+[2008.07.25 09:01:44] [0079m.03s.031ms] [1] SC[250]: UnRegistered sub-client [Packager_6918406] with ID [1] for session ID [250] host [esvm01] user [student] process ID [3952]
+[2008.07.25 09:01:44] [0079m.03s.109ms] [1] CMT: Removed client [250]
+[2008.07.25 09:01:44] [0079m.03s.109ms] [1] CMT: There are [1] clients now
+[2008.07.25 09:08:46] [0086m.05s.265ms] [0] IT: Session [251] for host [esvm01] user [student] with process ID [1416] created
+[2008.07.25 09:08:46] [0086m.05s.265ms] [1] SC[251]: Registered sub-client [Packager_7340953] with ID [1] for session ID [251] host [esvm01] user [student] process ID [1416]
+[2008.07.25 09:08:46] [0086m.05s.328ms] [1] CMT: There are [2] clients now
+[2008.07.25 09:08:49] [0086m.08s.640ms] [1] SC[251]: UnRegistered sub-client [Packager_7340953] with ID [1] for session ID [251] host [esvm01] user [student] process ID [1416]
+[2008.07.25 09:08:49] [0086m.08s.828ms] [1] CMT: Removed client [251]
+[2008.07.25 09:08:49] [0086m.08s.828ms] [1] CMT: There are [1] clients now
+[2008.07.25 11:46:13] [0243m.32s.500ms] [0] IT: Session [252] for host [esvm01] user [student] with process ID [500] created
+[2008.07.25 11:46:13] [0243m.32s.500ms] [1] SC[252]: Registered sub-client [Packager_16787734] with ID [1] for session ID [252] host [esvm01] user [student] process ID [500]
+[2008.07.25 11:46:13] [0243m.32s.562ms] [1] CMT: There are [2] clients now
+[2008.07.25 11:46:16] [0243m.35s.171ms] [1] SC[252]: UnRegistered sub-client [Packager_16787734] with ID [1] for session ID [252] host [esvm01] user [student] process ID [500]
+[2008.07.25 11:46:16] [0243m.35s.296ms] [1] CMT: Removed client [252]
+[2008.07.25 11:46:16] [0243m.35s.296ms] [1] CMT: There are [1] clients now
+[2008.07.25 11:52:05] [0249m.24s.296ms] [0] IT: Session [253] for host [esvm01] user [student] with process ID [2764] created
+[2008.07.25 11:52:05] [0249m.24s.312ms] [1] CMT: There are [2] clients now
+[2008.07.25 11:52:05] [0249m.24s.312ms] [1] SC[253]: Registered sub-client [Vdrc] with ID [1] for session ID [253] host [esvm01] user [student] process ID [2764]
+[2008.07.25 11:52:05] [0249m.24s.750ms] [1] SC[253]: UnRegistered sub-client [Vdrc] with ID [1] for session ID [253] host [esvm01] user [student] process ID [2764]
+[2008.07.25 11:52:05] [0249m.24s.828ms] [1] CMT: Removed client [253]
+[2008.07.25 11:52:05] [0249m.24s.828ms] [1] CMT: There are [1] clients now
+[2008.07.25 11:52:24] [0249m.43s.515ms] [0] IT: Session [254] for host [esvm01] user [student] with process ID [1096] created
+[2008.07.25 11:52:24] [0249m.43s.515ms] [1] SC[254]: Registered sub-client [Packager_17159203] with ID [1] for session ID [254] host [esvm01] user [student] process ID [1096]
+[2008.07.25 11:52:24] [0249m.43s.562ms] [1] CMT: There are [2] clients now
+[2008.07.25 11:52:25] [0249m.44s.234ms] [1] SC[254]: UnRegistered sub-client [Packager_17159203] with ID [1] for session ID [254] host [esvm01] user [student] process ID [1096]
+[2008.07.25 11:52:25] [0249m.44s.390ms] [1] CMT: Removed client [254]
+[2008.07.25 11:52:25] [0249m.44s.390ms] [1] CMT: There are [1] clients now
+[2008.07.25 12:37:19] [0294m.38s.225ms] [1] SC[244]: UnRegistered sub-client [BlockCacheDxD] with ID [11] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:19] [0294m.38s.413ms] [1] SC[244]: UnRegistered sub-client [ObjectHolder0] with ID [12] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:26] [0294m.45s.522ms] [1] SC[244]: UnRegistered sub-client [ICE] with ID [9] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:26] [0294m.45s.757ms] [1] SC[244]: UnRegistered sub-client [SelectionHolder] with ID [3] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:27] [0294m.46s.054ms] [1] SC[244]: Registered sub-client [DxDesigner] with ID [13] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:27] [0294m.46s.147ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[2984] # SessionID[244]] # SubClientData[SubClientName[DxDesigner] # SubClientID[13]]] ProjectPath[C:\MGTraining\projects\2007-DXD\database] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1217014647\database] WithLogFiles[1] Overwrite[0]
+[2008.07.25 12:37:28] [0294m.47s.132ms] [1] SC[244]: UnRegistered sub-client [DxDesigner] with ID [13] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:29] [0294m.48s.007ms] [1] SC[244]: UnRegistered sub-client [ConsReuseSubClient] with ID [4] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:29] [0294m.48s.007ms] [1] SC[244]: UnRegistered sub-client [DxD] with ID [1] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:29] [0294m.48s.085ms] [1] SC[244]: UnRegistered sub-client [xprob_icdb] with ID [2] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:32] [0294m.51s.366ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[2984] # SessionID[244]] # SubClientData[SubClientName[DxDesigner] # SubClientID[13]]] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1217014647\database] WithLogFiles[1] Overwrite[0]
+[2008.07.25 12:37:34] [0294m.53s.679ms] [1] SC[244]: UnRegistered sub-client [Navigator] with ID [5] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:34] [0294m.53s.725ms] [1] SC[244]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:34] [0294m.53s.741ms] [1] SC[244]: UnRegistered sub-client [SAE] with ID [8] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:35] [0294m.54s.241ms] [1] SC[244]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:37] [0294m.56s.663ms] [1] SC[244]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [244] host [esvm01] user [student] process ID [2984]
+[2008.07.25 12:37:38] [0294m.56s.929ms] [1] CMT: Removed client [244]
+[2008.07.25 12:37:38] [0294m.56s.929ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.07.25 12:37:40] [0294m.58s.929ms] [0] CMT: Starting server auto-close
+[2008.07.25 12:37:40] [0294m.58s.960ms] [0] S: Closing server
+[2008.07.25 12:37:40] [0294m.59s.054ms] [0] iCDB Server PI: Closing plugins
+[2008.07.25 12:37:40] [0294m.59s.054ms] [0] iCDB Server PI: Plugins closed
+[2008.07.25 12:37:40] [0294m.59s.085ms] [0] iCDB Server PI: Unloading database
+[2008.07.25 12:37:40] [0294m.59s.085ms] [0] iCDB Server PI: Saving storage
+[2008.07.25 12:37:40] [0294m.59s.085ms] [0] iCDB Server PI: Closing database
+[2008.07.25 12:37:40] [0294m.59s.429ms] [0] iCDB Server PI: Database closed
+[2008.07.25 12:37:40] [0294m.59s.429ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [16551216] ticks
+[2008.07.25 12:37:40] [0294m.59s.429ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [4623832] microseconds
+[2008.07.25 12:37:40] [0294m.59s.429ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [792]
+[2008.07.25 12:37:40] [0294m.59s.429ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [171] commands per second
+[2008.07.25 12:37:40] [0294m.59s.475ms] [0] S: STOP

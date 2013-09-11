@@ -1,0 +1,133 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 287258950000 74ls251
+DW 74act251
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:mux41 1
+AS builtin:mux41 PINORDER=Q INH S0 S1 D0 D1 D2 D3
+AP builtin:mux41 1 PINTYPE=OUT
+AP builtin:mux41 2 PINTYPE=IN
+AP builtin:mux41 3 PINTYPE=IN
+AP builtin:mux41 4 PINTYPE=IN
+AP builtin:mux41 5 PINTYPE=IN
+AP builtin:mux41 6 PINTYPE=IN
+AP builtin:mux41 7 PINTYPE=IN
+AP builtin:mux41 8 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:trinot 1
+AS builtin:trinot PINORDER=QN DSBL A
+AP builtin:trinot 1 PINTYPE=TRI
+AP builtin:trinot 2 PINTYPE=IN
+AP builtin:trinot 3 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+M builtin:delay $1I149
+I $1I149 builtin:delay $1N154 $1N205 TPHL=@ABCTOW`TPLH=@ABCTOW`
+M builtin:delay $1I148
+I $1I148 builtin:delay $1N167 D3 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I147
+I $1I147 builtin:delay $1N203 D2 TPLH=@DTOW0`TPHL=@DTOW1`
+M builtin:delay $1I146
+I $1I146 builtin:delay $1N127 D1 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I145
+I $1I145 builtin:delay $1N202 D0 TPLH=@DTOW0`TPHL=@DTOW1`
+M builtin:delay $1I129
+I $1I129 builtin:delay $1N156 B TPLH=@ABCTOW`TPHL=@ABCTOW`
+M builtin:delay $1I128
+I $1I128 builtin:delay $1N168 A TPHL=@ABCTOW`TPLH=@ABCTOW`
+M builtin:delay $1I140
+I $1I140 builtin:delay $1N166 B TPLH=@ABCTOY`TPHL=@ABCTOY`
+M builtin:delay $1I139
+I $1I139 builtin:delay $1N210 A TPHL=@ABCTOY`TPLH=@ABCTOY`
+M builtin:delay $1I138
+I $1I138 builtin:delay $1N158 $1N205 TPHL=@ABCTOY`TPLH=@ABCTOY`
+M builtin:delay $1I133
+I $1I133 builtin:delay $1N206 C TPLH=@ABCTOY`TPHL=@ABCTOY`
+M builtin:delay $1I132
+I $1I132 builtin:delay $1N157 C TPLH=@ABCTOW`TPHL=@ABCTOW`
+M builtin:mux41 $1I180
+I $1I180 builtin:mux41 $1N184 $1N157 $1N168 $1N156 $1N202 $1N127 $1N203 $1N167 
+M builtin:delay $1I134
+I $1I134 builtin:delay $1N171 D0 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I135
+I $1I135 builtin:delay $1N200 D1 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I136
+I $1I136 builtin:delay $1N201 D2 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I137
+I $1I137 builtin:delay $1N155 D3 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I141
+I $1I141 builtin:delay $1N172 D7 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I142
+I $1I142 builtin:delay $1N195 D6 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I143
+I $1I143 builtin:delay $1N194 D5 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I144
+I $1I144 builtin:delay $1N193 D4 TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I150
+I $1I150 builtin:delay $1N176 D4 TPLH=@DTOW0`TPHL=@DTOW1`
+M builtin:delay $1I151
+I $1I151 builtin:delay $1N173 D5 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I152
+I $1I152 builtin:delay $1N174 D6 TPLH=@DTOW0`TPHL=@DTOW1`
+M builtin:delay $1I153
+I $1I153 builtin:delay $1N175 D7 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:mux41 $1I159
+I $1I159 builtin:mux41 $1N183 $1N158 $1N210 $1N166 $1N193 $1N194 $1N195 $1N172 
+M builtin:mux41 $1I179
+I $1I179 builtin:mux41 $1N182 $1N206 $1N210 $1N166 $1N171 $1N200 $1N201 $1N155 
+M builtin:mux41 $1I181
+I $1I181 builtin:mux41 $1N185 $1N154 $1N168 $1N156 $1N176 $1N173 $1N174 $1N175 
+M builtin:or2 $1I186
+I $1I186 builtin:or2 $1N187 $1N182 $1N183 
+M builtin:or2 $1I190
+I $1I190 builtin:or2 $1N188 $1N184 $1N185 
+M builtin:not $1I204
+I $1I204 builtin:not $1N205 C 
+M builtin:trinot $1I191
+I $1I191 builtin:trinot ~W ~G $1N188 TPLZ=@GTOWLZ`TPHZ=@GTOWHZ`TPZL=@GTOWZL`TPZH=@GTOWZH`
+M builtin:tribuf $1I209
+I $1I209 builtin:tribuf Y ~G $1N187 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZH=@GTOYZH`TPZL=@GTOYZL`
+P ? ~G
+I ~G ? ~G
+P ? C
+I C ? C
+P ? D7
+I D7 ? D7
+P ? D5
+I D5 ? D5
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? D6
+I D6 ? D6
+P ? D4
+I D4 ? D4
+P ? D3
+I D3 ? D3
+P ? D2
+I D2 ? D2
+P ? D1
+I D1 ? D1
+P ? D0
+I D0 ? D0
+P ? ~W
+I ~W ? ~W
+P ? Y
+I Y ? Y
+EW

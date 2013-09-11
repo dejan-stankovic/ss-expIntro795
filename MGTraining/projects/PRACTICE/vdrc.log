@@ -1,0 +1,176 @@
+Error : [drc-32] - [block: memory.1 pin: A[0:7]] , Pin Type mismatch -- symbol=OUT, schematic=IN
+Error : [drc-32] - [block: memory.1 pin: DATA] , Pin Type mismatch -- symbol=OUT, schematic=IN
+Error : [drc-9] - [block: memory.1 pin: ~DS] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: memory.1 pin: D[0:15]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: memory.1 pin: A[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: memory.1 pin: DATA] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: memory.1 pin: ~RAMRD] Missing symbol pin property: Pin Number
+Error : [drc-10] - [schematic: EPCB1, component: memory] Missing block property: Level
+Error : [drc-9] - [block: array.1 pin: RAMWR[0:1]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: A[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: ~RAMRD] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: ~DS] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: D[0:15]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: A[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: RAMWR[0:1]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: BANK] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: PUP] Missing symbol pin property: Pin Number
+Warning : [drc-16] - [schematic: memory, component: array.1, pin: A[0:7]] Unconnected input pin
+Warning : [drc-16] - [schematic: memory, component: array.1, pin: RAMWR[0:1]] Unconnected input pin
+Error : [drc-10] - [schematic: memory, component: $1I45] Missing block property: Level
+Error : [drc-9] - [block: array.1 pin: RAMWR[0:1]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: A[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: ~RAMRD] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: ~DS] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: D[0:15]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: A[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: RAMWR[0:1]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: BANK] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: array.1 pin: PUP] Missing symbol pin property: Pin Number
+Warning : [drc-16] - [schematic: memory, component: array.1, pin: A[0:7]] Unconnected input pin
+Warning : [drc-16] - [schematic: memory, component: array.1, pin: RAMWR[0:1]] Unconnected input pin
+Error : [drc-10] - [schematic: memory, component: $1I46] Missing block property: Level
+Error : [drc-9] - [block: d_2_a.1 pin: DA[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: d_2_a.1 pin: DATA] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: d_2_a.1 pin: ~RAMRD] Missing symbol pin property: Pin Number
+Error : [drc-10] - [schematic: EPCB1, component: d_2_a] Missing block property: Level
+Error : [drc-32] - [block: ecl.1 pin: ~DS] , Pin Type mismatch -- symbol=IN, schematic=OUT
+Error : [drc-32] - [block: ecl.1 pin: DA[0:7]] , Pin Type mismatch -- symbol=OUT, schematic=IN
+Error : [drc-9] - [block: ecl.1 pin: ~DS] Missing symbol pin property: Pin Number
+Error : [drc-9] - [block: ecl.1 pin: DA[0:7]] Missing symbol pin property: Pin Number
+Error : [drc-10] - [schematic: EPCB1, component: ecl] Missing block property: Level
+Error : [drc-8] - [schematic: ecl, component: $1I10] Missing symbol property: Part Number, but block property exist
+Warning : [drc-16] - [schematic: ecl, component: rn_10_pack.1, pin: 10] Unconnected input pin
+Warning : [drc-16] - [schematic: ecl, component: rn_10_pack.1, pin: 10] Unconnected input pin
+Error : [drc-9] - [symbol: onsheet.1 pin: ON] Missing symbol pin property: Pin Number
+Error : [drc-9] - [symbol: offsheet.1 pin: OFF] Missing symbol pin property: Pin Number
+Warning : [drc-19] - [schematic: ecl, component: $2I30] None of the output pins on a component are hooked to a net
+Warning : [drc-19] - [schematic: ecl, component: $2I31] None of the output pins on a component are hooked to a net
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 33] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 38] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 36] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 42] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 34] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 41] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 37] Unconnected input pin
+Warning : [drc-16] - [schematic: EPCB1, component: 44p_econn.1, pin: 35] Unconnected input pin
+Error : [drc-35] - [schematic: array, net: ~DS] More than one driver on a net
+Error : [drc-35] - [schematic: array, net: ~DS] More than one driver on a net
+Warning : [drc-34] - [schematic: EPCB1, net: D0] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D0] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D0] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D0] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D1] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D1] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D1] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D1] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D2] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D2] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D2] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D2] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D3] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D3] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D3] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D3] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D4] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D4] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D4] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D4] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D5] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D5] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D5] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D5] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D6] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D6] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D6] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D6] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D7] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D7] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D7] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D7] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D8] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D8] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D8] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D8] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D9] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D9] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D9] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D9] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D10] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D10] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D10] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D10] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D11] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D11] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D11] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D11] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D12] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D12] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D12] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D12] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D13] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D13] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D13] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D13] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D14] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D14] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D14] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D14] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: EPCB1, net: D15] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: memory, net: D15] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D15] Output and tristate pins are connected together
+Warning : [drc-34] - [schematic: array, net: D15] Output and tristate pins are connected together
+Error : [drc-38] - [schematic: array, net: A0] Un-driven net
+Error : [drc-38] - [schematic: array, net: A0] Un-driven net
+Error : [drc-38] - [schematic: array, net: A1] Un-driven net
+Error : [drc-38] - [schematic: array, net: A1] Un-driven net
+Error : [drc-38] - [schematic: array, net: A2] Un-driven net
+Error : [drc-38] - [schematic: array, net: A2] Un-driven net
+Error : [drc-38] - [schematic: array, net: A3] Un-driven net
+Error : [drc-38] - [schematic: array, net: A3] Un-driven net
+Error : [drc-38] - [schematic: array, net: A4] Un-driven net
+Error : [drc-38] - [schematic: array, net: A4] Un-driven net
+Error : [drc-38] - [schematic: array, net: A5] Un-driven net
+Error : [drc-38] - [schematic: array, net: A5] Un-driven net
+Error : [drc-38] - [schematic: array, net: A6] Un-driven net
+Error : [drc-38] - [schematic: array, net: A6] Un-driven net
+Error : [drc-38] - [schematic: array, net: A7] Un-driven net
+Error : [drc-38] - [schematic: array, net: A7] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA0] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA1] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA2] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA4] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA5] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA6] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: DA7] Un-driven net
+Error : [drc-38] - [schematic: array, net: BANK] Un-driven net
+Error : [drc-38] - [schematic: array, net: BANK] Un-driven net
+Error : [drc-38] - [schematic: array, net: RAMWR0] Un-driven net
+Error : [drc-38] - [schematic: array, net: RAMWR0] Un-driven net
+Error : [drc-38] - [schematic: array, net: RAMWR1] Un-driven net
+Error : [drc-38] - [schematic: array, net: RAMWR1] Un-driven net
+Error : [drc-38] - [schematic: array, net: PUP] Un-driven net
+Error : [drc-38] - [schematic: array, net: PUP] Un-driven net
+Error : [drc-38] - [schematic: array, net: ~RAMRD] Un-driven net
+Error : [drc-38] - [schematic: array, net: ~RAMRD] Un-driven net
+Error : [drc-35] - [schematic: array, net: $1N29] More than one driver on a net
+Error : [drc-35] - [schematic: array, net: $1N29] More than one driver on a net
+Error : [drc-35] - [schematic: array, net: $1N115] More than one driver on a net
+Error : [drc-35] - [schematic: array, net: $1N115] More than one driver on a net
+Error : [drc-38] - [schematic: ecl, net: HS_CLK] Un-driven net
+Error : [drc-35] - [schematic: ecl, net: $1N45] More than one driver on a net
+Error : [drc-35] - [schematic: ecl, net: $1N47] More than one driver on a net
+Error : [drc-38] - [schematic: ecl, net: HS0] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS1] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS2] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS4] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS5] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS6] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS7] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: HS3] Un-driven net
+Error : [drc-38] - [schematic: ecl, net: $2N15] Un-driven net
+Warning : [drc-40] - [schematic: ecl, net: $2N17] Net not connected to a load
+Error : [drc-38] - [schematic: ecl, net: $2N21] Un-driven net
+Warning : [drc-40] - [schematic: ecl, net: $2N25] Net not connected to a load
+
+92 Error(s), 82 Warning(s), 0 Note(s), 2 Disabled

@@ -1,0 +1,30 @@
+Thu May 28 11:54:27 2009
+
+Project path: C:\MGTraining\projects\2007-DXD\database
+
+Constraints definition "CE2PARTS" added (default value: 254000).
+Constraints definition "CE2NONPLANECONDUCTOR" added (default value: 254000).
+Constraints definition "CE2PLANECONDUCTOR" added (default value: 254000).
+Constraints definition "CE2CE" added (default value: 254000).
+Constraints definition "SIM_DELAY_MATCH_TO" added (default value: (None)).
+Constraints definition "CUSTOM_DESCRIPTION" added.
+Constraints definition "CUSTOM_VALUE" added.
+Constraints definition "DSN_CON_AUTO_CONTROL" added (default value: 0).
+Constraints definition "REUSE_BLOCK_TMP_ID" added.
+Constraints definition "MULTIPLE_VIA_VALUE" added.
+Constraints definition "TPC2TPC" added (default value: 1016000).
+Constraints definition "TPC2TPE" added (default value: 635000).
+Constraints definition "TPC2CTP" added (default value: 1016000).
+Constraints definition "TPC2CSP" added (default value: 1016000).
+Constraints definition "TPC2CPOU" added (default value: 508000).
+Constraints definition "HLT_POWER_DISSIPATION" added.
+Constraints definition "HLT_POWER_SCALING_FACT" added (default value: 1.000000000000000).
+Constraints definition "HLT_THETA_JC" added.
+Constraints definition "HLT_CASING_TLIMIT" added.
+Constraints definition "HLT_JUNCTION_TLIMIT" added.
+Constraints definition "HLT_CASING_TACT" added.
+Constraints definition "HLT_JUNCTION_TACT" added.
+Constraints definition "DIELCONST" default value set to: 1.000000000000000.
+Constraints definition "DSN_DEF_DISTANCE_TOL" default value set to: 254000.
+Constraints definition "DSN_DISCRETES" default value set to: CAPACITOR=C;CONNECTOR=P,J;DIODE=D,CR;INDUCTOR=L;RESISTOR=R.
+Constraints definition "TEMPLATE" default value set to: (None).

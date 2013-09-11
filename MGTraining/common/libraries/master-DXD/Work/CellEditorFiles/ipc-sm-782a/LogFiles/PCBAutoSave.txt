@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                       03:32 PM Wednesday, March 14, 2007
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\ipc-sm-782a\C0402.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                       03:34 PM Wednesday, March 14, 2007
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\ipc-sm-782a\C0402.pcb
+

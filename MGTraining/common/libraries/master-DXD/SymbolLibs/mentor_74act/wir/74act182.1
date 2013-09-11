@@ -1,0 +1,129 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 121800315000 74ls182
+DW 74act182
+Q Case
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:nor3 1
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:or4 1
+AS builtin:or4 PINORDER=Q A B C D
+AP builtin:or4 1 PINTYPE=OUT
+AP builtin:or4 2 PINTYPE=IN
+AP builtin:or4 3 PINTYPE=IN
+AP builtin:or4 4 PINTYPE=IN
+AP builtin:or4 5 PINTYPE=IN
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:nor4 1
+AS builtin:nor4 PINORDER=QN A B C D
+AP builtin:nor4 1 PINTYPE=OUT
+AP builtin:nor4 2 PINTYPE=IN
+AP builtin:nor4 3 PINTYPE=IN
+AP builtin:nor4 4 PINTYPE=IN
+AP builtin:nor4 5 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+M builtin:and3 $1I192
+I $1I192 builtin:and3 $1N54 ~P0 ~G1 ~G0 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:and2 $1I214
+I $1I214 builtin:and2 $1N217 ~G1 ~G0 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:nor3 $1I203
+I $1I203 builtin:nor3 CNY $1N219 $1N54 $1N57 
+M builtin:and2 $1I215
+I $1I215 builtin:and2 $1N219 $1N222 $1N217 
+M builtin:and2 $1I188
+I $1I188 builtin:and2 $1N205 ~P0 ~G0 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:delay $1I223
+I $1I223 builtin:delay $1N224 ~G0 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:or4 $1I185
+I $1I185 builtin:or4 ~P ~P3 ~P2 ~P1 ~P0 TPHL=@PTOP0`TPLH=@PTOP1`
+M builtin:and2 $1I193
+I $1I193 builtin:and2 $1N57 ~P1 ~G1 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:and3 $1I198
+I $1I198 builtin:and3 $1N9 ~P2 ~G3 ~G2 
+M builtin:and4 $1I199
+I $1I199 builtin:and4 $1N14 ~P1 ~G3 ~G2 ~G1 
+M builtin:and4 $1I197
+I $1I197 builtin:and4 $1N19 ~G3 ~G2 ~G1 ~G0 
+M builtin:and2 $1I196
+I $1I196 builtin:and2 $1N24 ~P3 ~G3 
+M builtin:or4 $1I186
+I $1I186 builtin:or4 ~G $1N19 $1N14 $1N9 $1N24 TPHL=@PGTOG0`TPLH=@PGTOG1`
+M builtin:and3 $1I207
+I $1I207 builtin:and3 $1N210 ~G2 ~G1 ~G0 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:and4 $1I194
+I $1I194 builtin:and4 $1N34 ~P0 ~G2 ~G1 ~G0 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:and3 $1I190
+I $1I190 builtin:and3 $1N39 ~P1 ~G2 ~G1 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:and2 $1I189
+I $1I189 builtin:and2 $1N44 ~P2 ~G2 TPHL=@PGTOCN1`TPLH=@PGTOCN0`
+M builtin:and2 $1I208
+I $1I208 builtin:and2 $1N212 $1N222 $1N210 
+M builtin:nor4 $1I184
+I $1I184 builtin:nor4 CNZ $1N212 $1N34 $1N39 $1N44 
+M builtin:not $1I200
+I $1I200 builtin:not $1N222 CN TPHL=@CNTOCN1`TPLH=@CNTOCN0`
+M builtin:and2 $1I187
+I $1I187 builtin:and2 $1N62 $1N224 $1N222 
+M builtin:nor2 $1I204
+I $1I204 builtin:nor2 CNX $1N62 $1N205 
+P ? ~G3
+I ~G3 ? ~G3
+P ? ~G0
+I ~G0 ? ~G0
+P ? ~P2
+I ~P2 ? ~P2
+P ? ~P0
+I ~P0 ? ~P0
+P ? ~P1
+I ~P1 ? ~P1
+P ? CN
+I CN ? CN
+P ? ~G
+I ~G ? ~G
+P ? CNZ
+I CNZ ? CNZ
+P ? CNY
+I CNY ? CNY
+P ? CNX
+I CNX ? CNX
+P ? ~G2
+I ~G2 ? ~G2
+P ? ~G1
+I ~G1 ? ~G1
+P ? ~P
+I ~P ? ~P
+P ? ~P3
+I ~P3 ? ~P3
+EW

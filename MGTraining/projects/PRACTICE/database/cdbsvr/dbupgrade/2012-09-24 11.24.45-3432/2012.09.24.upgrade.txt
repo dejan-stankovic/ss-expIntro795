@@ -1,0 +1,40 @@
+[2012.09.24 11:24:46] [0000m.01s.718ms] [0] WELCOME
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] iCDB Server ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] Base flow version [7.9.4]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] Machine [ESVM01]  User [student]  PID [3432]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] SDD_PLATFORM [win32]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.24 11:24:46] [0000m.01s.718ms] [0] Creating database content backup before upgrade
+[2012.09.24 11:24:46] [0000m.01s.843ms] [0] Database content backed up to [C:\MGTraining\projects\PRACTICE\database\cdbback\2012-09-24 11.24.46-3432.zip] of size [268 186 bytes (261.9 kB)] in [122ms 464us]
+[2012.09.24 11:24:46] [0000m.01s.875ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.23;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.09.24 11:24:46] [0000m.02s.000ms] [0] Upgrading snapshot [1:DxD] from version [2704]
+[2012.09.24 11:24:46] [0000m.02s.156ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2012.09.24 11:24:46] [0000m.02s.156ms] [0] Snapshot [1:DxD] upgraded to version [2709] in [156ms 381us]
+[2012.09.24 11:24:46] [0000m.02s.171ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2012.09.24 11:24:46] [0000m.02s.187ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [18ms 306us]
+[2012.09.24 11:24:46] [0000m.02s.187ms] [0] Saving upgraded snapshot [1:DxD]
+[2012.09.24 11:24:46] [0000m.02s.187ms] [0] Upgraded snapshot [1:DxD] saved in [4ms 70us]
+[2012.09.24 11:24:46] [0000m.02s.312ms] [0] Upgrading snapshot [2:DEMO_layout_temp] from version [2704]
+[2012.09.24 11:24:46] [0000m.02s.328ms] [1] CORE: Upgrade snapshot DEMO_layout_temp completed successfully.
+[2012.09.24 11:24:46] [0000m.02s.328ms] [0] Snapshot [2:DEMO_layout_temp] upgraded to version [2709] in [14ms 884us]
+[2012.09.24 11:24:46] [0000m.02s.328ms] [0] Upgrading constraint definitions for snapshot [2:DEMO_layout_temp]
+[2012.09.24 11:24:46] [0000m.02s.343ms] [0] Constraint definitions for snapshot [2:DEMO_layout_temp] upgraded in [10ms 802us]
+[2012.09.24 11:24:46] [0000m.02s.343ms] [0] Saving upgraded snapshot [2:DEMO_layout_temp]
+[2012.09.24 11:24:46] [0000m.02s.343ms] [0] Upgraded snapshot [2:DEMO_layout_temp] saved in [2ms 134us]
+[2012.09.24 11:24:46] [0000m.02s.406ms] [0] Upgrading snapshot [3:DEMO] from version [2704]
+[2012.09.24 11:24:46] [0000m.02s.421ms] [1] CORE: Upgrade snapshot DEMO completed successfully.
+[2012.09.24 11:24:46] [0000m.02s.421ms] [0] Snapshot [3:DEMO] upgraded to version [2709] in [13ms 763us]
+[2012.09.24 11:24:46] [0000m.02s.421ms] [0] Upgrading constraint definitions for snapshot [3:DEMO]
+[2012.09.24 11:24:46] [0000m.02s.421ms] [0] Constraint definitions for snapshot [3:DEMO] upgraded in [10ms 491us]
+[2012.09.24 11:24:46] [0000m.02s.421ms] [0] Saving upgraded snapshot [3:DEMO]
+[2012.09.24 11:24:46] [0000m.02s.421ms] [0] Upgraded snapshot [3:DEMO] saved in [2ms 106us]
+[2012.09.24 11:24:46] [0000m.02s.484ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.09.24 11:24:46] [0000m.02s.500ms] [0] DONE
+[2012.09.24 11:24:46] [0000m.02s.500ms] [0] .

@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                         11:34 AM Monday, March 12, 2007
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\smd_discrete\DO214AC.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                         11:35 AM Monday, March 12, 2007
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\smd_discrete\DO214AC.pcb
+

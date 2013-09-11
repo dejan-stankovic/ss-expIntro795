@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                      08:33 AM Thursday, December 02, 2004
+Job Name: C:\mgtraining\common\libraries\master\Work\CellEditorFiles\thru_ic\DIP14.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                      02:09 PM Thursday, December 02, 2004
+Job Name: C:\mgtraining\common\libraries\master\Work\CellEditorFiles\thru_ic\DIP14.pcb
+

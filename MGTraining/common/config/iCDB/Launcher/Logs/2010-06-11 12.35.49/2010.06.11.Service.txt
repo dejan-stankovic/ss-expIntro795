@@ -1,0 +1,41 @@
+[2010.06.11 12:35:49] [0000m.00s.015ms] [0] WELCOME
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Remote Server Configuration Manager ver.1.009, ubDiQQ9snidtGpRfU+XMOQ, build:403588 created 2010-05-25 11:54:37, sources stamp:ubDiQQ9snidtGpRfU+XMOQ
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Base flow version [7.9]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] GBS Install Id [14584], Flow Id [EE 7.9], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2010]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Machine [esvm01]  User [student]  PID [2932]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Current working dir [C:\MentorGraphics\win32]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] PATH [C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\lib;]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] SDD_HOME [C:\MentorGraphics\7.9EE\SDD_HOME] on file system [NTFS]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] SDD_PLATFORM [win32]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2010.06.11 12:35:49] [0000m.00s.031ms] [0] LT: No proxy mode
+[2010.06.11 12:35:49] [0000m.00s.031ms] [1] WMain: Querying service configuration before stop
+[2010.06.11 12:35:49] [0000m.00s.031ms] [1] Service: Name              [Remote Server Configuration Manager 7.9]
+[2010.06.11 12:35:49] [0000m.00s.031ms] [1] Service: Binary file path  [C:\MentorGraphics\7.9EE\SDD_HOME\iCDB\win32\bin\iCDBNetLauncher.exe]
+[2010.06.11 12:35:49] [0000m.00s.031ms] [1] Service: Log on as         [LocalSystem]
+[2010.06.11 12:35:49] [0000m.00s.031ms] [1] Service: Start type        [automatic]
+[2010.06.11 12:35:49] [0000m.00s.031ms] [1] WMain: Stopping service
+[2010.06.11 12:35:49] [0000m.00s.031ms] [0] Service: Stopping service
+[2010.06.11 12:35:49] [0000m.00s.031ms] [0] Service: ERROR: Could not stop service: The service has not been started. (system error 1062)
+[2010.06.11 12:35:49] [0000m.00s.031ms] [0] WMain: ERROR: Could not stop service
+[2010.06.11 12:35:49] [0000m.00s.031ms] [0] END
+[2010.06.11 12:35:49] [0000m.00s.000ms] [0] WELCOME
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] Remote Server Configuration Manager ver.1.009, ubDiQQ9snidtGpRfU+XMOQ, build:403588 created 2010-05-25 11:54:37, sources stamp:ubDiQQ9snidtGpRfU+XMOQ
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] Base flow version [7.9]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] GBS Install Id [14584], Flow Id [EE 7.9], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2010]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] Machine [esvm01]  User [student]  PID [2952]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] Current working dir [C:\MentorGraphics\win32]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] PATH [C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\lib;]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] SDD_HOME [C:\MentorGraphics\7.9EE\SDD_HOME] on file system [NTFS]
+[2010.06.11 12:35:49] [0000m.00s.000ms] [1] SDD_PLATFORM [win32]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2010.06.11 12:35:49] [0000m.00s.015ms] [0] LT: No proxy mode
+[2010.06.11 12:35:49] [0000m.00s.015ms] [1] WMain: Installing service
+[2010.06.11 12:35:49] [0000m.00s.015ms] [0] Service: Installing service
+[2010.06.11 12:35:49] [0000m.00s.015ms] [0] Service: ERROR: Could not install service: The specified service already exists. (system error 1073)
+[2010.06.11 12:35:49] [0000m.00s.015ms] [0] WMain: ERROR: Could not install service
+[2010.06.11 12:35:50] [0000m.01s.515ms] [0] END

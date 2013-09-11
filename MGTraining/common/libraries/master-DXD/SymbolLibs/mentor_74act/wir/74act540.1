@@ -1,0 +1,70 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 99243557090 74ls540
+DW 74act540
+Q Case
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:trinot 1
+AS builtin:trinot PINORDER=QN DSBL A
+AP builtin:trinot 1 PINTYPE=TRI
+AP builtin:trinot 2 PINTYPE=IN
+AP builtin:trinot 3 PINTYPE=IN
+M builtin:or2 $1I80
+I $1I80 builtin:or2 $1N1 ~G1 ~G2 
+M builtin:trinot $1I81
+I $1I81 builtin:trinot ~Y2 $1N1 A2 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:trinot $1I82
+I $1I82 builtin:trinot ~Y3 $1N1 A3 TPLH=@ATOY1`TPHL=@ATOY0`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:trinot $1I83
+I $1I83 builtin:trinot ~Y4 $1N1 A4 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:trinot $1I84
+I $1I84 builtin:trinot ~Y5 $1N1 A5 TPLH=@ATOY1`TPHL=@ATOY0`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:trinot $1I85
+I $1I85 builtin:trinot ~Y6 $1N1 A6 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:trinot $1I86
+I $1I86 builtin:trinot ~Y7 $1N1 A7 TPLH=@ATOY1`TPHL=@ATOY0`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:trinot $1I87
+I $1I87 builtin:trinot ~Y8 $1N1 A8 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:trinot $1I75
+I $1I75 builtin:trinot ~Y1 $1N1 A1 TPLH=@ATOY1`TPHL=@ATOY0`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+P ? A8
+I A8 ? A8
+P ? ~Y8
+I ~Y8 ? ~Y8
+P ? ~G1
+I ~G1 ? ~G1
+P ? ~G2
+I ~G2 ? ~G2
+P ? ~Y1
+I ~Y1 ? ~Y1
+P ? ~Y2
+I ~Y2 ? ~Y2
+P ? ~Y3
+I ~Y3 ? ~Y3
+P ? ~Y4
+I ~Y4 ? ~Y4
+P ? ~Y5
+I ~Y5 ? ~Y5
+P ? ~Y6
+I ~Y6 ? ~Y6
+P ? ~Y7
+I ~Y7 ? ~Y7
+P ? A1
+I A1 ? A1
+P ? A2
+I A2 ? A2
+P ? A3
+I A3 ? A3
+P ? A4
+I A4 ? A4
+P ? A5
+I A5 ? A5
+P ? A6
+I A6 ? A6
+P ? A7
+I A7 ? A7
+EW

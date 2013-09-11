@@ -1,0 +1,14 @@
+
+	 ****** Upgrading existing variants information to iCDB format. ******
+
+-- Determining Forward Annotation Pending status.
+-- Searching for old format variants data to be upgraded.
+-- Loading old format variants data from 'DxD' snapshot.
+-- Loading old format variants data from 'DEMO' snapshot.
+-- Front-end and back-end variants data needs to be merged before upgrading.
+-- Merging front-end and back-end variants data.
+	-- Merge Result: Successful completion. No changes were found.
+-- Saving variants data to iCDB database.
+-- Removing old variants data.
+
+	 ****** Upgrade process completed successfully. ******

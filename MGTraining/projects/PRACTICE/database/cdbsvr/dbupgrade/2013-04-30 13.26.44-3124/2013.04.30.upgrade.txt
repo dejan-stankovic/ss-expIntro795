@@ -1,0 +1,49 @@
+[2013.04.30 13:26:45] [0000m.03s.109ms] [0] WELCOME
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] iCDB Server ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] Base flow version [7.9.4]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] Machine [ESVM01]  User [student]  PID [3124]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] SDD_PLATFORM [win32]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] WDIR [c:\WDIR;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [1] Local iCDB working dir [c:\WDIR\iCDB] on file system [NTFS]
+[2013.04.30 13:26:45] [0000m.03s.140ms] [0] Creating database content backup before upgrade
+[2013.04.30 13:26:45] [0000m.03s.312ms] [0] Database content backed up to [C:\MGTraining\projects\PRACTICE\database\cdbback\2013-04-30 13.26.45-3124.zip] of size [268 615 bytes (262.3 kB)] in [164ms 830us]
+[2013.04.30 13:26:45] [0000m.03s.343ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2013.04.30 13:26:45] [0000m.03s.390ms] [0] Loading snapshot [1:DxD] version [2709]
+[2013.04.30 13:26:45] [0000m.03s.422ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.422ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.422ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.453ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.453ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.468ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.468ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.468ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.484ms] [0] Snapshot [1:DxD] loaded in [94ms 895us]
+[2013.04.30 13:26:45] [0000m.03s.484ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2013.04.30 13:26:45] [0000m.03s.515ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [32ms 268us]
+[2013.04.30 13:26:45] [0000m.03s.515ms] [0] Saving snapshot [1:DxD]
+[2013.04.30 13:26:45] [0000m.03s.562ms] [0] Snapshot [1:DxD] saved in [42ms 459us]
+[2013.04.30 13:26:45] [0000m.03s.734ms] [0] Loading snapshot [2:DEMO_layout_temp] version [2709]
+[2013.04.30 13:26:45] [0000m.03s.734ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.734ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:45] [0000m.03s.765ms] [0] Snapshot [2:DEMO_layout_temp] loaded in [24ms 401us]
+[2013.04.30 13:26:45] [0000m.03s.765ms] [0] Upgrading constraint definitions for snapshot [2:DEMO_layout_temp]
+[2013.04.30 13:26:45] [0000m.03s.875ms] [0] Constraint definitions for snapshot [2:DEMO_layout_temp] upgraded in [116ms 938us]
+[2013.04.30 13:26:45] [0000m.03s.875ms] [0] Saving snapshot [2:DEMO_layout_temp]
+[2013.04.30 13:26:45] [0000m.03s.875ms] [0] Snapshot [2:DEMO_layout_temp] saved in [5ms 74us]
+[2013.04.30 13:26:46] [0000m.03s.968ms] [0] Loading snapshot [3:DEMO] version [2709]
+[2013.04.30 13:26:46] [0000m.03s.984ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:46] [0000m.03s.984ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:26:46] [0000m.04s.000ms] [0] Snapshot [3:DEMO] loaded in [29ms 579us]
+[2013.04.30 13:26:46] [0000m.04s.000ms] [0] Upgrading constraint definitions for snapshot [3:DEMO]
+[2013.04.30 13:26:46] [0000m.04s.031ms] [0] Constraint definitions for snapshot [3:DEMO] upgraded in [18ms 427us]
+[2013.04.30 13:26:46] [0000m.04s.031ms] [0] Saving snapshot [3:DEMO]
+[2013.04.30 13:26:46] [0000m.04s.031ms] [0] Snapshot [3:DEMO] saved in [3ms 461us]
+[2013.04.30 13:26:46] [0000m.04s.140ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.24;user.cns=5e0b-ea27-b28c-45b9-5092-081a-0920-8150-1001-718f-2c7c-0ac5]
+[2013.04.30 13:26:46] [0000m.04s.156ms] [0] DONE
+[2013.04.30 13:26:46] [0000m.04s.156ms] [0] .

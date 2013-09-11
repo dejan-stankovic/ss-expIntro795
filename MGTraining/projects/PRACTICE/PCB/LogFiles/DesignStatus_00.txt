@@ -1,0 +1,94 @@
+=======================================================================
+Expedition PCB - Pinnacle - Version 2008.0.273.242
+=======================================================================
+
+Job Directory:        C:\MGTraining\projects\DEMO\PCB\
+
+Design Status Report: C:\MGTraining\projects\DEMO\PCB\LogFiles\DesignStatus_00.txt
+
+Wed Jan 23 17:22:52 2008
+
+=======================================================================
+DESIGN STATUS
+=======================================================================
+Board Size Extents  ............ 3.55 X 2.75 (in)
+Route Border Extents  .......... 3.45 X 2.65 (in)
+Actual Board Area  ............. 9.28 (in)
+Actual Route Area  ............. 8.67 (in)
+
+Placement Areas: Name            Available         Required          Required/Available
+                 Entire Board    18.56 Sq. (in)    5.59 Sq. (in)     30.11 %
+
+Pins  .......................... 452
+Pins per Route Area  ........... 52.11 Pins/Sq. (in)
+
+Layers  ........................ 6
+    Layer 1 is a signal layer
+        Trace Widths  .......... 8, 10
+    Layer 2 is a signal layer
+        Trace Widths  .......... 8, 10
+    Layer 3 is a Negative Plane Layer with nets
+        GND
+        Trace Widths  .......... None.
+    Layer 4 is a Positive Plane Layer with nets
+        VCC
+        VDD
+        VEE
+        Trace Widths  .......... None.
+    Layer 5 is a signal layer
+        Trace Widths  .......... 8, 10
+    Layer 6 is a signal layer
+        Trace Widths  .......... 8, 10
+
+Nets  .......................... 84
+Connections  ................... 343
+Open Connections  .............. 0
+Differential Pairs  ............ 1
+Differential Pair Names:   DP1-NEG   DP1-POS
+                           
+Percent Routed  ................ 100.00 %
+
+Netline Length  ................ 5.53 (in)
+Netline Manhattan Length  ...... 6.71 (in)
+Total Trace Length  ............ 156.01 (in)
+
+Trace Widths Used (th)  ........ 8, 10
+Vias  .......................... 182
+Via Span  Name                   Quantity
+   1-6    25th via pad           123
+          40th via pad           59
+
+Teardrops....................... 0
+    Pad Teardrops............... 0
+    Trace Teardrops............. 0
+    Custom Teardrops............ 0
+Breakouts....................... 0
+
+Virtual Pins.................... 0
+Guide Pins ..................... 0
+
+Parts Placed  .................. 131
+    Parts Mounted on Top  ...... 20
+        SMD  ................... 13
+        Through  ............... 7
+        Test Points  ........... 0
+        Mechanical  ............ 0
+    Parts Mounted on Bottom  ... 110
+        SMD  ................... 30
+        Through  ............... 0
+        Test Points  ........... 80
+        Mechanical  ............ 0
+    Embedded Components ........ 0
+        Capacitors ............. 0
+        Resistors .............. 0
+    Edge Connector Parts  ...... 1
+
+Parts not Placed  .............. 0
+
+Nested Cells  .................. 0
+
+Jumpers  ....................... 0
+
+Through Holes  ................. 246
+    Holes per Board Area  ...... 26.51 Holes/Sq. (in)
+Mounting Holes  ................ 6

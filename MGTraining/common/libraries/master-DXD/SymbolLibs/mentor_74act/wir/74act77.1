@@ -1,0 +1,32 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 281461964000 74ls77
+DW 74act77
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+M builtin:udfdl $1I63
+I $1I63 builtin:udfdl 2Q ? ? ? ? ? ? ? 2D G TPHLPDQ=@PDTOQ0`TPHLPEQ=@PETOQ0`TPLHPDQ=@PDTOQ1`TPLHPEQ=@PETOQ1`THOLDPD1=@TH_PD1`THOLDPD0=@TH_PD0`TSUPD1=@TS_PD1`TSUPD0=@TS_PD0`TPULSEPE=@PWPE`
+M builtin:udfdl $1I54
+I $1I54 builtin:udfdl 1Q ? ? ? ? ? ? ? 1D G TPULSEPE=@PWPE`TSUPD0=@TS_PD0`TSUPD1=@TS_PD1`THOLDPD0=@TH_PD0`THOLDPD1=@TH_PD1`TPLHPEQ=@PETOQ1`TPLHPDQ=@PDTOQ1`TPHLPEQ=@PETOQ0`TPHLPDQ=@PDTOQ0`
+P ? 1Q
+I 1Q ? 1Q
+P ? G
+I G ? G
+P ? 1D
+I 1D ? 1D
+P ? 2D
+I 2D ? 2D
+P ? 2Q
+I 2Q ? 2Q
+EW

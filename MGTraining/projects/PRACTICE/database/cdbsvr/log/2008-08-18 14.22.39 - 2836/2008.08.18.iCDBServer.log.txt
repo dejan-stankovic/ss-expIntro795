@@ -1,0 +1,52 @@
+[2008.08.18 14:22:39] [0000m.00s.156ms] [0] Start logging
+[2008.08.18 14:22:39] [0000m.00s.187ms] [1] Machine [esvm01]  User [student]  PID [2836]
+[2008.08.18 14:22:39] [0000m.00s.187ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2008.08.18 14:22:39] [0000m.00s.187ms] [2] PathTranslator: WARNING: Config file not found [C:\MGTraining\common\config\iCDB\PathsMap.cfg]
+[2008.08.18 14:22:39] [0000m.00s.187ms] [2] S: Loading config files
+[2008.08.18 14:22:39] [0000m.00s.203ms] [3] S: Config loaded
+[2008.08.18 14:22:39] [0000m.00s.218ms] [0] S: Starting server ver.1.002 (build 293638 created 2008-05-30 11:42:36) in auto execute mode
+[2008.08.18 14:22:39] [0000m.00s.218ms] [0] S: Project [C:\MGTraining\projects\PRACTICE\database]
+[2008.08.18 14:22:39] [0000m.00s.218ms] [0] S: START
+[2008.08.18 14:22:39] [0000m.00s.218ms] [0] S: Server startup lock file created
+[2008.08.18 14:22:39] [0000m.00s.312ms] [0] S: Listening for client connections on port [10000]
+[2008.08.18 14:22:39] [0000m.00s.328ms] [0] S: Server GUID [d74c-6c1a-da3a-e344-f18e-9a83-28e9-a840-1402-818f-2c8c-d9c5]
+[2008.08.18 14:22:40] [0000m.00s.500ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2008.08.18 14:22:40] [0000m.00s.531ms] [0] S: Local disc access time: 125 us
+[2008.08.18 14:22:40] [0000m.00s.531ms] [0] S: Filer access time: 91 us
+[2008.08.18 14:22:40] [0000m.00s.546ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2008.08.18 14:22:40] [0000m.00s.546ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2008.08.18 14:22:40] [0000m.00s.546ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2008.08.18 14:22:40] [0000m.00s.546ms] [0] iCDB Server PI: Constraint definitions already present in database
+[2008.08.18 14:22:40] [0000m.00s.546ms] [0] iCDB Server PI: Initializing plugins
+[2008.08.18 14:22:40] [0000m.00s.750ms] [0] iCDB Server PI: Plugins initialized
+[2008.08.18 14:22:40] [0000m.00s.750ms] [0] S: iCDB database loaded
+[2008.08.18 14:22:40] [0000m.00s.750ms] [0] S: Project GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2008.08.18 14:22:40] [0000m.00s.750ms] [0] S: Starting threads
+[2008.08.18 14:22:40] [0000m.00s.750ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2008.08.18 14:22:40] [0000m.00s.750ms] [0] S: Wrote data to server address file
+[2008.08.18 14:22:40] [0000m.00s.750ms] [0] S: Server startup lock file removed
+[2008.08.18 14:22:42] [0000m.02s.734ms] [0] IT: Session [380] for host [esvm01] user [student] with process ID [2584] created
+[2008.08.18 14:22:42] [0000m.02s.734ms] [1] SC[380]: Registered sub-client [Expedition PCB_862609] with ID [1] for session ID [380] host [esvm01] user [student] process ID [2584]
+[2008.08.18 14:22:42] [0000m.02s.812ms] [1] CMT: There are [1] clients now
+[2008.08.18 14:22:56] [0000m.17s.078ms] [1] SC[380]: Registered sub-client [ExpeditionCrossProber] with ID [2] for session ID [380] host [esvm01] user [student] process ID [2584]
+[2008.08.18 14:27:24] [0004m.45s.062ms] [1] SC[380]: UnRegistered sub-client [ExpeditionCrossProber] with ID [2] for session ID [380] host [esvm01] user [student] process ID [2584]
+[2008.08.18 14:27:25] [0004m.45s.640ms] [1] SC[380]: Registered sub-client [iCDBBackup] with ID [3] for session ID [380] host [esvm01] user [student] process ID [2584]
+[2008.08.18 14:27:25] [0004m.45s.687ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[2584] # SessionID[380]] # SubClientData[SubClientName[iCDBBackup] # SubClientID[3]]] ProjectPath[C:\MGTraining\projects\PRACTICE\database] BackupPath[C:\MGTraining\projects\PRACTICE\AutoBackup\1219094845\database] WithLogFiles[1] Overwrite[0]
+[2008.08.18 14:27:25] [0004m.46s.140ms] [1] SC[380]: UnRegistered sub-client [iCDBBackup] with ID [3] for session ID [380] host [esvm01] user [student] process ID [2584]
+[2008.08.18 14:27:27] [0004m.47s.468ms] [1] SC[380]: UnRegistered sub-client [Expedition PCB_862609] with ID [1] for session ID [380] host [esvm01] user [student] process ID [2584]
+[2008.08.18 14:27:27] [0004m.47s.562ms] [1] CMT: Removed client [380]
+[2008.08.18 14:27:27] [0004m.47s.562ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.08.18 14:27:28] [0004m.48s.968ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[2584] # SessionID[380]] # SubClientData[SubClientName[iCDBBackup] # SubClientID[3]]] BackupPath[C:\MGTraining\projects\PRACTICE\AutoBackup\1219094845\database] WithLogFiles[1] Overwrite[0]
+[2008.08.18 14:27:29] [0004m.49s.531ms] [0] CMT: Starting server auto-close
+[2008.08.18 14:27:29] [0004m.49s.578ms] [0] S: Closing server
+[2008.08.18 14:27:29] [0004m.49s.734ms] [0] iCDB Server PI: Closing plugins
+[2008.08.18 14:27:29] [0004m.49s.734ms] [0] iCDB Server PI: Plugins closed
+[2008.08.18 14:27:29] [0004m.49s.734ms] [0] iCDB Server PI: Unloading database
+[2008.08.18 14:27:29] [0004m.49s.734ms] [0] iCDB Server PI: Saving storage
+[2008.08.18 14:27:29] [0004m.49s.734ms] [0] iCDB Server PI: Closing database
+[2008.08.18 14:27:29] [0004m.49s.828ms] [0] iCDB Server PI: Database closed
+[2008.08.18 14:27:29] [0004m.49s.828ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [404943] ticks
+[2008.08.18 14:27:29] [0004m.49s.828ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [113126] microseconds
+[2008.08.18 14:27:29] [0004m.49s.828ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [144]
+[2008.08.18 14:27:29] [0004m.49s.828ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [1272] commands per second
+[2008.08.18 14:27:29] [0004m.50s.203ms] [0] S: STOP

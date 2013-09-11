@@ -1,0 +1,130 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 258645854500 74ls642
+DW 74act642
+Q Case
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+M builtin:nor2 $1I187
+I $1I187 builtin:nor2 $1N148 ~G $1N192 TPLH=@GDIRB0`TPHL=@GDIRB1`
+M builtin:delay $1I266
+I $1I266 builtin:delay $1N291 A8 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I265
+I $1I265 builtin:delay $1N287 A7 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I264
+I $1I264 builtin:delay $1N285 A6 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I263
+I $1I263 builtin:delay $1N280 A5 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I262
+I $1I262 builtin:delay $1N278 A4 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I261
+I $1I261 builtin:delay $1N274 A3 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I259
+I $1I259 builtin:delay $1N268 A1 TPLH=@AB0`TPHL=@AB1`
+M builtin:delay $1I233
+I $1I233 builtin:delay $1N236 B1 TPLH=@BA0`TPHL=@BA1`
+M builtin:delay $1I232
+I $1I232 builtin:delay $1N238 B2 TPLH=@BA0`TPHL=@BA1`
+M builtin:delay $1I230
+I $1I230 builtin:delay $1N244 B4 TPLH=@BA0`TPHL=@BA1`
+M builtin:delay $1I229
+I $1I229 builtin:delay $1N247 B5 TPLH=@BA0`TPHL=@BA1`
+M builtin:delay $1I228
+I $1I228 builtin:delay $1N250 B6 TPLH=@BA0`TPHL=@BA1`
+M builtin:delay $1I227
+I $1I227 builtin:delay $1N253 B7 TPLH=@BA0`TPHL=@BA1`
+M builtin:not $1I186
+I $1I186 builtin:not $1N192 DIR 
+M builtin:nand2 $1I185
+I $1I185 builtin:nand2 A1 $1N169 $1N236 STR01 = DW`
+M builtin:nand2 $1I184
+I $1I184 builtin:nand2 B1 $1N268 $1N148 STR01 = DW`
+M builtin:nand2 $1I202
+I $1I202 builtin:nand2 B8 $1N291 $1N148 STR01 = DW`
+M builtin:nand2 $1I201
+I $1I201 builtin:nand2 B7 $1N287 $1N148 STR01 = DW`
+M builtin:nand2 $1I200
+I $1I200 builtin:nand2 B6 $1N285 $1N148 STR01 = DW`
+M builtin:nand2 $1I199
+I $1I199 builtin:nand2 B5 $1N280 $1N148 STR01 = DW`
+M builtin:nand2 $1I198
+I $1I198 builtin:nand2 B4 $1N278 $1N148 STR01 = DW`
+M builtin:nand2 $1I197
+I $1I197 builtin:nand2 B3 $1N274 $1N148 STR01 = DW`
+M builtin:nand2 $1I215
+I $1I215 builtin:nand2 A7 $1N169 $1N253 STR01 = DW`
+M builtin:nand2 $1I214
+I $1I214 builtin:nand2 A6 $1N169 $1N250 STR01 = DW`
+M builtin:nand2 $1I213
+I $1I213 builtin:nand2 A5 $1N169 $1N247 STR01 = DW`
+M builtin:nand2 $1I212
+I $1I212 builtin:nand2 A4 $1N169 $1N244 STR01 = DW`
+M builtin:nand2 $1I211
+I $1I211 builtin:nand2 A3 $1N169 $1N241 STR01 = DW`
+M builtin:nand2 $1I210
+I $1I210 builtin:nand2 A2 $1N169 $1N238 STR01 = DW`
+M builtin:delay $1I231
+I $1I231 builtin:delay $1N241 B3 TPLH=@BA0`TPHL=@BA1`
+M builtin:nor2 $1I188
+I $1I188 builtin:nor2 $1N169 DIR ~G TPLH=@GDIRA0`TPHL=@GDIRA1`
+M builtin:nand2 $1I216
+I $1I216 builtin:nand2 A8 $1N169 $1N256 STR01 = DW`
+M builtin:delay $1I226
+I $1I226 builtin:delay $1N256 B8 TPLH=@BA0`TPHL=@BA1`
+M builtin:nand2 $1I196
+I $1I196 builtin:nand2 B2 $1N271 $1N148 STR01 = DW`
+M builtin:delay $1I260
+I $1I260 builtin:delay $1N271 A2 TPLH=@AB0`TPHL=@AB1`
+P ? DIR
+I DIR ? DIR
+P ? ~G
+I ~G ? ~G
+P ? B1
+I B1 ? B1
+P ? B2
+I B2 ? B2
+P ? B3
+I B3 ? B3
+P ? B4
+I B4 ? B4
+P ? B5
+I B5 ? B5
+P ? B6
+I B6 ? B6
+P ? B7
+I B7 ? B7
+P ? A1
+I A1 ? A1
+P ? A2
+I A2 ? A2
+P ? A3
+I A3 ? A3
+P ? A4
+I A4 ? A4
+P ? A5
+I A5 ? A5
+P ? A6
+I A6 ? A6
+P ? A7
+I A7 ? A7
+P ? A8
+I A8 ? A8
+P ? B8
+I B8 ? B8
+EW

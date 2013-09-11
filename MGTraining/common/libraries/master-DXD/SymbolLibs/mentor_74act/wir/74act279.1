@@ -1,0 +1,53 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 166846409100 74ls279
+DW 74act279
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:nand3 1
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+M builtin:delay $1I55
+I $1I55 builtin:delay $1N68 ~R1 TPHL=@RTOQ0`
+M builtin:delay $1I54
+I $1I54 builtin:delay $1N64 ~S2 TPHL=@STOQ1`TPLH=@STOQ0`
+M builtin:nand2 $1I40
+I $1I40 builtin:nand2 Q $1N56 $1N31 
+M builtin:nand2 $1I41
+I $1I41 builtin:nand2 $1N31 Q $1N58 
+M builtin:nand3 $1I42
+I $1I42 builtin:nand3 Q1 $1N62 $1N64 $1N49 
+M builtin:nand2 $1I39
+I $1I39 builtin:nand2 $1N49 Q1 $1N68 
+M builtin:delay $1I51
+I $1I51 builtin:delay $1N56 ~S TPHL=@STOQ1`TPLH=@STOQ0`
+M builtin:delay $1I52
+I $1I52 builtin:delay $1N58 ~R TPHL=@RTOQ0`
+M builtin:delay $1I53
+I $1I53 builtin:delay $1N62 ~S1 TPHL=@STOQ1`TPLH=@STOQ0`
+P ? Q
+I Q ? Q
+P ? Q1
+I Q1 ? Q1
+P ? ~S
+I ~S ? ~S
+P ? ~R
+I ~R ? ~R
+P ? ~R1
+I ~R1 ? ~R1
+P ? ~S1
+I ~S1 ? ~S1
+P ? ~S2
+I ~S2 ? ~S2
+EW

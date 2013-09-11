@@ -1,0 +1,11 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing diode
+	Adding symbol diode_axial 
+	Adding symbol diode_zener 
+DXLIB2LMC utility complete

@@ -1,0 +1,28 @@
+[2008.07.21 06:02:55] [5308m.13s.151ms] [1] SC[230]: UnRegistered sub-client [ICE] with ID [9] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:05] [5308m.23s.433ms] [1] SC[230]: UnRegistered sub-client [SelectionHolder] with ID [3] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:06] [5308m.24s.073ms] [1] SC[230]: Registered sub-client [DxDesigner] with ID [11] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:06] [5308m.24s.386ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[2924] # SessionID[230]] # SubClientData[SubClientName[DxDesigner] # SubClientID[11]]] ProjectPath[C:\MGTraining\projects\2007-DXD\database] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1216645385\database] WithLogFiles[1] Overwrite[0]
+[2008.07.21 06:03:08] [5308m.26s.417ms] [1] SC[230]: UnRegistered sub-client [DxDesigner] with ID [11] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:10] [5308m.28s.073ms] [1] SC[230]: UnRegistered sub-client [ConsReuseSubClient] with ID [4] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:10] [5308m.28s.120ms] [1] SC[230]: UnRegistered sub-client [DxD] with ID [1] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:10] [5308m.28s.198ms] [1] SC[230]: UnRegistered sub-client [xprob_icdb] with ID [2] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:10] [5308m.28s.667ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[2924] # SessionID[230]] # SubClientData[SubClientName[DxDesigner] # SubClientID[11]]] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1216645385\database] WithLogFiles[1] Overwrite[0]
+[2008.07.21 06:03:12] [5308m.30s.917ms] [1] SC[230]: UnRegistered sub-client [Navigator] with ID [5] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:12] [5308m.30s.979ms] [1] SC[230]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:12] [5308m.30s.995ms] [1] SC[230]: UnRegistered sub-client [SAE] with ID [8] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:13] [5308m.31s.589ms] [1] SC[230]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:15] [5308m.33s.823ms] [1] SC[230]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.21 06:03:16] [5308m.34s.620ms] [1] CMT: Removed client [230]
+[2008.07.21 06:03:16] [5308m.34s.620ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.07.21 06:03:18] [5308m.36s.151ms] [0] CMT: Starting server auto-close
+[2008.07.21 06:03:18] [5308m.36s.183ms] [0] S: Closing server
+[2008.07.21 06:03:18] [5308m.36s.354ms] [0] iCDB Server PI: Closing plugins
+[2008.07.21 06:03:18] [5308m.36s.854ms] [0] iCDB Server PI: Plugins closed
+[2008.07.21 06:03:18] [5308m.36s.901ms] [0] iCDB Server PI: Unloading database
+[2008.07.21 06:03:18] [5308m.36s.901ms] [0] iCDB Server PI: Saving storage
+[2008.07.21 06:03:18] [5308m.36s.901ms] [0] iCDB Server PI: Closing database
+[2008.07.21 06:03:20] [5308m.38s.386ms] [0] iCDB Server PI: Database closed
+[2008.07.21 06:03:20] [5308m.38s.386ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [0] ticks
+[2008.07.21 06:03:20] [5308m.38s.386ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [0] microseconds
+[2008.07.21 06:03:20] [5308m.38s.386ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [0]
+[2008.07.21 06:03:20] [5308m.38s.745ms] [0] S: STOP

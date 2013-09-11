@@ -1,0 +1,90 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 60998601190 74ls257
+DW 74act257
+Q Case
+|Q builtin:trinot 1
+AS builtin:trinot PINORDER=QN DSBL A
+AP builtin:trinot 1 PINTYPE=TRI
+AP builtin:trinot 2 PINTYPE=IN
+AP builtin:trinot 3 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+M builtin:trinot $1I140
+I $1I140 builtin:trinot 3Y ~G $1N4 TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:trinot $1I84
+I $1I84 builtin:trinot 1Y ~G $1N10 TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:delay $1I91
+I $1I91 builtin:delay $1N94 S TPLH=@SELTOY1`TPHL=@SELTOY0`
+M builtin:delay $1I112
+I $1I112 builtin:delay $1N125 3B TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I111
+I $1I111 builtin:delay $1N123 3A TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I114
+I $1I114 builtin:delay $1N129 4B TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I110
+I $1I110 builtin:delay $1N121 2B TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I109
+I $1I109 builtin:delay $1N119 2A TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I108
+I $1I108 builtin:delay $1N117 1B TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:delay $1I102
+I $1I102 builtin:delay $1N115 1A TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:andnor22 $1I89
+I $1I89 builtin:andnor22 $1N7 $1N127 $1N13 $1N129 $1N94 
+M builtin:andnor22 $1I88
+I $1I88 builtin:andnor22 $1N4 $1N123 $1N13 $1N125 $1N94 
+M builtin:andnor22 $1I87
+I $1I87 builtin:andnor22 $1N1 $1N119 $1N13 $1N121 $1N94 
+M builtin:andnor22 $1I85
+I $1I85 builtin:andnor22 $1N10 $1N115 $1N13 $1N117 $1N94 
+M builtin:delay $1I113
+I $1I113 builtin:delay $1N127 4A TPHL=@DTOY0`TPLH=@DTOY1`
+M builtin:trinot $1I139
+I $1I139 builtin:trinot 2Y ~G $1N1 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`
+M builtin:trinot $1I141
+I $1I141 builtin:trinot 4Y ~G $1N7 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`
+M builtin:not $1I86
+I $1I86 builtin:not $1N13 S TPLH=@SELTOY1`TPHL=@SELTOY0`
+P ? 4Y
+I 4Y ? 4Y
+P ? 3Y
+I 3Y ? 3Y
+P ? 2Y
+I 2Y ? 2Y
+P ? 4B
+I 4B ? 4B
+P ? 1Y
+I 1Y ? 1Y
+P ? S
+I S ? S
+P ? 4A
+I 4A ? 4A
+P ? 3B
+I 3B ? 3B
+P ? 3A
+I 3A ? 3A
+P ? 2B
+I 2B ? 2B
+P ? 2A
+I 2A ? 2A
+P ? 1B
+I 1B ? 1B
+P ? 1A
+I 1A ? 1A
+P ? ~G
+I ~G ? ~G
+EW

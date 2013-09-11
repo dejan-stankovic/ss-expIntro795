@@ -1,0 +1,18 @@
+[2009.10.07 11:13:30] [0000m.03s.718ms] [0] WELCOME
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] iCDB Server ver.1.007, HvQ8kKCvhuzsBu5CD2LCWg, build:369282 created 2009-09-30 07:43:26, sources stamp:HvQ8kKCvhuzsBu5CD2LCWg
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] Copyright 2009 Mentor Graphics Corporation. All Rights Reserved.
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] Base flow version [2007.7]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] GBS Install Id [11783], Flow Id [EE2007.7], Full Flow Name[Expedition Enterprise Flow], Exact Access Date[Aug 1 2009]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] Machine [esvm01]  User [student]  PID [2332]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] PATH [C:\MentorGraphics\2007.7EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\2007.7EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\2007.7EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\2007.7EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/2007.7EE/MGC_HOME.ixn/bin;C:/MentorGraphics/2007.7EE/MGC_HOME.ixn/lib;C:\MentorGraphics\2007.7EE\MGC_HOME.ixn\bin;C:\MentorGraphics\2007.7EE\MGC_HOME.ixn\lib;]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] SDD_HOME [C:\MentorGraphics\2007.7EE\SDD_HOME]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] SDD_PLATFORM [win32]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.6.4]
+[2009.10.07 11:13:31] [0000m.04s.140ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2009.10.07 11:13:31] [0000m.04s.234ms] [1] CORE: Upgrade snapshot DEMO_layout_temp completed successfully.
+[2009.10.07 11:13:31] [0000m.04s.296ms] [1] CORE: Upgrade snapshot DEMO completed successfully.
+[2009.10.07 11:13:31] [0000m.04s.437ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.7.1]
+[2009.10.07 11:13:31] [0000m.04s.453ms] [0] DONE

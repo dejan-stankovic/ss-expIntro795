@@ -1,0 +1,18 @@
+
+                    Expedition PCB ASCII to PartsDatabase Log
+                    -----------------------------------------
+
+                       04:11 PM Tuesday, January 15, 2008
+                                   Job Name: 
+
+Replacing 'C:\MGTraining\common\libraries\master-DXD\Work\PartsDBLibs\ASCII.pdb'.
+
+ASCII PDB           : C:\Documents and Settings\joes\Desktop\CAPS.txt
+PDB                 : C:\MGTraining\common\libraries\master-DXD\Work\PartsDBLibs\ASCII.pdb
+Central Library     : C:\MGTraining\common\libraries\master-DXD\Work\ASCII.lmc
+Common Property File: C:\MGTraining\common\libraries\master-DXD\Work\CentLib.prp
+
+Processing Part '1021507'
+	ERROR:  Swap Code for Slot ID 1 is not defined.
+
+ASCII to PartsDatabase completed with 1 errors.

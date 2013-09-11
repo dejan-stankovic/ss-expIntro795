@@ -1,0 +1,67 @@
+[2008.01.10 13:07:17] [0000m.00s.050ms] [0] Start logging
+[2008.01.10 13:07:17] [0000m.00s.050ms] [1] Machine [flo-joes-lt2]  User [joes]  PID [2200]
+[2008.01.10 13:07:17] [0000m.00s.050ms] [1] WDIR [C:\Homework\WDIR\iCDB]
+[2008.01.10 13:07:17] [0000m.00s.060ms] [2] PathTranslator: WARNING: Config file not found [C:\Homework\WDIR\iCDB\PathsMap.cfg]
+[2008.01.10 13:07:17] [0000m.00s.060ms] [2] S: Loading config files
+[2008.01.10 13:07:17] [0000m.00s.060ms] [3] S: Config loaded
+[2008.01.10 13:07:17] [0000m.00s.070ms] [0] S: Starting server ver.0.674 (build 268675 created 2007-12-20 11:04:29) in auto execute mode
+[2008.01.10 13:07:17] [0000m.00s.070ms] [0] S: Project [C:\MGTraining\projects\PRACTICE\database]
+[2008.01.10 13:07:17] [0000m.00s.070ms] [0] S: START
+[2008.01.10 13:07:17] [0000m.00s.070ms] [0] S: Server startup lock file created
+[2008.01.10 13:07:17] [0000m.00s.140ms] [0] S: Listening for client connections on port [10000]
+[2008.01.10 13:07:17] [0000m.00s.140ms] [0] S: Server GUID [845d-d476-b294-9190-5de5-6879-de56-8740-7697-e7ce-df3d-dcfc]
+[2008.01.10 13:07:17] [0000m.00s.180ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] iCDB Server PI: Constraint definitions already present in database
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] iCDB Server PI: Initializing plugins
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] iCDB Server PI: Plugins initialized
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] S: iCDB database loaded
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] S: Project GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2008.01.10 13:07:17] [0000m.00s.200ms] [0] S: Starting threads
+[2008.01.10 13:07:17] [0000m.00s.200ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2008.01.10 13:07:17] [0000m.00s.210ms] [0] S: Wrote data to server address file
+[2008.01.10 13:07:17] [0000m.00s.210ms] [0] S: Server startup lock file removed
+[2008.01.10 13:07:17] [0000m.00s.210ms] [0] S: Server address file save time: 3748 us
+[2008.01.10 13:07:17] [0000m.00s.330ms] [0] IT: Session [151] for host [flo-joes-lt2] user [joes] with process ID [3356] created
+[2008.01.10 13:07:17] [0000m.00s.330ms] [1] SC[151]: Registered sub-client [DxD] with ID [1] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:17] [0000m.00s.420ms] [1] CMT: There are [1] clients now
+[2008.01.10 13:07:17] [0000m.00s.450ms] [1] SC[151]: Registered sub-client [xprob_icdb] with ID [2] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.01s.912ms] [1] SC[151]: Registered sub-client [SelectionHolder] with ID [3] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.01s.922ms] [1] SC[151]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.01s.992ms] [1] SC[151]: Registered sub-client [Navigator] with ID [5] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.02s.002ms] [1] SC[151]: Registered sub-client [PlaceDevice] with ID [6] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.02s.143ms] [1] SC[151]: Registered sub-client [OutputWindow] with ID [7] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.02s.143ms] [1] SC[151]: Registered sub-client [SAE] with ID [8] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.02s.153ms] [1] SC[151]: Registered sub-client [ICE] with ID [9] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:07:19] [0000m.02s.153ms] [1] SC[151]: Registered sub-client [DxDbSearch] with ID [10] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:12:32] [0005m.15s.313ms] [1] SC[151]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:12:32] [0005m.15s.313ms] [1] SC[151]: Registered sub-client [ObjectHolder] with ID [12] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.281ms] [1] SC[151]: UnRegistered sub-client [BlockCacheDxD] with ID [11] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.281ms] [1] SC[151]: UnRegistered sub-client [ObjectHolder] with ID [12] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.281ms] [1] SC[151]: UnRegistered sub-client [ICE] with ID [9] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.291ms] [1] SC[151]: UnRegistered sub-client [SelectionHolder] with ID [3] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.291ms] [1] SC[151]: UnRegistered sub-client [ConsReuseSubClient] with ID [4] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.291ms] [1] SC[151]: UnRegistered sub-client [DxD] with ID [1] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:49] [0020m.32s.301ms] [1] SC[151]: UnRegistered sub-client [xprob_icdb] with ID [2] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:51] [0020m.34s.004ms] [1] SC[151]: UnRegistered sub-client [Navigator] with ID [5] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:51] [0020m.34s.004ms] [1] SC[151]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:51] [0020m.34s.004ms] [1] SC[151]: UnRegistered sub-client [SAE] with ID [8] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:51] [0020m.34s.004ms] [1] SC[151]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:51] [0020m.34s.014ms] [1] SC[151]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [151] host [flo-joes-lt2] user [joes] process ID [3356]
+[2008.01.10 13:27:51] [0020m.34s.104ms] [1] CMT: Removed client [151]
+[2008.01.10 13:27:51] [0020m.34s.104ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.01.10 13:27:53] [0020m.35s.616ms] [0] CMT: Starting server auto-close
+[2008.01.10 13:27:53] [0020m.35s.706ms] [0] S: Closing server
+[2008.01.10 13:27:53] [0020m.35s.716ms] [0] iCDB Server PI: Closing plugins
+[2008.01.10 13:27:53] [0020m.35s.716ms] [0] iCDB Server PI: Plugins closed
+[2008.01.10 13:27:53] [0020m.35s.716ms] [0] iCDB Server PI: Unloading database
+[2008.01.10 13:27:53] [0020m.35s.716ms] [0] iCDB Server PI: Closing database
+[2008.01.10 13:27:53] [0020m.35s.716ms] [0] iCDB Server PI: Saving storage
+[2008.01.10 13:27:53] [0020m.35s.726ms] [0] iCDB Server PI: Database closed
+[2008.01.10 13:27:53] [0020m.35s.726ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [5070004] ticks
+[2008.01.10 13:27:53] [0020m.35s.726ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1416382] microseconds
+[2008.01.10 13:27:53] [0020m.35s.726ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [419]
+[2008.01.10 13:27:53] [0020m.35s.726ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [295] commands per second
+[2008.01.10 13:27:53] [0020m.36s.107ms] [0] S: STOP

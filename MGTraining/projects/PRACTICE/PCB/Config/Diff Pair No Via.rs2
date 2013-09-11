@@ -1,0 +1,16 @@
+# Number of passes
+2
+# Pass:  0
+1 4 1 3 -1 -1 0 0 -1 0 0 0 -1 1 Board
+# Pass 0 layer info
+0
+# Pass 0 has no filter info
+# Pass 0 has no via limit info
+
+# Pass:  1
+10 4 1 3 -1 -1 0 8 -1 0 0 0 -1 1 Board
+# Pass 1 layer info
+0
+# Pass 1 has no filter info
+# Pass 1 has no via limit info
+

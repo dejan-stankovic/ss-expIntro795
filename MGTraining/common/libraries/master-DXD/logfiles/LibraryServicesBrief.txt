@@ -1,0 +1,7 @@
+
+                      Library Services Warnings and Errors
+                      ------------------------------------
+
+                        12:55 PM Friday, August 01, 2008
+Job Name: C:\MGTraining GOLD\MGTraining_release\common\libraries\master-DXD\master-DXD.lmc
+

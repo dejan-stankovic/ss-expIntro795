@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                        02:32 PM Thursday, March 29, 2007
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\misc\S114 RELAY.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                        03:21 PM Thursday, March 29, 2007
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\misc\S114 RELAY.pcb
+

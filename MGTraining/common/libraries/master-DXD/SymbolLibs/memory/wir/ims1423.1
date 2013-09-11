@@ -1,0 +1,212 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 232604107200 ims1423
+DW ims1423
+SA @DATETIME=8-2-2001_14:10 
+SA @NAME=IMS1423 
+|Q builtin:ram2kx4 1
+AS builtin:ram2kx4 LENGTH=2048
+AS builtin:ram2kx4 PINORDER=DO0 DO1 DO2 DO3 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 DSBL R/W DI0 DI1 DI2 DI3
+AS builtin:ram2kx4 MODEL=RAM
+AS builtin:ram2kx4 WIDTH=4
+AP builtin:ram2kx4 1 PINTYPE=TRI
+AP builtin:ram2kx4 2 PINTYPE=TRI
+AP builtin:ram2kx4 3 PINTYPE=TRI
+AP builtin:ram2kx4 4 PINTYPE=TRI
+AP builtin:ram2kx4 5 PINTYPE=IN
+AP builtin:ram2kx4 6 PINTYPE=IN
+AP builtin:ram2kx4 7 PINTYPE=IN
+AP builtin:ram2kx4 8 PINTYPE=IN
+AP builtin:ram2kx4 9 PINTYPE=IN
+AP builtin:ram2kx4 10 PINTYPE=IN
+AP builtin:ram2kx4 11 PINTYPE=IN
+AP builtin:ram2kx4 12 PINTYPE=IN
+AP builtin:ram2kx4 13 PINTYPE=IN
+AP builtin:ram2kx4 14 PINTYPE=IN
+AP builtin:ram2kx4 15 PINTYPE=IN
+AP builtin:ram2kx4 16 PINTYPE=IN
+AP builtin:ram2kx4 17 PINTYPE=IN
+AP builtin:ram2kx4 18 PINTYPE=IN
+AP builtin:ram2kx4 19 PINTYPE=IN
+AP builtin:ram2kx4 20 PINTYPE=IN
+AP builtin:ram2kx4 21 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:buf 1
+AS builtin:buf PINORDER=Q A
+AP builtin:buf 1 PINTYPE=OUT
+AP builtin:buf 2 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+AN DATA_IN[4:1] VLBUSISONSHEET=1
+AN DATA_OUT[4:1] VLBUSISONSHEET=1
+AN IO[4:1] VLBUSISONSHEET=1
+AN DATA_IN[4:1] VLBUSISONSHEET=1
+AN A[11:0] VLBUSISONSHEET=1
+M builtin:ram2kx4 $1I367
+I $1I367 builtin:ram2kx4 DATA_OUT1 DATA_OUT2 DATA_OUT3 DATA_OUT4 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 $1N105 $1N102 DATA_IN1 DATA_IN2 DATA_IN3 DATA_IN4 PINORDER=DO0 DO1 DO2 DO3 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 DSBL R/W DI0 DI1 DI2 DI3`WIDTH=4`LENGTH=2048`MODEL=RAM`DXDB_LIBNAME=BUILTIN`TPLHAD=@A2DATA_STBL`TPHLAD=@A2DATA_STBL`TPHZED=@HL2HIZ`TPZLED=@HIZ2HL`TPZHED=@HIZ2HL`TPLZED=@HL2HIZ`
+M builtin:or2 $1I97
+I $1I97 builtin:or2 $1N103 ~W $1N104 
+M builtin:not $1I93
+I $1I93 builtin:not $1N104 A11 
+M builtin:not $1I111
+I $1I111 builtin:not ~A11 A11 
+M builtin:and2 $1I107
+I $1I107 builtin:and2 $1N108 $1N114 ~A11 
+M builtin:and2 $1I113
+I $1I113 builtin:and2 $1N105 $1N114 A11 
+M builtin:not $1I106
+I $1I106 builtin:not $1N114 ~E 
+M builtin:tribuf $1I305
+I $1I305 builtin:tribuf IO4 OUT_ENABLE DATA_OUT4 
+M builtin:tribuf $1I306
+I $1I306 builtin:tribuf IO3 OUT_ENABLE DATA_OUT3 
+M builtin:tribuf $1I307
+I $1I307 builtin:tribuf IO2 OUT_ENABLE DATA_OUT2 
+M builtin:tribuf $1I308
+I $1I308 builtin:tribuf IO1 OUT_ENABLE DATA_OUT1 
+M builtin:shre $1I291
+I $1I291 builtin:shre ~W ~E THOLD=0`TSU=@WRITE_EN_SETUP`
+M builtin:pw $1I136
+I $1I136 builtin:pw ~W TPOS=@WRITE_PW`TNEG=@WRITE_PW`
+M builtin:shre $1I265
+I $1I265 builtin:shre ~W A11 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I266
+I $1I266 builtin:shre ~W A10 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I267
+I $1I267 builtin:shre ~W A9 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I268
+I $1I268 builtin:shre ~W A8 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I269
+I $1I269 builtin:shre ~W A7 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I270
+I $1I270 builtin:shre ~W A6 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I271
+I $1I271 builtin:shre ~W A5 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I272
+I $1I272 builtin:shre ~W A4 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I273
+I $1I273 builtin:shre ~W A3 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I274
+I $1I274 builtin:shre ~W A2 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I275
+I $1I275 builtin:shre ~W A1 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I276
+I $1I276 builtin:shre ~W A0 THOLD=@ADD_HOLD`TSU=@ADD_SETUP`
+M builtin:shre $1I241
+I $1I241 builtin:shre ~W DATA_IN4 TSU=@DATA_SETUP`THOLD=@DATA_HOLD`
+M builtin:shre $1I242
+I $1I242 builtin:shre ~W DATA_IN3 TSU=@DATA_SETUP`THOLD=@DATA_HOLD`
+M builtin:shre $1I243
+I $1I243 builtin:shre ~W DATA_IN2 TSU=@DATA_SETUP`THOLD=@DATA_HOLD`
+M builtin:shre $1I244
+I $1I244 builtin:shre ~W DATA_IN1 TSU=@DATA_SETUP`THOLD=@DATA_HOLD`
+M builtin:nand2 $1I345
+I $1I345 builtin:nand2 $1N340 $1N114 ~W 
+M builtin:buf $1I348
+I $1I348 builtin:buf DATA_IN4 IO4 
+M builtin:buf $1I349
+I $1I349 builtin:buf DATA_IN3 IO3 
+M builtin:buf $1I350
+I $1I350 builtin:buf DATA_IN2 IO2 
+M builtin:buf $1I351
+I $1I351 builtin:buf DATA_IN1 IO1 
+M builtin:delay $1I354
+I $1I354 builtin:delay OUT_ENABLE $1N340 TPHL=@OUT_ENABLE_HL`TPLH=@OUT_ENABLE_LH`
+M builtin:pw $1I221
+I $1I221 builtin:pw A11 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I222
+I $1I222 builtin:pw A10 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I223
+I $1I223 builtin:pw A9 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I224
+I $1I224 builtin:pw A8 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I225
+I $1I225 builtin:pw A7 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I226
+I $1I226 builtin:pw A6 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I227
+I $1I227 builtin:pw A5 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I228
+I $1I228 builtin:pw A4 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I229
+I $1I229 builtin:pw A3 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I230
+I $1I230 builtin:pw A2 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I231
+I $1I231 builtin:pw A1 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:pw $1I232
+I $1I232 builtin:pw A0 TPOS=@ADD_PW`TNEG=@ADD_PW`
+M builtin:or2 $1I99
+I $1I99 builtin:or2 $1N102 ~W A11 
+M builtin:ram2kx4 $1I366
+I $1I366 builtin:ram2kx4 DATA_OUT1 DATA_OUT2 DATA_OUT3 DATA_OUT4 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 $1N108 $1N103 DATA_IN1 DATA_IN2 DATA_IN3 DATA_IN4 TPLZED=@HL2HIZ`TPZHED=@HIZ2HL`TPZLED=@HIZ2HL`TPHZED=@HL2HIZ`TPHLAD=@A2DATA_STBL`TPLHAD=@A2DATA_STBL`DXDB_LIBNAME=BUILTIN`MODEL=RAM`LENGTH=2048`WIDTH=4`PINORDER=DO0 DO1 DO2 DO3 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 DSBL R/W DI0 DI1 DI2 DI3`
+P ? ~W
+I ~W ? ~W
+P ? ~E
+I ~E ? ~E
+P ? A11
+I A11 ? A11
+P ? A0
+I A0 ? A0
+P ? A1
+I A1 ? A1
+P ? A2
+I A2 ? A2
+P ? A3
+I A3 ? A3
+P ? A4
+I A4 ? A4
+P ? A5
+I A5 ? A5
+P ? A6
+I A6 ? A6
+P ? A7
+I A7 ? A7
+P ? A8
+I A8 ? A8
+P ? A9
+I A9 ? A9
+P ? A10
+I A10 ? A10
+P ? IO1
+I IO1 ? IO1
+P ? IO2
+I IO2 ? IO2
+P ? IO3
+I IO3 ? IO3
+P ? IO4
+I IO4 ? IO4
+EW

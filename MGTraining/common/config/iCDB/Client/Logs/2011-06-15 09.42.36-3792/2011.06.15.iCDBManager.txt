@@ -1,0 +1,21 @@
+[2011.06.15 09:42:36] [0000m.00s.156ms] [0] WELCOME
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] iCDB API ver.1.092, sNlgdaWL5XH2IKU803MGlg, build:453260 created 2011-05-23 10:49:57, sources stamp:sNlgdaWL5XH2IKU803MGlg
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] Copyright 2011 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] Base flow version [7.9.2]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] GBS Install Id [18853], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] Machine [esvm01]  User [student]  PID [3792]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] PATH [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] SDD_HOME [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME] on file system [NTFS]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] SDD_PLATFORM [win32]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard]
+[2011.06.15 09:42:36] [0000m.00s.156ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2011.06.15 09:42:50] [0000m.14s.140ms] [0] PM: Entering client mode
+[2011.06.15 09:43:20] [0000m.43s.671ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] size [55344 (54.0 kB)]
+[2011.06.15 09:43:20] [0000m.43s.671ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] opened in read-only mode
+[2011.06.15 09:43:20] [0000m.43s.671ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] closed with size [55344 (54.0 kB)]
+[2011.06.15 09:43:20] [0000m.43s.703ms] [0] DiagProperties: ERROR: iCDB Server Monitor address file not found
+[2011.06.15 09:43:22] [0000m.45s.953ms] [0] AMC: Event: ProjectConnectionSucceed
+[2011.06.15 09:53:00] [0010m.24s.109ms] [0] PM: Closing client mode
+[2011.06.15 09:53:00] [0010m.24s.109ms] [0] .

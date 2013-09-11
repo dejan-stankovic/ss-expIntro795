@@ -1,0 +1,139 @@
+[2008.01.10 14:48:51] [0000m.00s.010ms] [0] Start logging
+[2008.01.10 14:48:51] [0000m.00s.010ms] [1] Machine [flo-joes-lt2]  User [joes]  PID [396]
+[2008.01.10 14:48:51] [0000m.00s.010ms] [1] WDIR [C:\Homework\WDIR\iCDB]
+[2008.01.10 14:48:51] [0000m.00s.010ms] [2] PathTranslator: WARNING: Config file not found [C:\Homework\WDIR\iCDB\PathsMap.cfg]
+[2008.01.10 14:48:51] [0000m.00s.010ms] [2] S: Loading config files
+[2008.01.10 14:48:51] [0000m.00s.010ms] [3] S: Config loaded
+[2008.01.10 14:48:51] [0000m.00s.030ms] [0] S: Starting server ver.0.674 (build 268675 created 2007-12-20 11:04:29) in auto execute mode
+[2008.01.10 14:48:51] [0000m.00s.030ms] [0] S: Project [C:\MGTraining\projects\PRACTICE\database]
+[2008.01.10 14:48:51] [0000m.00s.030ms] [0] S: START
+[2008.01.10 14:48:51] [0000m.00s.030ms] [0] S: Server startup lock file created
+[2008.01.10 14:48:51] [0000m.00s.090ms] [0] S: Listening for client connections on port [10000]
+[2008.01.10 14:48:51] [0000m.00s.090ms] [0] S: Server GUID [293f-ec1b-fa83-d772-3a67-6877-a676-8740-7318-e7ce-df3d-dcfc]
+[2008.01.10 14:48:51] [0000m.00s.200ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2008.01.10 14:48:51] [0000m.00s.230ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2008.01.10 14:48:51] [0000m.00s.230ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2008.01.10 14:48:51] [0000m.00s.230ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2008.01.10 14:48:51] [0000m.00s.230ms] [0] iCDB Server PI: Constraint definitions already present in database
+[2008.01.10 14:48:51] [0000m.00s.230ms] [0] iCDB Server PI: Initializing plugins
+[2008.01.10 14:48:51] [0000m.00s.240ms] [0] iCDB Server PI: Plugins initialized
+[2008.01.10 14:48:51] [0000m.00s.240ms] [0] S: iCDB database loaded
+[2008.01.10 14:48:51] [0000m.00s.240ms] [0] S: Project GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2008.01.10 14:48:51] [0000m.00s.240ms] [0] S: Starting threads
+[2008.01.10 14:48:51] [0000m.00s.240ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2008.01.10 14:48:51] [0000m.00s.260ms] [0] S: Wrote data to server address file
+[2008.01.10 14:48:51] [0000m.00s.260ms] [0] S: Server startup lock file removed
+[2008.01.10 14:48:51] [0000m.00s.260ms] [0] S: Server address file save time: 22218 us
+[2008.01.10 14:48:51] [0000m.00s.380ms] [0] IT: Session [166] for host [flo-joes-lt2] user [joes] with process ID [708] created
+[2008.01.10 14:48:51] [0000m.00s.380ms] [1] SC[166]: Registered sub-client [DxD] with ID [1] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:52] [0000m.00s.500ms] [1] CMT: There are [1] clients now
+[2008.01.10 14:48:52] [0000m.00s.660ms] [1] SC[166]: Registered sub-client [xprob_icdb] with ID [2] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.123ms] [1] SC[166]: Registered sub-client [SelectionHolder] with ID [3] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.163ms] [1] SC[166]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.233ms] [1] SC[166]: Registered sub-client [Navigator] with ID [5] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.243ms] [1] SC[166]: Registered sub-client [PlaceDevice] with ID [6] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.383ms] [1] SC[166]: Registered sub-client [OutputWindow] with ID [7] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.383ms] [1] SC[166]: Registered sub-client [SAE] with ID [8] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.393ms] [1] SC[166]: Registered sub-client [ICE] with ID [9] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:48:53] [0000m.02s.393ms] [1] SC[166]: Registered sub-client [DxDbSearch] with ID [10] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:49:00] [0000m.09s.473ms] [1] SC[166]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:49:00] [0000m.09s.473ms] [1] SC[166]: Registered sub-client [ObjectHolder] with ID [12] for session ID [166] host [flo-joes-lt2] user [joes] process ID [708]
+[2008.01.10 14:54:18] [0005m.26s.729ms] [0] SC[166]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer] Message[0; Receiving network command with timeout]
+[2008.01.10 14:54:18] [0005m.26s.729ms] [0] SC[166]: Setting status to OFFLINE
+[2008.01.10 14:54:50] [0005m.59s.436ms] [0] IT: Session [167] for host [flo-joes-lt2] user [joes] with process ID [516] created
+[2008.01.10 14:54:50] [0005m.59s.436ms] [1] SC[167]: Registered sub-client [DxD] with ID [1] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:51] [0005m.59s.516ms] [1] CMT: There are [2] clients now
+[2008.01.10 14:54:51] [0005m.59s.597ms] [1] SC[167]: Registered sub-client [xprob_icdb] with ID [2] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.069ms] [1] SC[167]: Registered sub-client [SelectionHolder] with ID [3] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.079ms] [1] SCL: WARNING: Client [166] has locked objects while trying to remove it - auto unlocking
+[2008.01.10 14:54:52] [0006m.01s.079ms] [1] SCL: Removed dead client [166] - request from another client
+[2008.01.10 14:54:52] [0006m.01s.089ms] [1] SC[167]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.159ms] [0] CRT[166]: EXIT: Because of client death
+[2008.01.10 14:54:52] [0006m.01s.159ms] [1] CMT: Removed client [166]
+[2008.01.10 14:54:52] [0006m.01s.159ms] [1] CMT: There are [1] clients now
+[2008.01.10 14:54:52] [0006m.01s.159ms] [1] SC[167]: Registered sub-client [Navigator] with ID [5] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.169ms] [1] SC[167]: Registered sub-client [PlaceDevice] with ID [6] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.379ms] [1] SC[167]: Registered sub-client [OutputWindow] with ID [7] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.389ms] [1] SC[167]: Registered sub-client [SAE] with ID [8] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.389ms] [1] SC[167]: Registered sub-client [ICE] with ID [9] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:54:52] [0006m.01s.399ms] [1] SC[167]: Registered sub-client [DxDbSearch] with ID [10] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:57:36] [0008m.44s.564ms] [1] SC[167]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:57:36] [0008m.44s.574ms] [1] SC[167]: Registered sub-client [ObjectHolder] with ID [12] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:57:45] [0008m.53s.737ms] [1] SC[167]: Registered sub-client [PlaceDevicePresym1] with ID [13] for session ID [167] host [flo-joes-lt2] user [joes] process ID [516]
+[2008.01.10 14:58:08] [0009m.16s.790ms] [0] SC[167]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer] Message[0; Receiving network command with timeout]
+[2008.01.10 14:58:08] [0009m.16s.790ms] [0] SC[167]: Setting status to OFFLINE
+[2008.01.10 14:58:48] [0009m.57s.429ms] [0] IT: Session [168] for host [flo-joes-lt2] user [joes] with process ID [1976] created
+[2008.01.10 14:58:48] [0009m.57s.429ms] [1] SC[168]: Registered sub-client [DxD] with ID [1] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:49] [0009m.57s.509ms] [1] CMT: There are [2] clients now
+[2008.01.10 14:58:49] [0009m.57s.569ms] [1] SC[168]: Registered sub-client [xprob_icdb] with ID [2] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.031ms] [1] SC[168]: Registered sub-client [SelectionHolder] with ID [3] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.031ms] [1] SCL: WARNING: Client [167] has locked objects while trying to remove it - auto unlocking
+[2008.01.10 14:58:50] [0009m.59s.031ms] [1] SCL: Removed dead client [167] - request from another client
+[2008.01.10 14:58:50] [0009m.59s.051ms] [1] SC[168]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.111ms] [0] CRT[167]: EXIT: Because of client death
+[2008.01.10 14:58:50] [0009m.59s.111ms] [1] CMT: Removed client [167]
+[2008.01.10 14:58:50] [0009m.59s.111ms] [1] CMT: There are [1] clients now
+[2008.01.10 14:58:50] [0009m.59s.121ms] [1] SC[168]: Registered sub-client [Navigator] with ID [5] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.121ms] [1] SC[168]: Registered sub-client [PlaceDevice] with ID [6] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.281ms] [1] SC[168]: Registered sub-client [OutputWindow] with ID [7] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.281ms] [1] SC[168]: Registered sub-client [SAE] with ID [8] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.281ms] [1] SC[168]: Registered sub-client [ICE] with ID [9] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:50] [0009m.59s.291ms] [1] SC[168]: Registered sub-client [DxDbSearch] with ID [10] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:58] [0010m.06s.652ms] [1] SC[168]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:58:58] [0010m.06s.652ms] [1] SC[168]: Registered sub-client [ObjectHolder] with ID [12] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:59:52] [0011m.01s.290ms] [1] SC[168]: UnRegistered sub-client [BlockCacheDxD] with ID [11] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:59:52] [0011m.01s.290ms] [1] SC[168]: UnRegistered sub-client [ObjectHolder] with ID [12] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:59:55] [0011m.03s.814ms] [1] SC[168]: Registered sub-client [BlockCacheDxD] with ID [13] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 14:59:55] [0011m.03s.824ms] [1] SC[168]: Registered sub-client [ObjectHolder] with ID [14] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:00:11] [0011m.19s.857ms] [1] SC[168]: UnRegistered sub-client [BlockCacheDxD] with ID [13] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:00:11] [0011m.19s.857ms] [1] SC[168]: UnRegistered sub-client [ObjectHolder] with ID [14] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:00:20] [0011m.28s.690ms] [1] SC[168]: Registered sub-client [BlockCacheDxD] with ID [15] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:00:20] [0011m.28s.690ms] [1] SC[168]: Registered sub-client [ObjectHolder] with ID [16] for session ID [168] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:01:49] [0012m.58s.108ms] [0] SC[168]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer] Message[0; Receiving network command with timeout]
+[2008.01.10 15:01:49] [0012m.58s.108ms] [0] SC[168]: Setting status to OFFLINE
+[2008.01.10 15:02:28] [0013m.36s.794ms] [0] IT: Session [169] for host [flo-joes-lt2] user [joes] with process ID [1976] created
+[2008.01.10 15:02:28] [0013m.36s.794ms] [1] SC[169]: Registered sub-client [DxD] with ID [1] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:28] [0013m.36s.824ms] [1] CMT: There are [2] clients now
+[2008.01.10 15:02:28] [0013m.36s.914ms] [1] SC[169]: Registered sub-client [xprob_icdb] with ID [2] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:29] [0013m.38s.326ms] [1] SC[169]: Registered sub-client [SelectionHolder] with ID [3] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:29] [0013m.38s.336ms] [1] SCL: WARNING: Client [168] has locked objects while trying to remove it - auto unlocking
+[2008.01.10 15:02:29] [0013m.38s.336ms] [1] SCL: Removed dead client [168] - request from another client
+[2008.01.10 15:02:29] [0013m.38s.346ms] [0] CRT[168]: EXIT: Because of client death
+[2008.01.10 15:02:29] [0013m.38s.346ms] [1] CMT: Removed client [168]
+[2008.01.10 15:02:29] [0013m.38s.346ms] [1] CMT: There are [1] clients now
+[2008.01.10 15:02:29] [0013m.38s.346ms] [1] SC[169]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:29] [0013m.38s.416ms] [1] SC[169]: Registered sub-client [Navigator] with ID [5] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:29] [0013m.38s.426ms] [1] SC[169]: Registered sub-client [PlaceDevice] with ID [6] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:30] [0013m.38s.597ms] [1] SC[169]: Registered sub-client [OutputWindow] with ID [7] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:30] [0013m.38s.597ms] [1] SC[169]: Registered sub-client [SAE] with ID [8] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:30] [0013m.38s.607ms] [1] SC[169]: Registered sub-client [ICE] with ID [9] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:30] [0013m.38s.607ms] [1] SC[169]: Registered sub-client [DxDbSearch] with ID [10] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:43] [0013m.51s.926ms] [1] SC[169]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:02:43] [0013m.51s.926ms] [1] SC[169]: Registered sub-client [ObjectHolder] with ID [12] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.847ms] [1] SC[169]: UnRegistered sub-client [BlockCacheDxD] with ID [11] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.847ms] [1] SC[169]: UnRegistered sub-client [ObjectHolder] with ID [12] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.847ms] [1] SC[169]: UnRegistered sub-client [ICE] with ID [9] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.857ms] [1] SC[169]: UnRegistered sub-client [SelectionHolder] with ID [3] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.857ms] [1] SC[169]: UnRegistered sub-client [ConsReuseSubClient] with ID [4] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.857ms] [1] SC[169]: UnRegistered sub-client [DxD] with ID [1] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:56] [0016m.04s.867ms] [1] SC[169]: UnRegistered sub-client [xprob_icdb] with ID [2] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:58] [0016m.06s.539ms] [1] SC[169]: UnRegistered sub-client [Navigator] with ID [5] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:58] [0016m.06s.539ms] [1] SC[169]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:58] [0016m.06s.539ms] [1] SC[169]: UnRegistered sub-client [SAE] with ID [8] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:58] [0016m.06s.539ms] [1] SC[169]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:58] [0016m.06s.549ms] [1] SC[169]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [169] host [flo-joes-lt2] user [joes] process ID [1976]
+[2008.01.10 15:04:58] [0016m.06s.599ms] [1] CMT: Removed client [169]
+[2008.01.10 15:04:58] [0016m.06s.599ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.01.10 15:05:00] [0016m.08s.512ms] [0] CMT: Starting server auto-close
+[2008.01.10 15:05:00] [0016m.08s.562ms] [0] S: Closing server
+[2008.01.10 15:05:00] [0016m.08s.612ms] [0] iCDB Server PI: Closing plugins
+[2008.01.10 15:05:00] [0016m.08s.612ms] [0] iCDB Server PI: Plugins closed
+[2008.01.10 15:05:00] [0016m.08s.612ms] [0] iCDB Server PI: Unloading database
+[2008.01.10 15:05:00] [0016m.08s.612ms] [0] iCDB Server PI: Closing database
+[2008.01.10 15:05:00] [0016m.08s.612ms] [0] iCDB Server PI: Saving storage
+[2008.01.10 15:05:00] [0016m.08s.622ms] [0] iCDB Server PI: Database closed
+[2008.01.10 15:05:00] [0016m.08s.622ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1774062] ticks
+[2008.01.10 15:05:00] [0016m.08s.622ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [495611] microseconds
+[2008.01.10 15:05:00] [0016m.08s.622ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [372]
+[2008.01.10 15:05:00] [0016m.08s.622ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [750] commands per second
+[2008.01.10 15:05:00] [0016m.08s.692ms] [0] S: STOP

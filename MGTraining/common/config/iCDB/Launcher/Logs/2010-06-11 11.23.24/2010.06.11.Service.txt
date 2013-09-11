@@ -1,0 +1,25 @@
+[2010.06.11 11:23:24] [0000m.00s.234ms] [0] WELCOME
+[2010.06.11 11:23:24] [0000m.00s.328ms] [1] Remote Server Configuration Manager ver.1.009, ubDiQQ9snidtGpRfU+XMOQ, build:403588 created 2010-05-25 11:54:37, sources stamp:ubDiQQ9snidtGpRfU+XMOQ
+[2010.06.11 11:23:24] [0000m.00s.328ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2010.06.11 11:23:24] [0000m.00s.328ms] [1] Base flow version [7.9]
+[2010.06.11 11:23:24] [0000m.00s.328ms] [1] GBS Install Id [14584], Flow Id [EE 7.9], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2010]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] Machine [esvm01]  User [SYSTEM]  PID [1240]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] Current working dir [C:\WINDOWS\system32]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] PATH [C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9EE\MGC_HOME.ixn\lib;]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] SDD_HOME [C:\MentorGraphics\7.9EE\SDD_HOME] on file system [NTFS]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] SDD_PLATFORM [win32]
+[2010.06.11 11:23:34] [0000m.10s.234ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2010.06.11 11:23:34] [0000m.10s.390ms] [0] LT: No proxy mode
+[2010.06.11 11:23:34] [0000m.10s.406ms] [1] Service: Starting service
+[2010.06.11 11:23:34] [0000m.10s.406ms] [0] LT: START
+[2010.06.11 11:23:34] [0000m.10s.625ms] [1] LT: Listening for client connections on port [9000]
+[2010.06.11 11:23:34] [0000m.10s.625ms] [0] LT: Set listening socket on port [9000]
+[2010.06.11 11:23:35] [0000m.11s.000ms] [0] LT: Network ID: [esvm01:192.168.1.110,192.168.247.156,esvm01:9000]
+[2010.06.11 11:23:35] [0000m.11s.000ms] [0] LT: Starting threads
+[2010.06.11 11:23:35] [0000m.11s.015ms] [0] BT: Listening for broadcast messages on port [10000]
+[2010.06.11 12:29:20] [0065m.56s.875ms] [1] Service: Stopping service
+[2010.06.11 12:29:21] [0065m.56s.875ms] [1] Service: Service stopped
+[2010.06.11 12:29:21] [0065m.56s.984ms] [0] LT: Closing
+[2010.06.11 12:29:21] [0065m.57s.250ms] [0] LT: STOP
+[2010.06.11 12:29:21] [0065m.57s.250ms] [1] Service: Service ended

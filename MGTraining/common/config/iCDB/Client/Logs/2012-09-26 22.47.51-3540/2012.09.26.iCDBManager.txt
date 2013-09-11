@@ -1,0 +1,57 @@
+[2012.09.26 22:47:51] [0000m.15s.985ms] [0] WELCOME
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] iCDB API ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] Base flow version [7.9.4]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] Machine [ESVM01]  User [student]  PID [3540]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] SDD_PLATFORM [win32]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.26 22:47:51] [0000m.16s.000ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.26 22:47:51] [0000m.16s.016ms] [0] PM: Entering client mode
+[2012.09.26 22:48:06] [0000m.30s.501ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] size [54704 (53.4 kB)]
+[2012.09.26 22:48:06] [0000m.30s.501ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] opened in read-write mode
+[2012.09.26 22:48:06] [0000m.30s.501ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.09.26 22:48:06] [0000m.30s.501ms] [0] Database GUARD OK: [54704]
+[2012.09.26 22:48:06] [0000m.30s.501ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.09.26 22:48:06] [0000m.30s.501ms] [0] Database GUARD OK: [54704]
+[2012.09.26 22:48:06] [0000m.30s.501ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] SFI version check [1009] [1009]
+[2012.09.26 22:48:06] [0000m.30s.516ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] Database SFI header has been read in [1ms 18us]
+[2012.09.26 22:48:06] [0000m.30s.516ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] closed with size [54704 (53.4 kB)]
+[2012.09.26 22:48:10] [0000m.34s.517ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] size [54704 (53.4 kB)]
+[2012.09.26 22:48:10] [0000m.34s.517ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] opened in read-only mode
+[2012.09.26 22:48:10] [0000m.34s.517ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] closed with size [54704 (53.4 kB)]
+[2012.09.26 22:48:10] [0000m.34s.517ms] [0] DiagProperties: ERROR: iCDB Server Monitor address file not found
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] size [54704 (53.4 kB)]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] opened in read-write mode
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] Database GUARD OK: [54704]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] Database GUARD OK: [54704]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] SFI version check [1009] [1009]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] Database SFI header has been read in [970us]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] closed with size [54704 (53.4 kB)]
+[2012.09.26 22:48:12] [0000m.36s.689ms] [0] AMC: Event: ProjectConnectionSucceed
+[2012.09.26 22:48:12] [0000m.36s.751ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:12] [0000m.36s.751ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:12] [0000m.36s.751ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:12] [0000m.36s.751ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:12] [0000m.36s.751ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:12] [0000m.36s.751ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:17] [0000m.42s.048ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:17] [0000m.42s.064ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:17] [0000m.42s.064ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:17] [0000m.42s.064ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:17] [0000m.42s.064ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:17] [0000m.42s.064ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:30] [0000m.55s.189ms] [0] PM: Closing client mode
+[2012.09.26 22:48:30] [0000m.55s.189ms] [0] .

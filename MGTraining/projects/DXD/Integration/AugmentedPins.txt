@@ -1,0 +1,46 @@
+
+------------------------------------------------------------------------
+            Part/Reference             | Pin | Augmented Net Name
+------------------------------------------------------------------------
+ Part 74ALS655_SOP                     |
+       U12                             |   12| GND
+       U12                             |   24| VCC
+       U11                             |   12| GND
+       U11                             |   24| VCC
+       U10                             |   12| GND
+       U10                             |   24| VCC
+       U9                              |   12| GND
+       U9                              |   24| VCC
+ Part 74ALS240_SOP                     |
+       U16                             |   10| GND
+       U16                             |   20| VCC
+ Part 74ALS187_DIP                     |
+       U5                              |   16| VCC
+       U5                              |    8| GND
+ Part 74ALS49_SOP                      |
+       U17                             |    7| GND
+       U17                             |   14| VCC
+ Part 74ALS32_SOP                      |
+       U18                             |    7| GND
+       U18                             |   14| VCC
+ Part 74ALS30_SOP                      |
+       U15                             |    7| GND
+       U15                             |   14| VCC
+       U15                             |    9| <unconnected pin>
+       U15                             |   10| <unconnected pin>
+       U15                             |   13| <unconnected pin>
+ Part 74ALS04_SOP                      |
+       U14                             |    7| GND
+       U14                             |   14| VCC
+ Part 74ALS00_SOP                      |
+       U19                             |    7| GND
+       U19                             |   14| VCC
+ Part 54ALS1008_LCC                    |
+       U7                              |   20| VCC
+       U7                              |   10| GND
+       U7                              |    1| <unconnected pin>
+       U7                              |    5| <unconnected pin>
+       U7                              |    7| <unconnected pin>
+       U7                              |   11| <unconnected pin>
+       U7                              |   15| <unconnected pin>
+       U7                              |   17| <unconnected pin>

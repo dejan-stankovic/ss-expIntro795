@@ -1,0 +1,31 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 52262956590 74ls113a
+DW 74act113a
+Q Case
+|Q builtin:ujkff 1
+AS builtin:ujkff PINORDER=Q QN J K S R CK PRE CLR
+AP builtin:ujkff 1 PINTYPE=OUT
+AP builtin:ujkff 2 PINTYPE=OUT
+AP builtin:ujkff 3 PINTYPE=IN
+AP builtin:ujkff 4 PINTYPE=IN
+AP builtin:ujkff 5 PINTYPE=IN
+AP builtin:ujkff 6 PINTYPE=IN
+AP builtin:ujkff 7 PINTYPE=IN
+AP builtin:ujkff 8 PINTYPE=IN
+AP builtin:ujkff 9 PINTYPE=IN
+M builtin:ujkff $1I54
+I $1I54 builtin:ujkff Q ~Q J K ~PRE ? ~CLK ? ? TPHLSQN=@PRETOQN0`TPHLCQN=@CLKTOQN0`TPHLCQ=@CLKTOQ0`TPLHSQ=@PRETOQ1`TPLHCQN=@CLKTOQN1`TPLHCQ=@CLKTOQ1`THOLDK1=@TH_K1`THOLDK0=@TH_K0`THOLDJ1=@TH_J1`THOLDJ0=@TH_J0`TSUK1=@TS_K1`TSUK0=@TS_K0`TSUJ1=@TS_J1`TSUJ0=@TS_J0`TPULSES=@PWPRE0`TNEGC=@PWCLK0`TPOSC=@PWCLK1`ACEDGE=0`AASYNCLEV=0`TRECS=@TSU_PRE`
+P ? ~PRE
+I ~PRE ? ~PRE
+P ? Q
+I Q ? Q
+P ? ~Q
+I ~Q ? ~Q
+P ? J
+I J ? J
+P ? ~CLK
+I ~CLK ? ~CLK
+P ? K
+I K ? K
+EW

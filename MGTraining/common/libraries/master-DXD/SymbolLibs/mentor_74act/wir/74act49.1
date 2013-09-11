@@ -1,0 +1,121 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 126925231700 74ls49
+DW 74act49
+Q Case
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:nor3 1
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+M builtin:nor2 $1I239
+I $1I239 builtin:nor2 OE $1N62 $1N282 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:not $1I244
+I $1I244 builtin:not $1N276 A 
+M builtin:and2 $1I269
+I $1I269 builtin:and2 $1N130 $1N286 $1N270 
+M builtin:and3 $1I255
+I $1I255 builtin:and3 $1N140 $1N62 $1N218 $1N24 
+M builtin:and3 $1I261
+I $1I261 builtin:and3 $1N109 $1N62 $1N218 $1N200 
+M builtin:and3 $1I265
+I $1I265 builtin:and3 $1N86 $1N62 $1N200 $1N174 
+M builtin:and3 $1I247
+I $1I247 builtin:and3 $1N186 $1N218 $1N200 $1N174 
+M builtin:not $1I268
+I $1I268 builtin:not $1N174 D 
+M builtin:not $1I246
+I $1I246 builtin:not $1N200 C 
+M builtin:not $1I245
+I $1I245 builtin:not $1N218 B 
+M builtin:and2 $1I264
+I $1I264 builtin:and2 $1N282 $1N218 $1N24 
+M builtin:and2 $1I260
+I $1I260 builtin:and2 $1N277 $1N270 $1N200 
+M builtin:and2 $1I259
+I $1I259 builtin:and2 $1N285 $1N62 $1N270 
+M builtin:and2 $1I257
+I $1I257 builtin:and2 $1N125 $1N24 $1N15 
+M builtin:and2 $1I254
+I $1I254 builtin:and2 $1N151 $1N270 $1N15 
+M builtin:and2 $1I252
+I $1I252 builtin:and2 $1N286 $1N276 $1N24 
+M builtin:nand2 $1I251
+I $1I251 builtin:nand2 $1N15 $1N174 ~BI 
+M builtin:nand2 $1I250
+I $1I250 builtin:nand2 $1N24 $1N200 ~BI 
+M builtin:nand2 $1I249
+I $1I249 builtin:nand2 $1N270 $1N218 ~BI 
+M builtin:nand2 $1I248
+I $1I248 builtin:nand2 $1N62 $1N276 ~BI 
+M builtin:nor3 $1I243
+I $1I243 builtin:nor3 OA $1N151 $1N286 $1N143 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor3 $1I242
+I $1I242 builtin:nor3 OB $1N151 $1N140 $1N130 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor2 $1I241
+I $1I241 builtin:nor2 OC $1N125 $1N120 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor3 $1I240
+I $1I240 builtin:nor3 OD $1N109 $1N114 $1N104 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor3 $1I238
+I $1I238 builtin:nor3 OF $1N285 $1N277 $1N86 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:nor2 $1I237
+I $1I237 builtin:nor2 OG $1N104 $1N186 STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+M builtin:and2 $1I272
+I $1I272 builtin:and2 $1N143 $1N62 $1N186 
+M builtin:and2 $1I275
+I $1I275 builtin:and2 $1N120 $1N276 $1N277 
+M builtin:and2 $1I278
+I $1I278 builtin:and2 $1N114 $1N276 $1N282 
+M builtin:and2 $1I283
+I $1I283 builtin:and2 $1N104 $1N285 $1N24 
+P ? ~BI
+I ~BI ? ~BI
+P ? D
+I D ? D
+P ? C
+I C ? C
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? OF
+I OF ? OF
+P ? OD
+I OD ? OD
+P ? OB
+I OB ? OB
+P ? OA
+I OA ? OA
+P ? OG
+I OG ? OG
+P ? OC
+I OC ? OC
+P ? OE
+I OE ? OE
+EW

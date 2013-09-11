@@ -1,0 +1,33 @@
+[2012.03.12 08:27:04] [0000m.00s.078ms] [0] WELCOME
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] iCDB API ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] Base flow version [7.9.3]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] GBS Install Id [23291], Flow Id [EE7.9.3], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Nov 1 2011]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] Machine [ESVM01]  User [student]  PID [2816]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] PATH [C:\MentorGraphics\7.9.3EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] SDD_HOME [C:\MentorGraphics\7.9.3EE\SDD_HOME] on file system [NTFS]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] SDD_PLATFORM [win32]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.3EE\SDD_HOME\standard]
+[2012.03.12 08:27:04] [0000m.00s.078ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.03.12 08:27:05] [0000m.00s.953ms] [0] PM: Entering client mode
+[2012.03.12 08:27:18] [0000m.14s.281ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] size [193592 (189.1 kB)]
+[2012.03.12 08:27:18] [0000m.14s.281ms] [1] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] opened in read-write mode
+[2012.03.12 08:27:18] [0000m.14s.281ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1009]
+[2012.03.12 08:27:18] [0000m.14s.281ms] [0] Database GUARD MISMATCH: [0] against [193592]
+[2012.03.12 08:27:18] [0000m.14s.281ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1009]
+[2012.03.12 08:27:18] [0000m.14s.281ms] [0] Database GUARD MISMATCH: [0] against [193592]
+[2012.03.12 08:27:18] [0000m.14s.281ms] [0] SingleFile: [8c4c-4c07-efaa-18d9] SFI version check [1008] [1009]
+[2012.03.12 08:27:18] [0000m.14s.296ms] [0] SingleFile: [8c4c-4c07-efaa-18d9] Database SFI header has been read in [11ms 500us]
+[2012.03.12 08:27:18] [0000m.14s.296ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] closed with size [193592 (189.1 kB)]
+[2012.03.12 08:27:21] [0000m.16s.984ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] size [193592 (189.1 kB)]
+[2012.03.12 08:27:21] [0000m.16s.984ms] [1] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] opened in read-only mode
+[2012.03.12 08:27:21] [0000m.16s.984ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] closed with size [193592 (189.1 kB)]
+[2012.03.12 08:27:21] [0000m.16s.984ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] size [193592 (189.1 kB)]
+[2012.03.12 08:27:21] [0000m.16s.984ms] [1] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] opened in read-write mode
+[2012.03.12 08:27:21] [0000m.17s.078ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] closed with size [193592 (189.1 kB)]
+[2012.03.12 08:27:21] [0000m.17s.078ms] [0] DiagProperties: ERROR: iCDB Server Monitor address file not found
+[2012.03.12 08:27:25] [0000m.21s.312ms] [0] AMC: Event: ProjectConnectionSucceed
+[2012.03.12 08:28:42] [0001m.37s.813ms] [0] PM: Closing client mode
+[2012.03.12 08:28:42] [0001m.37s.813ms] [0] .

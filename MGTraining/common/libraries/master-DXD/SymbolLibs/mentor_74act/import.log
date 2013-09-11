@@ -1,0 +1,17 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing mentor_74act
+	Adding symbol 74act107a 
+	ERROR - Problem adding symbol C:\MGTraining\common\libraries\master-DXD\SymbolLibs\mentor_74act 74act107a 
+		A symbol definition with the same name already exists in the LMC.
+		That symbol definition has different pins. This symbol cannot be saved.
+		Please check the following partitions:
+			
+Continue processing symbols...
+
+DXLIB2LMC utility complete

@@ -1,0 +1,16 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 425074941700 resistor
+DW resistor
+|Q builtin:buf 1
+AS builtin:buf PINORDER=Q A
+AP builtin:buf 1 PINTYPE=OUT
+AP builtin:buf 2 PINTYPE=IN
+M builtin:buf $1I4
+I $1I4 builtin:buf OUT IN STR01=WW`
+P ? OUT
+I OUT ? OUT
+P ? IN
+I IN ? IN
+EW

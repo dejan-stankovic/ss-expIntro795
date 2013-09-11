@@ -1,0 +1,82 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 190654403900 74ls379
+DW 74act379
+Q Case
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:dor2 1
+AS builtin:dor2 PINORDER=Q QN A B
+AP builtin:dor2 1 PINTYPE=OUT
+AP builtin:dor2 2 PINTYPE=OUT
+AP builtin:dor2 3 PINTYPE=IN
+AP builtin:dor2 4 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+M builtin:shre $1I151
+I $1I151 builtin:shre CLK ~G THOLD=@TH_ENABLE`TSU=@TS_ENABLE`
+M builtin:and2 $1I156
+I $1I156 builtin:and2 $1N146 $1N117 CLK 
+M builtin:dor2 $1I154
+I $1I154 builtin:dor2 $1N120 $1N117 ~G $1N127 
+M builtin:and2 $1I155
+I $1I155 builtin:and2 $1N127 CLK $1N120 
+M builtin:udfdl $1I160
+I $1I160 builtin:udfdl 1Q ~1Q 1D ? ? $1N146 ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:udfdl $1I179
+I $1I179 builtin:udfdl 2Q ~2Q 2D ? ? $1N146 ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:udfdl $1I180
+I $1I180 builtin:udfdl 3Q ~3Q 3D ? ? $1N146 ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:udfdl $1I181
+I $1I181 builtin:udfdl 4Q ~4Q 4D ? ? $1N146 ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:pw $1I152
+I $1I152 builtin:pw CLK TNEG=@PWCLK0`TPOS=@PWCLK1`
+P ? ~2Q
+I ~2Q ? ~2Q
+P ? 4D
+I 4D ? 4D
+P ? ~G
+I ~G ? ~G
+P ? CLK
+I CLK ? CLK
+P ? 2D
+I 2D ? 2D
+P ? 2Q
+I 2Q ? 2Q
+P ? ~1Q
+I ~1Q ? ~1Q
+P ? 1Q
+I 1Q ? 1Q
+P ? 3Q
+I 3Q ? 3Q
+P ? ~3Q
+I ~3Q ? ~3Q
+P ? 4Q
+I 4Q ? 4Q
+P ? ~4Q
+I ~4Q ? ~4Q
+P ? 3D
+I 3D ? 3D
+P ? 1D
+I 1D ? 1D
+EW

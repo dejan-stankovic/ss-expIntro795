@@ -1,0 +1,22 @@
+
+                                Library Services
+                                ----------------
+
+                       02:55 PM Tuesday, January 22, 2008
+      Job Name: C:\MGTraining\projects\DEMO\PCB\Work\Layout_Temp\Design.llm
+
+
+
+Operation: Import Cells to Library (copy)
+Source:    C:\MGTraining\common\libraries\master-DXD\master-DXD.lmc,
+           Cell partition 'misc'
+Target:    C:\MGTraining\projects\DEMO\PCB\Work\Layout_Temp\Design.llm,
+           Cell partition 'CellDB'
+
+Padstack '40th test pad' was copied because it didn't exist
+
+Cell 'TESTPAD40' was copied because it didn't exist
+
+
+Operation completed successfully.
+---------------------------------

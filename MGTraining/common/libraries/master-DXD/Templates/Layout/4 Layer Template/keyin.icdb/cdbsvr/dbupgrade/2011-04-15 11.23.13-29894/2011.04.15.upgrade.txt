@@ -1,0 +1,30 @@
+[2011.04.15 11:23:14] [0000m.00s.001ms.122us] [0] WELCOME
+[2011.04.15 11:23:14] [0000m.00s.005ms.102us] [1] iCDB Server ver.1.091, 0XsVZbnMvCAokxoWCsr9pA, build:426268 created 2010-10-27 08:23:57, sources stamp:0XsVZbnMvCAokxoWCsr9pA
+[2011.04.15 11:23:14] [0000m.00s.006ms.017us] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.04.15 11:23:14] [0000m.00s.006ms.044us] [1] Base flow version [7.9.1]
+[2011.04.15 11:23:14] [0000m.00s.006ms.067us] [1] GBS Install Id [16608], Flow Id [EE7.9.1], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2010]
+[2011.04.15 11:23:14] [0000m.00s.007ms.061us] [1] Machine [localhost.localdomain]  User [student]  PID [29894]
+[2011.04.15 11:23:14] [0000m.00s.007ms.090us] [1] Operating system [Linux 2.6.18-128.el5 #1 SMP Wed Dec 17 11:42:39 EST 2008 i686]
+[2011.04.15 11:23:14] [0000m.00s.008ms.002us] [1] Current working dir [/home/student/MentorGraphics/7.9EE/SDD_HOME/standard/templates/pcb/Central Library/Templates/Layout/4 Layer Template]
+[2011.04.15 11:23:14] [0000m.00s.008ms.034us] [1] PATH [/home/student/MentorGraphics/7.9EE/SDD_HOME/wg/linux/bin:/home/student/MentorGraphics/7.9EE/MGC_HOME.ixl/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin-linux_optimized:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin-i86_linux:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/bin-linux_optimized:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/X11R6/bin:/usr/NX/bin:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/bin:/home/student/license/mgls_v9-3_4-2.0.ixl/bin:.:/usr/NX/bin:/usr/bin/X11]
+[2011.04.15 11:23:14] [0000m.00s.008ms.068us] [1] LD_LIBRARY_PATH [/home/student/MentorGraphics/7.9EE/SDD_HOME/xe/linux/lib:/home/student/MentorGraphics/7.9EE/SDD_HOME/wg/linux/lib:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/lib:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux_optimized:/home/student/MentorGraphics/7.9EE/MGC_HOME.ixl/lib:.:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux:/home/student/MentorGraphics/7.9EE/SDD_HOME/common/linux/MainWin5/lib-linux_optimized:::/usr/X11R6/lib]
+[2011.04.15 11:23:14] [0000m.00s.009ms.040us] [1] SDD_HOME [/home/student/MentorGraphics/7.9EE/SDD_HOME] on file system [Extended File System ver.2 (EXT2)]
+[2011.04.15 11:23:14] [0000m.00s.009ms.067us] [1] SDD_PLATFORM [linux]
+[2011.04.15 11:23:14] [0000m.00s.009ms.103us] [1] Local iCDB working dir [/home/student/MGTraining/common/config/iCDB] on file system [Extended File System ver.2 (EXT2)]
+[2011.04.15 11:23:14] [0000m.00s.010ms.023us] [0] Backuping database content before upgrade
+[2011.04.15 11:23:14] [0000m.00s.030ms.236us] [0] Database content backuped to [/home/student/MentorGraphics/7.9EE/SDD_HOME/standard/templates/pcb/Central Library/Templates/Layout/4 Layer Template/keyin.icdb/cdbback/2011-04-15 11.23.14-29894.zip] of size [17 251 bytes] in [123ms 20us]
+[2011.04.15 11:23:14] [0000m.00s.038ms.049us] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.5]
+[2011.04.15 11:23:14] [0000m.00s.050ms.023us] [0] Loading snapshot [1:PCB] version [2553]
+[2011.04.15 11:23:14] [0000m.00s.142ms.740us] [0] Snapshot [1:PCB] loaded in [605ms 91us]
+[2011.04.15 11:23:14] [0000m.00s.169ms.685us] [0] Upgrading constraint definitions for snapshot [1:PCB]
+[2011.04.15 11:23:14] [0000m.00s.234ms.995us] [0] Constraint definitions for snapshot [1:PCB] upgraded in [238ms 64us]
+[2011.04.15 11:23:14] [0000m.00s.235ms.979us] [0] Saving snapshot [1:PCB]
+[2011.04.15 11:23:14] [0000m.00s.267ms.719us] [0] Snapshot [1:PCB] saved in [677ms 31us]
+[2011.04.15 11:23:14] [0000m.00s.498ms.199us] [0] Loading snapshot [2:PCB_Layout_Temp] version [2553]
+[2011.04.15 11:23:14] [0000m.00s.511ms.193us] [0] Snapshot [2:PCB_Layout_Temp] loaded in [206ms 12us]
+[2011.04.15 11:23:14] [0000m.00s.512ms.031us] [0] Upgrading constraint definitions for snapshot [2:PCB_Layout_Temp]
+[2011.04.15 11:23:14] [0000m.00s.519ms.934us] [0] Constraint definitions for snapshot [2:PCB_Layout_Temp] upgraded in [919ms 6us]
+[2011.04.15 11:23:14] [0000m.00s.520ms.960us] [0] Saving snapshot [2:PCB_Layout_Temp]
+[2011.04.15 11:23:14] [0000m.00s.527ms.105us] [0] Snapshot [2:PCB_Layout_Temp] saved in [164ms 5us]
+[2011.04.15 11:23:14] [0000m.00s.587ms.919us] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.6]
+[2011.04.15 11:23:14] [0000m.00s.590ms.995us] [0] DONE

@@ -1,0 +1,38 @@
+[2011.06.17 10:05:39] [0000m.01s.437ms] [0] WELCOME
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] iCDB Server ver.1.092, sNlgdaWL5XH2IKU803MGlg, build:453260 created 2011-05-23 10:49:57, sources stamp:sNlgdaWL5XH2IKU803MGlg
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] Copyright 2011 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] Base flow version [7.9.2]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] GBS Install Id [18853], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] Machine [esvm01]  User [student]  PID [2764]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] PATH [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] SDD_HOME [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME] on file system [NTFS]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] SDD_PLATFORM [win32]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2011.06.17 10:05:39] [0000m.01s.437ms] [0] Creating database content backup before upgrade
+[2011.06.17 10:05:39] [0000m.01s.453ms] [0] Database content backed up to [C:\MGTraining\projects\DXD\database\cdbback\2011-06-17 10.05.39-2764.zip] of size [153 041 bytes (149.5 kB)] in [7ms 756us]
+[2011.06.17 10:05:40] [0000m.01s.484ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.7.1]
+[2011.06.17 10:05:40] [0000m.01s.515ms] [0] Upgrading snapshot [1:DxD] from version [2051]
+[2011.06.17 10:05:40] [0000m.01s.593ms] [1] CORE: Upgrade atlas from version 640 [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\2000000020000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.593ms] [1] CORE: Upgrade atlas from version 640 to 641 completed successfully [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\2000000020000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.609ms] [1] CORE: Upgrade atlas from version 640 [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\4700000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.609ms] [1] CORE: Upgrade atlas from version 640 to 641 completed successfully [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\4700000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.625ms] [1] CORE: Upgrade atlas from version 640 [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\e800000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.625ms] [1] CORE: Upgrade atlas from version 640 to 641 completed successfully [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\e800000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.640ms] [1] CORE: Upgrade atlas from version 640 [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\6a00000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.640ms] [1] CORE: Upgrade atlas from version 640 to 641 completed successfully [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\6a00000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.640ms] [1] CORE: Upgrade atlas from version 640 [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\9a00000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.640ms] [1] CORE: Upgrade atlas from version 640 to 641 completed successfully [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\9a00000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.640ms] [1] CORE: Upgrade atlas from version 640 [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\4b00000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.640ms] [1] CORE: Upgrade atlas from version 640 to 641 completed successfully [C:\MGTraining\projects\DXD\database\s1\cdbcnfgs\4b00000010000050.blk\cesatl]
+[2011.06.17 10:05:40] [0000m.01s.671ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2011.06.17 10:05:40] [0000m.01s.671ms] [0] Snapshot [1:DxD] upgraded to version [2654] in [156ms 31us]
+[2011.06.17 10:05:40] [0000m.01s.671ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2011.06.17 10:05:40] [0000m.01s.890ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [211ms 741us]
+[2011.06.17 10:05:40] [0000m.01s.890ms] [0] Saving upgraded snapshot [1:DxD]
+[2011.06.17 10:05:40] [0000m.01s.953ms] [0] Upgraded snapshot [1:DxD] saved in [71ms 350us]
+[2011.06.17 10:05:40] [0000m.02s.187ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.16;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2011.06.17 10:05:40] [0000m.02s.203ms] [0] DONE
+[2011.06.17 10:05:40] [0000m.02s.203ms] [0] .

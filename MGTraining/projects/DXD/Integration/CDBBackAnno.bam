@@ -1,0 +1,203 @@
+
+/* Sym: 59108632  Path 1: DiscreteCircuit  Page 1: DiscreteCircuit(2) */
+CHANGE 'DiscreteCircuit(2)' 	INSTANCE
+  SELECT COMP $2I551                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '7'                /* was: 8 */
+  SELECT COMP $2I550                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '8'                /* was: 3 */
+  SELECT COMP $2I549                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '9'                /* was: 6 */
+  SELECT COMP $2I548                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '5'                /* was: 9 */
+  SELECT COMP $2I546                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '6'                /* was: 7 */
+  SELECT COMP $2I542                 /* Reference Desig is C2 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C2'         /* Reference Desig was (null) */
+  SELECT COMP $2I541                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '3'                /* was: 2 */
+  SELECT COMP $2I540                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '4'                /* was: 1 */
+  SELECT COMP $2I536                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '1'                /* was: 5 */
+  SELECT COMP $2I535                 /* Reference Desig is C1 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C1'         /* Reference Desig was (null) */
+  SELECT COMP $2I534                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'PCONN' 
+    PARAM 'Description' = '9 PIN D TYPE CONNECTOR' 
+    PARAM 'Type' = 'IC' 
+    PARAM 'Part Label' = '9P_PCONN' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'J2'         /* Reference Desig was (null) */
+    PIN_PARAM 'A' 4 = '2'                /* was: 4 */
+  SELECT COMP $2I560                 /* Reference Desig is C11 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C11'         /* Reference Desig was (null) */
+  SELECT COMP $2I559                 /* Reference Desig is C10 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C10'         /* Reference Desig was (null) */
+  SELECT COMP $2I558                 /* Reference Desig is C9 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C9'         /* Reference Desig was (null) */
+  SELECT COMP $2I557                 /* Reference Desig is C8 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C8'         /* Reference Desig was (null) */
+  SELECT COMP $2I556                 /* Reference Desig is C7 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C7'         /* Reference Desig was (null) */
+  SELECT COMP $2I555                 /* Reference Desig is C6 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C6'         /* Reference Desig was (null) */
+  SELECT COMP $2I554                 /* Reference Desig is C5 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C5'         /* Reference Desig was (null) */
+  SELECT COMP $2I553                 /* Reference Desig is C4 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C4'         /* Reference Desig was (null) */
+  SELECT COMP $2I552                 /* Reference Desig is C3 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C3'         /* Reference Desig was (null) */
+  SELECT COMP $2I565                 /* Reference Desig is C16 */
+    PARAM 'Part Name' = 'PCAP100UF' 
+    PARAM 'Value' = '100uF' 
+    PARAM 'Description' = 'CAPACITOR, POLARIZED, 100UF, .1%, 50V, C7343PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'PCAP-SM7343-100U' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C16'         /* Reference Desig was (null) */
+  SELECT COMP $2I564                 /* Reference Desig is C15 */
+    PARAM 'Part Name' = 'PCAP100UF' 
+    PARAM 'Value' = '100uF' 
+    PARAM 'Description' = 'CAPACITOR, POLARIZED, 100UF, .1%, 50V, C7343PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'PCAP-SM7343-100U' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C15'         /* Reference Desig was (null) */
+  SELECT COMP $2I563                 /* Reference Desig is C14 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C14'         /* Reference Desig was (null) */
+  SELECT COMP $2I562                 /* Reference Desig is C13 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C13'         /* Reference Desig was (null) */
+  SELECT COMP $2I561                 /* Reference Desig is C12 */
+    PARAM 'Part Name' = 'CAP10PF' 
+    PARAM 'Value' = '10pF' 
+    PARAM 'Description' = 'CAPACITOR, 10PF, .1%, 50V, C1206PKG' 
+    PARAM 'Type' = 'Capacitor' 
+    PARAM 'Part Label' = 'CAP-SMD1206-10P' 
+    PARAM 23 = DELETE                    /* Component Fix flag */
+    PARAM 15 = 'C12'         /* Reference Desig was (null) */

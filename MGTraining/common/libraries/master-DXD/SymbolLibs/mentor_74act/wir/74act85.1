@@ -1,0 +1,200 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 133609903700 74ls85
+DW 74act85
+Q Case
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:nor3 1
+AS builtin:nor3 PINORDER=QN A B C
+AP builtin:nor3 1 PINTYPE=OUT
+AP builtin:nor3 2 PINTYPE=IN
+AP builtin:nor3 3 PINTYPE=IN
+AP builtin:nor3 4 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:xnor2 1
+AS builtin:xnor2 PINORDER=QN A B
+AP builtin:xnor2 1 PINTYPE=OUT
+AP builtin:xnor2 2 PINTYPE=IN
+AP builtin:xnor2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:or8 1
+AS builtin:or8 PINORDER=Q A B C D E F G H
+AP builtin:or8 1 PINTYPE=OUT
+AP builtin:or8 2 PINTYPE=IN
+AP builtin:or8 3 PINTYPE=IN
+AP builtin:or8 4 PINTYPE=IN
+AP builtin:or8 5 PINTYPE=IN
+AP builtin:or8 6 PINTYPE=IN
+AP builtin:or8 7 PINTYPE=IN
+AP builtin:or8 8 PINTYPE=IN
+AP builtin:or8 9 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:and8 1
+AS builtin:and8 PINORDER=Q A B C D E F G H
+AP builtin:and8 1 PINTYPE=OUT
+AP builtin:and8 2 PINTYPE=IN
+AP builtin:and8 3 PINTYPE=IN
+AP builtin:and8 4 PINTYPE=IN
+AP builtin:and8 5 PINTYPE=IN
+AP builtin:and8 6 PINTYPE=IN
+AP builtin:and8 7 PINTYPE=IN
+AP builtin:and8 8 PINTYPE=IN
+AP builtin:and8 9 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:nand3 1
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+M builtin:or2 $1I583
+I $1I583 builtin:or2 $1N511 $1N588 $1N586 TPLH=@LTTOGT1`TPHL=@LTTOGT0`
+M builtin:or2 $1I582
+I $1I582 builtin:or2 $1N514 $1N588 $1N584 TPLH=@GTTOLT1`TPHL=@GTTOLT0`
+M builtin:nor3 $1I577
+I $1I577 builtin:nor3 $1N588 IAEQB IALTB IAGTB 
+M builtin:delay $1I412
+I $1I412 builtin:delay $1N553 $1N556 TPHL=@ABNE30`TPLH=@ABNE31`
+M builtin:xnor2 $1I409
+I $1I409 builtin:xnor2 $1N556 A0 B0 
+M builtin:not $1I406
+I $1I406 builtin:not $1N491 B0 TPLH=@ABNE21`TPHL=@ABNE20`
+M builtin:delay $1I407
+I $1I407 builtin:delay $1N493 B0 TPLH=@ABNE11`TPHL=@ABNE10`
+M builtin:delay $1I410
+I $1I410 builtin:delay $1N490 A0 TPHL=@ABNE10`TPLH=@ABNE11`
+M builtin:not $1I411
+I $1I411 builtin:not $1N484 A0 TPHL=@ABNE20`TPLH=@ABNE21`
+M builtin:not $1I405
+I $1I405 builtin:not $1N476 B1 TPHL=@ABNE20`TPLH=@ABNE21`
+M builtin:delay $1I404
+I $1I404 builtin:delay $1N465 B1 TPHL=@ABNE10`TPLH=@ABNE11`
+M builtin:not $1I400
+I $1I400 builtin:not $1N471 A1 TPLH=@ABNE21`TPHL=@ABNE20`
+M builtin:delay $1I401
+I $1I401 builtin:delay $1N474 A1 TPLH=@ABNE11`TPHL=@ABNE10`
+M builtin:xnor2 $1I402
+I $1I402 builtin:xnor2 $1N478 A1 B1 
+M builtin:delay $1I399
+I $1I399 builtin:delay $1N554 $1N478 TPLH=@ABNE31`TPHL=@ABNE30`
+M builtin:or8 $1I498
+I $1I498 builtin:or8 ALTB $1N521 $1N525 $1N532 $1N535 $1N542 ? ? ? FLOATVAL=0`
+M builtin:or8 $1I497
+I $1I497 builtin:or8 AGTB $1N523 $1N527 $1N533 $1N540 $1N541 ? ? ? FLOATVAL=0`
+M builtin:and2 $1I427
+I $1I427 builtin:and2 $1N542 $1N501 $1N514 
+M builtin:and8 $1I421
+I $1I421 builtin:and8 $1N535 $1N484 $1N551 $1N455 $1N554 $1N493 ? ? ? FLOATVAL=1`
+M builtin:and2 $1I428
+I $1I428 builtin:and2 AEQB $1N503 $1N550 
+M builtin:not $1I369
+I $1I369 builtin:not $1N435 B3 TPHL=@ABNE20`TPLH=@ABNE21`
+M builtin:delay $1I368
+I $1I368 builtin:delay $1N431 B3 TPHL=@ABNE10`TPLH=@ABNE11`
+M builtin:xnor2 $1I354
+I $1I354 builtin:xnor2 $1N513 A3 B3 
+M builtin:delay $1I355
+I $1I355 builtin:delay $1N433 A3 TPLH=@ABNE11`TPHL=@ABNE10`
+M builtin:not $1I356
+I $1I356 builtin:not $1N429 A3 TPLH=@ABNE21`TPHL=@ABNE20`
+M builtin:delay $1I359
+I $1I359 builtin:delay $1N551 $1N513 TPLH=@ABNE31`TPHL=@ABNE30`
+M builtin:and2 $1I415
+I $1I415 builtin:and2 $1N521 $1N429 $1N431 
+M builtin:and2 $1I416
+I $1I416 builtin:and2 $1N523 $1N433 $1N435 
+M builtin:and3 $1I417
+I $1I417 builtin:and3 $1N525 $1N447 $1N551 $1N449 
+M builtin:and3 $1I418
+I $1I418 builtin:and3 $1N527 $1N451 $1N551 $1N453 
+M builtin:and4 $1I419
+I $1I419 builtin:and4 $1N532 $1N471 $1N551 $1N455 $1N465 
+M builtin:and4 $1I420
+I $1I420 builtin:and4 $1N533 $1N474 $1N551 $1N455 $1N476 
+M builtin:and8 $1I422
+I $1I422 builtin:and8 $1N540 $1N490 $1N551 $1N455 $1N554 $1N491 ? ? ? FLOATVAL=1`
+M builtin:and4 $1I423
+I $1I423 builtin:and4 $1N499 $1N551 $1N455 $1N554 $1N553 
+M builtin:and4 $1I424
+I $1I424 builtin:and4 $1N501 $1N551 $1N455 $1N554 $1N553 
+M builtin:and2 $1I426
+I $1I426 builtin:and2 $1N541 $1N499 $1N511 
+M builtin:and4 $1I425
+I $1I425 builtin:and4 $1N503 $1N513 $1N552 $1N478 $1N556 TPLH=@ABEQAB1`TPHL=@ABEQAB0`
+M builtin:delay $1I548
+I $1I548 builtin:delay $1N550 IAEQB TPHL=@EQTOEQ0`TPLH=@EQTOEQ1`
+M builtin:not $1I378
+I $1I378 builtin:not $1N453 B2 TPLH=@ABNE21`TPHL=@ABNE20`
+M builtin:delay $1I377
+I $1I377 builtin:delay $1N449 B2 TPLH=@ABNE11`TPHL=@ABNE10`
+M builtin:delay $1I374
+I $1I374 builtin:delay $1N451 A2 TPHL=@ABNE10`TPLH=@ABNE11`
+M builtin:not $1I373
+I $1I373 builtin:not $1N447 A2 TPHL=@ABNE20`TPLH=@ABNE21`
+M builtin:xnor2 $1I375
+I $1I375 builtin:xnor2 $1N552 A2 B2 
+M builtin:delay $1I372
+I $1I372 builtin:delay $1N455 $1N552 TPHL=@ABNE30`TPLH=@ABNE31`
+M builtin:not $1I562
+I $1I562 builtin:not $1N571 IAEQB 
+M builtin:nand3 $1I567
+I $1I567 builtin:nand3 $1N572 IAGTB IALTB $1N571 
+M builtin:and3 $1I505
+I $1I505 builtin:and3 $1N586 IAGTB $1N572 $1N571 
+M builtin:and3 $1I506
+I $1I506 builtin:and3 $1N584 $1N572 IALTB $1N571 
+P ? IAEQB
+I IAEQB ? IAEQB
+P ? IALTB
+I IALTB ? IALTB
+P ? B0
+I B0 ? B0
+P ? A0
+I A0 ? A0
+P ? B1
+I B1 ? B1
+P ? A1
+I A1 ? A1
+P ? A3
+I A3 ? A3
+P ? B3
+I B3 ? B3
+P ? B2
+I B2 ? B2
+P ? A2
+I A2 ? A2
+P ? ALTB
+I ALTB ? ALTB
+P ? AEQB
+I AEQB ? AEQB
+P ? AGTB
+I AGTB ? AGTB
+P ? IAGTB
+I IAGTB ? IAGTB
+EW

@@ -1,0 +1,1034 @@
+| Wirelist created using version 5.2.
+| Error - Symbol builtin:out not found or empty.
+| Error - Symbol builtin:in not found or empty.
+| Error - Symbol generic2:delay not found or empty.
+| Error - Symbol generic2:inv not found or empty.
+| Error - Symbol generic2:and3 not found or empty.
+| Error - Symbol generic2:or4 not found or empty.
+| Error - Symbol generic2:and2 not found or empty.
+| Error - Symbol generic2:or3 not found or empty.
+| Error - Symbol generic2:xor2 not found or empty.
+| Error - Symbol generic2:and1 not found or empty.
+| Error - Symbol generic2:or1 not found or empty.
+| Error - Symbol generic2:tribuf not found or empty.
+| Error - Symbol generic2:or2 not found or empty.
+| Error - Symbol generic2:or5 not found or empty.
+| Error - Symbol generic2:filter not found or empty.
+| Error - Symbol generic2:dff not found or empty.
+| Error - Symbol builtin:pwr not found or empty.
+| Error - Symbol generic2:and4 not found or empty.
+| Error - Symbol builtin:gnd not found or empty.
+V 5.4
+K 170173499800 ramctl
+DW ram_ctl
+Q Case
+SA SCH_FILE_PATH=RAMCTL 
+SA SHEET=1 
+SA SCH_FILE_TIME=10:42 
+SA SCH_FILE_DATE=12 NOV 97 
+SA SCH_FILE_NAME=RAMCTL 
+SA WIR_FILE_TIME= 0:00 
+SA WIR_FILE_DATE= 1 JAN 70 
+SA WIR_FILE_PATH=RAMCTL 
+SA WIR_FILE_NAME=RAMCTL 
+SA SCH_PGM_VER=3.6.1 
+SA SCH_PGM_NAME=VIEWGEN.EXE 
+SA USER_NAME=AELBIRT 
+SA DESIGN_NAME=RAMCTL 
+|Q generic1:obuf 1
+AS generic1:obuf @ODLY1=1
+AS generic1:obuf @ODLY0=1
+AS generic1:obuf @IDLY1=0
+AS generic1:obuf @IDLY0=0
+AS generic1:obuf DEVICE=OBUF
+AS generic1:obuf @GTSDLY0=0
+AS generic1:obuf @GTSDLY1=0
+AS generic1:obuf LEVEL=XILINX
+AS generic1:obuf LIBVER=2.0.0
+AS generic1:obuf PINORDER=GTS I O
+AP generic1:obuf 1 PINTYPE=IN
+AP generic1:obuf 2 PINTYPE=IN
+AP generic1:obuf 3 PINTYPE=CHIPTRI
+|Q generic1:ibuf 1
+AS generic1:ibuf DEVICE=IBUF
+AS generic1:ibuf LEVEL=XILINX
+AS generic1:ibuf @ODLY1=1
+AS generic1:ibuf @ODLY0=1
+AS generic1:ibuf @IDLY1=0
+AS generic1:ibuf @IDLY0=0
+AS generic1:ibuf LIBVER=2.0.0
+AS generic1:ibuf PINORDER=I O
+AP generic1:ibuf 1 PINTYPE=CHIPIN
+AP generic1:ibuf 2 PINTYPE=OUT
+|Q builtin:out 1
+|Q builtin:in 1
+|Q generic2:delay 1
+|Q generic2:inv 1
+|Q generic2:and3 1
+|Q generic2:or4 1
+|Q generic2:and2 1
+|Q generic2:or3 1
+|Q generic2:xor2 1
+|Q generic2:and1 1
+|Q generic2:or1 1
+|Q generic2:tribuf 1
+|Q generic2:or2 1
+|Q generic2:or5 1
+|Q generic2:filter 1
+|Q generic2:dff 1
+|Q builtin:pwr 1
+|Q generic2:and4 1
+|Q builtin:gnd 1
+G VDD
+G GND
+W generic1:obuf $1I865
+I $1I865 generic1:obuf ? XPRT_RSTB XPRT_RST 
+W generic1:obuf $1I867
+I $1I867 generic1:obuf ? XPORT_SYNCB XPORT_SYNC 
+W generic1:obuf $1I869
+I $1I869 generic1:obuf ? XR/WB XR/W 
+W generic1:obuf $1I871
+I $1I871 generic1:obuf ? XWORD_SYNCB XWORD_SYNC 
+W generic1:obuf $1I873
+I $1I873 generic1:obuf ? 5_WORDSB 5_WORDS 
+W generic1:obuf $1I875
+I $1I875 generic1:obuf ? ADDR_CLKB ADDR_CLK 
+W generic1:ibuf $1I876
+I $1I876 generic1:ibuf PRT_CNTRL PRT_CNTRLB 
+W generic1:ibuf $1I877
+I $1I877 generic1:ibuf ADDR0 ADDR0B 
+W generic1:ibuf $1I878
+I $1I878 generic1:ibuf ADDR1 ADDR1B 
+W generic1:ibuf $1I879
+I $1I879 generic1:ibuf ADDR2 ADDR2B 
+W generic1:ibuf $1I880
+I $1I880 generic1:ibuf ADDR3 ADDR3B 
+W generic1:ibuf $1I881
+I $1I881 generic1:ibuf ADDR4 ADDR4B 
+W generic1:ibuf $1I882
+I $1I882 generic1:ibuf ADDR5 ADDR5B 
+W generic1:ibuf $1I883
+I $1I883 generic1:ibuf ADDR7 ADDR7B 
+W generic1:ibuf $1I884
+I $1I884 generic1:ibuf ADDR8 ADDR8B 
+W generic1:obuf $1I885
+I $1I885 generic1:obuf ? XCEB XCE 
+W generic1:ibuf $1I913
+I $1I913 generic1:ibuf CLK CLKB 
+W generic1:ibuf $1I914
+I $1I914 generic1:ibuf ADDR_TC ADDR_TCB 
+W generic1:ibuf $1I915
+I $1I915 generic1:ibuf ADDR10 ADDR10B 
+W generic1:ibuf $1I916
+I $1I916 generic1:ibuf ADDR9 ADDR9B 
+W generic1:ibuf $1I924
+I $1I924 generic1:ibuf ADDR11 ADDR11B 
+W generic1:ibuf $1I925
+I $1I925 generic1:ibuf ADDR6 ADDR6B 
+W generic1:ibuf $1I926
+I $1I926 generic1:ibuf XPAR_RDY XPAR_RDYB 
+W generic1:ibuf $1I927
+I $1I927 generic1:ibuf XRESET XPRESETB 
+W builtin:out $1I931
+I $1I931 builtin:out #=19`LABEL=XCE`
+W builtin:out $1I932
+I $1I932 builtin:out #=17`LABEL=ADDR_CLK`
+W builtin:out $1I933
+I $1I933 builtin:out #=10`LABEL=5_WORDS`
+W builtin:out $1I934
+I $1I934 builtin:out #=71`LABEL=XWORD_SYNC`
+W builtin:out $1I935
+I $1I935 builtin:out #=16`LABEL=XR/W`
+W builtin:out $1I936
+I $1I936 builtin:out #=18`LABEL=XPORT_SYNC`
+W builtin:in $1I941
+I $1I941 builtin:in #=24`LABEL=ADDR8`
+W builtin:in $1I942
+I $1I942 builtin:in #=23`LABEL=ADDR7`
+W builtin:in $1I943
+I $1I943 builtin:in #=22`LABEL=ADDR6`
+W builtin:in $1I944
+I $1I944 builtin:in #=21`LABEL=ADDR5`
+W builtin:in $1I945
+I $1I945 builtin:in #=64`LABEL=ADDR4`
+W builtin:in $1I946
+I $1I946 builtin:in #=9`LABEL=ADDR3`
+W builtin:in $1I947
+I $1I947 builtin:in #=11`LABEL=ADDR2`
+W builtin:in $1I948
+I $1I948 builtin:in #=66`LABEL=ADDR1`
+W builtin:in $1I949
+I $1I949 builtin:in #=65`LABEL=ADDR0`
+W builtin:in $1I950
+I $1I950 builtin:in #=2`LABEL=ADDR_TC`
+W builtin:in $1I951
+I $1I951 builtin:in #=44`LABEL=XPAR_RDY`
+W builtin:in $1I952
+I $1I952 builtin:in #=42`LABEL=XRESET`
+W builtin:in $1I953
+I $1I953 builtin:in #=84`LABEL=PRT_CNTRL`
+W builtin:in $1I954
+I $1I954 builtin:in #=43`LABEL=CLK`
+W generic2:delay $1I427
+I $1I427 generic2:delay @TPD=46`
+W generic2:inv $1I426
+I $1I426 generic2:inv @TPD=46`
+W generic2:inv $1I425
+I $1I425 generic2:inv @TPD=46`
+W generic2:and3 $1I424
+I $1I424 generic2:and3 @TPD=0`
+W generic2:delay $1I423
+I $1I423 generic2:delay @TPD=18`
+W generic2:inv $1I422
+I $1I422 generic2:inv @TPD=46`
+W generic2:and3 $1I421
+I $1I421 generic2:and3 @TPD=0`
+W generic2:inv $1I420
+I $1I420 generic2:inv @TPD=43`
+W generic2:delay $1I419
+I $1I419 generic2:delay @TPD=46`
+W generic2:delay $1I418
+I $1I418 generic2:delay @TPD=18`
+W generic2:and3 $1I417
+I $1I417 generic2:and3 @TPD=0`
+W generic2:inv $1I416
+I $1I416 generic2:inv @TPD=43`
+W generic2:or4 $1I415
+I $1I415 generic2:or4 @TPD=0`
+W generic2:delay $1I414
+I $1I414 generic2:delay @TPD=18`
+W generic2:and3 $1I413
+I $1I413 generic2:and3 @TPD=0`
+W generic2:inv $1I412
+I $1I412 generic2:inv @TPD=46`
+W generic2:delay $1I411
+I $1I411 generic2:delay @TPD=43`
+W generic2:delay $1I410
+I $1I410 generic2:delay @TPD=44`
+W generic2:delay $1I409
+I $1I409 generic2:delay @TPD=43`
+W generic2:and3 $1I408
+I $1I408 generic2:and3 @TPD=0`
+W generic2:inv $1I407
+I $1I407 generic2:inv @TPD=44`
+W generic2:delay $1I406
+I $1I406 generic2:delay @TPD=44`
+W generic2:inv $1I405
+I $1I405 generic2:inv @TPD=43`
+W generic2:and3 $1I404
+I $1I404 generic2:and3 @TPD=0`
+W generic2:delay $1I403
+I $1I403 generic2:delay @TPD=18`
+W generic2:delay $1I402
+I $1I402 generic2:delay @TPD=44`
+W generic2:or4 $1I401
+I $1I401 generic2:or4 @TPD=0`
+W generic2:and2 $1I400
+I $1I400 generic2:and2 @TPD=0`
+W generic2:delay $1I399
+I $1I399 generic2:delay @TPD=18`
+W generic2:inv $1I398
+I $1I398 generic2:inv @TPD=44`
+W generic2:inv $1I396
+I $1I396 generic2:inv @TPD=44`
+W generic2:inv $1I395
+I $1I395 generic2:inv @TPD=43`
+W generic2:delay $1I394
+I $1I394 generic2:delay @TPD=45`
+W generic2:inv $1I393
+I $1I393 generic2:inv @TPD=23`
+W generic2:and2 $1I392
+I $1I392 generic2:and2 @TPD=0`
+W generic2:delay $1I391
+I $1I391 generic2:delay @TPD=18`
+W generic2:and2 $1I390
+I $1I390 generic2:and2 @TPD=0`
+W generic2:inv $1I389
+I $1I389 generic2:inv @TPD=47`
+W generic2:inv $1I388
+I $1I388 generic2:inv @TPD=18`
+W generic2:inv $1I386
+I $1I386 generic2:inv @TPD=23`
+W generic2:inv $1I385
+I $1I385 generic2:inv @TPD=45`
+W generic2:inv $1I384
+I $1I384 generic2:inv @TPD=45`
+W generic2:and2 $1I383
+I $1I383 generic2:and2 @TPD=0`
+W generic2:inv $1I382
+I $1I382 generic2:inv @TPD=47`
+W generic2:inv $1I381
+I $1I381 generic2:inv @TPD=23`
+W generic2:inv $1I380
+I $1I380 generic2:inv @TPD=18`
+W generic2:and3 $1I379
+I $1I379 generic2:and3 @TPD=0`
+W generic2:and2 $1I378
+I $1I378 generic2:and2 @TPD=0`
+W generic2:inv $1I377
+I $1I377 generic2:inv @TPD=46`
+W generic2:or3 $1I376
+I $1I376 generic2:or3 @TPD=0`
+W generic2:xor2 $1I375
+I $1I375 generic2:xor2 @TPD=0`
+W generic2:delay $1I374
+I $1I374 generic2:delay @TPD=6`
+W generic2:delay $1I372
+I $1I372 generic2:delay @TPD=23`
+W generic2:and2 $1I371
+I $1I371 generic2:and2 @TPD=0`
+W generic2:delay $1I370
+I $1I370 generic2:delay @TPD=47`
+W generic2:or3 $1I369
+I $1I369 generic2:or3 @TPD=0`
+W generic2:delay $1I368
+I $1I368 generic2:delay @TPD=18`
+W generic2:and3 $1I367
+I $1I367 generic2:and3 @TPD=0`
+W generic2:delay $1I366
+I $1I366 generic2:delay @TPD=43`
+W generic2:xor2 $1I365
+I $1I365 generic2:xor2 @TPD=0`
+W generic2:delay $1I364
+I $1I364 generic2:delay @TPD=6`
+W generic2:delay $1I363
+I $1I363 generic2:delay @TPD=32`
+W generic2:and1 $1I362
+I $1I362 generic2:and1 @TPD=0`
+W generic2:or1 $1I361
+I $1I361 generic2:or1 @TPD=0`
+W generic2:delay $1I360
+I $1I360 generic2:delay @TPD=45`
+W generic2:delay $1I359
+I $1I359 generic2:delay @TPD=23`
+W generic2:delay $1I358
+I $1I358 generic2:delay @TPD=45`
+W generic2:xor2 $1I357
+I $1I357 generic2:xor2 @TPD=0`
+W generic2:delay $1I356
+I $1I356 generic2:delay @TPD=0`
+W generic2:and1 $1I355
+I $1I355 generic2:and1 @TPD=0`
+W generic2:tribuf $1I353
+I $1I353 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:inv $1I352
+I $1I352 generic2:inv @TPD=45`
+W generic2:delay $1I351
+I $1I351 generic2:delay @TPD=23`
+W generic2:and2 $1I350
+I $1I350 generic2:and2 @TPD=0`
+W generic2:inv $1I349
+I $1I349 generic2:inv @TPD=0`
+W generic2:delay $1I348
+I $1I348 generic2:delay @TPD=6`
+W generic2:and2 $1I347
+I $1I347 generic2:and2 @TPD=0`
+W generic2:xor2 $1I346
+I $1I346 generic2:xor2 @TPD=0`
+W generic2:or3 $1I345
+I $1I345 generic2:or3 @TPD=0`
+W generic2:delay $1I343
+I $1I343 generic2:delay @TPD=23`
+W generic2:and2 $1I342
+I $1I342 generic2:and2 @TPD=0`
+W generic2:delay $1I341
+I $1I341 generic2:delay @TPD=46`
+W generic2:inv $1I340
+I $1I340 generic2:inv @TPD=46`
+W generic2:and1 $1I339
+I $1I339 generic2:and1 @TPD=0`
+W generic2:and1 $1I338
+I $1I338 generic2:and1 @TPD=0`
+W generic2:inv $1I337
+I $1I337 generic2:inv @TPD=43`
+W generic2:inv $1I336
+I $1I336 generic2:inv @TPD=23`
+W generic2:delay $1I335
+I $1I335 generic2:delay @TPD=23`
+W generic2:and2 $1I334
+I $1I334 generic2:and2 @TPD=0`
+W generic2:delay $1I333
+I $1I333 generic2:delay @TPD=41`
+W generic2:inv $1I332
+I $1I332 generic2:inv @TPD=23`
+W generic2:and2 $1I331
+I $1I331 generic2:and2 @TPD=0`
+W generic2:inv $1I330
+I $1I330 generic2:inv @TPD=0`
+W generic2:and1 $1I329
+I $1I329 generic2:and1 @TPD=0`
+W generic2:inv $1I328
+I $1I328 generic2:inv @TPD=32`
+W generic2:and1 $1I327
+I $1I327 generic2:and1 @TPD=0`
+W generic2:delay $1I326
+I $1I326 generic2:delay @TPD=6`
+W generic2:or1 $1I325
+I $1I325 generic2:or1 @TPD=0`
+W generic2:or2 $1I324
+I $1I324 generic2:or2 @TPD=0`
+W generic2:or4 $1I323
+I $1I323 generic2:or4 @TPD=0`
+W generic2:and1 $1I322
+I $1I322 generic2:and1 @TPD=0`
+W generic2:xor2 $1I321
+I $1I321 generic2:xor2 @TPD=0`
+W generic2:and1 $1I320
+I $1I320 generic2:and1 @TPD=0`
+W generic2:and2 $1I319
+I $1I319 generic2:and2 @TPD=0`
+W generic2:delay $1I318
+I $1I318 generic2:delay @TPD=46`
+W generic2:inv $1I317
+I $1I317 generic2:inv @TPD=42`
+W generic2:and2 $1I316
+I $1I316 generic2:and2 @TPD=0`
+W generic2:delay $1I315
+I $1I315 generic2:delay @TPD=6`
+W generic2:inv $1I314
+I $1I314 generic2:inv @TPD=36`
+W generic2:delay $1I313
+I $1I313 generic2:delay @TPD=18`
+W generic2:inv $1I312
+I $1I312 generic2:inv @TPD=23`
+W generic2:delay $1I311
+I $1I311 generic2:delay @TPD=42`
+W generic2:and2 $1I310
+I $1I310 generic2:and2 @TPD=0`
+W generic2:xor2 $1I309
+I $1I309 generic2:xor2 @TPD=0`
+W generic2:and1 $1I308
+I $1I308 generic2:and1 @TPD=0`
+W generic2:and1 $1I307
+I $1I307 generic2:and1 @TPD=0`
+W generic2:delay $1I306
+I $1I306 generic2:delay @TPD=41`
+W generic2:and1 $1I305
+I $1I305 generic2:and1 @TPD=0`
+W generic2:or2 $1I304
+I $1I304 generic2:or2 @TPD=0`
+W generic2:delay $1I303
+I $1I303 generic2:delay @TPD=0`
+W generic2:tribuf $1I302
+I $1I302 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:delay $1I300
+I $1I300 generic2:delay @TPD=41`
+W generic2:delay $1I299
+I $1I299 generic2:delay @TPD=6`
+W generic2:delay $1I298
+I $1I298 generic2:delay @TPD=9`
+W generic2:inv $1I297
+I $1I297 generic2:inv @TPD=45`
+W generic2:delay $1I296
+I $1I296 generic2:delay @TPD=18`
+W generic2:and2 $1I295
+I $1I295 generic2:and2 @TPD=0`
+W generic2:delay $1I294
+I $1I294 generic2:delay @TPD=46`
+W generic2:or5 $1I293
+I $1I293 generic2:or5 @TPD=0`
+W generic2:xor2 $1I292
+I $1I292 generic2:xor2 @TPD=0`
+W generic2:inv $1I291
+I $1I291 generic2:inv @TPD=0`
+W generic2:and2 $1I290
+I $1I290 generic2:and2 @TPD=0`
+W generic2:inv $1I289
+I $1I289 generic2:inv @TPD=18`
+W generic2:and3 $1I288
+I $1I288 generic2:and3 @TPD=0`
+W generic2:delay $1I287
+I $1I287 generic2:delay @TPD=23`
+W generic2:delay $1I286
+I $1I286 generic2:delay @TPD=6`
+W generic2:delay $1I285
+I $1I285 generic2:delay @TPD=23`
+W generic2:inv $1I284
+I $1I284 generic2:inv @TPD=18`
+W generic2:and2 $1I283
+I $1I283 generic2:and2 @TPD=0`
+W generic2:or3 $1I282
+I $1I282 generic2:or3 @TPD=0`
+W generic2:and2 $1I281
+I $1I281 generic2:and2 @TPD=0`
+W generic2:delay $1I280
+I $1I280 generic2:delay @TPD=6`
+W generic2:and2 $1I279
+I $1I279 generic2:and2 @TPD=0`
+W generic2:tribuf $1I277
+I $1I277 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:delay $1I276
+I $1I276 generic2:delay @TPD=0`
+W generic2:and1 $1I275
+I $1I275 generic2:and1 @TPD=0`
+W generic2:xor2 $1I274
+I $1I274 generic2:xor2 @TPD=0`
+W generic2:delay $1I273
+I $1I273 generic2:delay @TPD=46`
+W generic2:inv $1I272
+I $1I272 generic2:inv @TPD=23`
+W generic2:delay $1I271
+I $1I271 generic2:delay @TPD=9`
+W generic2:delay $1I270
+I $1I270 generic2:delay @TPD=9`
+W generic2:and3 $1I269
+I $1I269 generic2:and3 @TPD=0`
+W generic2:delay $1I268
+I $1I268 generic2:delay @TPD=42`
+W generic2:delay $1I267
+I $1I267 generic2:delay @TPD=66`
+W generic2:inv $1I266
+I $1I266 generic2:inv @TPD=42`
+W generic2:and2 $1I265
+I $1I265 generic2:and2 @TPD=0`
+W generic2:inv $1I264
+I $1I264 generic2:inv @TPD=0`
+W generic2:delay $1I263
+I $1I263 generic2:delay @TPD=6`
+W generic2:and1 $1I262
+I $1I262 generic2:and1 @TPD=0`
+W generic2:inv $1I261
+I $1I261 generic2:inv @TPD=18`
+W generic2:delay $1I260
+I $1I260 generic2:delay @TPD=6`
+W generic2:xor2 $1I259
+I $1I259 generic2:xor2 @TPD=0`
+W generic2:delay $1I258
+I $1I258 generic2:delay @TPD=46`
+W generic2:and1 $1I257
+I $1I257 generic2:and1 @TPD=0`
+W generic2:and1 $1I256
+I $1I256 generic2:and1 @TPD=0`
+W generic2:and1 $1I255
+I $1I255 generic2:and1 @TPD=0`
+W generic2:and1 $1I254
+I $1I254 generic2:and1 @TPD=0`
+W generic2:inv $1I253
+I $1I253 generic2:inv @TPD=23`
+W generic2:inv $1I252
+I $1I252 generic2:inv @TPD=18`
+W generic2:inv $1I251
+I $1I251 generic2:inv @TPD=23`
+W generic2:and2 $1I250
+I $1I250 generic2:and2 @TPD=0`
+W generic2:xor2 $1I249
+I $1I249 generic2:xor2 @TPD=0`
+W generic2:or2 $1I248
+I $1I248 generic2:or2 @TPD=0`
+W generic2:and1 $1I247
+I $1I247 generic2:and1 @TPD=0`
+W generic2:inv $1I246
+I $1I246 generic2:inv @TPD=66`
+W generic2:and3 $1I245
+I $1I245 generic2:and3 @TPD=0`
+W generic2:inv $1I244
+I $1I244 generic2:inv @TPD=42`
+W generic2:delay $1I243
+I $1I243 generic2:delay @TPD=21`
+W generic2:and1 $1I242
+I $1I242 generic2:and1 @TPD=0`
+W generic2:delay $1I241
+I $1I241 generic2:delay @TPD=0`
+W generic2:filter $1I240
+I $1I240 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:xor2 $1I239
+I $1I239 generic2:xor2 @TPD=0`
+W generic2:dff $1I238
+I $1I238 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:dff $1I237
+I $1I237 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:inv $1I234
+I $1I234 generic2:inv @TPD=0`
+W generic2:delay $1I233
+I $1I233 generic2:delay @TPD=6`
+W generic2:inv $1I232
+I $1I232 generic2:inv @TPD=23`
+W generic2:inv $1I231
+I $1I231 generic2:inv @TPD=45`
+W generic2:and3 $1I230
+I $1I230 generic2:and3 @TPD=0`
+W generic2:or2 $1I229
+I $1I229 generic2:or2 @TPD=0`
+W generic2:or2 $1I228
+I $1I228 generic2:or2 @TPD=0`
+W generic2:or1 $1I227
+I $1I227 generic2:or1 @TPD=0`
+W generic2:and2 $1I226
+I $1I226 generic2:and2 @TPD=0`
+W generic2:delay $1I225
+I $1I225 generic2:delay @TPD=64`
+W generic2:tribuf $1I223
+I $1I223 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:delay $1I222
+I $1I222 generic2:delay @TPD=66`
+W generic2:and3 $1I221
+I $1I221 generic2:and3 @TPD=0`
+W generic2:inv $1I220
+I $1I220 generic2:inv @TPD=62`
+W generic2:delay $1I219
+I $1I219 generic2:delay @TPD=41`
+W generic2:or1 $1I218
+I $1I218 generic2:or1 @TPD=0`
+W generic2:filter $1I217
+I $1I217 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:delay $1I216
+I $1I216 generic2:delay @TPD=68`
+W generic2:delay $1I215
+I $1I215 generic2:delay @TPD=42`
+W generic2:and3 $1I214
+I $1I214 generic2:and3 @TPD=0`
+W generic2:inv $1I213
+I $1I213 generic2:inv @TPD=23`
+W generic2:inv $1I212
+I $1I212 generic2:inv @TPD=59`
+W generic2:delay $1I211
+I $1I211 generic2:delay @TPD=67`
+W generic2:delay $1I210
+I $1I210 generic2:delay @TPD=61`
+W generic2:inv $1I209
+I $1I209 generic2:inv @TPD=66`
+W generic2:xor2 $1I208
+I $1I208 generic2:xor2 @TPD=0`
+W generic2:delay $1I207
+I $1I207 generic2:delay @TPD=6`
+W generic2:or5 $1I206
+I $1I206 generic2:or5 @TPD=0`
+W generic2:delay $1I205
+I $1I205 generic2:delay @TPD=6`
+W generic2:and2 $1I204
+I $1I204 generic2:and2 @TPD=0`
+W generic2:inv $1I203
+I $1I203 generic2:inv @TPD=42`
+W generic2:and2 $1I202
+I $1I202 generic2:and2 @TPD=0`
+W generic2:delay $1I201
+I $1I201 generic2:delay @TPD=23`
+W generic2:and1 $1I200
+I $1I200 generic2:and1 @TPD=0`
+W generic2:and2 $1I199
+I $1I199 generic2:and2 @TPD=0`
+W generic2:delay $1I198
+I $1I198 generic2:delay @TPD=68`
+W generic2:and1 $1I197
+I $1I197 generic2:and1 @TPD=0`
+W generic2:or1 $1I196
+I $1I196 generic2:or1 @TPD=0`
+W generic2:delay $1I195
+I $1I195 generic2:delay @TPD=0`
+W generic2:xor2 $1I194
+I $1I194 generic2:xor2 @TPD=0`
+W generic2:and2 $1I193
+I $1I193 generic2:and2 @TPD=0`
+W generic2:delay $1I192
+I $1I192 generic2:delay @TPD=59`
+W generic2:delay $1I191
+I $1I191 generic2:delay @TPD=59`
+W generic2:inv $1I190
+I $1I190 generic2:inv @TPD=42`
+W generic2:and2 $1I189
+I $1I189 generic2:and2 @TPD=0`
+W generic2:delay $1I188
+I $1I188 generic2:delay @TPD=63`
+W generic2:and2 $1I187
+I $1I187 generic2:and2 @TPD=0`
+W generic2:delay $1I186
+I $1I186 generic2:delay @TPD=62`
+W generic2:delay $1I185
+I $1I185 generic2:delay @TPD=18`
+W generic2:delay $1I184
+I $1I184 generic2:delay @TPD=33`
+W generic2:delay $1I183
+I $1I183 generic2:delay @TPD=9`
+W generic2:inv $1I182
+I $1I182 generic2:inv @TPD=62`
+W generic2:and1 $1I181
+I $1I181 generic2:and1 @TPD=0`
+W generic2:delay $1I180
+I $1I180 generic2:delay @TPD=23`
+W generic2:and1 $1I179
+I $1I179 generic2:and1 @TPD=0`
+W generic2:and1 $1I178
+I $1I178 generic2:and1 @TPD=0`
+W generic2:delay $1I177
+I $1I177 generic2:delay @TPD=62`
+W generic2:or2 $1I176
+I $1I176 generic2:or2 @TPD=0`
+W generic2:and2 $1I175
+I $1I175 generic2:and2 @TPD=0`
+W generic2:xor2 $1I174
+I $1I174 generic2:xor2 @TPD=0`
+W generic2:and1 $1I173
+I $1I173 generic2:and1 @TPD=0`
+W generic2:delay $1I172
+I $1I172 generic2:delay @TPD=62`
+W generic2:and2 $1I171
+I $1I171 generic2:and2 @TPD=0`
+W generic2:inv $1I170
+I $1I170 generic2:inv @TPD=64`
+W generic2:delay $1I169
+I $1I169 generic2:delay @TPD=6`
+W generic2:inv $1I168
+I $1I168 generic2:inv @TPD=42`
+W generic2:delay $1I167
+I $1I167 generic2:delay @TPD=6`
+W generic2:xor2 $1I166
+I $1I166 generic2:xor2 @TPD=0`
+W generic2:and2 $1I165
+I $1I165 generic2:and2 @TPD=0`
+W generic2:or2 $1I164
+I $1I164 generic2:or2 @TPD=0`
+W generic2:and2 $1I163
+I $1I163 generic2:and2 @TPD=0`
+W generic2:or2 $1I162
+I $1I162 generic2:or2 @TPD=0`
+W generic2:inv $1I161
+I $1I161 generic2:inv @TPD=64`
+W generic2:and1 $1I160
+I $1I160 generic2:and1 @TPD=0`
+W generic2:delay $1I159
+I $1I159 generic2:delay @TPD=63`
+W generic2:delay $1I158
+I $1I158 generic2:delay @TPD=66`
+W generic2:xor2 $1I157
+I $1I157 generic2:xor2 @TPD=0`
+W builtin:pwr $1I156
+I $1I156 builtin:pwr LABEL=VDD`
+W generic2:inv $1I155
+I $1I155 generic2:inv @TPD=68`
+W generic2:and1 $1I154
+I $1I154 generic2:and1 @TPD=0`
+W generic2:or4 $1I153
+I $1I153 generic2:or4 @TPD=0`
+W generic2:and1 $1I151
+I $1I151 generic2:and1 @TPD=0`
+W generic2:inv $1I150
+I $1I150 generic2:inv @TPD=63`
+W generic2:or1 $1I149
+I $1I149 generic2:or1 @TPD=0`
+W generic2:or1 $1I148
+I $1I148 generic2:or1 @TPD=0`
+W generic2:delay $1I147
+I $1I147 generic2:delay @TPD=23`
+W generic2:and2 $1I146
+I $1I146 generic2:and2 @TPD=0`
+W generic2:delay $1I145
+I $1I145 generic2:delay @TPD=66`
+W generic2:and1 $1I143
+I $1I143 generic2:and1 @TPD=0`
+W generic2:inv $1I142
+I $1I142 generic2:inv @TPD=62`
+W generic2:and3 $1I140
+I $1I140 generic2:and3 @TPD=0`
+W generic2:inv $1I139
+I $1I139 generic2:inv @TPD=18`
+W generic2:delay $1I138
+I $1I138 generic2:delay @TPD=45`
+W generic2:xor2 $1I137
+I $1I137 generic2:xor2 @TPD=0`
+W generic2:or2 $1I136
+I $1I136 generic2:or2 @TPD=0`
+W generic2:and1 $1I135
+I $1I135 generic2:and1 @TPD=0`
+W generic2:xor2 $1I134
+I $1I134 generic2:xor2 @TPD=0`
+W generic2:inv $1I133
+I $1I133 generic2:inv @TPD=0`
+W generic2:inv $1I132
+I $1I132 generic2:inv @TPD=63`
+W generic2:delay $1I131
+I $1I131 generic2:delay @TPD=68`
+W generic2:and1 $1I130
+I $1I130 generic2:and1 @TPD=0`
+W generic2:or1 $1I129
+I $1I129 generic2:or1 @TPD=0`
+W generic2:or2 $1I128
+I $1I128 generic2:or2 @TPD=0`
+W generic2:and2 $1I127
+I $1I127 generic2:and2 @TPD=0`
+W generic2:xor2 $1I126
+I $1I126 generic2:xor2 @TPD=0`
+W generic2:and1 $1I125
+I $1I125 generic2:and1 @TPD=0`
+W generic2:delay $1I124
+I $1I124 generic2:delay @TPD=6`
+W generic2:delay $1I123
+I $1I123 generic2:delay @TPD=18`
+W generic2:and1 $1I121
+I $1I121 generic2:and1 @TPD=0`
+W generic2:dff $1I120
+I $1I120 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:inv $1I119
+I $1I119 generic2:inv @TPD=53`
+W generic2:tribuf $1I117
+I $1I117 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:delay $1I116
+I $1I116 generic2:delay @TPD=0`
+W generic2:xor2 $1I115
+I $1I115 generic2:xor2 @TPD=0`
+W generic2:inv $1I114
+I $1I114 generic2:inv @TPD=0`
+W generic2:inv $1I113
+I $1I113 generic2:inv @TPD=32`
+W generic2:and1 $1I112
+I $1I112 generic2:and1 @TPD=0`
+W generic2:or1 $1I111
+I $1I111 generic2:or1 @TPD=0`
+W generic2:delay $1I110
+I $1I110 generic2:delay @TPD=68`
+W generic2:and1 $1I109
+I $1I109 generic2:and1 @TPD=0`
+W generic2:xor2 $1I108
+I $1I108 generic2:xor2 @TPD=0`
+W generic2:and2 $1I107
+I $1I107 generic2:and2 @TPD=0`
+W generic2:delay $1I106
+I $1I106 generic2:delay @TPD=6`
+W generic2:delay $1I105
+I $1I105 generic2:delay @TPD=23`
+W generic2:dff $1I104
+I $1I104 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:xor2 $1I103
+I $1I103 generic2:xor2 @TPD=0`
+W generic2:and1 $1I102
+I $1I102 generic2:and1 @TPD=0`
+W generic2:and1 $1I101
+I $1I101 generic2:and1 @TPD=0`
+W generic2:xor2 $1I100
+I $1I100 generic2:xor2 @TPD=0`
+W generic2:and1 $1I99
+I $1I99 generic2:and1 @TPD=0`
+W generic2:delay $1I98
+I $1I98 generic2:delay @TPD=0`
+W generic2:tribuf $1I97
+I $1I97 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:and1 $1I95
+I $1I95 generic2:and1 @TPD=0`
+W generic2:xor2 $1I94
+I $1I94 generic2:xor2 @TPD=0`
+W generic2:delay $1I93
+I $1I93 generic2:delay @TPD=15`
+W generic2:and1 $1I91
+I $1I91 generic2:and1 @TPD=0`
+W generic2:or1 $1I90
+I $1I90 generic2:or1 @TPD=0`
+W generic2:xor2 $1I89
+I $1I89 generic2:xor2 @TPD=0`
+W generic2:tribuf $1I87
+I $1I87 generic2:tribuf @TTRI=35`@TTXZ=54`@TTZX=54`
+W generic2:delay $1I86
+I $1I86 generic2:delay @TPD=0`
+W generic2:and1 $1I85
+I $1I85 generic2:and1 @TPD=0`
+W generic2:xor2 $1I84
+I $1I84 generic2:xor2 @TPD=0`
+W generic2:delay $1I82
+I $1I82 generic2:delay @TPD=73`
+W generic2:inv $1I81
+I $1I81 generic2:inv @TPD=68`
+W generic2:dff $1I80
+I $1I80 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:and1 $1I79
+I $1I79 generic2:and1 @TPD=0`
+W generic2:inv $1I78
+I $1I78 generic2:inv @TPD=68`
+W generic2:delay $1I77
+I $1I77 generic2:delay @TPD=23`
+W generic2:and2 $1I76
+I $1I76 generic2:and2 @TPD=0`
+W generic2:and1 $1I75
+I $1I75 generic2:and1 @TPD=0`
+W generic2:delay $1I74
+I $1I74 generic2:delay @TPD=66`
+W generic2:and1 $1I73
+I $1I73 generic2:and1 @TPD=0`
+W generic2:inv $1I72
+I $1I72 generic2:inv @TPD=58`
+W generic2:and1 $1I70
+I $1I70 generic2:and1 @TPD=0`
+W generic2:delay $1I69
+I $1I69 generic2:delay @TPD=26`
+W generic2:dff $1I68
+I $1I68 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:and1 $1I67
+I $1I67 generic2:and1 @TPD=0`
+W generic2:filter $1I66
+I $1I66 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:delay $1I65
+I $1I65 generic2:delay @TPD=23`
+W generic2:delay $1I63
+I $1I63 generic2:delay @TPD=53`
+W generic2:xor2 $1I62
+I $1I62 generic2:xor2 @TPD=0`
+W generic2:and1 $1I61
+I $1I61 generic2:and1 @TPD=0`
+W generic2:filter $1I60
+I $1I60 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:delay $1I59
+I $1I59 generic2:delay @TPD=53`
+W generic2:delay $1I58
+I $1I58 generic2:delay @TPD=6`
+W generic2:inv $1I57
+I $1I57 generic2:inv @TPD=53`
+W generic2:and1 $1I56
+I $1I56 generic2:and1 @TPD=0`
+W generic2:or2 $1I55
+I $1I55 generic2:or2 @TPD=0`
+W generic2:and2 $1I54
+I $1I54 generic2:and2 @TPD=0`
+W generic2:delay $1I53
+I $1I53 generic2:delay @TPD=44`
+W generic2:filter $1I52
+I $1I52 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:delay $1I51
+I $1I51 generic2:delay @TPD=53`
+W generic2:delay $1I50
+I $1I50 generic2:delay @TPD=44`
+W generic2:and3 $1I49
+I $1I49 generic2:and3 @TPD=0`
+W generic2:delay $1I48
+I $1I48 generic2:delay @TPD=23`
+W generic2:delay $1I47
+I $1I47 generic2:delay @TPD=6`
+W generic2:xor2 $1I46
+I $1I46 generic2:xor2 @TPD=0`
+W generic2:delay $1I44
+I $1I44 generic2:delay @TPD=78`
+W generic2:delay $1I42
+I $1I42 generic2:delay @TPD=73`
+W generic2:delay $1I40
+I $1I40 generic2:delay @TPD=81`
+W generic2:and4 $1I39
+I $1I39 generic2:and4 @TPD=0`
+W generic2:delay $1I38
+I $1I38 generic2:delay @TPD=78`
+W generic2:delay $1I36
+I $1I36 generic2:delay @TPD=23`
+W generic2:delay $1I35
+I $1I35 generic2:delay @TPD=6`
+W generic2:or1 $1I34
+I $1I34 generic2:or1 @TPD=0`
+W generic2:or1 $1I33
+I $1I33 generic2:or1 @TPD=0`
+W generic2:and1 $1I32
+I $1I32 generic2:and1 @TPD=0`
+W generic2:delay $1I31
+I $1I31 generic2:delay @TPD=41`
+W generic2:dff $1I30
+I $1I30 generic2:dff @TRCL=12`@TREG=11`@TRH=16`@TRPR=12`@TRSU=25`
+W generic2:xor2 $1I29
+I $1I29 generic2:xor2 @TPD=0`
+W generic2:and1 $1I28
+I $1I28 generic2:and1 @TPD=0`
+W generic2:or1 $1I27
+I $1I27 generic2:or1 @TPD=0`
+W generic2:and2 $1I26
+I $1I26 generic2:and2 @TPD=0`
+W builtin:gnd $1I25
+I $1I25 builtin:gnd LABEL=GND`
+W generic2:filter $1I24
+I $1I24 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:delay $1I23
+I $1I23 generic2:delay @TPD=53`
+W generic2:delay $1I22
+I $1I22 generic2:delay @TPD=9`
+W generic2:xor2 $1I21
+I $1I21 generic2:xor2 @TPD=0`
+W generic2:delay $1I19
+I $1I19 generic2:delay @TPD=6`
+W generic2:inv $1I18
+I $1I18 generic2:inv @TPD=53`
+W generic2:and4 $1I17
+I $1I17 generic2:and4 @TPD=0`
+W generic2:delay $1I16
+I $1I16 generic2:delay @TPD=81`
+W generic2:filter $1I14
+I $1I14 generic2:filter @TPHI=40`@TPLO=40`
+W generic2:delay $1I13
+I $1I13 generic2:delay @TPD=60`
+W generic2:inv $1I10
+I $1I10 generic2:inv @TPD=76`
+W generic2:inv $1I8
+I $1I8 generic2:inv @TPD=87`
+W generic2:and4 $1I7
+I $1I7 generic2:and4 @TPD=0`
+W generic2:delay $1I6
+I $1I6 generic2:delay @TPD=81`
+W generic2:delay $1I4
+I $1I4 generic2:delay @TPD=86`
+W generic2:delay $1I2
+I $1I2 generic2:delay @TPD=78`
+W generic2:and1 $1I92
+I $1I92 generic2:and1 @TPD=0`
+W generic2:inv $1I235
+I $1I235 generic2:inv @TPD=0`
+W generic2:and2 $1I387
+I $1I387 generic2:and2 @TPD=0`
+W generic2:inv $1I373
+I $1I373 generic2:inv @TPD=0`
+W generic2:inv $1I236
+I $1I236 generic2:inv @TPD=0`
+W generic2:inv $1I152
+I $1I152 generic2:inv @TPD=0`
+W generic2:or1 $1I20
+I $1I20 generic2:or1 @TPD=0`
+W generic2:inv $1I344
+I $1I344 generic2:inv @TPD=0`
+W builtin:in $1I939
+I $1I939 builtin:in #=67`LABEL=ADDR10`
+W builtin:in $1I940
+I $1I940 builtin:in #=25`LABEL=ADDR9`
+W generic2:and3 $1I397
+I $1I397 generic2:and3 @TPD=0`
+W builtin:in $1I938
+I $1I938 builtin:in #=1`LABEL=ADDR11`
+W builtin:out $1I937
+I $1I937 builtin:out #=73`LABEL=XPRT_RST`
+P ? XPORT_SYNC
+I XPORT_SYNC ? XPORT_SYNC
+P ? XCE
+I XCE ? XCE
+P ? ADDR1
+I ADDR1 ? ADDR1
+P ? ADDR3
+I ADDR3 ? ADDR3
+P ? ADDR4
+I ADDR4 ? ADDR4
+P ? ADDR5
+I ADDR5 ? ADDR5
+P ? ADDR9
+I ADDR9 ? ADDR9
+P ? ADDR7
+I ADDR7 ? ADDR7
+P ? ADDR6
+I ADDR6 ? ADDR6
+P ? ADDR2
+I ADDR2 ? ADDR2
+P ? ADDR8
+I ADDR8 ? ADDR8
+P ? ADDR10
+I ADDR10 ? ADDR10
+P ? ADDR11
+I ADDR11 ? ADDR11
+P ? ADDR0
+I ADDR0 ? ADDR0
+P ? ADDR_TC
+I ADDR_TC ? ADDR_TC
+P ? XPAR_RDY
+I XPAR_RDY ? XPAR_RDY
+P ? XRESET
+I XRESET ? XRESET
+P ? PRT_CNTRL
+I PRT_CNTRL ? PRT_CNTRL
+P ? CLK
+I CLK ? CLK
+P ? ADDR_CLK
+I ADDR_CLK ? ADDR_CLK
+P ? 5_WORDS
+I 5_WORDS ? 5_WORDS
+P ? XWORD_SYNC
+I XWORD_SYNC ? XWORD_SYNC
+P ? XR/W
+I XR/W ? XR/W
+P ? XPRT_RST
+I XPRT_RST ? XPRT_RST
+EW

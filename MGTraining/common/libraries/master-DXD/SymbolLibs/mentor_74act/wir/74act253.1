@@ -1,0 +1,82 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 67591701090 74ls253
+DW 74act253
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:mux41 1
+AS builtin:mux41 PINORDER=Q INH S0 S1 D0 D1 D2 D3
+AP builtin:mux41 1 PINTYPE=OUT
+AP builtin:mux41 2 PINTYPE=IN
+AP builtin:mux41 3 PINTYPE=IN
+AP builtin:mux41 4 PINTYPE=IN
+AP builtin:mux41 5 PINTYPE=IN
+AP builtin:mux41 6 PINTYPE=IN
+AP builtin:mux41 7 PINTYPE=IN
+AP builtin:mux41 8 PINTYPE=IN
+G GND
+M builtin:delay $1I82
+I $1I82 builtin:delay $1N89 1C3 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:tribuf $1I76
+I $1I76 builtin:tribuf 2Y ~2G $1N61 TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:tribuf $1I74
+I $1I74 builtin:tribuf 1Y ~1G $1N78 TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:delay $1I81
+I $1I81 builtin:delay $1N87 1C2 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I100
+I $1I100 builtin:delay $1N107 2C3 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I98
+I $1I98 builtin:delay $1N103 2C1 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I99
+I $1I99 builtin:delay $1N105 2C2 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I97
+I $1I97 builtin:delay $1N101 2C0 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:mux41 $1I72
+I $1I72 builtin:mux41 $1N78 GND $1N48 $1N16 $1N83 $1N85 $1N87 $1N89 
+M builtin:mux41 $1I71
+I $1I71 builtin:mux41 $1N61 GND $1N48 $1N16 $1N101 $1N103 $1N105 $1N107 
+M builtin:delay $1I79
+I $1I79 builtin:delay $1N83 1C0 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I80
+I $1I80 builtin:delay $1N85 1C1 TPLH=@DTOY1`TPHL=@DTOY0`
+M builtin:delay $1I73
+I $1I73 builtin:delay $1N48 A TPLH=@SELTOY1`TPHL=@SELTOY0`
+M builtin:delay $1I75
+I $1I75 builtin:delay $1N16 B TPLH=@SELTOY1`TPHL=@SELTOY0`
+P ? ~1G
+I ~1G ? ~1G
+P ? 2C2
+I 2C2 ? 2C2
+P ? 2C1
+I 2C1 ? 2C1
+P ? 2C0
+I 2C0 ? 2C0
+P ? 1C2
+I 1C2 ? 1C2
+P ? 2Y
+I 2Y ? 2Y
+P ? 1Y
+I 1Y ? 1Y
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? ~2G
+I ~2G ? ~2G
+P ? 1C3
+I 1C3 ? 1C3
+P ? 2C3
+I 2C3 ? 2C3
+P ? 1C1
+I 1C1 ? 1C1
+P ? 1C0
+I 1C0 ? 1C0
+EW

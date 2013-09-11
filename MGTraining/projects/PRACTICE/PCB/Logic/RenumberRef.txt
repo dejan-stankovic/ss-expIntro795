@@ -1,0 +1,434 @@
+
+;
+; The following is an extraction of the NetlistBackAnno.txt file limited
+; to those changes from the last forward annotation that involved changes
+; of reference designator regardless of pin or gate swap within the same part.
+; The exception being a local Common DataBase job which performs an implicit
+; forward annotation after every back annotation.
+; Changes could result from one or more runs of ECO/Renumber Ref Des
+; and/or one or more runs of Route/Swap/Gates and/or one or more runs of
+; Place/Automatic/Swap by Part Number.  If it is desired to document just
+; the changes from one or more runs of ECO/Renumber Ref Des, run Forward
+; Annotation to bring the schematic/netlist into sync with the board,
+; make the runs of ECO/Renumber Ref Des, and then run Back Annotation.
+; The first column represents the old reference designator.
+; The second represents the new reference designator using a tab as a separator
+; since references designators may have included spaces.  Leading spaces have
+; been added to reference designators in order to improve readability
+; NOTICE:
+;
+; 1. The file format is subject to change per product release.
+; 2. The information is valid until the user makes changes that require
+; back annotation.
+; 3. For more complete information on all changes the user should reference
+; the NetlistBackAnno.txt file.
+; 
+;  <Fwd Anno Ref><tab> <New Ref>
+;------------------------------- --------------------------------
+
+;------------------------------- --------------------------------
+; STARTING AN EXPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                      06:50 PM Wednesday, January 16, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                      10:00 PM Wednesday, January 16, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                      10:10 PM Wednesday, January 16, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       11:06 AM Thursday, January 17, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       11:29 AM Thursday, January 17, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       11:30 AM Thursday, January 17, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        06:06 PM Friday, January 18, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:06 AM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+;------------------------------- --------------------------------
+; STARTING AN EXPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:07 AM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:34 AM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:35 AM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+;------------------------------- --------------------------------
+; STARTING AN EXPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        01:49 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        01:53 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+ U14	 U6
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        05:06 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+;------------------------------- --------------------------------
+; STARTING AN EXPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        05:24 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        05:51 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:00 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:04 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        11:05 PM Monday, January 21, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       10:00 AM Tuesday, January 22, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       10:19 AM Tuesday, January 22, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+;------------------------------- --------------------------------
+; STARTING AN EXPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       10:19 AM Tuesday, January 22, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                      04:17 PM Wednesday, January 23, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+ C1	 C2
+ C2	 C1
+ C3	 C16
+ C4	 C15
+ C5	 C3
+ C6	 C4
+ C7	 C5
+ C8	 C6
+ C9	 C7
+ C10	 C9
+ C11	 C10
+ C12	 C8
+ C14	 C17
+ C15	 C14
+ C16	 C22
+ C17	 C11
+ C18	 C20
+ C20	 C12
+ C21	 C23
+ C22	 C21
+ C23	 C18
+ R1	 R3
+ R2	 R1
+ R3	 R2
+ R4	 R11
+ R6	 R8
+ R8	 R4
+ R9	 R10
+ R10	 R6
+ R11	 R9
+ U1	 U6
+ U2	 U8
+ U3	 U5
+ U4	 U9
+ U5	 U13
+ U6	 U12
+ U7	 U11
+ U8	 U7
+ U9	 U1
+ U10	 U2
+ U11	 U3
+ U12	 U4
+ U13	 U10
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                      04:44 PM Wednesday, January 23, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       06:18 PM Thursday, January 24, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       09:49 AM Monday, February 04, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       09:56 AM Monday, February 04, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       09:58 AM Monday, February 04, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       10:02 AM Monday, February 04, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        02:57 PM Thursday, June 11, 2009
+           Job Name: C:\MGTraining\projects\PRACTICE\PCB\Practice.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                         08:29 AM Monday, March 12, 2012
+           Job Name: C:\MGTraining\projects\PRACTICE\PCB\Practice.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                       11:25 AM Monday, September 24, 2012
+           Job Name: C:\MGTraining\projects\PRACTICE\PCB\Practice.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        01:41 PM Tuesday, April 30, 2013
+           Job Name: C:\MGTraining\projects\PRACTICE\PCB\Practice.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------

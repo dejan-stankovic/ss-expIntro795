@@ -1,0 +1,63 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 253645406500 74ls390
+DW 74act390
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+M builtin:udfdl $1I177
+I $1I177 builtin:udfdl QB $1N152 $1N152 ? CLR $1N40 ? ? ? ? TPHLCQ=@BTOQB0`TPLHCQ=@BTOQB1`TPHLRQ=@CLRTOQ0`TRECRC=@TR_CLR`
+M builtin:udfdl $1I178
+I $1I178 builtin:udfdl QC $1N182 $1N182 ? CLR $1N152 ? ? ? ? TPHLRQ=@CLRTOQ0`TPLHCQ=@BTOQC1`TPHLCQ=@BTOQC0`
+M builtin:udfdl $1I162
+I $1I162 builtin:udfdl QA $1N172 $1N172 ? CLR A ? ? ? ? TPULSER=@CLR_PULSE1`TNEGC=@A_PULSE0`TPOSC=@A_PULSE1`ACEDGE=0`TPHLCQ=@ATOQA0`TPLHCQ=@ATOQA1`TPHLRQ=@CLRTOQ0`
+M builtin:udfdl $1I175
+I $1I175 builtin:udfdl QD $1N158 $1N158 ? CLR $1N112 ? ? ? ? TPHLRQ=@CLRTOQ0`TPLHCQ=@BTOQD1`TPHLCQ=@BTOQD0`
+M builtin:pw $1I165
+I $1I165 builtin:pw B TPOS=@B_PULSE1`TNEG=@B_PULSE0`
+M builtin:nand2 $1I167
+I $1I167 builtin:nand2 $1N112 $1N33 B 
+M builtin:andnor22 $1I168
+I $1I168 builtin:andnor22 $1N33 $1N158 $1N182 $1N158 $1N152 
+M builtin:nand2 $1I169
+I $1I169 builtin:nand2 $1N40 $1N158 B 
+P ? B
+I B ? B
+P ? QA
+I QA ? QA
+P ? QC
+I QC ? QC
+P ? QD
+I QD ? QD
+P ? QB
+I QB ? QB
+P ? A
+I A ? A
+P ? CLR
+I CLR ? CLR
+EW

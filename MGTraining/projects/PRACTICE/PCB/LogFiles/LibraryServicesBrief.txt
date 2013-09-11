@@ -1,0 +1,7 @@
+
+                      Library Services Warnings and Errors
+                      ------------------------------------
+
+                       02:55 PM Tuesday, January 22, 2008
+      Job Name: C:\MGTraining\projects\DEMO\PCB\Work\Layout_Temp\Design.llm
+

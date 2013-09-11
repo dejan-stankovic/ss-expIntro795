@@ -1,0 +1,20 @@
+ Version: PCB2004.1_040910.1636 2004.1
+
+
+
+Environment Variables:
+----------------------
+DISPLAY = ":0.0"
+E_RecordOn = "1"
+HOME = "U:\"
+HOMEDRIVE = "U:"
+HOMEPATH = "\"
+LM_LICENSE_FILE = "C:\Documents and Settings\gsanders\Application Data\mgc\license.dat"
+MGC_ENABLE_CES = "1"
+MGC_HOME = "C:/MentorGraphics/MGC_HOME"
+OS = "Windows_NT"
+SDD_HOME = "c:\mentorgraphics\2004"
+SHELL = "C:/Nutc/mksnt/sh.exe"
+TEMP = "C:\DOCUME~1\gsanders\LOCALS~1\Temp"
+TMP = "C:\DOCUME~1\gsanders\LOCALS~1\Temp"
+TMPDIR = "C:/DOCUME~1/gsanders/LOCALS~1/Temp"

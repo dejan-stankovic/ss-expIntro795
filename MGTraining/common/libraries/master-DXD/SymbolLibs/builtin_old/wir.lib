@@ -1,0 +1,191 @@
+con1l.1 200                   | Wirelist created using version 4.09.
+V 4.09
+K 85814856690 con1l
+DW con1l
+AS builtin:bi PINORDER=OUT
+AS builtin:bi BI
+AP builtin:bi 1 PINTYPE=BI
+P builtin:bi CON_PIN
+I CON_PIN builtin:bi CON_PIN 
+EW
+con1r.1 201                   | Wirelist created using version 4.09.
+V 4.09
+K 198126541500 con1r
+DW con1r
+AS builtin:bi PINORDER=OUT
+AS builtin:bi BI
+AP builtin:bi 1 PINTYPE=BI
+P builtin:bi CON_PIN
+I CON_PIN builtin:bi CON_PIN 
+EW
+con25l.1 1475                 | Wirelist created using version 4.09.
+V 4.09
+K 265100751300 con25l
+DW con25l
+AS builtin:bi PINORDER=OUT
+AS builtin:bi BI
+AP builtin:bi 1 PINTYPE=BI
+P builtin:bi CONPIN25
+I CONPIN25 builtin:bi CONPIN25 
+P builtin:bi CONPIN24
+I CONPIN24 builtin:bi CONPIN24 
+P builtin:bi CONPIN23
+I CONPIN23 builtin:bi CONPIN23 
+P builtin:bi CONPIN22
+I CONPIN22 builtin:bi CONPIN22 
+P builtin:bi CONPIN21
+I CONPIN21 builtin:bi CONPIN21 
+P builtin:bi CONPIN20
+I CONPIN20 builtin:bi CONPIN20 
+P builtin:bi CONPIN19
+I CONPIN19 builtin:bi CONPIN19 
+P builtin:bi CONPIN18
+I CONPIN18 builtin:bi CONPIN18 
+P builtin:bi CONPIN17
+I CONPIN17 builtin:bi CONPIN17 
+P builtin:bi CONPIN9
+I CONPIN9 builtin:bi CONPIN9 
+P builtin:bi CONPIN10
+I CONPIN10 builtin:bi CONPIN10 
+P builtin:bi CONPIN11
+I CONPIN11 builtin:bi CONPIN11 
+P builtin:bi CONPIN12
+I CONPIN12 builtin:bi CONPIN12 
+P builtin:bi CONPIN13
+I CONPIN13 builtin:bi CONPIN13 
+P builtin:bi CONPIN14
+I CONPIN14 builtin:bi CONPIN14 
+P builtin:bi CONPIN15
+I CONPIN15 builtin:bi CONPIN15 
+P builtin:bi CONPIN16
+I CONPIN16 builtin:bi CONPIN16 
+P builtin:bi CONPIN1
+I CONPIN1 builtin:bi CONPIN1 
+P builtin:bi CONPIN2
+I CONPIN2 builtin:bi CONPIN2 
+P builtin:bi CONPIN3
+I CONPIN3 builtin:bi CONPIN3 
+P builtin:bi CONPIN4
+I CONPIN4 builtin:bi CONPIN4 
+P builtin:bi CONPIN5
+I CONPIN5 builtin:bi CONPIN5 
+P builtin:bi CONPIN6
+I CONPIN6 builtin:bi CONPIN6 
+P builtin:bi CONPIN7
+I CONPIN7 builtin:bi CONPIN7 
+P builtin:bi CONPIN8
+I CONPIN8 builtin:bi CONPIN8 
+EW
+con25r.1 1475                 | Wirelist created using version 4.09.
+V 4.09
+K 349631592900 con25r
+DW con25r
+AS builtin:bi PINORDER=OUT
+AS builtin:bi BI
+AP builtin:bi 1 PINTYPE=BI
+P builtin:bi CONPIN10
+I CONPIN10 builtin:bi CONPIN10 
+P builtin:bi CONPIN9
+I CONPIN9 builtin:bi CONPIN9 
+P builtin:bi CONPIN25
+I CONPIN25 builtin:bi CONPIN25 
+P builtin:bi CONPIN24
+I CONPIN24 builtin:bi CONPIN24 
+P builtin:bi CONPIN23
+I CONPIN23 builtin:bi CONPIN23 
+P builtin:bi CONPIN22
+I CONPIN22 builtin:bi CONPIN22 
+P builtin:bi CONPIN21
+I CONPIN21 builtin:bi CONPIN21 
+P builtin:bi CONPIN20
+I CONPIN20 builtin:bi CONPIN20 
+P builtin:bi CONPIN19
+I CONPIN19 builtin:bi CONPIN19 
+P builtin:bi CONPIN18
+I CONPIN18 builtin:bi CONPIN18 
+P builtin:bi CONPIN11
+I CONPIN11 builtin:bi CONPIN11 
+P builtin:bi CONPIN12
+I CONPIN12 builtin:bi CONPIN12 
+P builtin:bi CONPIN13
+I CONPIN13 builtin:bi CONPIN13 
+P builtin:bi CONPIN14
+I CONPIN14 builtin:bi CONPIN14 
+P builtin:bi CONPIN15
+I CONPIN15 builtin:bi CONPIN15 
+P builtin:bi CONPIN16
+I CONPIN16 builtin:bi CONPIN16 
+P builtin:bi CONPIN17
+I CONPIN17 builtin:bi CONPIN17 
+P builtin:bi CONPIN8
+I CONPIN8 builtin:bi CONPIN8 
+P builtin:bi CONPIN7
+I CONPIN7 builtin:bi CONPIN7 
+P builtin:bi CONPIN6
+I CONPIN6 builtin:bi CONPIN6 
+P builtin:bi CONPIN5
+I CONPIN5 builtin:bi CONPIN5 
+P builtin:bi CONPIN4
+I CONPIN4 builtin:bi CONPIN4 
+P builtin:bi CONPIN3
+I CONPIN3 builtin:bi CONPIN3 
+P builtin:bi CONPIN1
+I CONPIN1 builtin:bi CONPIN1 
+P builtin:bi CONPIN2
+I CONPIN2 builtin:bi CONPIN2 
+EW
+deccap.1 242                  | Wirelist created using version 4.09.
+V 4.09
+K 308435997100 deccap
+DW deccap
+AS builtin:bi PINORDER=OUT
+AS builtin:bi BI
+AP builtin:bi 1 PINTYPE=BI
+G PWR
+G GND
+P builtin:bi GND
+I GND builtin:bi GND 
+P builtin:bi PWR
+I PWR builtin:bi PWR 
+EW
+pulldown.1 253                | Wirelist created using version 4.09.
+V 4.09
+K 312134705000 pulldown
+DW pulldown
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+G VDD
+M builtin:not $1I5
+I $1I5 builtin:not OUT VDD STR01=WW`
+P ? OUT
+I OUT ? OUT
+EW
+pullup.1 251                  | Wirelist created using version 4.09.
+V 4.09
+K 195276379200 pullup
+DW pullup
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+G GND
+M builtin:not $1I12
+I $1I12 builtin:not OUT GND STR01=WW`
+P ? OUT
+I OUT ? OUT
+EW
+resistor.1 262                | Wirelist created using version 4.09.
+V 4.09
+K 425074941700 resistor
+DW resistor
+AS builtin:buf PINORDER=Q A
+AP builtin:buf 1 PINTYPE=OUT
+AP builtin:buf 2 PINTYPE=IN
+M builtin:buf $1I4
+I $1I4 builtin:buf OUT IN STR01=WW`
+P ? IN
+I IN ? IN
+P ? OUT
+I OUT ? OUT
+EW
+

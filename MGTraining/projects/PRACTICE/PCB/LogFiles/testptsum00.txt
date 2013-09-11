@@ -1,0 +1,117 @@
+
+				Test Point Summary Report
+=======================================================================
+Expedition PCB - Pinnacle - Version 2008.0.273.242
+=======================================================================
+
+Job Directory:    C:\MGTraining\projects\DEMO\PCB\
+
+
+Design Units:(th)
+
+Test Point Log:   testptsum00.txt
+
+Tue Jan 22 15:55:55 2008
+
+Net Name        Ref                  X          Y     Side    Location        Operation Result
+==============================================================================================
+$1N10           TP1                  2,250        900 Bottom  U13-2           Add       Succeeded  
+$1N10_13        TP2                  2,350      1,200 Bottom  U13-6           Add       Succeeded  
+$1N115          TP3                  1,250      1,400 Bottom  Via             Add       Succeeded  
+$1N115_8        TP4               1,257.68      1,550 Bottom  Via             Add       Succeeded  
+$1N20           TP5                  2,350        900 Bottom  U13-3           Add       Succeeded  
+$1N20_13        TP6                  2,450      1,200 Bottom  U13-5           Add       Succeeded  
+$1N29           TP7                  1,600      1,500 Bottom  Via             Add       Succeeded  
+$1N29_12        TP8                    850   1,405.92 Bottom  Via             Add       Succeeded  
+$1N29_8         TP9                  1,600      1,350 Bottom  Via             Add       Succeeded  
+$2N17           TP10                 1,850        396 Bottom  Y1-1            Add       Succeeded  
+$2N21           TP11                 1,850        204 Bottom  Y1-2            Add       Succeeded  
+$2N25           TP12              1,300.96      325.5 Bottom  Via             Add       Succeeded  
+A2              TP13                 1,500      2,175 Bottom  Via             Add       Succeeded  
+A4              TP14                 1,500      2,075 Bottom  Via             Add       Succeeded  
+A5              TP15                   150      2,000 Bottom  Via             Add       Succeeded  
+A6              TP16                   900      1,975 Bottom  Via             Add       Succeeded  
+BANK1           TP17                 1,700      2,300 Bottom  Via             Add       Succeeded  
+D0              TP18                 1,850      2,225 Bottom  Via             Add       Succeeded  
+D1              TP19                 1,800      1,800 Bottom  Via             Add       Succeeded  
+D10             TP20                   600      1,350 Bottom  Via             Add       Succeeded  
+D11             TP21                    32      2,000 Bottom  Via             Add       Succeeded  
+D12             TP22                   650      1,200 Bottom  Via             Add       Succeeded  
+D13             TP23                    32      1,934 Bottom  Via             Add       Succeeded  
+D14             TP24                   600      1,300 Bottom  Via             Add       Succeeded  
+D15             TP25                   700      1,250 Bottom  Via             Add       Succeeded  
+D2              TP26                 1,850      1,750 Bottom  Via             Add       Succeeded  
+D3              TP27                 1,750      1,700 Bottom  Via             Add       Succeeded  
+D4              TP28                 1,900      1,700 Bottom  Via             Add       Succeeded  
+D5              TP29              1,846.36   1,971.36 Bottom  Via             Add       Succeeded  
+D6              TP30                     0      1,800 Bottom  Via             Add       Succeeded  
+D7              TP31                 1,850      1,875 Bottom  Via             Add       Succeeded  
+D8              TP32                 1,250      2,225 Bottom  Via             Add       Succeeded  
+D9              TP33                   600      1,400 Bottom  Via             Add       Succeeded  
+DA0             TP34                547.48    1,540.5 Bottom  Via             Add       Succeeded  
+DA1             TP35                   241   1,682.31 Bottom  Via             Add       Succeeded  
+DA2             TP36                654.31        400 Bottom  Via             Add       Succeeded  
+DA3             TP37                   300      1,250 Bottom  Via             Add       Succeeded  
+DA4             TP38                 579.9      1,600 Bottom  Via             Add       Succeeded  
+DA5             TP39                208.69      1,600 Bottom  Via             Add       Succeeded  
+DA6             TP40                526.69        400 Bottom  Via             Add       Succeeded  
+DA7             TP41                208.69      1,450 Bottom  Via             Add       Succeeded  
+DP1-NEG         TP42                   250      1,125 Bottom  U4-14           Add       Succeeded  
+DP1-POS         TP43                   350      1,125 Bottom  U4-13           Add       Succeeded  
+GND             TP44              1,393.81      1,350 Bottom  Via             Add       Succeeded  
+GND             TP45                 1,425    1,460.5 Bottom  Via             Add       Succeeded  
+GND             TP46              1,169.18      1,550 Bottom  Via             Add       Succeeded  
+GND             TP47              1,793.81      1,350 Bottom  Via             Add       Succeeded  
+GND             TP48                 1,825    1,460.5 Bottom  Via             Add       Succeeded  
+HS0             TP49                 1,750        900 Bottom  Via             Add       Succeeded  
+HS1             TP50                 1,700        950 Bottom  Via             Add       Succeeded  
+HS2             TP51                 1,250        800 Bottom  Via             Add       Succeeded  
+HS3             TP52                 1,500        850 Bottom  Via             Add       Succeeded  
+HS4             TP53                 1,300        950 Bottom  Via             Add       Succeeded  
+HS5             TP54              1,358.69      1,000 Bottom  Via             Add       Succeeded  
+HS6             TP55              1,358.69        950 Bottom  Via             Add       Succeeded  
+HS7             TP56                323.31        250 Bottom  Via             Add       Succeeded  
+Q0              TP57                 1,600      1,200 Bottom  Via             Add       Succeeded  
+Q1              TP58              1,658.69      1,650 Bottom  Via             Add       Succeeded  
+Q2              TP59                   650      1,125 Bottom  U4-10           Add       Succeeded  
+Q3              TP60                   750      1,125 Bottom  U4-9            Add       Succeeded  
+VCC             TP61              1,530.47    1,089.5 Bottom  Via             Add       Succeeded  
+VCC             TP62              1,169.18      1,450 Bottom  Via             Add       Succeeded  
+VCC             TP63                 1,700      1,050 Bottom  Via             Add       Succeeded  
+VCC             TP64                 1,425    1,689.5 Bottom  Via             Add       Succeeded  
+VCC             TP65                 1,600      1,650 Bottom  Via             Add       Succeeded  
+VDD             TP66                 2,150      1,200 Bottom  U13-8           Add       Succeeded  
+VDD             TP67                 2,812    1,536.5 Bottom  P1-7            Add       Succeeded  
+VEE             TP68                 2,450        900 Bottom  U13-4           Add       Succeeded  
+VEE             TP69                 2,812    1,318.5 Bottom  P1-9            Add       Succeeded  
+WR0             TP70              1,117.19      2,375 Bottom  Via             Add       Succeeded  
+WR1             TP71                 1,700      2,375 Bottom  Via             Add       Succeeded  
+~DS             TP72                 1,600      1,400 Bottom  Via             Add       Succeeded  
+~RAMRD          TP73                 1,650      1,550 Bottom  Via             Add       Succeeded  
+$1N14           TP74              2,178.56     620.63 Bottom  Trace           Add       Succeeded  
+$1N14_13        TP75              2,340.84    1,263.9 Bottom  Trace           Add       Succeeded  
+AMP2_IN         TP76              1,966.81    1,314.9 Bottom  Trace           Add       Succeeded  
+$1N25           TP77                997.94   1,466.31 Bottom  Trace           Add       Succeeded  
+$1N26           TP78                825.24   1,255.98 Bottom  Trace           Add       Succeeded  
+$1N27           TP79                819.43   1,778.62 Bottom  Trace           Add       Succeeded  
+$1N28           TP80                152.73   1,520.49 Bottom  Trace           Add       Succeeded  
+
+
+Nets needing Test Points
+
+Net Name        Required  Needed
+================================
+$1N30           	1	1
+$1N45           	1	1
+$1N47           	1	1
+$2N15           	1	1
+$2N27           	1	1
+AMP1_IN         	1	1
+A0              	1	1
+A1              	1	1
+A3              	1	1
+A7              	1	1
+BANK0           	1	1
+HS_CLK          	1	1
+RAMWR0          	1	1
+RAMWR1          	1	1

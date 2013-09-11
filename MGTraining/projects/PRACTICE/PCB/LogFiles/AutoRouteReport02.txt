@@ -1,0 +1,100 @@
+
+=======================================================================
+Expedition PCB - Pinnacle - Version 2008.0.273.242
+=======================================================================
+Job Directory:
+	C:\MGTraining\projects\DEMO\PCB\LogFiles\
+Auto Route Report:   AutoRouteReport02.txt
+Auto Route Scheme (Local):   Diff Pair No Via
+
+Tue Jan 22 13:21:34 2008
+
+=======================================================================
+=======================================================================
+EDITOR CONTROL SETTINGS
+=======================================================================
+Layers Enabled & Bias ............... 1H 2V 3H 4V 5H 6V 
+Allow 45 Degree Corners ............. Yes
+Max Pins for Each Plane Fanout Via .. 2
+Use Part Outlines as Via Blocks ..... No
+
+Allow One Additional Via / SMD Pin .. No
+Allow Vias .......................... No
+Regular Pattern ..................... Allow
+Semi-Regular Pattern ................ Allow
+Irregular Pattern ................... Prevent
+Non-Serpentine Pattern .............. Allow
+
+=======================================================================
+AUTO ROUTE SETUP INFORMATION
+=======================================================================
+                    - Effort -
+Router              Start  End
+--------------------------------
+Fanout............. 1      3
+Net Selection ..... Differential Pairs
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = No
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = No
+No Via or Bias..... 1      3
+Net Selection ..... Differential Pairs
+
+Unfix Diff Pair Nets Before Pass = No
+Fix Diff Pair Nets After Pass = No
+Unfix Tuned Nets Before Pass = No
+Fix Tuned Nets After Pass = No
+Unfix Other Nets Before Pass = No
+Fix Other Nets After Pass = No
+Fix Nets Routed This Pass = Yes
+Allow Final Via Min and Finishing if not Routed 100% = Yes
+Allow trace spreading during finishing = Yes
+Checkpoint Interval = 10 (min)
+
+=======================================================================
+ROUTE REPORT SUMMARY AFTER LAST PASS
+=======================================================================
+=======================================================================
+VIA FANOUT RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:21:33 2008              Pins to Try   = 1
+
+          --Sig Pins--  --Pln Pins--  Total   Total  CPU Time  CLK Time
+Eff Tried Routed Opens  Routed Opens  Routed  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1   1     1      0      0      0      100.00% 77     00:00:00  00:00:01
+2   0     0      0      0      0        0.00% 77     00:00:00  00:00:00
+3   0     0      0      0      0        0.00% 77     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:01
+                   Total Time for Auto Route Session 00:00:00  00:00:01
+
+                                              Total % Routed    = 59.39
+                                                 Total Opens    = 106
+
+=======================================================================
+NO VIA/BIAS RESULTS
+=======================================================================
+Start Time: Tue Jan 22 13:21:34 2008             Total Netlines = 261
+                                                 Total Opens    = 2
+
+    -Remaining Netlines- Total  Percent Added Total  CPU Time  CLK Time
+Eff Tried  Routed Opens  Opens  Routed  Vias  Vias   hh:mm:ss  hh:mm:ss
+-----------------------------------------------------------------------
+1   2      2      0      0      100.00% 0     77     00:00:00  00:00:00
+2   0      0      0      0      100.00% 0     77     00:00:00  00:00:00
+3   0      0      0      0      100.00% 0     77     00:00:00  00:00:00
+                                                     --------  --------
+                          Total Time for this Router 00:00:00  00:00:01
+                   Total Time for Auto Route Session 00:00:00  00:00:01
+
+                                              Total % Routed    = 60.54
+                                                 Total Opens    = 103
+
+=======================================================================
+
+END OF AUTO ROUTE REPORT

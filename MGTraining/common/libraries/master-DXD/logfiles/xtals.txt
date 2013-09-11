@@ -1,0 +1,235 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	ERROR - Exception caught in dxlib2lmc 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+	Adding symbol xtal 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing xtals
+DXLIB2LMC utility complete

@@ -1,0 +1,31 @@
+[2008.07.23 05:22:43] [1108m.44s.137ms] [1] SC[232]: UnRegistered sub-client [BlockCacheDxD] with ID [13] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:44] [1108m.45s.012ms] [1] SC[232]: UnRegistered sub-client [ObjectHolder1] with ID [14] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:54] [1108m.55s.730ms] [1] SC[232]: UnRegistered sub-client [ICE] with ID [9] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:55] [1108m.56s.027ms] [1] SC[232]: UnRegistered sub-client [SelectionHolder] with ID [3] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:55] [1108m.56s.558ms] [1] SC[232]: Registered sub-client [DxDesigner] with ID [15] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:56] [1108m.56s.887ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[3944] # SessionID[232]] # SubClientData[SubClientName[DxDesigner] # SubClientID[15]]] ProjectPath[C:\MGTraining\projects\2007-DXD\database] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1216815775\database] WithLogFiles[1] Overwrite[0]
+[2008.07.23 05:22:56] [1108m.57s.277ms] [1] SC[232]: UnRegistered sub-client [DxDesigner] with ID [15] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:57] [1108m.58s.340ms] [1] SC[232]: UnRegistered sub-client [ConsReuseSubClient] with ID [4] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:57] [1108m.58s.402ms] [1] SC[232]: UnRegistered sub-client [DxD] with ID [1] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:57] [1108m.58s.465ms] [1] SC[232]: UnRegistered sub-client [xprob_icdb] with ID [2] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:22:58] [1108m.59s.355ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[3944] # SessionID[232]] # SubClientData[SubClientName[DxDesigner] # SubClientID[15]]] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1216815775\database] WithLogFiles[1] Overwrite[0]
+[2008.07.23 05:23:00] [1109m.01s.652ms] [1] SC[232]: UnRegistered sub-client [Navigator] with ID [5] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:23:00] [1109m.01s.683ms] [1] SC[232]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:23:00] [1109m.01s.683ms] [1] SC[232]: UnRegistered sub-client [SAE] with ID [8] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:23:01] [1109m.02s.262ms] [1] SC[232]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:23:06] [1109m.07s.605ms] [1] SC[232]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [232] host [esvm01] user [student] process ID [3944]
+[2008.07.23 05:23:07] [1109m.07s.949ms] [1] CMT: Removed client [232]
+[2008.07.23 05:23:07] [1109m.07s.949ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.07.23 05:23:09] [1109m.09s.918ms] [0] CMT: Starting server auto-close
+[2008.07.23 05:23:09] [1109m.10s.012ms] [0] S: Closing server
+[2008.07.23 05:23:09] [1109m.10s.168ms] [0] iCDB Server PI: Closing plugins
+[2008.07.23 05:23:09] [1109m.10s.199ms] [0] iCDB Server PI: Plugins closed
+[2008.07.23 05:23:09] [1109m.10s.230ms] [0] iCDB Server PI: Unloading database
+[2008.07.23 05:23:09] [1109m.10s.230ms] [0] iCDB Server PI: Saving storage
+[2008.07.23 05:23:09] [1109m.10s.230ms] [0] iCDB Server PI: Closing database
+[2008.07.23 05:23:10] [1109m.10s.965ms] [0] iCDB Server PI: Database closed
+[2008.07.23 05:23:10] [1109m.10s.965ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [40308523] ticks
+[2008.07.23 05:23:10] [1109m.10s.965ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [11260795] microseconds
+[2008.07.23 05:23:10] [1109m.10s.965ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3682]
+[2008.07.23 05:23:10] [1109m.10s.965ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [326] commands per second
+[2008.07.23 05:23:10] [1109m.11s.402ms] [0] S: STOP

@@ -1,0 +1,5 @@
+[2011.06.20 12:26:17] [5949m.52s.449ms] [1] Service: Shutdown service
+[2011.06.20 12:26:17] [5949m.52s.495ms] [1] Service: Shutdown completed
+[2011.06.20 12:26:17] [5949m.52s.558ms] [0] LT: Closing
+[2011.06.20 12:26:17] [5949m.52s.777ms] [0] LT: STOP
+[2011.06.20 12:26:17] [5949m.52s.777ms] [1] Service: Service ended

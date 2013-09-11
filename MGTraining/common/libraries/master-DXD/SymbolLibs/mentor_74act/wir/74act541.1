@@ -1,0 +1,70 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 72618261090 74ls541
+DW 74act541
+Q Case
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+M builtin:tribuf $1I107
+I $1I107 builtin:tribuf Y1 $1N7 A1 TPLH=@ATOY1`TPHL=@ATOY0`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:tribuf $1I109
+I $1I109 builtin:tribuf Y3 $1N7 A3 TPLH=@ATOY1`TPHL=@ATOY0`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:tribuf $1I111
+I $1I111 builtin:tribuf Y5 $1N7 A5 TPLH=@ATOY1`TPHL=@ATOY0`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:tribuf $1I113
+I $1I113 builtin:tribuf Y7 $1N7 A7 TPLH=@ATOY1`TPHL=@ATOY0`TPZL=@GTOYZL`TPZH=@GTOYZH`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:tribuf $1I112
+I $1I112 builtin:tribuf Y6 $1N7 A6 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:tribuf $1I110
+I $1I110 builtin:tribuf Y4 $1N7 A4 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:tribuf $1I114
+I $1I114 builtin:tribuf Y8 $1N7 A8 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:tribuf $1I108
+I $1I108 builtin:tribuf Y2 $1N7 A2 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZH=@GTOYZH`TPZL=@GTOYZL`TPHL=@ATOY0`TPLH=@ATOY1`
+M builtin:or2 $1I82
+I $1I82 builtin:or2 $1N7 ~1G ~2G 
+P ? A1
+I A1 ? A1
+P ? Y8
+I Y8 ? Y8
+P ? Y7
+I Y7 ? Y7
+P ? Y6
+I Y6 ? Y6
+P ? Y5
+I Y5 ? Y5
+P ? Y4
+I Y4 ? Y4
+P ? Y3
+I Y3 ? Y3
+P ? Y2
+I Y2 ? Y2
+P ? Y1
+I Y1 ? Y1
+P ? A8
+I A8 ? A8
+P ? A7
+I A7 ? A7
+P ? A6
+I A6 ? A6
+P ? A5
+I A5 ? A5
+P ? A4
+I A4 ? A4
+P ? A3
+I A3 ? A3
+P ? A2
+I A2 ? A2
+P ? ~1G
+I ~1G ? ~1G
+P ? ~2G
+I ~2G ? ~2G
+EW

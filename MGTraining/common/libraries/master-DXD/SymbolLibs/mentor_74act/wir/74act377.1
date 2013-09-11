@@ -1,0 +1,98 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 207025239900 74ls377
+DW 74act377
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:dor2 1
+AS builtin:dor2 PINORDER=Q QN A B
+AP builtin:dor2 1 PINTYPE=OUT
+AP builtin:dor2 2 PINTYPE=OUT
+AP builtin:dor2 3 PINTYPE=IN
+AP builtin:dor2 4 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+M builtin:udfdl $1I284
+I $1I284 builtin:udfdl 1Q ? 1D ? ? $1N320 ? ? ? ? TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:and2 $1I286
+I $1I286 builtin:and2 $1N62 CK $1N69 
+M builtin:dor2 $1I287
+I $1I287 builtin:dor2 $1N69 $1N76 ~G $1N62 
+M builtin:and2 $1I285
+I $1I285 builtin:and2 $1N320 $1N76 CK 
+M builtin:shre $1I304
+I $1I304 builtin:shre CK ~G THOLD=@TH_ENABLE`TSU=@TS_ENABLE`
+M builtin:udfdl $1I307
+I $1I307 builtin:udfdl 2Q ? 2D ? ? $1N320 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I308
+I $1I308 builtin:udfdl 3Q ? 3D ? ? $1N320 ? ? ? ? TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:udfdl $1I309
+I $1I309 builtin:udfdl 4Q ? 4D ? ? $1N320 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I310
+I $1I310 builtin:udfdl 5Q ? 5D ? ? $1N320 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I311
+I $1I311 builtin:udfdl 6Q ? 6D ? ? $1N320 ? ? ? ? TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:udfdl $1I312
+I $1I312 builtin:udfdl 7Q ? 7D ? ? $1N320 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I313
+I $1I313 builtin:udfdl 8Q ? 8D ? ? $1N320 ? ? ? ? TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:pw $1I336
+I $1I336 builtin:pw CK TNEG=@PWCLK0`TPOS=@PWCLK1`
+P ? 2D
+I 2D ? 2D
+P ? 1D
+I 1D ? 1D
+P ? 1Q
+I 1Q ? 1Q
+P ? 3D
+I 3D ? 3D
+P ? 4D
+I 4D ? 4D
+P ? 6D
+I 6D ? 6D
+P ? 7D
+I 7D ? 7D
+P ? 8D
+I 8D ? 8D
+P ? 5D
+I 5D ? 5D
+P ? 2Q
+I 2Q ? 2Q
+P ? 3Q
+I 3Q ? 3Q
+P ? 4Q
+I 4Q ? 4Q
+P ? 5Q
+I 5Q ? 5Q
+P ? 6Q
+I 6Q ? 6Q
+P ? 7Q
+I 7Q ? 7Q
+P ? 8Q
+I 8Q ? 8Q
+P ? CK
+I CK ? CK
+P ? ~G
+I ~G ? ~G
+EW

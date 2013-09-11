@@ -1,0 +1,49 @@
+.HoleName  "129th +/-8" 
+  ..AssignmentMethod  kUseCharAsDrlsym 
+  ..DrillSymbolType  kUndefinedDrlsym 
+  ..SymbolSize  2540000 
+  ..SymbolName  "K" 
+
+
+.HoleName  "13th +/-3" 
+  ..AssignmentMethod  kUseDrlsymFromList 
+  ..DrillSymbolType  kDiamondPlusDrlsym 
+  ..SymbolSize  889000 
+  ..SymbolName  "" 
+
+
+.HoleName  "17th +/-3" 
+  ..AssignmentMethod  kUseDrlsymFromList 
+  ..DrillSymbolType  kCirclePlusDrlsym 
+  ..SymbolSize  1270000 
+  ..SymbolName  "" 
+
+
+.HoleName  "34th +/-3 " 
+  ..AssignmentMethod  kUseCharAsDrlsym 
+  ..DrillSymbolType  kUndefinedDrlsym 
+  ..SymbolSize  1905000 
+  ..SymbolName  "B" 
+
+
+.HoleName  "41th +/-4 " 
+  ..AssignmentMethod  kUseCharAsDrlsym 
+  ..DrillSymbolType  kUndefinedDrlsym 
+  ..SymbolSize  2032000 
+  ..SymbolName  "C" 
+
+
+.HoleName  "62th +/-2, non-plated" 
+  ..AssignmentMethod  kUseCharAsDrlsym 
+  ..DrillSymbolType  kUndefinedDrlsym 
+  ..SymbolSize  2032000 
+  ..SymbolName  "X" 
+
+
+.HoleName  "96th +/-2, non-plated" 
+  ..AssignmentMethod  kUseCharAsDrlsym 
+  ..DrillSymbolType  kUndefinedDrlsym 
+  ..SymbolSize  2540000 
+  ..SymbolName  "Y" 
+
+

@@ -1,0 +1,94 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 160291706800 74ls645
+DW 74act645
+Q Case
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+M builtin:tribuf $1I246
+I $1I246 builtin:tribuf A1 $1N167 B1 TPHZ=@GAHZ`TPZL=@GAZL`TPZH=@GAZH`TPLZ=@GALZ`TPLH=@BA1`TPHL=@BA0`
+M builtin:tribuf $1I245
+I $1I245 builtin:tribuf A2 $1N167 B2 TPHL=@BA0`TPLH=@BA1`TPLZ=@GALZ`TPZH=@GAZH`TPZL=@GAZL`TPHZ=@GAHZ`
+M builtin:tribuf $1I244
+I $1I244 builtin:tribuf A3 $1N167 B3 TPHZ=@GAHZ`TPZL=@GAZL`TPZH=@GAZH`TPLZ=@GALZ`TPLH=@BA1`TPHL=@BA0`
+M builtin:tribuf $1I243
+I $1I243 builtin:tribuf A4 $1N167 B4 TPHL=@BA0`TPLH=@BA1`TPLZ=@GALZ`TPZH=@GAZH`TPZL=@GAZL`TPHZ=@GAHZ`
+M builtin:tribuf $1I242
+I $1I242 builtin:tribuf A5 $1N167 B5 TPHZ=@GAHZ`TPZL=@GAZL`TPZH=@GAZH`TPLZ=@GALZ`TPLH=@BA1`TPHL=@BA0`
+M builtin:tribuf $1I241
+I $1I241 builtin:tribuf A6 $1N167 B6 TPHL=@BA0`TPLH=@BA1`TPLZ=@GALZ`TPZH=@GAZH`TPZL=@GAZL`TPHZ=@GAHZ`
+M builtin:tribuf $1I240
+I $1I240 builtin:tribuf A7 $1N167 B7 TPHZ=@GAHZ`TPZL=@GAZL`TPZH=@GAZH`TPLZ=@GALZ`TPLH=@BA1`TPHL=@BA0`
+M builtin:tribuf $1I207
+I $1I207 builtin:tribuf B8 $1N148 A8 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I205
+I $1I205 builtin:tribuf B6 $1N148 A6 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I204
+I $1I204 builtin:tribuf B5 $1N148 A5 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I203
+I $1I203 builtin:tribuf B4 $1N148 A4 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I202
+I $1I202 builtin:tribuf B3 $1N148 A3 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I201
+I $1I201 builtin:tribuf B2 $1N148 A2 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I206
+I $1I206 builtin:tribuf B7 $1N148 A7 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:tribuf $1I185
+I $1I185 builtin:tribuf B1 $1N148 A1 TPLH=@AB1`TPHL=@AB0`TPZL=@GBZL`TPZH=@GBZH`TPLZ=@GBLZ`TPHZ=@GBHZ`
+M builtin:or2 $1I186
+I $1I186 builtin:or2 $1N167 DIR ~G 
+M builtin:or2 $1I183
+I $1I183 builtin:or2 $1N148 ~G $1N187 
+M builtin:not $1I182
+I $1I182 builtin:not $1N187 DIR 
+M builtin:tribuf $1I200
+I $1I200 builtin:tribuf A8 $1N167 B8 TPHL=@BA0`TPLH=@BA1`TPLZ=@GALZ`TPZH=@GAZH`TPZL=@GAZL`TPHZ=@GAHZ`
+P ? B7
+I B7 ? B7
+P ? B6
+I B6 ? B6
+P ? B5
+I B5 ? B5
+P ? B4
+I B4 ? B4
+P ? B3
+I B3 ? B3
+P ? B1
+I B1 ? B1
+P ? ~G
+I ~G ? ~G
+P ? A1
+I A1 ? A1
+P ? A2
+I A2 ? A2
+P ? A3
+I A3 ? A3
+P ? A4
+I A4 ? A4
+P ? A5
+I A5 ? A5
+P ? A6
+I A6 ? A6
+P ? A7
+I A7 ? A7
+P ? A8
+I A8 ? A8
+P ? DIR
+I DIR ? DIR
+P ? B2
+I B2 ? B2
+P ? B8
+I B8 ? B8
+EW

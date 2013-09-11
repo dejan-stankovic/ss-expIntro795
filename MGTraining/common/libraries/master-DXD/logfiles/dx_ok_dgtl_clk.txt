@@ -1,0 +1,162 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing dx_ok_dgtl_clk
+	Adding symbol 8_bit 
+	Adding symbol display 
+	Adding symbol dspl_drv 
+	Adding symbol hrs_cntr 
+	Adding symbol min_cntr 
+	Adding symbol mod_1224 
+	Adding symbol mod_59 
+	Adding symbol pls_cntr 
+	Adding symbol sec_cntr 
+DXLIB2LMC utility complete

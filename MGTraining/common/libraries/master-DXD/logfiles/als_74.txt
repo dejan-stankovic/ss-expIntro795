@@ -1,0 +1,493 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2003.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol badbob 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol badbob 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_A 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_A 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_A 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_A 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_A 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_a 
+	Adding symbol 74als240_ansi 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_a 
+	Adding symbol 74als240_ansi 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_a 
+	Adding symbol 74als240_ansi 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+	Adding symbol xxx240 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing als_74
+	Adding symbol 74als00 
+	Adding symbol 74als04 
+	Adding symbol 74als240 
+	Adding symbol 74als240_a 
+	Adding symbol 74als240_ansi 
+	Adding symbol 74als30 
+	Adding symbol 74als32 
+	Adding symbol 74als49 
+	Adding symbol 74als655 
+	Adding symbol nand2 
+	Adding symbol xxx240 
+DXLIB2LMC utility complete

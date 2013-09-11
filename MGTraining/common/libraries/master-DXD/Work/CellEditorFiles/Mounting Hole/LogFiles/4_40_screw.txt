@@ -1,0 +1,15 @@
+Cell Status
+
+Cell Type:        Mechanical cell
+
+Cell Name:        4_40_screw
+Cell Description: 
+Number Of Layers: 2
+Units:            th
+
+
+Electronic Objects Used:
+        Assembly Outline
+        Placement Outline
+        Silkscreen Outline       Mount Side
+

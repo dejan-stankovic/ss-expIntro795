@@ -1,0 +1,90 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 153587450800 74ls258
+DW 74act258
+Q Case
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+M builtin:not $1I80
+I $1I80 builtin:not $1N73 AB TPHL=@SELTOY1`TPLH=@SELTOY0`
+M builtin:delay $1I90
+I $1I90 builtin:delay $1N93 AB TPHL=@SELTOY1`TPLH=@SELTOY0`
+M builtin:tribuf $1I112
+I $1I112 builtin:tribuf 4Y ~G $1N64 TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:andnor22 $1I81
+I $1I81 builtin:andnor22 $1N61 $1N116 $1N73 $1N118 $1N93 
+M builtin:andnor22 $1I79
+I $1I79 builtin:andnor22 $1N70 $1N120 $1N73 $1N122 $1N93 
+M builtin:andnor22 $1I78
+I $1I78 builtin:andnor22 $1N67 $1N124 $1N73 $1N126 $1N93 
+M builtin:andnor22 $1I77
+I $1I77 builtin:andnor22 $1N64 $1N128 $1N73 $1N130 $1N93 
+M builtin:delay $1I94
+I $1I94 builtin:delay $1N116 1A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I100
+I $1I100 builtin:delay $1N128 4A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I99
+I $1I99 builtin:delay $1N126 3B TPLH=@DTOY0`TPHL=@DTOY1`
+M builtin:delay $1I98
+I $1I98 builtin:delay $1N124 3A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I97
+I $1I97 builtin:delay $1N122 2B TPLH=@DTOY0`TPHL=@DTOY1`
+M builtin:delay $1I96
+I $1I96 builtin:delay $1N120 2A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I95
+I $1I95 builtin:delay $1N118 1B TPLH=@DTOY0`TPHL=@DTOY1`
+M builtin:tribuf $1I83
+I $1I83 builtin:tribuf 1Y ~G $1N61 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`
+M builtin:tribuf $1I111
+I $1I111 builtin:tribuf 3Y ~G $1N67 TPLZ=@GTOYLZ`TPHZ=@GTOYHZ`TPZL=@GTOYZL`TPZH=@GTOYZH`
+M builtin:tribuf $1I110
+I $1I110 builtin:tribuf 2Y ~G $1N70 TPZH=@GTOYZH`TPZL=@GTOYZL`TPHZ=@GTOYHZ`TPLZ=@GTOYLZ`
+M builtin:delay $1I101
+I $1I101 builtin:delay $1N130 4B TPLH=@DTOY0`TPHL=@DTOY1`
+P ? 4Y
+I 4Y ? 4Y
+P ? 1Y
+I 1Y ? 1Y
+P ? ~G
+I ~G ? ~G
+P ? 4B
+I 4B ? 4B
+P ? 4A
+I 4A ? 4A
+P ? 3B
+I 3B ? 3B
+P ? 3A
+I 3A ? 3A
+P ? 2B
+I 2B ? 2B
+P ? 2A
+I 2A ? 2A
+P ? 1A
+I 1A ? 1A
+P ? 1B
+I 1B ? 1B
+P ? 2Y
+I 2Y ? 2Y
+P ? AB
+I AB ? AB
+P ? 3Y
+I 3Y ? 3Y
+EW

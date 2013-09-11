@@ -1,0 +1,75 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 123484539000 74ls290
+DW 74act290
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+M builtin:udfdl $1I178
+I $1I178 builtin:udfdl QA $1N179 $1N179 $1N202 $1N201 A ? ? ? ? TNEGC=@A_PULSE0`TPOSC=@A_PULSE1`TPLHCQ=@ATOQA1`TPHLCQ=@ATOQA0`TPLHSQ=@SETTO91`TPHLRQ=@SETTO0`ACEDGE=0`TRECRC=@TSU_CLR`
+M builtin:udfdl $1I183
+I $1I183 builtin:udfdl QB $1N199 $1N185 ? $1N201 B ? $1N202 ? ? TPHLRQ=@SETTO0`TPHLCLQ=@SETTO90`TPHLCQ=@BTOQB0`TPLHCQ=@BTOQB1`TPOSC=@B_PULSE1`TNEGC=@B_PULSE0`ACEDGE=0`
+M builtin:and2 $1I162
+I $1I162 builtin:and2 $1N202 R91 R92 
+M builtin:pw $1I177
+I $1I177 builtin:pw R01 TNEG=@R02_PULSE0`TPOS=@R02_PULSE1`
+M builtin:and2 $1I152
+I $1I152 builtin:and2 $1N201 R01 R02 
+M builtin:pw $1I163
+I $1I163 builtin:pw R02 TPOS=@R01_PULSE1`TNEG=@R01_PULSE0`
+M builtin:and2 $1I184
+I $1I184 builtin:and2 $1N185 $1N43 $1N199 
+M builtin:pw $1I168
+I $1I168 builtin:pw R92 TNEG=@R91_PULSE0`TPOS=@R91_PULSE1`
+M builtin:pw $1I176
+I $1I176 builtin:pw R91 TPOS=@R92_PULSE1`TNEG=@R92_PULSE0`
+M builtin:udfdl $1I194
+I $1I194 builtin:udfdl QC $1N207 $1N207 ? $1N201 $1N199 ? $1N202 ? ? TPLHCQ=@BTOQC1`TPHLCQ=@BTOQC0`TPHLCLQ=@SETTO90`TPHLRQ=@SETTO0`
+M builtin:nor2 $1I156
+I $1I156 builtin:nor2 $1N50 $1N207 $1N199 
+M builtin:udfdl $1I209
+I $1I209 builtin:udfdl QD $1N43 $1N50 $1N202 $1N201 B ? ? ? ? ACEDGE=0`TPLHCQ=@BTOQD1`TPHLCQ=@BTOQD0`TPLHSQ=@SETTO91`TPHLRQ=@SETTO0`
+P ? QB
+I QB ? QB
+P ? QD
+I QD ? QD
+P ? QC
+I QC ? QC
+P ? A
+I A ? A
+P ? R02
+I R02 ? R02
+P ? R01
+I R01 ? R01
+P ? QA
+I QA ? QA
+P ? R91
+I R91 ? R91
+P ? R92
+I R92 ? R92
+P ? B
+I B ? B
+EW

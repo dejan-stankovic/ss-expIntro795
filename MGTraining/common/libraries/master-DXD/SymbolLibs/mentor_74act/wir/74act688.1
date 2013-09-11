@@ -1,0 +1,89 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 259252162200 74ls688
+DW 74act688
+Q Case
+|Q builtin:xnor2 1
+AS builtin:xnor2 PINORDER=QN A B
+AP builtin:xnor2 1 PINTYPE=OUT
+AP builtin:xnor2 2 PINTYPE=IN
+AP builtin:xnor2 3 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:and8 1
+AS builtin:and8 PINORDER=Q A B C D E F G H
+AP builtin:and8 1 PINTYPE=OUT
+AP builtin:and8 2 PINTYPE=IN
+AP builtin:and8 3 PINTYPE=IN
+AP builtin:and8 4 PINTYPE=IN
+AP builtin:and8 5 PINTYPE=IN
+AP builtin:and8 6 PINTYPE=IN
+AP builtin:and8 7 PINTYPE=IN
+AP builtin:and8 8 PINTYPE=IN
+AP builtin:and8 9 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+M builtin:xnor2 $1I98
+I $1I98 builtin:xnor2 $1N77 P3 Q3 
+M builtin:xnor2 $1I99
+I $1I99 builtin:xnor2 $1N82 P2 Q2 
+M builtin:xnor2 $1I100
+I $1I100 builtin:xnor2 $1N87 P1 Q1 
+M builtin:xnor2 $1I101
+I $1I101 builtin:xnor2 $1N92 P0 Q0 
+M builtin:xnor2 $1I102
+I $1I102 builtin:xnor2 $1N72 P4 Q4 
+M builtin:xnor2 $1I103
+I $1I103 builtin:xnor2 $1N67 P5 Q5 
+M builtin:xnor2 $1I104
+I $1I104 builtin:xnor2 $1N62 P6 Q6 
+M builtin:xnor2 $1I105
+I $1I105 builtin:xnor2 $1N57 P7 Q7 
+M builtin:nand2 $1I106
+I $1I106 builtin:nand2 ~PEQQ $1N97 $1N116 
+M builtin:and8 $1I107
+I $1I107 builtin:and8 $1N97 $1N57 $1N62 $1N67 $1N72 $1N77 $1N82 $1N87 $1N92 TPHL=@PQTOPEQQ1`TPLH=@PQTOPEQQ0`
+M builtin:not $1I113
+I $1I113 builtin:not $1N116 ~G TPLH=@GTOPEQQ0`TPHL=@GTOPEQQ1`
+P ? ~PEQQ
+I ~PEQQ ? ~PEQQ
+P ? ~G
+I ~G ? ~G
+P ? Q0
+I Q0 ? Q0
+P ? Q1
+I Q1 ? Q1
+P ? Q2
+I Q2 ? Q2
+P ? Q3
+I Q3 ? Q3
+P ? Q4
+I Q4 ? Q4
+P ? Q5
+I Q5 ? Q5
+P ? Q6
+I Q6 ? Q6
+P ? Q7
+I Q7 ? Q7
+P ? P0
+I P0 ? P0
+P ? P1
+I P1 ? P1
+P ? P2
+I P2 ? P2
+P ? P3
+I P3 ? P3
+P ? P4
+I P4 ? P4
+P ? P5
+I P5 ? P5
+P ? P6
+I P6 ? P6
+P ? P7
+I P7 ? P7
+EW

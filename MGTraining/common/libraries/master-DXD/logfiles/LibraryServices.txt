@@ -1,0 +1,22 @@
+
+                                Library Services
+                                ----------------
+
+                        12:55 PM Friday, August 01, 2008
+Job Name: C:\MGTraining GOLD\MGTraining_release\common\libraries\master-DXD\master-DXD.lmc
+
+
+
+Operation: Import Cells to Library (move)
+Source:    C:\MGTraining GOLD\MGTraining_release\common\libraries\master-DXD\master-DXD.lmc,
+           Cell partition 'Cells'
+Target:    C:\MGTraining GOLD\MGTraining_release\common\libraries\master-DXD\master-DXD.lmc,
+           Cell partition 'misc'
+
+Cell 'TESTPAD35' was moved because it didn't exist
+Cell 'TESTPAD35THRU' was moved because it didn't exist
+Cell 'TESTPAD40' was moved because it didn't exist
+
+
+Operation completed successfully.
+---------------------------------

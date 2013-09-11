@@ -1,0 +1,105 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 251915492500 74ls219a
+DW 74act219a
+Q Case
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:ram16x4 1
+AS builtin:ram16x4 WIDTH = 4
+AS builtin:ram16x4 LENGTH = 16
+AS builtin:ram16x4 MODEL = RAM
+AS builtin:ram16x4 PINORDER = DOUT0 DOUT1 DOUT2 DOUT3 A0 A1 A2 A3 DSBL R/W DIN0 DIN1 DIN2 DIN3
+AP builtin:ram16x4 1 PINTYPE=TRI
+AP builtin:ram16x4 2 PINTYPE=TRI
+AP builtin:ram16x4 3 PINTYPE=TRI
+AP builtin:ram16x4 4 PINTYPE=TRI
+AP builtin:ram16x4 5 PINTYPE=IN
+AP builtin:ram16x4 6 PINTYPE=IN
+AP builtin:ram16x4 7 PINTYPE=IN
+AP builtin:ram16x4 8 PINTYPE=IN
+AP builtin:ram16x4 9 PINTYPE=IN
+AP builtin:ram16x4 10 PINTYPE=IN
+AP builtin:ram16x4 11 PINTYPE=IN
+AP builtin:ram16x4 12 PINTYPE=IN
+AP builtin:ram16x4 13 PINTYPE=IN
+AP builtin:ram16x4 14 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+M builtin:shre $1I126
+I $1I126 builtin:shre RW ~CE TSU=@TSU_CE`THOLD=@THOLD_CE`
+M builtin:nand2 $1I133
+I $1I133 builtin:nand2 $1N134 $1N152 $1N143 
+M builtin:shre $1I86
+I $1I86 builtin:shre RW DI4 THOLD=@THOLD_DATA`TSU=@TSU_DATA`
+M builtin:shre $1I98
+I $1I98 builtin:shre RW DI3 TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:shre $1I99
+I $1I99 builtin:shre RW DI2 THOLD=@THOLD_DATA`TSU=@TSU_DATA`
+M builtin:shre $1I100
+I $1I100 builtin:shre RW DI1 TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:shre $1I101
+I $1I101 builtin:shre RW C TSU=@TSU_ADDR`THOLD=@THOLD_ADDR`
+M builtin:shre $1I102
+I $1I102 builtin:shre RW B THOLD=@THOLD_ADDR`TSU=@TSU_ADDR`
+M builtin:shre $1I103
+I $1I103 builtin:shre RW A TSU=@TSU_ADDR`THOLD=@THOLD_ADDR`
+M builtin:shre $1I59
+I $1I59 builtin:shre RW D THOLD=@THOLD_ADDR`TSU=@TSU_ADDR`
+M builtin:ram16x4 $1I1
+I $1I1 builtin:ram16x4 Y1 Y2 Y3 Y4 A B C D $1N134 $1N150 DI1 DI2 DI3 DI4 TPLHAD=@ADDRTOOUT1`TPHLAD=@ADDRTOOUT0`LABEL=RAM`
+M builtin:pw $1I54
+I $1I54 builtin:pw RW TNEG=@RW_PULSE0`TPOS=0`
+M builtin:not $1I137
+I $1I137 builtin:not $1N152 ~CE TPHL=@CEDSBL`TPLH=@CEENAB`
+M builtin:delay $1I141
+I $1I141 builtin:delay $1N143 RW TPLH=@SENS_REC`TPHL=@RWDSBL`
+M builtin:nand2 $1I149
+I $1I149 builtin:nand2 $1N150 $1N148 $1N152 
+M builtin:not $1I147
+I $1I147 builtin:not $1N148 RW 
+P ? RW
+I RW ? RW
+P ? DI4
+I DI4 ? DI4
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? DI3
+I DI3 ? DI3
+P ? DI2
+I DI2 ? DI2
+P ? DI1
+I DI1 ? DI1
+P ? D
+I D ? D
+P ? C
+I C ? C
+P ? Y2
+I Y2 ? Y2
+P ? Y4
+I Y4 ? Y4
+P ? Y3
+I Y3 ? Y3
+P ? ~CE
+I ~CE ? ~CE
+P ? Y1
+I Y1 ? Y1
+EW

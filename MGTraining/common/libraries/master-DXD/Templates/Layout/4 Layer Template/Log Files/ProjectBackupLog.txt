@@ -1,0 +1,38 @@
+[2011-06-15 09.27.52] -------------------- CREATE --------------------
+[2011-06-15 09.27.52] Creating Project Backup infrastructure for project [C:\Documents and Settings\student\Desktop\MGTraining_modified\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.prj].
+[2011-06-15 09.27.52] Migrating AutoBackup directory [4 Layer Template\AutoBackup] content to Project Backup format.
+[2011-06-15 09.27.52] Migrating AutoBackup [1302891820]
+[2011-06-15 09.27.52] Successfully migrated AutoBackup [1302891820] to Project Backup format [2011-04-15 11.23.40 - app.zip]
+[2011-06-15 09.27.52] Migrated AutoBackup [1302891820] removed.
+[2011-06-15 09.27.52] Whole AutoBackup content migrated. AutoBackup directory [4 Layer Template\AutoBackup] removed.
+[2011-06-15 09.27.52] Migrating iCDB upgrade backups from directory [4 Layer Template\keyin.icdb\cdbback] to Project Backup format.
+[2011-06-15 09.27.52] Migrating iCDB upgrade backup file [2011-04-15 11.23.14-29894].
+[2011-06-15 09.27.52] Successfully created [Database Upgrade] backup [2011-04-15 11.23.14 - upgrade.zip] requested by [localhost.localdomain:student].
+[2011-06-15 09.27.52] Migrated iCDB content backup file [cdbback\2011-04-15 11.23.14-29894.zip] removed.
+[2011-06-15 09.27.52] Successfully migrated iCDB upgrade backup file [2011-04-15 11.23.14-29894] to Project Backup format [2011-04-15 11.23.14 - upgrade.zip]
+[2011-06-15 09.27.54] Successfully created [Database Upgrade] backup [2011-06-15 09.27.54 - upgrade.zip] requested by [esvm01:student].
+[2011-06-15 09.27.54] Migrated iCDB content backup file [cdbback\2011-06-15 09.27.53-564.zip] removed.
+[2011-06-15 09.27.54] Successfully created [AutoSave] backup [2011-06-15 09.27.54 - auto.zip] requested by [esvm01:student].
+[2011-06-15 09.43.22] Successfully created [Constraints Definition Upgrade] backup [2011-06-15 09.43.22 - consDefUpgr.zip] requested by [esvm01:student].
+[2011-06-15 09.43.22] Migrated iCDB content backup file [cdbback\2011-06-15 09.43.21-3700.zip] removed.
+[2011-06-15 10.06.34] -------------------- CREATE --------------------
+[2011-06-15 10.06.34] Creating Project Backup infrastructure for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.prj].
+[2011-06-15 10.06.34] Migrating AutoBackup directory [4 Layer Template\AutoBackup] content to Project Backup format.
+[2011-06-15 10.06.34] Migrating AutoBackup [1302891820]
+[2011-06-15 10.06.34] Migrating iCDB upgrade backups from directory [4 Layer Template\keyin.icdb\cdbback] to Project Backup format.
+[2011-06-15 10.06.34] Migrating iCDB upgrade backup file [2011-04-15 11.23.14-29894].
+[2011-06-15 10.06.34] Successfully migrated iCDB upgrade backup file [2011-04-15 11.23.14-29894] to Project Backup format [2011-04-15 11.23.14 - upgrade.zip]
+[2011-06-15 10.06.34] Successfully created [Database Upgrade] backup [2011-06-15 10.06.34 - upgrade.zip] requested by [esvm01:student].
+[2011-06-15 10.06.34] Migrated iCDB content backup file [cdbback\2011-06-15 10.06.34-2120.zip] removed.
+[2011-06-15 10.06.35] Successfully created [AutoSave] backup [2011-06-15 10.06.34 - auto.zip] requested by [esvm01:student].
+[2012-03-12 11.50.39] WARNING: Removing broken (incomplete) backup file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\ProjectBackup\backups\2011-04-15 11.23.14 - upgrade.zi]
+[2012-03-12 11.50.39] WARNING: Removing broken (incomplete) backup file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\ProjectBackup\backups\2011-04-15 11.23.40 - app.zi]
+[2012-03-12 11.50.39] Migrating iCDB upgrade backups from directory [4 Layer Template\keyin.icdb\cdbback] to Project Backup format.
+[2012-03-12 11.50.39] WARNING: Ignoring iCDB backup file [2011-04-15 11.23.14-29894-pbmf.zip] - will not be migrated.
+[2012-03-12 11.50.40] Successfully created [Database Upgrade] backup [2012-03-12 11.50.40 - upgrade.zip] requested by [ESVM01:student].
+[2012-03-12 11.50.40] Migrated iCDB content backup file [cdbback\2012-03-12 11.50.40-168.zip] removed.
+[2012-03-12 11.50.40] Successfully created [AutoSave] backup [2012-03-12 11.50.40 - auto.zip] requested by [ESVM01:student].
+[2012-09-26 22.48.10] Migrating iCDB upgrade backups from directory [4 Layer Template\keyin.icdb\cdbback] to Project Backup format.
+[2012-09-26 22.48.10] WARNING: Ignoring iCDB backup file [2011-04-15 11.23.14-29894-pbmf.zip] - will not be migrated.
+[2012-09-26 22.48.12] Successfully created [Database Upgrade] backup [2012-09-26 22.48.12 - upgrade.zip] requested by [ESVM01:student].
+[2012-09-26 22.48.12] Migrated iCDB content backup file [cdbback\2012-09-26 22.48.11-2704.zip] removed.

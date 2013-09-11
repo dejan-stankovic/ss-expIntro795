@@ -1,0 +1,50 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 67611285090 74ls280
+DW 74act280
+Q Case
+|Q builtin:xnor3 1
+AS builtin:xnor3 PINORDER=QN A B C
+AP builtin:xnor3 1 PINTYPE=OUT
+AP builtin:xnor3 2 PINTYPE=IN
+AP builtin:xnor3 3 PINTYPE=IN
+AP builtin:xnor3 4 PINTYPE=IN
+|Q builtin:xor3 1
+AS builtin:xor3 PINORDER=Q A B C
+AP builtin:xor3 1 PINTYPE=OUT
+AP builtin:xor3 2 PINTYPE=IN
+AP builtin:xor3 3 PINTYPE=IN
+AP builtin:xor3 4 PINTYPE=IN
+M builtin:xnor3 $1I55
+I $1I55 builtin:xnor3 $1N14 G H I 
+M builtin:xnor3 $1I53
+I $1I53 builtin:xnor3 $1N1 D E F 
+M builtin:xnor3 $1I54
+I $1I54 builtin:xnor3 $1N8 A B C 
+M builtin:xor3 $1I52
+I $1I52 builtin:xor3 EVEN $1N8 $1N1 $1N14 TPHL=@INTOOUTE0`TPLH=@INTOOUTE1`
+M builtin:xnor3 $1I51
+I $1I51 builtin:xnor3 ODD $1N8 $1N1 $1N14 TPHL=@INTOOUTO0`TPLH=@INTOOUTO1`
+P ? I
+I I ? I
+P ? H
+I H ? H
+P ? G
+I G ? G
+P ? F
+I F ? F
+P ? D
+I D ? D
+P ? E
+I E ? E
+P ? C
+I C ? C
+P ? B
+I B ? B
+P ? A
+I A ? A
+P ? EVEN
+I EVEN ? EVEN
+P ? ODD
+I ODD ? ODD
+EW

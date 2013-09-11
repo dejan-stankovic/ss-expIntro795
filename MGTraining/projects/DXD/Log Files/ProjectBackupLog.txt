@@ -1,0 +1,28 @@
+[2011-06-17 10.05.38] -------------------- CREATE --------------------
+[2011-06-17 10.05.38] Creating Project Backup infrastructure for project [C:\MGTraining\projects\DXD\DXD.prj].
+[2011-06-17 10.05.38] Migrating AutoBackup directory [DXD\AutoBackup] content to Project Backup format.
+[2011-06-17 10.05.38] Migrating AutoBackup [1221057805]
+[2011-06-17 10.05.38] WARNING: Could not find project file (.prj) backup [C:\MGTraining\projects\DXD\AutoBackup\1221057805\DXD.prj]. AutoBackup [1221057805] is incomplete - will not be migrated.
+[2011-06-17 10.05.38] Migrating AutoBackup [1243536894]
+[2011-06-17 10.05.38] WARNING: Could not find project file (.prj) backup [C:\MGTraining\projects\DXD\AutoBackup\1243536894\DXD.prj]. AutoBackup [1243536894] is incomplete - will not be migrated.
+[2011-06-17 10.05.38] Migrating AutoBackup [1256584694]
+[2011-06-17 10.05.38] WARNING: Could not find project file (.prj) backup [C:\MGTraining\projects\DXD\AutoBackup\1256584694\DXD.prj]. AutoBackup [1256584694] is incomplete - will not be migrated.
+[2011-06-17 10.05.38] Migrating iCDB upgrade backups from directory [DXD\database\cdbback] to Project Backup format.
+[2011-06-17 10.05.38] Migrating iCDB upgrade backup file [2009-10-26 12.17.17-3300].
+[2011-06-17 10.05.38] Successfully created [Database Upgrade] backup [2009-10-26 12.17.17 - upgrade.zip] requested by [esvm01:student].
+[2011-06-17 10.05.38] Migrated iCDB content backup file [cdbback\2009-10-26 12.17.17-3300.zip] removed.
+[2011-06-17 10.05.38] Successfully migrated iCDB upgrade backup file [2009-10-26 12.17.17-3300] to Project Backup format [2009-10-26 12.17.17 - upgrade.zip]
+[2011-06-17 10.05.38] Migrating iCDB upgrade backup file [2009-05-28 11.54.25-1728].
+[2011-06-17 10.05.38] Successfully created [Database Upgrade] backup [2009-05-28 11.54.25 - upgrade.zip] requested by [:].
+[2011-06-17 10.05.38] Migrated iCDB content backup file [cdbback\2009-05-28 11.54.25-1728.zip] removed.
+[2011-06-17 10.05.38] Successfully migrated iCDB upgrade backup file [2009-05-28 11.54.25-1728] to Project Backup format [2009-05-28 11.54.25 - upgrade.zip]
+[2011-06-17 10.05.40] Successfully created [Database Upgrade] backup [2011-06-17 10.05.40 - upgrade.zip] requested by [esvm01:student].
+[2011-06-17 10.05.40] Migrated iCDB content backup file [cdbback\2011-06-17 10.05.39-2764.zip] removed.
+[2011-06-17 10.05.41] Successfully created [AutoSave] backup [2011-06-17 10.05.41 - auto.zip] requested by [esvm01:student].
+[2012-03-12 08.29.59] Successfully created [Database Upgrade] backup [2012-03-12 08.29.59 - upgrade.zip] requested by [ESVM01:student].
+[2012-03-12 08.29.59] Migrated iCDB content backup file [cdbback\2012-03-12 08.29.59-2648.zip] removed.
+[2012-03-12 08.29.59] Successfully created [AutoSave] backup [2012-03-12 08.29.59 - auto.zip] requested by [ESVM01:student].
+[2012-09-24 11.29.40] Successfully created [Database Upgrade] backup [2012-09-24 11.29.40 - upgrade.zip] requested by [ESVM01:student].
+[2012-09-24 11.29.40] Migrated iCDB content backup file [cdbback\2012-09-24 11.29.40-340.zip] removed.
+[2013-04-30 13.42.36] Successfully created [Constraints Definition Upgrade] backup [2013-04-30 13.42.36 - consDefUpgr.zip] requested by [ESVM01:student].
+[2013-04-30 13.42.36] Migrated iCDB content backup file [cdbback\2013-04-30 13.42.34-2696.zip] removed.

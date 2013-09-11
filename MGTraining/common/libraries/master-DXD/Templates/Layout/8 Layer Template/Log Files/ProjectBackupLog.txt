@@ -1,0 +1,5 @@
+[2012-09-26 22.49.21] -------------------- CREATE --------------------
+[2012-09-26 22.49.21] Creating Project Backup infrastructure for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\template.prj].
+[2012-09-26 22.49.22] Successfully created [Database Upgrade] backup [2012-09-26 22.49.22 - upgrade.zip] requested by [ESVM01:student].
+[2012-09-26 22.49.22] Migrated iCDB content backup file [cdbback\2012-09-26 22.49.22-1560.zip] removed.
+[2012-09-26 22.49.22] Successfully created [AutoSave] backup [2012-09-26 22.49.22 - auto.zip] requested by [ESVM01:student].

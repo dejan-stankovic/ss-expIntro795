@@ -1,0 +1,100 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 205360554000 74ls295b
+DW 74act295b
+Q Case
+|Q builtin:shfe 1
+AS builtin:shfe PINORDER=REF DATA
+AP builtin:shfe 1 PINTYPE=IN
+AP builtin:shfe 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+M builtin:shfe $1I262
+I $1I262 builtin:shfe ~CLK MODE THOLD=@TH_LS`TSU=@TS_LS`
+M builtin:udfdl $1I273
+I $1I273 builtin:udfdl ? $1N27 $1N1 ? ? ~CLK ? ? ? ? ACEDGE=0`TPOSC=@PWCLK1`TNEGC=@PWCLK0`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`
+M builtin:udfdl $1I272
+I $1I272 builtin:udfdl ? $1N128 $1N5 ? ? ~CLK ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TNEGC=@PWCLK0`TPOSC=@PWCLK1`ACEDGE=0`
+M builtin:udfdl $1I271
+I $1I271 builtin:udfdl ? $1N118 $1N9 ? ? ~CLK ? ? ? ? ACEDGE=0`TPOSC=@PWCLK1`TNEGC=@PWCLK0`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`
+M builtin:tribuf $1I265
+I $1I265 builtin:tribuf QC $1N13 $1N128 TPLZ=@OCTOQLZ`TPHZ=@OCTOQHZ`TPZL=@OCTOQZL`TPZH=@OCTOQZH`
+M builtin:not $1I222
+I $1I222 builtin:not $1N13 OC 
+M builtin:not $1I229
+I $1I229 builtin:not $1N32 MODE 
+M builtin:andnor22 $1I240
+I $1I240 builtin:andnor22 $1N1 D MODE $1N32 $1N128 
+M builtin:andnor22 $1I233
+I $1I233 builtin:andnor22 $1N5 C MODE $1N32 $1N118 
+M builtin:andnor22 $1I232
+I $1I232 builtin:andnor22 $1N9 B MODE $1N32 $1N108 
+M builtin:tribuf $1I258
+I $1I258 builtin:tribuf QD $1N13 $1N27 TPZH=@OCTOQZH`TPZL=@OCTOQZL`TPHZ=@OCTOQHZ`TPLZ=@OCTOQLZ`
+M builtin:tribuf $1I266
+I $1I266 builtin:tribuf QB $1N13 $1N118 TPZH=@OCTOQZH`TPZL=@OCTOQZL`TPHZ=@OCTOQHZ`TPLZ=@OCTOQLZ`
+M builtin:udfdl $1I228
+I $1I228 builtin:udfdl ? $1N108 $1N62 ? ? ~CLK ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TNEGC=@PWCLK0`TPOSC=@PWCLK1`ACEDGE=0`
+M builtin:shfe $1I274
+I $1I274 builtin:shfe ~CLK B THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shfe $1I275
+I $1I275 builtin:shfe ~CLK C TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shfe $1I276
+I $1I276 builtin:shfe ~CLK D THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:andnor22 $1I234
+I $1I234 builtin:andnor22 $1N62 A MODE $1N32 SI 
+M builtin:shfe $1I221
+I $1I221 builtin:shfe ~CLK $1N62 TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:tribuf $1I267
+I $1I267 builtin:tribuf QA $1N13 $1N108 TPLZ=@OCTOQLZ`TPHZ=@OCTOQHZ`TPZL=@OCTOQZL`TPZH=@OCTOQZH`
+P ? OC
+I OC ? OC
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? C
+I C ? C
+P ? D
+I D ? D
+P ? QD
+I QD ? QD
+P ? SI
+I SI ? SI
+P ? QB
+I QB ? QB
+P ? QA
+I QA ? QA
+P ? QC
+I QC ? QC
+P ? ~CLK
+I ~CLK ? ~CLK
+P ? MODE
+I MODE ? MODE
+EW

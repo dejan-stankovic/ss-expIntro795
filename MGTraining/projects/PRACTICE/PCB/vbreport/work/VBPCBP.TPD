@@ -1,0 +1,5 @@
+Layer	Clearance	SignalType 	PlotType 	NetName                         	OrderCounter
+3    	0.00     	PLANE      	NEGATIVE 	GND                             	1
+4    	0.00     	PLANE      	POSITIVE 	VCC                             	2
+4    	0.00     	PLANE      	POSITIVE 	VDD                             	3
+4    	0.00     	PLANE      	POSITIVE 	VEE                             	4

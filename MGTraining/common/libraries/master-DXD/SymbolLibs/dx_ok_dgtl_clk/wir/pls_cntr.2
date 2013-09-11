@@ -1,0 +1,107 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 138377102200 pls_cntr
+DW pls_cntr
+|Q builtin:1b_rip 1
+|Q builtin:8b_rip 1
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+|Q mentor_74act:74act08 1
+AS mentor_74act:74act08 PINSWAP=(A,B)
+AS mentor_74act:74act08 SIGNAL=VDD;14
+AS mentor_74act:74act08 PKG_TYPE=14PSOIC
+AS mentor_74act:74act08 DEVICE=74ACT08
+AS mentor_74act:74act08 SIGNAL=GND;7
+AS mentor_74act:74act08 PARTS=4
+AS mentor_74act:74act08 LEVEL=STD
+AS mentor_74act:74act08 REFDES=U?
+AS mentor_74act:74act08 @INTOOUT0=100:100:200
+AS mentor_74act:74act08 @INTOOUT1=80:80:150
+AS mentor_74act:74act08 PINORDER=A B Y
+AS mentor_74act:74act08 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act08 1 #=1,4,9,12
+AP mentor_74act:74act08 1 PINTYPE=IN
+AP mentor_74act:74act08 2 #=2,5,10,13
+AP mentor_74act:74act08 2 PINTYPE=IN
+AP mentor_74act:74act08 3 PINTYPE=OUT
+AP mentor_74act:74act08 3 #=3,6,8,11
+|Q mentor_74act:74act28 1
+AS mentor_74act:74act28 PINSWAP=(A,B)
+AS mentor_74act:74act28 @INTOOUT1=120:120:240
+AS mentor_74act:74act28 @INTOOUT0=120:120:240
+AS mentor_74act:74act28 REFDES=U?
+AS mentor_74act:74act28 LEVEL=STD
+AS mentor_74act:74act28 PARTS=4
+AS mentor_74act:74act28 PKG_TYPE=14PSOIC
+AS mentor_74act:74act28 SIGNAL=GND;7
+AS mentor_74act:74act28 SIGNAL=VDD;14
+AS mentor_74act:74act28 DEVICE=74ACT28
+AS mentor_74act:74act28 PINORDER=A B Y
+AS mentor_74act:74act28 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act28 1 #=2,5,8,11
+AP mentor_74act:74act28 1 PINTYPE=IN
+AP mentor_74act:74act28 2 #=3,6,9,12
+AP mentor_74act:74act28 2 PINTYPE=IN
+AP mentor_74act:74act28 3 PINTYPE=OUT
+AP mentor_74act:74act28 3 #=1,4,10,13
+|Q mentor_74act:74act21 1
+AS mentor_74act:74act21 NC=3,11
+AS mentor_74act:74act21 PINSWAP=(A,B,C,D)
+AS mentor_74act:74act21 DEVICE=74ACT21
+AS mentor_74act:74act21 REFDES=U?
+AS mentor_74act:74act21 LEVEL=STD
+AS mentor_74act:74act21 PARTS=2
+AS mentor_74act:74act21 PKG_TYPE=14PSOIC
+AS mentor_74act:74act21 SIGNAL=GND;7
+AS mentor_74act:74act21 SIGNAL=VDD;14
+AS mentor_74act:74act21 @INTOOUT0=100:100:200
+AS mentor_74act:74act21 @INTOOUT1=80:80:150
+AS mentor_74act:74act21 PINORDER=A B C D Y
+AS mentor_74act:74act21 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act21 1 PINTYPE=IN
+AP mentor_74act:74act21 1 #=1,9
+AP mentor_74act:74act21 2 PINTYPE=IN
+AP mentor_74act:74act21 2 #=2,10
+AP mentor_74act:74act21 3 PINTYPE=IN
+AP mentor_74act:74act21 3 #=4,12
+AP mentor_74act:74act21 4 PINTYPE=IN
+AP mentor_74act:74act21 4 #=5,13
+AP mentor_74act:74act21 5 #=6,8
+AP mentor_74act:74act21 5 PINTYPE=OUT
+AN Q[7:0] VLBUSISONSHEET=2
+AN ONE_SECOND NET_ALIAS=MODULO_60_RESET
+P builtin:out ONE_SECOND
+I ONE_SECOND builtin:out ONE_SECOND 
+W mentor_74act:74act08 $2I83
+I $2I83 mentor_74act:74act08 Q3 Q0 $2N61 DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT08`REFDES=U?`
+API $2I83 mentor_74act:74act08 1 #=1
+API $2I83 mentor_74act:74act08 2 #=2
+API $2I83 mentor_74act:74act08 3 #=3
+W mentor_74act:74act08 $2I82
+I $2I82 mentor_74act:74act08 Q6 Q4 $2N58 DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT08`REFDES=U?`
+API $2I82 mentor_74act:74act08 1 #=4
+API $2I82 mentor_74act:74act08 2 #=5
+API $2I82 mentor_74act:74act08 3 #=6
+W mentor_74act:74act28 $2I81
+I $2I81 mentor_74act:74act28 Q2 Q1 $2N59 REFDES=U28`DEVICE=74ACT28`PKG_TYPE=14PSOIC`DXDB_LIBNAME=MENTOR_74ACT`
+API $2I81 mentor_74act:74act28 1 #=8
+API $2I81 mentor_74act:74act28 2 #=9
+API $2I81 mentor_74act:74act28 3 #=10
+W mentor_74act:74act28 $2I80
+I $2I80 mentor_74act:74act28 Q7 Q5 $2N60 DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT28`REFDES=U28`
+API $2I80 mentor_74act:74act28 1 #=5
+API $2I80 mentor_74act:74act28 2 #=6
+API $2I80 mentor_74act:74act28 3 #=4
+W mentor_74act:74act21 $2I79
+I $2I79 mentor_74act:74act21 $2N60 $2N59 $2N58 $2N61 MODULO_60_RESET DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT21`REFDES=U25`
+API $2I79 mentor_74act:74act21 1 #=1
+API $2I79 mentor_74act:74act21 2 #=2
+API $2I79 mentor_74act:74act21 3 #=4
+API $2I79 mentor_74act:74act21 4 #=5
+API $2I79 mentor_74act:74act21 5 #=6
+P ? Q[7:0]
+I Q[7:0] ? Q[7:0]
+EW
+| Sch_Info - Net ONE_SECOND has alias of MODULO_60_RESET.

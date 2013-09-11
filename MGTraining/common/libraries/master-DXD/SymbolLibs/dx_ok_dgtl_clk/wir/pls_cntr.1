@@ -1,0 +1,108 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 138377102200 pls_cntr
+DW pls_cntr
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+|Q dx_ok_dgtl_clk:8_bit 1
+AS dx_ok_dgtl_clk:8_bit @NAME=8_BIT
+AS dx_ok_dgtl_clk:8_bit PINORDER=CP DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 ~CLEAR
+AP dx_ok_dgtl_clk:8_bit 1 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 2 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 3 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 4 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 5 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 6 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 7 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 8 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 9 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 10 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 11 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 12 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 13 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 14 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 15 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 16 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 17 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 18 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 19 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 20 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 21 PINTYPE=IN
+|Q mentor_74act:74act04 1
+AS mentor_74act:74act04 PKG_TYPE=14PSOIC
+AS mentor_74act:74act04 DEVICE=74ACT04
+AS mentor_74act:74act04 REFDES=U?
+AS mentor_74act:74act04 SIGNAL=VDD;14
+AS mentor_74act:74act04 SIGNAL=GND;7
+AS mentor_74act:74act04 PARTS=6
+AS mentor_74act:74act04 LEVEL=STD
+AS mentor_74act:74act04 @INTOOUT0=100:100:150
+AS mentor_74act:74act04 @INTOOUT1=90:90:150
+AS mentor_74act:74act04 PINORDER=A Y
+AS mentor_74act:74act04 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act04 1 #=1,3,5,9,11,13
+AP mentor_74act:74act04 1 PINTYPE=IN
+AP mentor_74act:74act04 2 PINTYPE=OUT
+AP mentor_74act:74act04 2 #=2,4,6,8,10,12
+|Q mentor_74act:74act08 1
+AS mentor_74act:74act08 PINSWAP=(A,B)
+AS mentor_74act:74act08 SIGNAL=VDD;14
+AS mentor_74act:74act08 PKG_TYPE=14PSOIC
+AS mentor_74act:74act08 DEVICE=74ACT08
+AS mentor_74act:74act08 SIGNAL=GND;7
+AS mentor_74act:74act08 PARTS=4
+AS mentor_74act:74act08 LEVEL=STD
+AS mentor_74act:74act08 REFDES=U?
+AS mentor_74act:74act08 @INTOOUT0=100:100:200
+AS mentor_74act:74act08 @INTOOUT1=80:80:150
+AS mentor_74act:74act08 PINORDER=A B Y
+AS mentor_74act:74act08 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act08 1 #=1,4,9,12
+AP mentor_74act:74act08 1 PINTYPE=IN
+AP mentor_74act:74act08 2 #=2,5,10,13
+AP mentor_74act:74act08 2 PINTYPE=IN
+AP mentor_74act:74act08 3 PINTYPE=OUT
+AP mentor_74act:74act08 3 #=3,6,8,11
+AN Q[7:0] VLBUSISONSHEET=1
+P builtin:in ENT
+I ENT builtin:in ENT 
+P builtin:in ENP
+I ENP builtin:in ENP 
+P builtin:in LOAD_DATA
+I LOAD_DATA builtin:in LOAD_DATA 
+P builtin:in DATA_0
+I DATA_0 builtin:in DATA_0 
+P builtin:in DATA_1
+I DATA_1 builtin:in DATA_1 
+P builtin:in DATA_2
+I DATA_2 builtin:in DATA_2 
+P builtin:in DATA_3
+I DATA_3 builtin:in DATA_3 
+P builtin:in DATA_4
+I DATA_4 builtin:in DATA_4 
+P builtin:in DATA_5
+I DATA_5 builtin:in DATA_5 
+P builtin:in DATA_6
+I DATA_6 builtin:in DATA_6 
+P builtin:in DATA_7
+I DATA_7 builtin:in DATA_7 
+W dx_ok_dgtl_clk:8_bit $1I104
+I $1I104 dx_ok_dgtl_clk:8_bit CLOCK DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 CLR STATUS=TBD`DESCRIPTION=8 bit synchronous binary counter`
+P builtin:in CLOCK
+I CLOCK builtin:in CLOCK 
+P builtin:in SYS_CLR
+I SYS_CLR builtin:in SYS_CLR 
+W mentor_74act:74act04 $1I111
+I $1I111 mentor_74act:74act04 MODULO_60_RESET $1N101 DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT04`REFDES=U9`
+API $1I111 mentor_74act:74act04 1 #=3
+API $1I111 mentor_74act:74act04 2 #=4
+W mentor_74act:74act08 $1I110
+I $1I110 mentor_74act:74act08 SYS_CLR $1N101 CLR DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT08`REFDES=U?`
+API $1I110 mentor_74act:74act08 1 #=4
+API $1I110 mentor_74act:74act08 2 #=5
+API $1I110 mentor_74act:74act08 3 #=6
+P ? Q[7:0]
+I Q[7:0] ? Q[7:0]
+EW

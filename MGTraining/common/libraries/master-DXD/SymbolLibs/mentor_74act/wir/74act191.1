@@ -1,0 +1,193 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 121806843000 74ls191
+DW 74act191
+Q Case
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:dor2 1
+AS builtin:dor2 PINORDER=Q QN A B
+AP builtin:dor2 1 PINTYPE=OUT
+AP builtin:dor2 2 PINTYPE=OUT
+AP builtin:dor2 3 PINTYPE=IN
+AP builtin:dor2 4 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:nand3 1
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:nor4 1
+AS builtin:nor4 PINORDER=QN A B C D
+AP builtin:nor4 1 PINTYPE=OUT
+AP builtin:nor4 2 PINTYPE=IN
+AP builtin:nor4 3 PINTYPE=IN
+AP builtin:nor4 4 PINTYPE=IN
+AP builtin:nor4 5 PINTYPE=IN
+M builtin:and4 $1I453
+I $1I453 builtin:and4 $1N466 $1N534 $1N528 $1N539 $1N546 TPLH=@CLKTOTC1`TPHL=@CLKTOTC0`
+M builtin:dor2 $1I376
+I $1I376 builtin:dor2 $1N541 $1N543 $1N287 $1N292 
+M builtin:dor2 $1I377
+I $1I377 builtin:dor2 $1N537 $1N535 $1N101 $1N162 
+M builtin:dor2 $1I388
+I $1I388 builtin:dor2 $1N529 $1N531 $1N222 $1N87 
+M builtin:shre $1I489
+I $1I489 builtin:shre CK ~CTEN TSU=@TENABLE`THOLD=@TH_ENABLE`
+M builtin:udfdl $1I425
+I $1I425 builtin:udfdl QD $1N546 $1N522 ? ? CK ? ? D ~LOAD TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`TPHLPDQ=@DATATOQ0`TPLHPDQ=@DATATOQ1`TPHLPEQ=@LOADTOQ0`TPLHPEQ=@LOADTOQ1`THOLDPD=@THOLD_DATA`TSUPD=@TSU_DATA`TRECPE=@TSU_LOAD`TPULSEPE=@LOAD_PULSE`TPOSC=@CLK_PULSE`APELEV=0`
+M builtin:udfdl $1I421
+I $1I421 builtin:udfdl QC $1N539 $1N516 ? ? CK ? ? C ~LOAD APELEV=0`TPOSC=@CLK_PULSE`TPULSEPE=@LOAD_PULSE`TRECPE=@TSU_LOAD`TSUPD=@TSU_DATA`THOLDPD=@THOLD_DATA`TPLHPEQ=@LOADTOQ1`TPHLPEQ=@LOADTOQ0`TPLHPDQ=@DATATOQ1`TPHLPDQ=@DATATOQ0`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I417
+I $1I417 builtin:udfdl QB $1N528 $1N510 ? ? CK ? ? B ~LOAD TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`TPHLPDQ=@DATATOQ0`TPLHPDQ=@DATATOQ1`TPHLPEQ=@LOADTOQ0`TPLHPEQ=@LOADTOQ1`THOLDPD=@THOLD_DATA`TSUPD=@TSU_DATA`TRECPE=@TSU_LOAD`TPULSEPE=@LOAD_PULSE`TPOSC=@CLK_PULSE`APELEV=0`
+M builtin:udfdl $1I408
+I $1I408 builtin:udfdl QA $1N534 $1N410 ? ? CK ? ? A ~LOAD APELEV=0`TPOSC=@CLK_PULSE`TPULSEPE=@LOAD_PULSE`TRECPE=@TSU_LOAD`TSUPD=@TSU_DATA`THOLDPD=@THOLD_DATA`TPLHPEQ=@LOADTOQ1`TPHLPEQ=@LOADTOQ0`TPLHPDQ=@DATATOQ1`TPHLPDQ=@DATATOQ0`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:and4 $1I390
+I $1I390 builtin:and4 $1N292 QA QB QC $1N78 
+M builtin:and4 $1I391
+I $1I391 builtin:and4 $1N287 $1N92 $1N534 $1N528 $1N539 
+M builtin:and3 $1I392
+I $1I392 builtin:and3 $1N162 QA QB $1N78 
+M builtin:and3 $1I395
+I $1I395 builtin:and3 $1N101 $1N92 $1N534 $1N528 
+M builtin:and2 $1I379
+I $1I379 builtin:and2 $1N222 $1N92 $1N534 
+M builtin:and2 $1I396
+I $1I396 builtin:and2 $1N87 QA $1N78 
+M builtin:nor2 $1I389
+I $1I389 builtin:nor2 $1N92 $1N470 ~CTEN 
+M builtin:nor2 $1I378
+I $1I378 builtin:nor2 $1N78 DU ~CTEN 
+M builtin:and2 $1I460
+I $1I460 builtin:and2 $1N73 $1N470 $1N463 
+M builtin:and2 $1I467
+I $1I467 builtin:and2 $1N167 $1N1 $1N466 
+M builtin:or2 $1I369
+I $1I369 builtin:or2 TC $1N73 $1N167 
+M builtin:nand3 $1I368
+I $1I368 builtin:nand3 ~RCO $1N47 $1N497 $1N485 
+M builtin:and2 $1I473
+I $1I473 builtin:and2 $1N483 $1N481 $1N466 
+M builtin:or2 $1I475
+I $1I475 builtin:or2 $1N485 $1N479 $1N483 
+M builtin:not $1I370
+I $1I370 builtin:not $1N497 ~CTEN TPHL=@CTENTORCO1`TPLH=@CTENTORCO0`
+M builtin:not $1I488
+I $1I488 builtin:not $1N47 CK TPLH=@CLKTORCO0`TPHL=@CLKTORCO1`
+M builtin:delay $1I367
+I $1I367 builtin:delay $1N481 DU TPHL=@DUTORCO1`TPLH=@DUTORCO0`
+M builtin:not $1I448
+I $1I448 builtin:not $1N470 DU TPHL=@DUTOTC0`TPLH=@DUTOTC1`
+M builtin:delay $1I449
+I $1I449 builtin:delay $1N1 DU TPLH=@DUTOTC1`TPHL=@DUTOTC0`
+M builtin:and2 $1I494
+I $1I494 builtin:and2 $1N503 $1N497 $1N534 
+M builtin:and2 $1I493
+I $1I493 builtin:and2 $1N505 ~CTEN QA 
+M builtin:or2 $1I502
+I $1I502 builtin:or2 $1N410 $1N505 $1N503 
+M builtin:and2 $1I514
+I $1I514 builtin:and2 $1N513 QB $1N531 
+M builtin:or2 $1I511
+I $1I511 builtin:or2 $1N510 $1N513 $1N512 
+M builtin:and2 $1I515
+I $1I515 builtin:and2 $1N512 $1N529 $1N528 
+M builtin:or2 $1I517
+I $1I517 builtin:or2 $1N516 $1N519 $1N518 
+M builtin:and2 $1I520
+I $1I520 builtin:and2 $1N519 QC $1N535 
+M builtin:and2 $1I521
+I $1I521 builtin:and2 $1N518 $1N537 $1N539 
+M builtin:or2 $1I523
+I $1I523 builtin:or2 $1N522 $1N525 $1N524 
+M builtin:and2 $1I526
+I $1I526 builtin:and2 $1N525 QD $1N543 
+M builtin:and2 $1I527
+I $1I527 builtin:and2 $1N524 $1N541 $1N546 
+M builtin:nor4 $1I455
+I $1I455 builtin:nor4 $1N463 $1N546 $1N539 $1N528 $1N534 TPLH=@CLKTOTC1`TPHL=@CLKTOTC0`
+M builtin:and2 $1I474
+I $1I474 builtin:and2 $1N479 $1N463 $1N477 
+M builtin:not $1I371
+I $1I371 builtin:not $1N477 DU TPLH=@DUTORCO0`TPHL=@DUTORCO1`
+M builtin:shre $1I547
+I $1I547 builtin:shre CK DU THOLD=@TH_DU`TSU=@TS_DU`
+P ? CK
+I CK ? CK
+P ? TC
+I TC ? TC
+P ? QA
+I QA ? QA
+P ? QD
+I QD ? QD
+P ? QB
+I QB ? QB
+P ? A
+I A ? A
+P ? ~RCO
+I ~RCO ? ~RCO
+P ? QC
+I QC ? QC
+P ? ~LOAD
+I ~LOAD ? ~LOAD
+P ? B
+I B ? B
+P ? ~CTEN
+I ~CTEN ? ~CTEN
+P ? C
+I C ? C
+P ? D
+I D ? D
+P ? DU
+I DU ? DU
+EW

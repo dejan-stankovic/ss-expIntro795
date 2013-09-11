@@ -1,0 +1,25 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 92519696890 74ls126a
+DW 74act126a
+Q Case
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+M builtin:not $1I11
+I $1I11 builtin:not $1N1 C 
+M builtin:tribuf $1I12
+I $1I12 builtin:tribuf Y $1N1 A TPLH=@INTOOUT1`TPHL=@INTOOUT0`TPZH=@INTOOUTZH`TPZL=@INTOOUTZL`TPHZ=@INTOOUTHZ`TPLZ=@INTOOUTLZ`
+P ? A
+I A ? A
+P ? Y
+I Y ? Y
+P ? C
+I C ? C
+EW

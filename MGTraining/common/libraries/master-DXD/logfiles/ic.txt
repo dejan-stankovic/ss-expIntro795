@@ -1,0 +1,18 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing ic
+	Adding symbol asic16_lmp_cntrl 
+	Adding symbol ide_usb_gpio 
+	Adding symbol interface 
+	Adding symbol io_controller_pci 
+	Adding symbol io_controller_proc_io 
+	Adding symbol op_dual 
+	Adding symbol pm_sys_lnks 
+	Adding symbol vreg_sw 
+	Adding symbol vreg_wd 
+DXLIB2LMC utility complete

@@ -1,0 +1,51 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $20I7, Symbol=builtin:pldor at (400, 200), is not connected.
+| Sch_Warning - Component $20I9, Symbol=builtin:pldcol at (650, 200), is not connected.
+| Sch_Warning - Component $20I8, Symbol=builtin:pldrow at (400, 450), is not connected.
+| Sch_Warning - Component $20I6, Symbol=builtin:pldand at (150, 450), is not connected.
+| Sch_Warning - Component $20I11, Symbol=builtin:pldarch at (900, 450), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:pldfuse 1
+AS builtin:pldfuse OR_NO_INPUTS=0
+AS builtin:pldfuse OR_ALL_INPUTS=1
+AS builtin:pldfuse AND_NO_INPUTS=1
+AS builtin:pldfuse AND_ALL_INPUTS=0
+AS builtin:pldfuse NCOLS=
+AS builtin:pldfuse NROWS=
+AS builtin:pldfuse NFUSES=
+AS builtin:pldfuse START=
+AS builtin:pldfuse TYPE=
+AS builtin:pldfuse BLOWN_FUSE=1
+|Q builtin:pldor 1
+AS builtin:pldor PINORDER=A Q
+AP builtin:pldor 1 PINTYPE=IN
+AP builtin:pldor 2 PINTYPE=OUT
+|Q builtin:pldcol 1
+AS builtin:pldcol PINORDER=Q
+AP builtin:pldcol 1 PINTYPE=OUT
+|Q builtin:pldrow 1
+AS builtin:pldrow PINORDER=Q
+AP builtin:pldrow 1 PINTYPE=OUT
+|Q builtin:pldand 1
+AS builtin:pldand PINORDER=A Q
+AP builtin:pldand 1 PINTYPE=IN
+AP builtin:pldand 2 PINTYPE=OUT
+|Q builtin:pldarch 1
+AS builtin:pldarch PINORDER=Q
+AP builtin:pldarch 1 PINTYPE=OUT
+M builtin:pldfuse $20I10
+I $20I10 builtin:pldfuse 
+M builtin:pldor $20I7
+I $20I7 builtin:pldor ? ? 
+M builtin:pldcol $20I9
+I $20I9 builtin:pldcol ? 
+M builtin:pldrow $20I8
+I $20I8 builtin:pldrow ? 
+M builtin:pldand $20I6
+I $20I6 builtin:pldand ? ? 
+M builtin:pldarch $20I11
+I $20I11 builtin:pldarch ? 
+EW

@@ -1,0 +1,85 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 224185382000 74ls42
+DW 74act42
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:nand4 1
+AS builtin:nand4 PINORDER=QN A B C D
+AP builtin:nand4 1 PINTYPE=OUT
+AP builtin:nand4 2 PINTYPE=IN
+AP builtin:nand4 3 PINTYPE=IN
+AP builtin:nand4 4 PINTYPE=IN
+AP builtin:nand4 5 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+M builtin:delay $1I192
+I $1I192 builtin:delay $1N151 D TPLH=@INTOOUT30`TPHL=@INTOOUT31`
+M builtin:delay $1I191
+I $1I191 builtin:delay $1N179 C TPLH=@INTOOUT30`TPHL=@INTOOUT31`
+M builtin:delay $1I190
+I $1I190 builtin:delay $1N129 B TPLH=@INTOOUT30`TPHL=@INTOOUT31`
+M builtin:delay $1I189
+I $1I189 builtin:delay $1N116 A TPLH=@INTOOUT30`TPHL=@INTOOUT31`
+M builtin:nand4 $1I155
+I $1I155 builtin:nand4 Y0 $1N79 $1N28 $1N95 $1N1 
+M builtin:nand4 $1I157
+I $1I157 builtin:nand4 Y2 $1N79 $1N129 $1N95 $1N1 
+M builtin:nand4 $1I158
+I $1I158 builtin:nand4 Y3 $1N116 $1N129 $1N95 $1N1 
+M builtin:nand4 $1I159
+I $1I159 builtin:nand4 Y4 $1N79 $1N28 $1N179 $1N1 
+M builtin:nand4 $1I160
+I $1I160 builtin:nand4 Y5 $1N116 $1N28 $1N179 $1N1 
+M builtin:nand4 $1I161
+I $1I161 builtin:nand4 Y6 $1N79 $1N129 $1N179 $1N1 
+M builtin:nand4 $1I162
+I $1I162 builtin:nand4 Y7 $1N116 $1N129 $1N179 $1N1 
+M builtin:nand4 $1I154
+I $1I154 builtin:nand4 Y8 $1N79 $1N28 $1N95 $1N151 
+M builtin:nand4 $1I163
+I $1I163 builtin:nand4 Y9 $1N116 $1N28 $1N95 $1N151 
+M builtin:nand4 $1I156
+I $1I156 builtin:nand4 Y1 $1N116 $1N28 $1N95 $1N1 
+M builtin:not $1I164
+I $1I164 builtin:not $1N79 A TPLH=@INTOOUT20`TPHL=@INTOOUT21`
+M builtin:not $1I181
+I $1I181 builtin:not $1N28 B TPHL=@INTOOUT21`TPLH=@INTOOUT20`
+M builtin:not $1I185
+I $1I185 builtin:not $1N1 D TPHL=@INTOOUT21`TPLH=@INTOOUT20`
+M builtin:not $1I183
+I $1I183 builtin:not $1N95 C TPLH=@INTOOUT20`TPHL=@INTOOUT21`
+P ? Y9
+I Y9 ? Y9
+P ? Y8
+I Y8 ? Y8
+P ? Y7
+I Y7 ? Y7
+P ? Y6
+I Y6 ? Y6
+P ? Y5
+I Y5 ? Y5
+P ? Y4
+I Y4 ? Y4
+P ? Y3
+I Y3 ? Y3
+P ? Y2
+I Y2 ? Y2
+P ? Y1
+I Y1 ? Y1
+P ? Y0
+I Y0 ? Y0
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? C
+I C ? C
+P ? D
+I D ? D
+EW

@@ -1,0 +1,32 @@
+Fri Jun 11 13:09:25 2010
+
+Project path: C:\MGTraining\projects\PRACTICE\database
+
+Before global upgrade
+Constraints definition "USERDEFINED" added (default value: FALSE).
+Upgrade snapshot DxD
+Upgrade snapshot DEMO_layout_temp
+Upgrade snapshot DEMO
+After global upgrade
+Constraints definition "HLT_CASING_TACT" deleted.
+Constraints definition "HLT_JUNCTION_TACT" deleted.
+Constraints definition "HLT_CASING_TACT" added.
+Constraints definition "HLT_JUNCTION_TACT" added.
+Constraints definition "STUB_LENGTH" levels updated.
+Constraints definition "MAX_VIAS" levels updated.
+Constraints definition "MATCH_GROUP" levels updated.
+Constraints definition "SIM_DELAY_TYPE" levels updated.
+Constraints definition "SIM_MIN_DELAY" levels updated.
+Constraints definition "SIM_MAX_DELAY" levels updated.
+Constraints definition "SIM_DELAY_MATCH_TO" levels updated.
+Constraints definition "MATCH_GROUP" parents updated.
+Constraints definition "MATCH_TOLERANCE" parents updated.
+Constraints definition "MAX_STATIC_LO_OVERSHOOT" parents updated.
+Constraints definition "MAX_STATIC_HI_OVERSHOOT" parents updated.
+Constraints definition "MAX_DYN_LO_OVERSHOOT" parents updated.
+Constraints definition "MAX_DYN_HI_OVERSHOOT" parents updated.
+Constraints definition "MAX_HIGH_RINGBACK" parents updated.
+Constraints definition "MAX_LOW_RINGBACK" parents updated.
+Constraints definition "SIM_DELAY_OFFSET" parents updated.
+Constraints definition "SIM_MATCH_TOL" parents updated.
+Constraints definition "DP_SPACE" parents updated.

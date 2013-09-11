@@ -1,0 +1,58 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $18I2, Symbol=builtin:rom2kx8 at (600, 220), is not connected.
+| Sch_Warning - Component $18I1, Symbol=builtin:rom2kx4 at (200, 240), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:rom2kx8 1
+AS builtin:rom2kx8 LENGTH=2048
+AS builtin:rom2kx8 WIDTH=8
+AS builtin:rom2kx8 MODEL=ROM
+AS builtin:rom2kx8 PINORDER=DO0 DO1 DO2 DO3 DO4 DO5 DO6 DO7 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 DSBL
+AP builtin:rom2kx8 1 PINTYPE=TRI
+AP builtin:rom2kx8 2 PINTYPE=TRI
+AP builtin:rom2kx8 3 PINTYPE=TRI
+AP builtin:rom2kx8 4 PINTYPE=TRI
+AP builtin:rom2kx8 5 PINTYPE=TRI
+AP builtin:rom2kx8 6 PINTYPE=TRI
+AP builtin:rom2kx8 7 PINTYPE=TRI
+AP builtin:rom2kx8 8 PINTYPE=TRI
+AP builtin:rom2kx8 9 PINTYPE=IN
+AP builtin:rom2kx8 10 PINTYPE=IN
+AP builtin:rom2kx8 11 PINTYPE=IN
+AP builtin:rom2kx8 12 PINTYPE=IN
+AP builtin:rom2kx8 13 PINTYPE=IN
+AP builtin:rom2kx8 14 PINTYPE=IN
+AP builtin:rom2kx8 15 PINTYPE=IN
+AP builtin:rom2kx8 16 PINTYPE=IN
+AP builtin:rom2kx8 17 PINTYPE=IN
+AP builtin:rom2kx8 18 PINTYPE=IN
+AP builtin:rom2kx8 19 PINTYPE=IN
+AP builtin:rom2kx8 20 PINTYPE=IN
+|Q builtin:rom2kx4 1
+AS builtin:rom2kx4 LENGTH=2048
+AS builtin:rom2kx4 WIDTH=4
+AS builtin:rom2kx4 MODEL=ROM
+AS builtin:rom2kx4 PINORDER=DO0 DO1 DO2 DO3 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 DSBL
+AP builtin:rom2kx4 1 PINTYPE=TRI
+AP builtin:rom2kx4 2 PINTYPE=TRI
+AP builtin:rom2kx4 3 PINTYPE=TRI
+AP builtin:rom2kx4 4 PINTYPE=TRI
+AP builtin:rom2kx4 5 PINTYPE=IN
+AP builtin:rom2kx4 6 PINTYPE=IN
+AP builtin:rom2kx4 7 PINTYPE=IN
+AP builtin:rom2kx4 8 PINTYPE=IN
+AP builtin:rom2kx4 9 PINTYPE=IN
+AP builtin:rom2kx4 10 PINTYPE=IN
+AP builtin:rom2kx4 11 PINTYPE=IN
+AP builtin:rom2kx4 12 PINTYPE=IN
+AP builtin:rom2kx4 13 PINTYPE=IN
+AP builtin:rom2kx4 14 PINTYPE=IN
+AP builtin:rom2kx4 15 PINTYPE=IN
+AP builtin:rom2kx4 16 PINTYPE=IN
+M builtin:rom2kx8 $18I2
+I $18I2 builtin:rom2kx8 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+M builtin:rom2kx4 $18I1
+I $18I1 builtin:rom2kx4 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+EW

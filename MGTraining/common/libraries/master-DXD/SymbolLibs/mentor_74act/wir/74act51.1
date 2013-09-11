@@ -1,0 +1,58 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 225856550000 74ls51
+DW 74act51
+Q Case
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+M builtin:nor2 $1I55
+I $1I55 builtin:nor2 2Y $1N6 $1N1 TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+M builtin:nor2 $1I56
+I $1I56 builtin:nor2 1Y $1N16 $1N11 TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+M builtin:and2 $1I57
+I $1I57 builtin:and2 $1N1 2C 2D 
+M builtin:and2 $1I58
+I $1I58 builtin:and2 $1N6 2A 2B 
+M builtin:and3 $1I60
+I $1I60 builtin:and3 $1N16 1A 1B 1C 
+M builtin:and3 $1I59
+I $1I59 builtin:and3 $1N11 1D 1E 1F 
+P ? 2Y
+I 2Y ? 2Y
+P ? 1Y
+I 1Y ? 1Y
+P ? 2D
+I 2D ? 2D
+P ? 2C
+I 2C ? 2C
+P ? 2B
+I 2B ? 2B
+P ? 2A
+I 2A ? 2A
+P ? 1A
+I 1A ? 1A
+P ? 1B
+I 1B ? 1B
+P ? 1C
+I 1C ? 1C
+P ? 1D
+I 1D ? 1D
+P ? 1E
+I 1E ? 1E
+P ? 1F
+I 1F ? 1F
+EW

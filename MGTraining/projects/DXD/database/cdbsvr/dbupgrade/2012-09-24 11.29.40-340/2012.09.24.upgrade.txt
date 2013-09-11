@@ -1,0 +1,75 @@
+[2012.09.24 11:29:40] [0000m.00s.359ms] [0] WELCOME
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] iCDB Server ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] Base flow version [7.9.4]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] Machine [ESVM01]  User [student]  PID [340]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] SDD_PLATFORM [win32]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.24 11:29:40] [0000m.00s.359ms] [0] Creating database content backup before upgrade
+[2012.09.24 11:29:40] [0000m.00s.468ms] [0] Database content backed up to [C:\MGTraining\projects\DXD\database\cdbback\2012-09-24 11.29.40-340.zip] of size [305 778 bytes (298.6 kB)] in [106ms 604us]
+[2012.09.24 11:29:40] [0000m.00s.484ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.23;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.09.24 11:29:40] [0000m.00s.500ms] [0] Upgrading snapshot [1:DxD] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.562ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.562ms] [0] Snapshot [1:DxD] upgraded to version [2709] in [51ms 828us]
+[2012.09.24 11:29:40] [0000m.00s.562ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2012.09.24 11:29:40] [0000m.00s.562ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [10ms 986us]
+[2012.09.24 11:29:40] [0000m.00s.562ms] [0] Saving upgraded snapshot [1:DxD]
+[2012.09.24 11:29:40] [0000m.00s.578ms] [0] Upgraded snapshot [1:DxD] saved in [2ms 499us]
+[2012.09.24 11:29:40] [0000m.00s.656ms] [0] Upgrading snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.671ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.671ms] [0] Snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] upgraded to version [2709] in [6ms 334us]
+[2012.09.24 11:29:40] [0000m.00s.671ms] [0] Upgrading constraint definitions for snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]]
+[2012.09.24 11:29:40] [0000m.00s.671ms] [0] Constraint definitions for snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] upgraded in [1ms 866us]
+[2012.09.24 11:29:40] [0000m.00s.671ms] [0] Saving upgraded snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]]
+[2012.09.24 11:29:40] [0000m.00s.671ms] [0] Upgraded snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] saved in [741us]
+[2012.09.24 11:29:40] [0000m.00s.671ms] [0] Upgrading snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.687ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.687ms] [0] Snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] upgraded to version [2709] in [6ms 226us]
+[2012.09.24 11:29:40] [0000m.00s.687ms] [0] Upgrading constraint definitions for snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]]
+[2012.09.24 11:29:40] [0000m.00s.687ms] [0] Constraint definitions for snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] upgraded in [1ms 667us]
+[2012.09.24 11:29:40] [0000m.00s.687ms] [0] Saving upgraded snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]]
+[2012.09.24 11:29:40] [0000m.00s.687ms] [0] Upgraded snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] saved in [735us]
+[2012.09.24 11:29:40] [0000m.00s.687ms] [0] Upgrading snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.703ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.703ms] [0] Snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] upgraded to version [2709] in [6ms 846us]
+[2012.09.24 11:29:40] [0000m.00s.703ms] [0] Upgrading constraint definitions for snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]]
+[2012.09.24 11:29:40] [0000m.00s.703ms] [0] Constraint definitions for snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] upgraded in [1ms 763us]
+[2012.09.24 11:29:40] [0000m.00s.703ms] [0] Saving upgraded snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]]
+[2012.09.24 11:29:40] [0000m.00s.703ms] [0] Upgraded snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] saved in [649us]
+[2012.09.24 11:29:40] [0000m.00s.703ms] [0] Upgrading snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.718ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.718ms] [0] Snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] upgraded to version [2709] in [6ms 644us]
+[2012.09.24 11:29:40] [0000m.00s.718ms] [0] Upgrading constraint definitions for snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]]
+[2012.09.24 11:29:40] [0000m.00s.718ms] [0] Constraint definitions for snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] upgraded in [1ms 813us]
+[2012.09.24 11:29:40] [0000m.00s.718ms] [0] Saving upgraded snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]]
+[2012.09.24 11:29:40] [0000m.00s.718ms] [0] Upgraded snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] saved in [938us]
+[2012.09.24 11:29:40] [0000m.00s.718ms] [0] Upgrading snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.734ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.734ms] [0] Snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] upgraded to version [2709] in [4ms 959us]
+[2012.09.24 11:29:40] [0000m.00s.734ms] [0] Upgrading constraint definitions for snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]]
+[2012.09.24 11:29:40] [0000m.00s.734ms] [0] Constraint definitions for snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] upgraded in [1ms 389us]
+[2012.09.24 11:29:40] [0000m.00s.734ms] [0] Saving upgraded snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]]
+[2012.09.24 11:29:40] [0000m.00s.734ms] [0] Upgraded snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] saved in [524us]
+[2012.09.24 11:29:40] [0000m.00s.734ms] [0] Upgrading snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.750ms] [0] Snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] upgraded to version [2709] in [5ms 360us]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [0] Upgrading constraint definitions for snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [0] Constraint definitions for snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] upgraded in [1ms 404us]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [0] Saving upgraded snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [0] Upgraded snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] saved in [583us]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [0] Upgrading snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] from version [2704]
+[2012.09.24 11:29:40] [0000m.00s.750ms] [1] CORE: Upgrade snapshot _savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296] completed successfully.
+[2012.09.24 11:29:40] [0000m.00s.765ms] [0] Snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] upgraded to version [2709] in [6ms 425us]
+[2012.09.24 11:29:40] [0000m.00s.765ms] [0] Upgrading constraint definitions for snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]]
+[2012.09.24 11:29:40] [0000m.00s.765ms] [0] Constraint definitions for snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] upgraded in [1ms 960us]
+[2012.09.24 11:29:40] [0000m.00s.765ms] [0] Saving upgraded snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]]
+[2012.09.24 11:29:40] [0000m.00s.765ms] [0] Upgraded snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] saved in [635us]
+[2012.09.24 11:29:40] [0000m.00s.765ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.09.24 11:29:40] [0000m.00s.781ms] [0] DONE
+[2012.09.24 11:29:40] [0000m.00s.781ms] [0] .

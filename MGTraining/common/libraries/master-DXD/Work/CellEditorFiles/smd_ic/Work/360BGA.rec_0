@@ -1,0 +1,19 @@
+* Version 1.0: Started on Wednesday, March 15, 2006 10:53:04
+* Current design file is: C:\mark2\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\smd_ic\360BGA.pcb
+*
+w 0 0 0 2 3 <37,78><979,858><-1,-1>
+*
+* Default Mouse Mapping
+c 0 33641
+v 0 2 360BGA <0, 0, 0, 0>, 0
+l 0 18751
+d 0 1025 0 265 b 8
+d 0 1025 0 596 x 1728 8 0 1
+d 0 1025 0 596 x 1730 8 0 1
+d 0 1025 0 596 x 1724 8 0 360BGA_NEW
+d 0 1023 0 1 b 8
+a 0 7
+*
+* Exit
+c 0 57665
+* 

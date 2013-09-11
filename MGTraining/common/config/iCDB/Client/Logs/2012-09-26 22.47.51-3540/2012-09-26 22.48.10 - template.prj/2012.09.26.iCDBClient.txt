@@ -1,0 +1,42 @@
+[2012.09.26 22:48:10] [0000m.34s.517ms] [0] WELCOME
+[2012.09.26 22:48:10] [0000m.34s.517ms] [1] iCDB Client ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.26 22:48:10] [0000m.34s.517ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.26 22:48:10] [0000m.34s.517ms] [1] Base flow version [7.9.4]
+[2012.09.26 22:48:10] [0000m.34s.517ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.26 22:48:10] [0000m.34s.517ms] [1] Machine [ESVM01]  User [student]  PID [3540]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] SDD_PLATFORM [win32]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [3] AMP: CREATE
+[2012.09.26 22:48:10] [0000m.34s.532ms] [2] NE: CREATE
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] IC: Project GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [2] AMP: START
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] IC: Project path [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.34s.532ms] [1] IC: Working in FULL access mode
+[2012.09.26 22:48:10] [0000m.34s.532ms] [2] IC: EDM BLP: Trying to log with empty user id.
+[2012.09.26 22:48:10] [0000m.34s.564ms] [0] ServerToolkit: Running server: command [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin\iCDBNetServer.exe] with parameters [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin\iCDBNetServer.exe -db "C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb" -prj "C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.prj" -dbid "e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8" -autoclose -client "ESVM01:student:3540" -configname "ServerWG.cfg" 
+[2012.09.26 22:48:10] [0000m.34s.704ms] [0] ServerToolkit: Server command executed
+[2012.09.26 22:48:10] [0000m.35s.251ms] [0] ServerToolkit: Server for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] is running
+[2012.09.26 22:48:10] [0000m.35s.251ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:10] [0000m.35s.251ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]  for project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:10] [0000m.35s.251ms] [1] Connecting to iCDB Server:  Host [esvm01] IP [127.0.0.1]  Port [10000]
+[2012.09.26 22:48:10] [0000m.35s.251ms] [1] Network: DNS query IP [127.0.0.1]
+[2012.09.26 22:48:10] [0000m.35s.251ms] [1] Connected to iCDB Server [127.0.0.1]
+[2012.09.26 22:48:12] [0000m.36s.689ms] [1] Session [50] opened
+[2012.09.26 22:48:12] [0000m.36s.689ms] [1] Working mode: Online
+[2012.09.26 22:48:12] [0000m.36s.689ms] [1] C: Registered sub-client: [Expedition PCB_174581171] with ID: [1]
+[2012.09.26 22:48:12] [0000m.36s.767ms] [1] C: Registered sub-client: [EEVM_EEVM_121207756] with ID: [2]
+[2012.09.26 22:48:12] [0000m.36s.767ms] [1] C: Unregistered sub-client: [EEVM_EEVM_121207756] with ID: [2]
+[2012.09.26 22:48:17] [0000m.42s.064ms] [1] C: Registered sub-client: [ExpeditionCrossProber] with ID: [3]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [1] C: Registered sub-client: [JobPrefsDBPI_174590531] with ID: [4]
+[2012.09.26 22:48:19] [0000m.43s.876ms] [1] C: Unregistered sub-client: [JobPrefsDBPI_174590531] with ID: [4]
+[2012.09.26 22:48:29] [0000m.54s.189ms] [1] C: Unregistered sub-client: [ExpeditionCrossProber] with ID: [3]
+[2012.09.26 22:48:30] [0000m.54s.518ms] [1] C: Unregistered sub-client: [Expedition PCB_174581171] with ID: [1]
+[2012.09.26 22:48:30] [0000m.54s.627ms] [1] Disconnected from iCDB Server
+[2012.09.26 22:48:30] [0000m.54s.627ms] [1] Working mode: Offline
+[2012.09.26 22:48:30] [0000m.54s.721ms] [0] C: Stop
+[2012.09.26 22:48:30] [0000m.54s.721ms] [0] .

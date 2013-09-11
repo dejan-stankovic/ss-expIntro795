@@ -1,0 +1,17 @@
+* Version 1.0: Started on Wednesday, March 15, 2006 11:36:20
+* Current design file is: C:\mark2\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\smd_ic\MarkBGA.pcb
+*
+w 0 0 0 2 3 <37,78><979,858><-1,-1>
+*
+* Default Mouse Mapping
+c 0 33641
+v 0 2 MarkBGA <0, 0, 0, 0>, 0
+l 0 36434
+*
+* Auto Tune Idle
+c 0 33697
+d 0 1023 0 1 b 8
+*
+* Exit
+c 0 57665
+* 

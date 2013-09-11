@@ -1,0 +1,72 @@
+[2009.05.28 08:14:46] [0000m.00s.031ms] [0] WELCOME
+[2009.05.28 08:14:46] [0000m.00s.031ms] [1] iCDB Server ver.1.006, nXBXxkttm0eDsJRlVuKddw, build:344852 created 2009-05-15 10:35:16, sources stamp:nXBXxkttm0eDsJRlVuKddw
+[2009.05.28 08:14:46] [0000m.00s.031ms] [1] Copyright 2009 Mentor Graphics Corporation. All Rights Reserved.
+[2009.05.28 08:14:46] [0000m.00s.031ms] [1] GBS Install Id [10259], Flow Id [EE2007.6], Full Flow Name[Expedition Enterprise Flow], Exact Access Date[May 1 2009]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [1] Machine [esvm01]  User [student]  PID [320]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [1] SDD_HOME [C:\MentorGraphics\2007.6EE\SDD_HOME]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [1] SDD_PLATFORM [win32]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [2] S: Loading config files
+[2009.05.28 08:14:46] [0000m.00s.046ms] [1] Config: WARNING: Could not open config file [C:\MGTraining\projects\PRACTICE\database\cdbsvr\Server.cfg]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [3] S: Config loaded
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Single-user mode (auto)
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Event polling mode autodetection
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Started up automatically by iCDB Client: esvm01:student:3680
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Auto close mode
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Project [C:\MGTraining\projects\PRACTICE\database]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Database ID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: START
+[2009.05.28 08:14:46] [0000m.00s.046ms] [0] S: Server startup lock file created
+[2009.05.28 08:14:46] [0000m.00s.093ms] [0] S: Listening for client connections on port [10000]
+[2009.05.28 08:14:46] [0000m.00s.093ms] [0] S: Server network ID [esvm01:192.168.247.131,esvm01:10000]
+[2009.05.28 08:14:46] [0000m.00s.093ms] [0] S: Server GUID [9e60-0139-f40c-1230-66aa-e1aa-6aae-1a40-2261-718f-2c8c-99c5]
+[2009.05.28 08:14:46] [0000m.00s.093ms] [0] S: Project GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2009.05.28 08:14:47] [0000m.00s.109ms] [0] S: Wrote data to server address file
+[2009.05.28 08:14:47] [0000m.00s.109ms] [0] S: Server startup lock file removed
+[2009.05.28 08:14:47] [0000m.00s.171ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2009.05.28 08:14:47] [0000m.00s.171ms] [0] S: Local disc access time: 81 us
+[2009.05.28 08:14:47] [0000m.00s.171ms] [0] S: Filer access time: 57 us
+[2009.05.28 08:14:47] [0000m.00s.281ms] [0] iCDB Server PI: Server & plugin session [397]
+[2009.05.28 08:14:47] [0000m.00s.281ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2009.05.28 08:14:47] [0000m.00s.281ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2009.05.28 08:14:47] [0000m.00s.281ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2009.05.28 08:14:47] [0000m.00s.281ms] [0] iCDB Server PI: Checking constraint definitions version
+[2009.05.28 08:14:47] [0000m.00s.406ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.6.3] up to date
+[2009.05.28 08:14:47] [0000m.00s.421ms] [0] iCDB Server PI: Initializing plugins
+[2009.05.28 08:14:47] [0000m.00s.437ms] [0] iCDB Server PI: Plugins initialized
+[2009.05.28 08:14:47] [0000m.00s.437ms] [0] S: iCDB database loaded
+[2009.05.28 08:14:47] [0000m.00s.437ms] [0] S: Starting threads
+[2009.05.28 08:14:47] [0000m.00s.453ms] [0] BT: Listening for broadcast messages on port [10000]
+[2009.05.28 08:14:47] [0000m.00s.453ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2009.05.28 08:14:47] [0000m.01s.046ms] [0] IT: Session [398] for host [esvm01] user [student] with process ID [3680] created
+[2009.05.28 08:14:47] [0000m.01s.046ms] [1] SC[398]: Registered sub-client [EEVM_EEVM_101488092] with ID [1] for session ID [398] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:14:48] [0000m.01s.156ms] [1] CMT: There are [1] clients now
+[2009.05.28 08:14:48] [0000m.01s.203ms] [1] SC[398]: UnRegistered sub-client [EEVM_EEVM_101488092] with ID [1] for session ID [398] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:14:48] [0000m.01s.265ms] [1] CMT: Removed client [398]
+[2009.05.28 08:14:48] [0000m.01s.265ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2009.05.28 08:14:48] [0000m.01s.671ms] [0] IT: Session [399] for host [esvm01] user [student] with process ID [3680] created
+[2009.05.28 08:14:48] [0000m.01s.671ms] [1] SC[399]: Registered sub-client [EEVM_EEVM_101488092] with ID [1] for session ID [399] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:14:48] [0000m.01s.703ms] [1] SC[399]: UnRegistered sub-client [EEVM_EEVM_101488092] with ID [1] for session ID [399] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:14:48] [0000m.01s.812ms] [1] CMT: Removed client [399]
+[2009.05.28 08:14:48] [0000m.01s.812ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2009.05.28 08:14:49] [0000m.02s.531ms] [0] IT: Session [400] for host [esvm01] user [student] with process ID [3680] created
+[2009.05.28 08:14:49] [0000m.02s.531ms] [1] SC[400]: Registered sub-client [Expedition PCB_77255421] with ID [1] for session ID [400] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:14:52] [0000m.05s.296ms] [1] SC[400]: Registered sub-client [ExpeditionCrossProber] with ID [2] for session ID [400] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:16:19] [0001m.32s.578ms] [1] SC[400]: UnRegistered sub-client [ExpeditionCrossProber] with ID [2] for session ID [400] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:16:19] [0001m.32s.875ms] [1] SC[400]: UnRegistered sub-client [Expedition PCB_77255421] with ID [1] for session ID [400] host [esvm01] user [student] process ID [3680]
+[2009.05.28 08:16:19] [0001m.32s.984ms] [1] CMT: Removed client [400]
+[2009.05.28 08:16:19] [0001m.32s.984ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2009.05.28 08:16:21] [0001m.34s.125ms] [0] CMT: Starting server auto-close
+[2009.05.28 08:16:21] [0001m.34s.234ms] [0] S: Closing server
+[2009.05.28 08:16:21] [0001m.34s.359ms] [0] iCDB Server PI: Closing plugins
+[2009.05.28 08:16:21] [0001m.34s.359ms] [0] iCDB Server PI: Plugins closed
+[2009.05.28 08:16:21] [0001m.34s.359ms] [0] iCDB Server PI: Unloading database
+[2009.05.28 08:16:21] [0001m.34s.359ms] [0] iCDB Server PI: Saving storage
+[2009.05.28 08:16:21] [0001m.34s.359ms] [0] iCDB Server PI: Closing database
+[2009.05.28 08:16:21] [0001m.34s.390ms] [0] iCDB Server PI: Database closed
+[2009.05.28 08:16:21] [0001m.34s.390ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [666] ticks
+[2009.05.28 08:16:21] [0001m.34s.390ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [186] microseconds
+[2009.05.28 08:16:21] [0001m.34s.390ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [4]
+[2009.05.28 08:16:21] [0001m.34s.390ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [21498] commands per second
+[2009.05.28 08:16:21] [0001m.34s.562ms] [0] S: STOP

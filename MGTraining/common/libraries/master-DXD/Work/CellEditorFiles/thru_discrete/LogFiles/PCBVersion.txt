@@ -1,0 +1,21 @@
+ Version: EXP2005.1_QT_070204.00 2005.1
+
+
+
+Environment Variables:
+----------------------
+DISPLAY = ":0.0"
+GW2ODB_DIR = "C:\MentorGraphics\Valor\GW20DB"
+HOME = "C:/Homework"
+HOMEDRIVE = "C:"
+HOMEPATH = "\Documents and Settings\joes"
+LM_LICENSE_FILE = "C:\MENTOR~1\2005EXP\SDD_HOME\common\win32\lib\license.dat"
+MGC_ENABLE_CES = "1"
+MGC_HOME = "C:/MentorGraphics/2005EXP/MGC_HOME.ixn"
+OS = "Windows_NT"
+PATH = "C:\MentorGraphics\2005EXP\SDD_HOME\common\win32\bin;C:\MentorGraphics\2005EXP\SDD_HOME\common\win32\lib;C:\MentorGraphics\2005EXP\SDD_HOME\common\win32\_bin;C:\MentorGraphics\2005EXP\SDD_HOME\wg\win32\bin;C:\MentorGraphics\2005EXP\SDD_HOME\wg\win32\lib;C:\MentorGraphics\2005EXP\SDD_HOME\common\win32\bin;C:\MentorGraphics\2005EXP\SDD_HOME\common\win32\lib;C:\Nutc\bin;C:\Nutc\bin\X11;C:\Nutc\mksnt;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Program Files\Common Files\Adaptec Shared\System;C:\MENTOR~1\LICENS~1;C:\PROGRA~1\Vision;C:\PROGRA~1\Vision\SYSTEM;C:\PROGRA~1\COMMON~1\Vision;C:/MentorGraphics/2005EXP/MGC_HOME.ixn\bin;C:/MentorGraphics/2005EXP/MGC_HOME.ixn\lib;C:\MentorGraphics\2006BSXE\MGC_HOME.ixn\bin;C:\MentorGraphics\2006BSXE\MGC_HOME.ixn\lib"
+SDD_HOME = "C:\MentorGraphics\2005EXP\SDD_HOME"
+SHELL = "C:/Nutc/mksnt/sh.exe"
+TEMP = "C:\DOCUME~1\joes\LOCALS~1\Temp"
+TMP = "C:\DOCUME~1\joes\LOCALS~1\Temp"
+TMPDIR = "C:/DOCUME~1/joes/LOCALS~1/Temp"

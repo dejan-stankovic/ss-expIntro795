@@ -1,0 +1,98 @@
+
+                                PLANES PROCESSOR
+                                ----------------
+
+                      02:53 PM Wednesday, January 23, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+
+
+    FOR ALL NEGATIVE PLANES TO BE PROCESSED :
+
+        Gerber Plot Setup File : .\Config\PlotSetup.gpf
+        Machine Format File    : .\Config\GerberMachineFile1.gmf
+        Gerber Format Datatype : 274X
+
+        Round Apertures Without Offsets Available For Flashing Pads :
+
+            PadName      Diameter
+            -----------  --------
+            Round 26     26th    
+            Round 32     32th    
+            25th round   25th    
+            31th round   31th    
+            35th round   35th    
+            37th round   37th    
+            40th round   40th    
+            41th round   41th    
+            46th round   46th    
+            54th round   54th    
+            65th round   65th    
+            71th round   71th    
+            73th round   73th    
+            79th round   79th    
+            84th round   84th    
+            85th round   85th    
+            95th round   95th    
+            118th round  118th   
+            120th round  120th   
+            164th round  164th   
+            173th round  173th   
+            225th round  225th   
+            308th round  308th   
+            314th round  314th   
+
+        Thermal Pads Available :
+
+            PadName        Ties Ortho PadType    
+            -------------  ---- ----- -----------
+            37th thermal    4    NO   Round      
+            54th thermal    4    NO   Round      
+            85th thermal    4    NO   Round      
+            95th thermal    4    NO   Round      
+
+
+    NEGATIVE PLANE LAYER : 3
+
+        Plane Shapes Found On This Layer : 0
+        Plane Holes  Found On This Layer : 0
+
+
+        PLANE NET : GND
+
+            Total Plane Shapes For This Net   : 1
+            Use Route Border As Plane Shape   : YES
+            Fill Distance Beyond Route Border : 75th
+            Negative Clearance Pads Used      : ANTIPAD
+            Plane To Plane Clearance          : 0th
+            Plane To Other Metal Clearance    : 10th
+            Mounting Hole / Contour Clearance : 20th
+            Default Via Tie Properties
+                Number Tie Legs               : BURIED
+            Default Thru Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Default SMD Tie Properties
+                Tie Leg Width                 : 5th
+                Thermal Clearance             : 6th
+                Number Tie Legs               : FOUR
+                Tie Orientation               : PREFER 0
+            Eliminate Untied Areas            : YES
+            Discard Areas By Dimension        : NO
+    
+            Routed Plane Pins Not Tied        : 0
+            Plane No Connect Pins Not Tied    : 0
+            SMD Pads To Connect               : 0
+            Thru Pads To Connect              : 5
+                Max 4 Tie Legs                : 5
+            Via Pads To Connect               : 35
+                Max 4 Tie Legs                : 35
+    
+            Pads With 4/4 Tie Connections     : 40
+
+
+
+                        02:53 PM Wednesday, January 23, 2008

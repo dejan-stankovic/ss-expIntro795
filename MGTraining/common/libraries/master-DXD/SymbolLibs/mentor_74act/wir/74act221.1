@@ -1,0 +1,170 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 21350505590 74ls221
+DW 74act221
+Q Case
+|Q builtin:tribuf 1
+AS builtin:tribuf PINORDER=Q DSBL A
+AP builtin:tribuf 1 PINTYPE=TRI
+AP builtin:tribuf 2 PINTYPE=IN
+AP builtin:tribuf 3 PINTYPE=IN
+|Q builtin:buf 1
+AS builtin:buf PINORDER=Q A
+AP builtin:buf 1 PINTYPE=OUT
+AP builtin:buf 2 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:nand4 1
+AS builtin:nand4 PINORDER=QN A B C D
+AP builtin:nand4 1 PINTYPE=OUT
+AP builtin:nand4 2 PINTYPE=IN
+AP builtin:nand4 3 PINTYPE=IN
+AP builtin:nand4 4 PINTYPE=IN
+AP builtin:nand4 5 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:xnor2 1
+AS builtin:xnor2 PINORDER=QN A B
+AP builtin:xnor2 1 PINTYPE=OUT
+AP builtin:xnor2 2 PINTYPE=IN
+AP builtin:xnor2 3 PINTYPE=IN
+AN REXTCEXT FLOATVAL=Z
+AN REXTCEXT FLOATVAL=Z
+G VDD
+G GND
+G VDD
+G GND
+M builtin:tribuf $1I266
+I $1I266 builtin:tribuf $1N122 $1N255 REXTCEXT STR01=WW`
+M builtin:buf $1I286
+I $1I286 builtin:buf CEXT Q 
+M builtin:buf $1I237
+I $1I237 builtin:buf $1N122 CEXT TPLH=@PULSE_HI`STR01=@DRIVE`
+M builtin:not $1I115
+I $1I115 builtin:not $1N232 ~Q 
+M builtin:buf $1I119
+I $1I119 builtin:buf $1N254 $1N232 TPLH=@PULSE_HI`STR01=@DRIVE`
+M builtin:pw $1I124
+I $1I124 builtin:pw $1N172 TNEG=@B_PULSE1`TPOS=0`
+M builtin:delay $1I183
+I $1I183 builtin:delay $1N188 ~CLR TPLH=@CLRTOQB1`TPHL=0`
+M builtin:udfdl $1I127
+I $1I127 builtin:udfdl ? Q ? $1N122 ? $1N163 $1N35 ? ? ? TPHLPQN=@CLRTOQ0`
+M builtin:udfdl $1I84
+I $1I84 builtin:udfdl ~Q ? ? $1N254 ? $1N9 $1N35 ? ? ? TPLHPQ=@CLRTOQB1`TPULSEP=@CLR_PULSE0`
+M builtin:not $1I83
+I $1I83 builtin:not $1N35 ~CLR 
+M builtin:delay $1I181
+I $1I181 builtin:delay $1N192 ~CLR TPHL=0`TPLH=@CLRTOQ0`
+M builtin:and4 $1I108
+I $1I108 builtin:and4 $1N9 $1N109 $1N188 ~Q $1N57 
+M builtin:or2 $1I218
+I $1I218 builtin:or2 $1N221 ~Q $1N178 
+M builtin:pw $1I123
+I $1I123 builtin:pw A TNEG=@A_PULSE0`TPOS=0`
+M builtin:not $1I79
+I $1I79 builtin:not $1N1 A TPLH=@ATOQB0`
+M builtin:not $1I151
+I $1I151 builtin:not $1N158 A TPLH=@ATOQ1`
+M builtin:nand2 $1I153
+I $1I153 builtin:nand2 $1N154 ~Q $1N160 
+M builtin:nand4 $1I155
+I $1I155 builtin:nand4 $1N160 $1N154 $1N178 $1N158 $1N192 
+M builtin:nand2 $1I80
+I $1I80 builtin:nand2 $1N47 ~Q $1N57 
+M builtin:nand4 $1I90
+I $1I90 builtin:nand4 $1N57 $1N47 $1N172 $1N1 $1N192 
+M builtin:and2 $1I152
+I $1I152 builtin:and2 $1N166 $1N158 $1N178 
+M builtin:and2 $1I102
+I $1I102 builtin:and2 $1N109 $1N1 $1N172 
+M builtin:delay $1I171
+I $1I171 builtin:delay $1N172 B TPHL=0`TPLH=@BTOQB0`
+M builtin:delay $1I176
+I $1I176 builtin:delay $1N178 B TPHL=0`TPLH=@BTOQ1`
+M builtin:and4 $1I162
+I $1I162 builtin:and4 $1N163 $1N221 $1N192 $1N166 $1N214 
+M builtin:xnor2 $1I252
+I $1I252 builtin:xnor2 $1N239 $1N240 $1N248 
+M builtin:tribuf $1I250
+I $1I250 builtin:tribuf $1N254 $1N239 REXTCEXT STR01=WW`
+M builtin:not $1I249
+I $1I249 builtin:not $1N248 $1N242 
+M builtin:delay $1I247
+I $1I247 builtin:delay $1N240 REXTCEXT 
+M builtin:delay $1I246
+I $1I246 builtin:delay $1N242 REXTCEXT 
+M builtin:buf $1I244
+I $1I244 builtin:buf $1N242 GND STR01=CC`
+M builtin:buf $1I241
+I $1I241 builtin:buf $1N240 VDD STR01=CC`
+M builtin:xnor2 $1I268
+I $1I268 builtin:xnor2 $1N255 $1N256 $1N264 
+M builtin:not $1I265
+I $1I265 builtin:not $1N264 $1N258 
+M builtin:delay $1I263
+I $1I263 builtin:delay $1N256 REXTCEXT 
+M builtin:delay $1I262
+I $1I262 builtin:delay $1N258 REXTCEXT 
+M builtin:buf $1I260
+I $1I260 builtin:buf $1N258 GND STR01=CC`
+M builtin:buf $1I257
+I $1I257 builtin:buf $1N256 VDD STR01=CC`
+M builtin:or2 $1I215
+I $1I215 builtin:or2 $1N214 $1N221 $1N160 
+P ? Q
+I Q ? Q
+P ? CEXT
+I CEXT ? CEXT
+P ? ~Q
+I ~Q ? ~Q
+P ? ~CLR
+I ~CLR ? ~CLR
+P ? REXTCEXT
+I REXTCEXT ? REXTCEXT
+P ? A
+I A ? A
+P ? B
+I B ? B
+EW

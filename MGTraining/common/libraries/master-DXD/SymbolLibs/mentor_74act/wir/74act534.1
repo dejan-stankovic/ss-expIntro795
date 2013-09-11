@@ -1,0 +1,91 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 256961630500 74ls534
+DW 74act534
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:trinot 1
+AS builtin:trinot PINORDER=QN DSBL A
+AP builtin:trinot 1 PINTYPE=TRI
+AP builtin:trinot 2 PINTYPE=IN
+AP builtin:trinot 3 PINTYPE=IN
+M builtin:udfdl $1I300
+I $1I300 builtin:udfdl $1N205 ? 1D ? ? CLK ? ? ? ? TPHLCQ=@CLKTOQ1`TPLHCQ=@CLKTOQ0`THOLDD1=@TH_D1`THOLDD0=@TH_D0`TSUD1=@TS_D1`TSUD0=@TS_D0`TNEGC=@PWCLK0`TPOSC=@PWCLK1`
+M builtin:trinot $1I325
+I $1I325 builtin:trinot ~2Q ~OC $1N269 TPLZ=@OCTOQLZ`TPZL=@OCTOQZL`TPHZ=@OCTOQHZ`TPZH=@OCTOQZH`
+M builtin:trinot $1I326
+I $1I326 builtin:trinot ~3Q ~OC $1N280 TPZH=@OCTOQZH`TPHZ=@OCTOQHZ`TPZL=@OCTOQZL`TPLZ=@OCTOQLZ`
+M builtin:trinot $1I327
+I $1I327 builtin:trinot ~4Q ~OC $1N285 TPLZ=@OCTOQLZ`TPZL=@OCTOQZL`TPHZ=@OCTOQHZ`TPZH=@OCTOQZH`
+M builtin:trinot $1I331
+I $1I331 builtin:trinot ~5Q ~OC $1N236 TPLZ=@OCTOQLZ`TPZL=@OCTOQZL`TPHZ=@OCTOQHZ`TPZH=@OCTOQZH`
+M builtin:trinot $1I330
+I $1I330 builtin:trinot ~6Q ~OC $1N231 TPZH=@OCTOQZH`TPHZ=@OCTOQHZ`TPZL=@OCTOQZL`TPLZ=@OCTOQLZ`
+M builtin:trinot $1I329
+I $1I329 builtin:trinot ~7Q ~OC $1N258 TPLZ=@OCTOQLZ`TPZL=@OCTOQZL`TPHZ=@OCTOQHZ`TPZH=@OCTOQZH`
+M builtin:trinot $1I328
+I $1I328 builtin:trinot ~8Q ~OC $1N253 TPZH=@OCTOQZH`TPHZ=@OCTOQHZ`TPZL=@OCTOQZL`TPLZ=@OCTOQLZ`
+M builtin:trinot $1I302
+I $1I302 builtin:trinot ~1Q ~OC $1N205 TPZH=@OCTOQZH`TPHZ=@OCTOQHZ`TPZL=@OCTOQZL`TPLZ=@OCTOQLZ`
+M builtin:udfdl $1I346
+I $1I346 builtin:udfdl $1N231 ? 6D ? ? CLK ? ? ? ? TSUD0=@TS_D0`TSUD1=@TS_D1`THOLDD0=@TH_D0`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ0`TPHLCQ=@CLKTOQ1`
+M builtin:udfdl $1I342
+I $1I342 builtin:udfdl $1N269 ? 2D ? ? CLK ? ? ? ? TSUD0=@TS_D0`TSUD1=@TS_D1`THOLDD0=@TH_D0`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ0`TPHLCQ=@CLKTOQ1`
+M builtin:udfdl $1I343
+I $1I343 builtin:udfdl $1N280 ? 3D ? ? CLK ? ? ? ? TPHLCQ=@CLKTOQ1`TPLHCQ=@CLKTOQ0`THOLDD1=@TH_D1`THOLDD0=@TH_D0`TSUD1=@TS_D1`TSUD0=@TS_D0`
+M builtin:udfdl $1I344
+I $1I344 builtin:udfdl $1N285 ? 4D ? ? CLK ? ? ? ? TSUD0=@TS_D0`TSUD1=@TS_D1`THOLDD0=@TH_D0`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ0`TPHLCQ=@CLKTOQ1`
+M builtin:udfdl $1I345
+I $1I345 builtin:udfdl $1N236 ? 5D ? ? CLK ? ? ? ? TPHLCQ=@CLKTOQ1`TPLHCQ=@CLKTOQ0`THOLDD1=@TH_D1`THOLDD0=@TH_D0`TSUD1=@TS_D1`TSUD0=@TS_D0`
+M builtin:udfdl $1I348
+I $1I348 builtin:udfdl $1N253 ? 8D ? ? CLK ? ? ? ? TSUD0=@TS_D0`TSUD1=@TS_D1`THOLDD0=@TH_D0`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ0`TPHLCQ=@CLKTOQ1`
+M builtin:udfdl $1I347
+I $1I347 builtin:udfdl $1N258 ? 7D ? ? CLK ? ? ? ? TPHLCQ=@CLKTOQ1`TPLHCQ=@CLKTOQ0`THOLDD1=@TH_D1`THOLDD0=@TH_D0`TSUD1=@TS_D1`TSUD0=@TS_D0`
+P ? 2D
+I 2D ? 2D
+P ? ~8Q
+I ~8Q ? ~8Q
+P ? ~7Q
+I ~7Q ? ~7Q
+P ? ~6Q
+I ~6Q ? ~6Q
+P ? ~5Q
+I ~5Q ? ~5Q
+P ? ~4Q
+I ~4Q ? ~4Q
+P ? ~3Q
+I ~3Q ? ~3Q
+P ? ~2Q
+I ~2Q ? ~2Q
+P ? ~OC
+I ~OC ? ~OC
+P ? ~1Q
+I ~1Q ? ~1Q
+P ? 1D
+I 1D ? 1D
+P ? CLK
+I CLK ? CLK
+P ? 3D
+I 3D ? 3D
+P ? 4D
+I 4D ? 4D
+P ? 5D
+I 5D ? 5D
+P ? 6D
+I 6D ? 6D
+P ? 7D
+I 7D ? 7D
+P ? 8D
+I 8D ? 8D
+EW

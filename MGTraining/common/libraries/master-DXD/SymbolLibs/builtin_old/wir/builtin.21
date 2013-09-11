@@ -1,0 +1,74 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $21I19, Symbol=builtin:suhd at (930, 630), is not connected.
+| Sch_Warning - Component $21I16, Symbol=builtin:lat at (730, 590), is not connected.
+| Sch_Warning - Component $21I17, Symbol=builtin:jk at (530, 590), is not connected.
+| Sch_Warning - Component $21I15, Symbol=builtin:df at (280, 590), is not connected.
+| Sch_Warning - Component $21I18, Symbol=builtin:ao222 at (40, 600), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:suhd 1
+AS builtin:suhd PINORDER=VO D REF INH
+AS builtin:suhd AVK=SUHD
+AP builtin:suhd 1 PINTYPE=OUT
+AP builtin:suhd 2 PINTYPE=IN
+AP builtin:suhd 3 PINTYPE=IN
+AP builtin:suhd 4 PINTYPE=IN
+|Q builtin:lat 1
+AS builtin:lat AVK=LAT
+AS builtin:lat PINORDER=Q QN STO STI G D R S
+AP builtin:lat 1 PINTYPE=OUT
+AP builtin:lat 2 PINTYPE=OUT
+AP builtin:lat 3 PINTYPE=OUT
+AP builtin:lat 4 PINTYPE=IN
+AP builtin:lat 5 PINTYPE=IN
+AP builtin:lat 6 PINTYPE=IN
+AP builtin:lat 7 PINTYPE=IN
+AP builtin:lat 8 PINTYPE=IN
+|Q builtin:jk 1
+AS builtin:jk PINORDER=Q QN STO STI CK J K R S
+AS builtin:jk AVK=JK
+AP builtin:jk 1 PINTYPE=OUT
+AP builtin:jk 2 PINTYPE=OUT
+AP builtin:jk 3 PINTYPE=OUT
+AP builtin:jk 4 PINTYPE=IN
+AP builtin:jk 5 PINTYPE=IN
+AP builtin:jk 6 PINTYPE=IN
+AP builtin:jk 7 PINTYPE=IN
+AP builtin:jk 8 PINTYPE=IN
+AP builtin:jk 9 PINTYPE=IN
+|Q builtin:df 1
+AS builtin:df PINORDER=Q QN STO STI CK DA DB DS R S
+AS builtin:df AVK=DF
+AP builtin:df 1 PINTYPE=OUT
+AP builtin:df 2 PINTYPE=OUT
+AP builtin:df 3 PINTYPE=OUT
+AP builtin:df 4 PINTYPE=IN
+AP builtin:df 5 PINTYPE=IN
+AP builtin:df 6 PINTYPE=IN
+AP builtin:df 7 PINTYPE=IN
+AP builtin:df 8 PINTYPE=IN
+AP builtin:df 9 PINTYPE=IN
+AP builtin:df 10 PINTYPE=IN
+|Q builtin:ao222 1
+AS builtin:ao222 AVK=AO222
+AS builtin:ao222 PINORDER=Y A B C D E F
+AP builtin:ao222 1 PINTYPE=OUT
+AP builtin:ao222 2 PINTYPE=IN
+AP builtin:ao222 3 PINTYPE=IN
+AP builtin:ao222 4 PINTYPE=IN
+AP builtin:ao222 5 PINTYPE=IN
+AP builtin:ao222 6 PINTYPE=IN
+AP builtin:ao222 7 PINTYPE=IN
+M builtin:suhd $21I19
+I $21I19 builtin:suhd ? ? ? ? 
+M builtin:lat $21I16
+I $21I16 builtin:lat ? ? ? ? ? ? ? ? 
+M builtin:jk $21I17
+I $21I17 builtin:jk ? ? ? ? ? ? ? ? ? 
+M builtin:df $21I15
+I $21I15 builtin:df ? ? ? ? ? ? ? ? ? ? 
+M builtin:ao222 $21I18
+I $21I18 builtin:ao222 ? ? ? ? ? ? ? 
+EW

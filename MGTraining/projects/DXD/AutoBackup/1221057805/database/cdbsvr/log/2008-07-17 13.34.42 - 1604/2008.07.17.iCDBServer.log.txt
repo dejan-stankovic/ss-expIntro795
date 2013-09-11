@@ -1,0 +1,39 @@
+[2008.07.17 13:34:42] [0000m.00s.078ms] [0] Start logging
+[2008.07.17 13:34:42] [0000m.00s.125ms] [1] Machine [esvm01]  User [student]  PID [1604]
+[2008.07.17 13:34:42] [0000m.00s.125ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2008.07.17 13:34:42] [0000m.00s.125ms] [2] PathTranslator: WARNING: Config file not found [C:\MGTraining\common\config\iCDB\PathsMap.cfg]
+[2008.07.17 13:34:42] [0000m.00s.125ms] [2] S: Loading config files
+[2008.07.17 13:34:42] [0000m.00s.125ms] [3] S: Config loaded
+[2008.07.17 13:34:42] [0000m.00s.171ms] [0] S: Starting server ver.1.002 (build 293638 created 2008-05-30 11:42:36) in auto execute mode
+[2008.07.17 13:34:42] [0000m.00s.171ms] [0] S: Project [C:\MGTraining\projects\2007-DXD\database]
+[2008.07.17 13:34:42] [0000m.00s.171ms] [0] S: START
+[2008.07.17 13:34:42] [0000m.00s.171ms] [0] S: Server startup lock file created
+[2008.07.17 13:34:42] [0000m.00s.265ms] [0] S: Listening for client connections on port [10000]
+[2008.07.17 13:34:42] [0000m.00s.265ms] [0] S: Server GUID [5e04-8351-2013-98e7-2eca-f786-ecaf-7840-5312-818f-2c8c-d9c5]
+[2008.07.17 13:34:42] [0000m.00s.765ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2008.07.17 13:34:42] [0000m.00s.796ms] [0] S: Local disc access time: 241 us
+[2008.07.17 13:34:42] [0000m.00s.796ms] [0] S: Filer access time: 576 us
+[2008.07.17 13:34:43] [0000m.01s.203ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\2007-DXD\database]
+[2008.07.17 13:34:43] [0000m.01s.203ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\2007-DXD\database] opened
+[2008.07.17 13:34:43] [0000m.01s.203ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2008.07.17 13:34:43] [0000m.01s.203ms] [0] iCDB Server PI: Constraint definitions already present in database
+[2008.07.17 13:34:43] [0000m.01s.234ms] [0] iCDB Server PI: Initializing plugins
+[2008.07.17 13:34:43] [0000m.01s.390ms] [0] iCDB Server PI: Plugins initialized
+[2008.07.17 13:34:43] [0000m.01s.390ms] [0] S: iCDB database loaded
+[2008.07.17 13:34:43] [0000m.01s.390ms] [0] S: Project GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2008.07.17 13:34:43] [0000m.01s.390ms] [0] S: Starting threads
+[2008.07.17 13:34:43] [0000m.01s.406ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2008.07.17 13:34:43] [0000m.01s.406ms] [0] S: Wrote data to server address file
+[2008.07.17 13:34:43] [0000m.01s.406ms] [0] S: Server startup lock file removed
+[2008.07.17 13:34:44] [0000m.02s.953ms] [0] IT: Session [230] for host [esvm01] user [student] with process ID [2924] created
+[2008.07.17 13:34:44] [0000m.03s.000ms] [1] SC[230]: Registered sub-client [DxD] with ID [1] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:44] [0000m.03s.031ms] [1] CMT: There are [1] clients now
+[2008.07.17 13:34:46] [0000m.04s.781ms] [1] SC[230]: Registered sub-client [xprob_icdb] with ID [2] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:48] [0000m.06s.859ms] [1] SC[230]: Registered sub-client [SelectionHolder] with ID [3] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:48] [0000m.06s.937ms] [1] SC[230]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:50] [0000m.08s.375ms] [1] SC[230]: Registered sub-client [Navigator] with ID [5] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:50] [0000m.08s.421ms] [1] SC[230]: Registered sub-client [PlaceDevice] with ID [6] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:52] [0000m.10s.078ms] [1] SC[230]: Registered sub-client [OutputWindow] with ID [7] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:52] [0000m.10s.078ms] [1] SC[230]: Registered sub-client [SAE] with ID [8] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:52] [0000m.10s.093ms] [1] SC[230]: Registered sub-client [ICE] with ID [9] for session ID [230] host [esvm01] user [student] process ID [2924]
+[2008.07.17 13:34:52] [0000m.10s.109ms] [1] SC[230]: Registered sub-client [DxDbSearch] with ID [10] for session ID [230] host [esvm01] user [student] process ID [2924]

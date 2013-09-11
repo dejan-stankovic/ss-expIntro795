@@ -1,0 +1,29 @@
+[2011.06.17 10:05:37] [0000m.18s.484ms] [0] WELCOME
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] iCDB Database ver.1.092, sNlgdaWL5XH2IKU803MGlg, build:453260 created 2011-05-23 10:49:57, sources stamp:sNlgdaWL5XH2IKU803MGlg
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] Copyright 2011 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] Base flow version [7.9.2]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] GBS Install Id [18853], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] Machine [esvm01]  User [student]  PID [3896]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] PATH [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] SDD_HOME [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME] on file system [NTFS]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] SDD_PLATFORM [win32]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] WARNING: Database [C:\MGTraining\projects\DXD\database\icdb.dat] was manually copied
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] File change time:        [2011-06-14 16.15.05]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] File modification time:  [2011-05-05 11.27.31]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Last change time:        [2009-10-26 12.18.19]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Last database open information:
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Time:             [2009-10-26 12.17.17]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Location:         [C:\MGTraining\projects\2007-DXD\database\icdb.dat]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Machine:          [esvm01]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] User:             [student]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] PID:              [3300]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Application:      [iCDB Server]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Operating system: [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] WARNING: Regenerating database GUID
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Previous database GUID [0b49-240e-a18a-a4c6-3f19-f887-f19f-8840-9b22-818f-2c8c-d9c5]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [3] Current database GUID  [5f47-3589-0d97-d0f2-1698-bfd5-698b-fd40-8f97-c7c5-4f20-4da8]
+[2011.06.17 10:05:37] [0000m.18s.484ms] [0] .

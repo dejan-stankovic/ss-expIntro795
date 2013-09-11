@@ -1,0 +1,131 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 70709797190 74ls166
+DW 74act166
+Q Case
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+M builtin:shre $1I432
+I $1I432 builtin:shre CK D TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:pw $1I385
+I $1I385 builtin:pw ~CLR TNEG=@PWCLR0`TPOS=@PWCLR1`
+M builtin:andnor22 $1I388
+I $1I388 builtin:andnor22 $1N176 SL $1N330 ~SL F 
+M builtin:andnor22 $1I405
+I $1I405 builtin:andnor22 $1N180 SL $1N325 ~SL G 
+M builtin:andnor22 $1I403
+I $1I403 builtin:andnor22 $1N184 SL $1N320 ~SL H 
+M builtin:shre $1I430
+I $1I430 builtin:shre CK B THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I437
+I $1I437 builtin:shre CK A TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I427
+I $1I427 builtin:shre CK SI THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I436
+I $1I436 builtin:shre CK E TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I435
+I $1I435 builtin:shre CK F THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I434
+I $1I434 builtin:shre CK G TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I431
+I $1I431 builtin:shre CK C THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:udfdl $1I425
+I $1I425 builtin:udfdl ? QH $1N184 ~CLR ? $1N44 ? ? ? ? AASYNCLEV=0`TRECSC=@TR_CLR`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`TPHLSQN=@CLRTOQN0`
+M builtin:udfdl $1I423
+I $1I423 builtin:udfdl ? $1N325 $1N176 ~CLR ? $1N44 ? ? ? ? AASYNCLEV=0`TRECSC=@TR_CLR`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`TPHLSQN=@CLRTOQN0`
+M builtin:udfdl $1I422
+I $1I422 builtin:udfdl ? $1N330 $1N242 ~CLR ? $1N44 ? ? ? ? TPHLSQN=@CLRTOQN0`TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TRECSC=@TR_CLR`AASYNCLEV=0`
+M builtin:udfdl $1I421
+I $1I421 builtin:udfdl ? QD $1N188 ~CLR ? $1N44 ? ? ? ? AASYNCLEV=0`TRECSC=@TR_CLR`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`TPHLSQN=@CLRTOQN0`
+M builtin:udfdl $1I420
+I $1I420 builtin:udfdl ? $1N314 $1N192 ~CLR ? $1N44 ? ? ? ? TPHLSQN=@CLRTOQN0`TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TRECSC=@TR_CLR`AASYNCLEV=0`
+M builtin:udfdl $1I419
+I $1I419 builtin:udfdl ? $1N308 $1N196 ~CLR ? $1N44 ? ? ? ? AASYNCLEV=0`TRECSC=@TR_CLR`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`TPHLSQN=@CLRTOQN0`
+M builtin:not $1I394
+I $1I394 builtin:not ~SL SL 
+M builtin:andnor22 $1I400
+I $1I400 builtin:andnor22 $1N188 $1N314 SL ~SL D 
+M builtin:andnor22 $1I398
+I $1I398 builtin:andnor22 $1N192 $1N308 SL ~SL C 
+M builtin:andnor22 $1I396
+I $1I396 builtin:andnor22 $1N196 $1N302 SL ~SL B 
+M builtin:or2 $1I395
+I $1I395 builtin:or2 $1N44 CK INH 
+M builtin:andnor22 $1I391
+I $1I391 builtin:andnor22 $1N200 SI SL ~SL A 
+M builtin:andnor22 $1I390
+I $1I390 builtin:andnor22 $1N242 SL QD ~SL E 
+M builtin:pw $1I386
+I $1I386 builtin:pw CK TNEG=@PWCLK0`TPOS=@PWCLK1`
+M builtin:udfdl $1I392
+I $1I392 builtin:udfdl ? $1N302 $1N200 ~CLR ? $1N44 ? ? ? ? TPHLSQN=@CLRTOQN0`TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TRECSC=@TR_CLR`AASYNCLEV=0`
+M builtin:udfdl $1I424
+I $1I424 builtin:udfdl ? $1N320 $1N180 ~CLR ? $1N44 ? ? ? ? TPHLSQN=@CLRTOQN0`TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TRECSC=@TR_CLR`AASYNCLEV=0`
+M builtin:shre $1I384
+I $1I384 builtin:shre CK SL THOLD=@TH_SL`TSU=@TS_SL`
+M builtin:shre $1I433
+I $1I433 builtin:shre CK H THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I448
+I $1I448 builtin:shre CK INH THOLD=@TH_INH`TSU=@TS_INH`
+P ? SI
+I SI ? SI
+P ? CK
+I CK ? CK
+P ? E
+I E ? E
+P ? C
+I C ? C
+P ? A
+I A ? A
+P ? SL
+I SL ? SL
+P ? INH
+I INH ? INH
+P ? ~CLR
+I ~CLR ? ~CLR
+P ? B
+I B ? B
+P ? F
+I F ? F
+P ? G
+I G ? G
+P ? H
+I H ? H
+P ? QH
+I QH ? QH
+P ? D
+I D ? D
+EW

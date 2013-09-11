@@ -1,0 +1,88 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 59320905190 74ls158
+DW 74act158
+Q Case
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+M builtin:nor2 $1I74
+I $1I74 builtin:nor2 $1N12 $1N53 $1N129 
+M builtin:nor2 $1I75
+I $1I75 builtin:nor2 $1N1 $1N53 $1N50 
+M builtin:delay $1I92
+I $1I92 builtin:delay $1N100 1A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I93
+I $1I93 builtin:delay $1N102 1B TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I94
+I $1I94 builtin:delay $1N104 2A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I95
+I $1I95 builtin:delay $1N106 2B TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I96
+I $1I96 builtin:delay $1N108 3A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I97
+I $1I97 builtin:delay $1N110 3B TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:delay $1I98
+I $1I98 builtin:delay $1N112 4A TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:andnor22 $1I80
+I $1I80 builtin:andnor22 ~3Y $1N108 $1N12 $1N110 $1N1 
+M builtin:andnor22 $1I79
+I $1I79 builtin:andnor22 ~2Y $1N104 $1N12 $1N106 $1N1 
+M builtin:andnor22 $1I72
+I $1I72 builtin:andnor22 ~1Y $1N100 $1N12 $1N102 $1N1 
+M builtin:andnor22 $1I81
+I $1I81 builtin:andnor22 ~4Y $1N112 $1N12 $1N114 $1N1 
+M builtin:delay $1I99
+I $1I99 builtin:delay $1N114 4B TPHL=@DTOY1`TPLH=@DTOY0`
+M builtin:not $1I73
+I $1I73 builtin:not $1N50 S TPHL=@SELTOY0`TPLH=@SELTOY1`
+M builtin:delay $1I128
+I $1I128 builtin:delay $1N129 S TPHL=@SELTOY0`TPLH=@SELTOY1`
+M builtin:delay $1I125
+I $1I125 builtin:delay $1N53 ~G TPHL=@GTOY0`TPLH=@GTOY1`
+P ? ~1Y
+I ~1Y ? ~1Y
+P ? 4A
+I 4A ? 4A
+P ? 3B
+I 3B ? 3B
+P ? 3A
+I 3A ? 3A
+P ? 2B
+I 2B ? 2B
+P ? 2A
+I 2A ? 2A
+P ? 1B
+I 1B ? 1B
+P ? 1A
+I 1A ? 1A
+P ? 4B
+I 4B ? 4B
+P ? ~G
+I ~G ? ~G
+P ? S
+I S ? S
+P ? ~2Y
+I ~2Y ? ~2Y
+P ? ~3Y
+I ~3Y ? ~3Y
+P ? ~4Y
+I ~4Y ? ~4Y
+EW

@@ -1,0 +1,43 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 155291258800 74ls393
+DW 74act393
+Q Case
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+M builtin:pw $1I136
+I $1I136 builtin:pw ~A TNEG=@PWA0`TPOS=@PWA1`
+M builtin:udfdl $1I131
+I $1I131 builtin:udfdl QA $1N97 $1N97 ? CLR ~A ? ? ? ? TRECRC=@TR_CLR`TPULSER=@PWCLR`ACEDGE=0`TPLHCQ=@ATOQA1`TPHLCQ=@ATOQA0`TPHLRQ=@CLRTOQ0`
+M builtin:udfdl $1I141
+I $1I141 builtin:udfdl QC $1N118 $1N118 ? CLR $1N108 ? ? ? ? TRECRC=@TR_CLR`TPULSER=@PWCLR`TPHLRQ=@CLRTOQ0`TPLHCQ=@ATOQA1`TPHLCQ=@ATOQA0`
+M builtin:udfdl $1I151
+I $1I151 builtin:udfdl QB $1N108 $1N108 ? CLR $1N97 ? ? ? ? TRECRC=@TR_CLR`TPHLCQ=@ATOQA0`TPLHCQ=@ATOQA1`TPHLRQ=@CLRTOQ0`TPULSER=@PWCLR`
+M builtin:udfdl $1I142
+I $1I142 builtin:udfdl QD $1N143 $1N143 ? CLR $1N118 ? ? ? ? TRECRC=@TR_CLR`TPULSER=@PWCLR`TPHLRQ=@CLRTOQ0`TPHLCQ=@ATOQD0`TPLHCQ=@ATOQD1`
+P ? QC
+I QC ? QC
+P ? QD
+I QD ? QD
+P ? QA
+I QA ? QA
+P ? ~A
+I ~A ? ~A
+P ? QB
+I QB ? QB
+P ? CLR
+I CLR ? CLR
+EW

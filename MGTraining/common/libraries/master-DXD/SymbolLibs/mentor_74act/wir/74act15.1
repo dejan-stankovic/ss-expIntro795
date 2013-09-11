@@ -1,0 +1,22 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 219171878000 74ls15
+DW 74act15
+Q Case
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+M builtin:and3 $1I11
+I $1I11 builtin:and3 Y A B C TPLH=@INTOOUT1`TPHL=@INTOOUT0`STR01=DZ`
+P ? Y
+I Y ? Y
+P ? C
+I C ? C
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

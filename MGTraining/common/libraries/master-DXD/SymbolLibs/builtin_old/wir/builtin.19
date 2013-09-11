@@ -1,0 +1,22 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $19I2, Symbol=builtin:nchan at (615, 515), is not connected.
+| Sch_Warning - Component $19I1, Symbol=builtin:pchan at (430, 515), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:nchan 1
+AS builtin:nchan PINORDER=DOUT  DIN  GATE
+AP builtin:nchan 1 PINTYPE=OUT
+AP builtin:nchan 2 PINTYPE=IN
+AP builtin:nchan 3 PINTYPE=IN
+|Q builtin:pchan 1
+AS builtin:pchan PINORDER=DOUT  DIN  GATE
+AP builtin:pchan 1 PINTYPE=OUT
+AP builtin:pchan 2 PINTYPE=IN
+AP builtin:pchan 3 PINTYPE=IN
+M builtin:nchan $19I2
+I $19I2 builtin:nchan ? ? ? 
+M builtin:pchan $19I1
+I $19I1 builtin:pchan ? ? ? 
+EW

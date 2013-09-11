@@ -1,0 +1,16 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2005.
+	All Rights Reserved.
+
+Processing programmables
+	Adding symbol ADD_GEN 
+	Adding symbol fpga_ser2par 
+	Adding symbol RAMCTL 
+	Adding symbol ram_ctrl 
+	Adding symbol VDCPAL 
+	Adding symbol VDCSEL 
+	Adding symbol wrd_stts 
+DXLIB2LMC utility complete

@@ -1,0 +1,46 @@
+
+------------------------------------------------------------------------
+            Part/Reference             | Pin | Augmented Net Name
+------------------------------------------------------------------------
+ Part 3040815                          |
+       U6                              |   10| GND
+       U6                              |   20| VCC
+ Part 3040747                          |
+       U4                              |   16| VCC
+       U4                              |    8| GND
+ Part 3040714                          |
+       U12                             |   12| GND
+       U12                             |   24| VCC
+       U11                             |   12| GND
+       U11                             |   24| VCC
+       U10                             |   12| GND
+       U10                             |   24| VCC
+       U9                              |   12| GND
+       U9                              |   24| VCC
+ Part 3040671                          |
+       U2                              |    7| GND
+       U2                              |   14| VCC
+ Part 3040645                          |
+       U8                              |    7| GND
+       U8                              |   14| VCC
+ Part 3040642                          |
+       U7                              |    7| GND
+       U7                              |   14| VCC
+       U7                              |    9| <unconnected pin>
+       U7                              |   10| <unconnected pin>
+       U7                              |   13| <unconnected pin>
+ Part 3040550                          |
+       U5                              |    7| GND
+       U5                              |   14| VCC
+ Part 3040546                          |
+       U3                              |    7| GND
+       U3                              |   14| VCC
+ Part 3020610                          |
+       U1                              |   20| VCC
+       U1                              |   10| GND
+       U1                              |    1| <unconnected pin>
+       U1                              |    5| <unconnected pin>
+       U1                              |    7| <unconnected pin>
+       U1                              |   11| <unconnected pin>
+       U1                              |   15| <unconnected pin>
+       U1                              |   17| <unconnected pin>

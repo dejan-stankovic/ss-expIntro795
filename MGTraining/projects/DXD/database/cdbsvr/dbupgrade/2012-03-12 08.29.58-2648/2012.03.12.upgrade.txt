@@ -1,0 +1,26 @@
+[2012.03.12 08:29:59] [0000m.00s.343ms] [0] WELCOME
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] iCDB Server ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] Base flow version [7.9.3]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] GBS Install Id [23291], Flow Id [EE7.9.3], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Nov 1 2011]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] Machine [ESVM01]  User [student]  PID [2648]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] PATH [C:\MentorGraphics\7.9.3EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] SDD_HOME [C:\MentorGraphics\7.9.3EE\SDD_HOME] on file system [NTFS]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] SDD_PLATFORM [win32]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.3EE\SDD_HOME\standard]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.03.12 08:29:59] [0000m.00s.343ms] [0] Creating database content backup before upgrade
+[2012.03.12 08:29:59] [0000m.00s.359ms] [0] Database content backed up to [C:\MGTraining\projects\DXD\database\cdbback\2012-03-12 08.29.59-2648.zip] of size [152 961 bytes (149.4 kB)] in [16ms 811us]
+[2012.03.12 08:29:59] [0000m.00s.390ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.16;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.03.12 08:29:59] [0000m.00s.406ms] [0] Upgrading snapshot [1:DxD] from version [2654]
+[2012.03.12 08:29:59] [0000m.00s.453ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2012.03.12 08:29:59] [0000m.00s.453ms] [0] Snapshot [1:DxD] upgraded to version [2704] in [35ms 667us]
+[2012.03.12 08:29:59] [0000m.00s.453ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2012.03.12 08:29:59] [0000m.00s.562ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [108ms 792us]
+[2012.03.12 08:29:59] [0000m.00s.562ms] [0] Saving upgraded snapshot [1:DxD]
+[2012.03.12 08:29:59] [0000m.00s.562ms] [0] Upgraded snapshot [1:DxD] saved in [13ms 271us]
+[2012.03.12 08:29:59] [0000m.00s.656ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.23;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.03.12 08:29:59] [0000m.00s.656ms] [0] DONE
+[2012.03.12 08:29:59] [0000m.00s.656ms] [0] .

@@ -1,0 +1,47 @@
+PadID	Name                                                            	Shape                    	Width       	Height      	ThermalClearance	XOffset     	YOffset     
+1    	Round 32                                                        	ROUND                    	32.000      	0.000       	0.000           	0.000       	0.000       
+2    	Round 26                                                        	ROUND                    	26.000      	0.000       	0.000           	0.000       	0.000       
+3    	25th round                                                      	ROUND                    	25.000      	0.000       	0.000           	0.000       	0.000       
+4    	31th round                                                      	ROUND                    	31.000      	0.000       	0.000           	0.000       	0.000       
+5    	37th round                                                      	ROUND                    	37.000      	0.000       	0.000           	0.000       	0.000       
+6    	37th thermal                                                    	4_WEB_ROUND_THERMAL_45   	37.000      	6.000       	6.000           	0.000       	0.000       
+7    	40th round                                                      	ROUND                    	40.000      	0.000       	0.000           	0.000       	0.000       
+8    	46th round                                                      	ROUND                    	46.000      	0.000       	0.000           	0.000       	0.000       
+9    	54th round                                                      	ROUND                    	54.000      	0.000       	0.000           	0.000       	0.000       
+10   	54th thermal                                                    	4_WEB_ROUND_THERMAL_45   	54.000      	7.000       	7.000           	0.000       	0.000       
+11   	308th round                                                     	ROUND                    	308.000     	0.000       	0.000           	0.000       	0.000       
+12   	173th round                                                     	ROUND                    	173.000     	0.000       	0.000           	0.000       	0.000       
+13   	225th round                                                     	ROUND                    	225.000     	0.000       	0.000           	0.000       	0.000       
+14   	314th round                                                     	ROUND                    	314.000     	0.000       	0.000           	0.000       	0.000       
+15   	0.80mm x 2.60mm rectangle                                       	RECTANGLE                	31.496      	102.362     	0.000           	0.000       	0.000       
+16   	0.952mm x 2.752mm rectangle                                     	RECTANGLE                	37.480      	108.346     	0.000           	0.000       	0.000       
+17   	0.80mm x 2.60mm finger                                          	OCTOGONAL_FINGER         	31.496      	102.362     	0.000           	0.000       	0.000       
+18   	0.952mm x 2.752mm finger                                        	OCTOGONAL_FINGER         	37.480      	108.346     	0.000           	0.000       	0.000       
+19   	0.60mm x 2.20mm rectangle                                       	RECTANGLE                	23.622      	86.614      	0.000           	0.000       	0.000       
+20   	0.752mm x 2.352mm rectangle                                     	RECTANGLE                	29.606      	92.598      	0.000           	0.000       	0.000       
+21   	1.00mm x 1.10mm rectangle                                       	RECTANGLE                	39.370      	43.307      	0.000           	0.000       	0.000       
+22   	1.152mm x 1.252mm rectangle                                     	RECTANGLE                	45.354      	49.291      	0.000           	0.000       	0.000       
+23   	1.80mm x 1.60mm rectangle                                       	RECTANGLE                	70.866      	62.992      	0.000           	0.000       	0.000       
+24   	1.952mm x 1.752mm rectangle                                     	RECTANGLE                	76.850      	68.976      	0.000           	0.000       	0.000       
+25   	0.35mm x 1.50mm rectangle                                       	RECTANGLE                	13.780      	59.055      	0.000           	0.000       	0.000       
+26   	0.502mm x 1.652mm rectangle                                     	RECTANGLE                	19.764      	65.039      	0.000           	0.000       	0.000       
+27   	65th round                                                      	ROUND                    	65.000      	0.000       	0.000           	0.000       	0.000       
+28   	85th round                                                      	ROUND                    	85.000      	0.000       	0.000           	0.000       	0.000       
+29   	85th thermal                                                    	4_WEB_ROUND_THERMAL_45   	85.000      	10.000      	10.000          	0.000       	0.000       
+30   	71th round                                                      	ROUND                    	71.000      	0.000       	0.000           	0.000       	0.000       
+31   	65th square                                                     	SQUARE                   	65.000      	65.000      	0.000           	0.000       	0.000       
+32   	71th square                                                     	SQUARE                   	71.000      	71.000      	0.000           	0.000       	0.000       
+33   	73th round                                                      	ROUND                    	73.000      	0.000       	0.000           	0.000       	0.000       
+34   	95th round                                                      	ROUND                    	95.000      	0.000       	0.000           	0.000       	0.000       
+35   	95th thermal                                                    	4_WEB_ROUND_THERMAL_45   	95.000      	11.000      	11.000          	0.000       	0.000       
+36   	79th round                                                      	ROUND                    	79.000      	0.000       	0.000           	0.000       	0.000       
+37   	73th square                                                     	SQUARE                   	73.000      	73.000      	0.000           	0.000       	0.000       
+38   	79th square                                                     	SQUARE                   	79.000      	79.000      	0.000           	0.000       	0.000       
+39   	35th x 250th finger bottom                                      	OCTOGONAL_FINGER         	35.000      	250.000     	0.000           	0.000       	75.000      
+40   	35th x 250th finger top                                         	OCTOGONAL_FINGER         	35.000      	250.000     	0.000           	0.000       	100.000     
+41   	120th round                                                     	ROUND                    	120.000     	0.000       	0.000           	0.000       	0.000       
+42   	84th round                                                      	ROUND                    	84.000      	0.000       	0.000           	0.000       	0.000       
+43   	164th round                                                     	ROUND                    	164.000     	0.000       	0.000           	0.000       	0.000       
+44   	118th round                                                     	ROUND                    	118.000     	0.000       	0.000           	0.000       	0.000       
+45   	35th round                                                      	ROUND                    	35.000      	0.000       	0.000           	0.000       	0.000       
+46   	41th round                                                      	ROUND                    	41.000      	0.000       	0.000           	0.000       	0.000       

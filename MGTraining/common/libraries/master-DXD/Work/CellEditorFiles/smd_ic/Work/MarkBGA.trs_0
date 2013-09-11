@@ -1,0 +1,61 @@
+Version 2 : Started on Wednesday, March 15, 2006 11:36:20
+1 c Default Mouse Mapping
+1 c Auto Tune Idle
+1 d 0 1023 Cell Editor - C:\...\common\libraries\master-DXD On Ok
+1      d 0 6092 tab Panel
+1 w      6105 LISTCTRL List2
+1                          Name              Panel Group
+1 w      6107 LISTCTRL List1
+1                              
+1                   Description
+1                      Modified
+1                         Units
+1                      Verified
+1 w      901 BUTTON Checked Fit
+1      d 0 1022 tab Drawing
+1 w      312 LISTCTRL List2
+1                          Name                 Modified
+1 w      313 LISTCTRL List1
+1                              
+1                   Description
+1                         Units
+1                      Verified
+1 w      901 BUTTON Checked Fit
+1      d 0 1024 tab Mechanical
+1 w      532 LISTCTRL List2
+1                          Name              Part Number
+1 w      534 LISTCTRL List1
+1                              
+1                   Description
+1                        Height
+1                      Modified
+1               Underside Space
+1                         Units
+1                      Verified
+1 w      901 BUTTON Checked Fit
+1      d 0 1025 tab Package
+1 w      596 LISTCTRL List2
+1                          Name            Package Group               Mount Type
+1                       MarkBGA                 IC - BGA                  Surface
+1                       PBGA196                 IC - BGA                  Surface
+1                       PBGA208                 IC - BGA                  Surface
+1                        PQFP52               IC - Other                  Surface
+1                       PQFP208               IC - Other                  Surface
+1                      SO14-266                IC - SOIC                  Surface
+1                         SO18W                IC - SOIC                  Surface
+1                      SO64-295                IC - SOIC                  Surface
+1                        360BGA                 IC - BGA                  Surface
+1                    360BGA_NEW                 IC - BGA                  Surface
+1 w      597 LISTCTRL List1
+1                              
+1                   Description
+1                        Height
+1                      Modified
+1                        # Pins
+1               Underside Space
+1                         Units
+1                      Verified
+1 w      901 BUTTON Checked Fit
+1 w      647 COMBOBOX Caption: Partition:  Value: smd_ic
+1 d END DIALOG 0 1023 Cell Editor - C:\...\common\libraries\master-DXD
+1 c Exit

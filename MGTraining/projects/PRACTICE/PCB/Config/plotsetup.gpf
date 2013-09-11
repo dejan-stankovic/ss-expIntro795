@@ -1,0 +1,204 @@
+.FILETYPE GerberPlotSetupFile
+.VERSION "VB99.0"
+.CREATOR "Expedition PCB Gerber Output"
+.DATE "Wednesday, February 06, 2008 03:15 PM"
+
+.BaseUnits "1NM"
+
+.DataOffset 0 0
+.DataCopies 1 1
+ ..OriginOffset 0 0
+
+.GenerateMacro Yes 
+
+.DCodeToApertureFile "C:\\MentorGraphics\\2007EE\\SDD_HOME\\standard\\config\\pcb\\GerberD-Codes.dac"
+.GerberMachineFormatFile ".\\Config\\GerberMachineFile1.gmf"
+
+.GerberOutputFile "SoldermaskTop.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\SoldermaskTop.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..BoardItem SoldermaskTop
+
+.GerberOutputFile "SoldermaskBottom.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\SoldermaskBottom.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..BoardItem SoldermaskBottom
+
+.GerberOutputFile "SolderPasteTop.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\SolderPasteTop.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..BoardItem SolderpasteTop
+
+.GerberOutputFile "SolderPasteBottom.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\SolderPasteBottom.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..BoardItem SolderpasteBottom
+
+.GerberOutputFile "GeneratedSilkscreenTop.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\GeneratedSilkscreenTop.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..BoardItem AlteredSilkscreenTop
+
+.GerberOutputFile "GeneratedSilkscreenBottom.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\GeneratedSilkscreenBottom.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..BoardItem AlteredSilkscreenBottom
+
+.GerberOutputFile "EtchLayer6Bottom.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\EtchLayer6Bottom.gdo"
+ ..ConductiveLayer 6
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsTest
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaPads
+   ...ConductiveItem EmbeddedCapPads
+   ...ConductiveItem EmbeddedResPads
+   ...ProcessUnconnectedPads Yes
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "EtchLayer5.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\EtchLayer5.gdo"
+ ..ConductiveLayer 5
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaPads
+   ...ProcessUnconnectedPads Yes
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "EtchLayer4.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\EtchLayer4.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..ConductiveLayer 4
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsTest
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaPads
+   ...ProcessUnconnectedPads Yes
+
+.GerberOutputFile "EtchLayer3Neg.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\EtchLayer3Neg.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output for Negative Plane Layer"
+ ..ConductiveLayer 3
+   ...ConductiveItem PlaneData
+
+.GerberOutputFile "EtchLayer2.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\EtchLayer2.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..ConductiveLayer 2
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaPads
+   ...ProcessUnconnectedPads Yes
+
+.GerberOutputFile "EtchLayer1Top.gdo"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "C:\\MGTraining\\projects\\PRACTICE\\PCB\\Output\\Gerber\\EtchLayer1Top.gdo"
+ ..HeaderText
+   ...CommentLine "VeriBest Example Gerber Output Definition"
+ ..ConductiveLayer 1
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsTest
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaPads
+   ...ProcessUnconnectedPads Yes

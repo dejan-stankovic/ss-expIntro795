@@ -1,0 +1,27 @@
+Cell Status
+
+Cell Type:        Package Cell
+Cell Name:        DIP14
+Cell Description: IC, DIP14 PLASTIC, MO095AB
+Number Of Layers: 10
+Units:            th
+
+Package Group:    IC - DIP
+Mount Type:       Through
+Number of Pins:   14
+        Placed:   14
+Height:           180
+Underside Space:  0
+
+Pin Padstack Names:
+        (13)  23th max lead dia
+        (1)  23th max lead dia, square pad
+
+Electronic Objects Used:
+        Assembly Outline
+        Assembly Part Number
+        Assembly Ref. Des.
+        Placement Outline
+        Silkscreen Outline       Mount Side
+        Silkscreen Ref. Des.     Mount Side
+

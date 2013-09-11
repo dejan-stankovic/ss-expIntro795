@@ -1,0 +1,32 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 329203260200 74ls74a
+DW 74act74a
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+M builtin:udfdl $1I56
+I $1I56 builtin:udfdl Q ~Q D ~PRE ~CLR CLK ? ? ? ? TPLHCQ=@CLKTOQ1`TPHLRQ=@CLRTOQ0`TPLHRQN=@CLRTOQN1`TPHLSQN=@PRETOQN0`TPLHSQ=@PRETOQ1`THOLDD1=@TH_D1`THOLDD0=@TH_D0`TSUD1=@TS_D1`TSUD0=@TS_D0`TPULSES=@PWS0`TPULSER=@PWR0`TNEGC=@PWCLK0`TPOSC=@PWCLK1`AASYNCLEV=0`TPHLCQ=@CLKTOQ0`TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`TRECSC=@TR_PRE`TRECRC=@TR_CLR`
+P ? D
+I D ? D
+P ? CLK
+I CLK ? CLK
+P ? Q
+I Q ? Q
+P ? ~PRE
+I ~PRE ? ~PRE
+P ? ~CLR
+I ~CLR ? ~CLR
+P ? ~Q
+I ~Q ? ~Q
+EW

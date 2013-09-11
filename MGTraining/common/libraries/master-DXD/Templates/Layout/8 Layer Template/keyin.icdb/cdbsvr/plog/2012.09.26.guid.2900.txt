@@ -1,0 +1,29 @@
+[2012.09.26 22:49:21] [0000m.41s.205ms] [0] WELCOME
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] iCDB Database ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] Base flow version [7.9.4]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] Machine [ESVM01]  User [student]  PID [2900]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] SDD_PLATFORM [win32]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] WARNING: Database [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\8 Layer Template\keyin.icdb\icdb.dat] was manually copied
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] File change time:        [2010-10-11 15.34.32]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] File modification time:  [2010-10-11 15.34.32]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Last change time:        [2010-08-16 13.22.30]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Last database open information:
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Time:             [2010-08-16 13.21.59]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Location:         [T:\new_cls\cl_15595_dx\Templates\Layout\8 Layer Template\keyin.icdb\icdb.dat]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Machine:          [XP32_LMQA_VM1]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] User:             [root]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] PID:              [3984]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Application:      [iCDB Server]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Operating system: [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] WARNING: Regenerating database GUID
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Previous database GUID [36c2-b6d0-3b2d-a610-a9d9-96ce-9d99-6c40-a9c4-32e0-f21b-ba0b]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [3] Current database GUID  [9cfa-3278-3cb7-d7b3-1e8e-3606-e8e3-6050-1251-718f-2c7c-0ac5]
+[2012.09.26 22:49:21] [0000m.41s.205ms] [0] .

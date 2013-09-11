@@ -1,0 +1,6 @@
+		-----Replace Padstack Log-----
+		------------------------------
+		03:00:21 PM Jan 22, 2008
+
+The following Padstacks were replaced because the local padstack DB was updated.
+

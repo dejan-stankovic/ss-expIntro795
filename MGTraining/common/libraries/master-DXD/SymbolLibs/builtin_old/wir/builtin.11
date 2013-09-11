@@ -1,0 +1,18 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $11I1, Symbol=builtin:jkffre at (790, 565), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+|Q builtin:jkffre 1
+AS builtin:jkffre PINORDER=Q QN J K S R CK
+AP builtin:jkffre 1 PINTYPE=OUT
+AP builtin:jkffre 2 PINTYPE=OUT
+AP builtin:jkffre 3 PINTYPE=IN
+AP builtin:jkffre 4 PINTYPE=IN
+AP builtin:jkffre 5 PINTYPE=IN
+AP builtin:jkffre 6 PINTYPE=IN
+AP builtin:jkffre 7 PINTYPE=IN
+M builtin:jkffre $11I1
+I $11I1 builtin:jkffre ? ? ? ? ? ? ? 
+EW

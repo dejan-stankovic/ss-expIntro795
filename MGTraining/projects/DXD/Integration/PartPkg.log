@@ -1,0 +1,176 @@
+
+                                    Packager
+                                    --------
+
+                         08:51 AM Monday, March 12, 2012
+                 Job Name: C:\MGTraining\projects\DXD\DXD_1.prj
+
+
+     Packager     Version: 020806.00
+
+        Commandline is: "C:\MentorGraphics\7.9.3EE\SDD_HOME\wg\win32\bin\package.exe -jC:\MGTraining\projects\DXD\DXD_1.prj -nDXD_1 -Add"
+
+     The Common Database is at "C:\MGTraining\projects\DXD\database".
+
+     The Root of this design is "DiscreteCircuit".
+
+     The Front End Snapshot of this design is "DxD".
+
+     The Central Library is at "C:\MGTraining\common\libraries\master-DXD\master-DXD.lmc".
+
+     Unable to determine the Disable Repackage status.
+     !Repackaging will be allowed!
+
+     The PDBs listed in the project file will be searched to satisfy the parts
+      requirements of the iCDB only for parts not already found in the
+      Target PDB.
+
+     The AllowAlphaRefDes status indicates that reference
+      designators containing all alpha characters should be deleted
+      and the relevant symbols repackaged.
+
+     The cross mapping of symbol pin names to Part Number pin
+      numbers will be checked for packaged symbols and mapped correctly
+      for unpackaged symbols.
+
+     Properties that have been checked off in the Property Definition Editor
+      found at Library Manager/Common Properties will be checked for value
+      differences between the PartsDB and the non-null properties on symbols.
+     Those properties checked off (other than Part Number)
+      will not be transferred from the PartsDB to symbols.
+     The following properties were checked off in the Property Definition Editor:
+       "EPFIXEDWIDTH"
+       "EPFIXEDLENGTH"
+       "Term"
+       "Simulation Mapping"
+       "TC3"
+       "TC2"
+       "TC1"
+       "Array Component"
+       "ICX_PART_MODEL"
+       "Spice Lib Name"
+       "Spice Subckt"
+       "Spice Lib Path"
+       "Use Verilog"
+       "PROBE"
+       "PREFIX"
+       "PARNAM"
+       "ORDER"
+       "No Pins"
+       "MODEL"
+       "LOAD"
+       "LIBRARY"
+       "GENERATOR"
+       "FILE"
+       "BULK"
+       "ADMS Library"
+       "Parametric"
+       "Value2"
+       "Michaels Prop"
+       "Part Label"
+       "Type"
+       "Description"
+       "Rating"
+       "Tolerance"
+       "Part Number"
+       "Value"
+       "Part Name"
+
+	Checking for errors in the ICDB...
+
+	Warning on block memory, pin A[0:7] on block $1I46: Pin on parent block is not connected but it's corresponding child port is connected to a net.
+	Warning on block memory, pin RAMWR[0:1] on block $1I46: Pin on parent block is not connected but it's corresponding child port is connected to a net.
+	Warning on block memory, pin A[0:7] on block $1I45: Pin on parent block is not connected but it's corresponding child port is connected to a net.
+	Warning on block memory, pin RAMWR[0:1] on block $1I45: Pin on parent block is not connected but it's corresponding child port is connected to a net.
+
+	No errors found.  Proceeding with packaging...
+
+
+
+     Common Data Base has been read
+
+     Target PDB Name: Integration\LocalPartsDB.pdb
+
+     Number of Part Numbers: 21
+          Part Numb: CAP-SMD0603-100P -> Vend Part: CAP-SMD0603-100P 
+          Part Numb: CAP-SMD0805-5P -> Vend Part: CAP-SMD0805-5P 
+          Part Numb: CAP-SMD1206-10P -> Vend Part: CAP-SMD1206-10P 
+          Part Numb: CTX071-ND -> Vend Part: CTX071-ND 
+          Part Numb: ECONN44X50 -> Vend Part: ECONN44X50 
+          Part Numb: OP215A -> Vend Part: OP215A 
+          Part Numb: PCAP-SM7343-100U -> Vend Part: PCAP-SM7343-100U 
+          Part Numb: RES-SMD1206-3K -> Vend Part: RES-SMD1206-3K 
+          Part Numb: RES-SMD1206-100K -> Vend Part: RES-SMD1206-100K 
+          Part Numb: 9P_PCONN -> Vend Part: 9P_PCONN 
+          Part Numb: 54ALS1008_LCC -> Vend Part: 54ALS1008_LCC 
+          Part Numb: 74ALS00_SOP -> Vend Part: 74ALS00_SOP 
+          Part Numb: 74ALS04_SOP -> Vend Part: 74ALS04_SOP 
+          Part Numb: 74ALS30_SOP -> Vend Part: 74ALS30_SOP 
+          Part Numb: 74ALS32_SOP -> Vend Part: 74ALS32_SOP 
+          Part Numb: 74ALS49_SOP -> Vend Part: 74ALS49_SOP 
+          Part Numb: 74ALS187_DIP -> Vend Part: 74ALS187_DIP 
+          Part Numb: 74ALS240_SOP -> Vend Part: 74ALS240_SOP 
+          Part Numb: 74ALS655_SOP -> Vend Part: 74ALS655_SOP 
+          Part Numb: 3296P-103-ND -> Vend Part: 3296P-103-ND 
+          Part Numb: 4310R-1-103-ND -> Vend Part: 4310R-1-103-ND 
+
+     Number of Part Names: 0
+
+     Number of Part Labels: 0
+
+
+     Checking for value differences between non-null symbol properties and PartsDB properties,
+      but only for those properties checked off in the Property Definition Editor
+
+     Checking the validity of the packaging of prepackaged schematic
+      symbols.  Only the first error in symbols having the same
+      Reference Designator will be reported.
+
+     The packaging of all prepackaged schematic symbols is consistent
+      with the Parts DataBase data for the cross mapping of
+      symbol pin names to Part Number pin numbers.
+      Symbols that were not prepackaged will now be packaged correctly.
+      
+     No errors in Existing Schematic Packaging.
+
+     The Common DataBase has been read and will be packaged.
+     Clustering 75 Symbols:
+              75  ************************
+              50  **************************************************
+     Clustering is Complete
+
+     Packager Assignments successfully completed
+
+
+
+     85 nets were found containing 319 pins
+     51 components were found
+
+     Parsed netlist - Augmenting..
+
+     Augmented - Adding phantom pins....
+
+     Numbering Nets....
+
+     Checking Pins....
+
+     Testing of Packaging has been completed with 4 warnings.
+      Erroneous results may occur if not fixed.
+
+     Updating the Common DataBase
+
+     A BAM WasIs List: Integration\CDBBackAnno.bam has been created.
+     There have been 25 reference designator changes and 9 pin
+      number changes.
+     The BAM file will list all of the from-to changes.
+
+The Common DataBase has been successfully updated.
+
+     Packager finished successfully.
+     !THE iCDB IS UP-TO-DATE!
+     
+     An unused pin and gate report has been written to Integration\UnusedPins.txt
+     An unused gate report for gates not in schematic has been written to Integration\UnusedGates.txt
+     An augmented pin report has been written to Integration\AugmentedPins.txt.
+
+     There have been 4 warnings.

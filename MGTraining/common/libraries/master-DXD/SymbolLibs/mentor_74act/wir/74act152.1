@@ -1,0 +1,79 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 285581254000 74ls152
+DW 74act152
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:mux41 1
+AS builtin:mux41 PINORDER=Q INH S0 S1 D0 D1 D2 D3
+AP builtin:mux41 1 PINTYPE=OUT
+AP builtin:mux41 2 PINTYPE=IN
+AP builtin:mux41 3 PINTYPE=IN
+AP builtin:mux41 4 PINTYPE=IN
+AP builtin:mux41 5 PINTYPE=IN
+AP builtin:mux41 6 PINTYPE=IN
+AP builtin:mux41 7 PINTYPE=IN
+AP builtin:mux41 8 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+G GND
+M builtin:delay $1I92
+I $1I92 builtin:delay $1N99 D3 TPLH=@DTOW0`TPHL=@DTOW1`
+M builtin:delay $1I75
+I $1I75 builtin:delay $1N86 A TPLH=@ATOW`TPHL=@ATOW`
+M builtin:mux41 $1I67
+I $1I67 builtin:mux41 $1N54 GND $1N86 $1N85 $1N109 $1N111 $1N113 $1N115 
+M builtin:mux41 $1I68
+I $1I68 builtin:mux41 $1N59 GND $1N86 $1N85 $1N93 $1N95 $1N97 $1N99 
+M builtin:mux41 $1I69
+I $1I69 builtin:mux41 $1N51 GND $1N74 GND $1N59 $1N54 GND GND 
+M builtin:delay $1I91
+I $1I91 builtin:delay $1N97 D2 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I89
+I $1I89 builtin:delay $1N93 D0 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I90
+I $1I90 builtin:delay $1N95 D1 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I108
+I $1I108 builtin:delay $1N115 D7 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:not $1I65
+I $1I65 builtin:not ~W $1N51 
+M builtin:delay $1I76
+I $1I76 builtin:delay $1N85 B TPHL=@BTOW`TPLH=@BTOW`
+M builtin:delay $1I105
+I $1I105 builtin:delay $1N109 D4 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I107
+I $1I107 builtin:delay $1N113 D6 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I106
+I $1I106 builtin:delay $1N111 D5 TPHL=@DTOW1`TPLH=@DTOW0`
+M builtin:delay $1I71
+I $1I71 builtin:delay $1N74 C TPLH=@CTOW`TPHL=@CTOW`
+P ? ~W
+I ~W ? ~W
+P ? D1
+I D1 ? D1
+P ? D4
+I D4 ? D4
+P ? D5
+I D5 ? D5
+P ? D7
+I D7 ? D7
+P ? D0
+I D0 ? D0
+P ? B
+I B ? B
+P ? A
+I A ? A
+P ? D2
+I D2 ? D2
+P ? D3
+I D3 ? D3
+P ? C
+I C ? C
+P ? D6
+I D6 ? D6
+EW

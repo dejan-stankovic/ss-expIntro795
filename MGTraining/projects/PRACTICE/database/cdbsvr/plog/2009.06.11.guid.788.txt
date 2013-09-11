@@ -1,0 +1,22 @@
+[2009.06.11 14:15:52] [0000m.21s.609ms] [0] WELCOME
+[2009.06.11 14:15:52] [0000m.21s.609ms] [1] iCDB Database ver.1.006, 5Wyqp1/W6wQfmjAJU2QbDw, build:348347 created 2009-06-05 12:47:29, sources stamp:5Wyqp1/W6wQfmjAJU2QbDw
+[2009.06.11 14:15:52] [0000m.21s.609ms] [1] Copyright 2009 Mentor Graphics Corporation. All Rights Reserved.
+[2009.06.11 14:15:52] [0000m.21s.609ms] [1] GBS Install Id [10487], Flow Id [EE2007.6], Full Flow Name[Expedition Enterprise Flow], Exact Access Date[May 1 2009]
+[2009.06.11 14:15:52] [0000m.21s.609ms] [1] Machine [esvm01]  User [student]  PID [788]
+[2009.06.11 14:15:52] [0000m.21s.609ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [1] SDD_HOME [C:\MentorGraphics\2007.6EE\SDD_HOME]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [1] SDD_PLATFORM [win32]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] WARNING: Database [C:\MGTraining\projects\PRACTICE\database\icdb.dat] was manually copied
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Last database open information:
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Time:             [2009-05-28 08.14.47]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Location:         [C:\MGTraining\projects\PRACTICE\database\icdb.dat]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Machine:          [esvm01]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] User:             [student]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] PID:              [320]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Application:      [iCDB Server]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Operating system: [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] WARNING: Regenerating database GUID
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Previous database GUID [9520-e23a-ae11-fc61-b34f-b77f-34fb-7740-8377-08fe-404d-3cad]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] Current database GUID  [e482-0e18-7c6f-00d3-8047-13ac-0471-3a40-a741-718f-2c8c-99c5]
+[2009.06.11 14:15:52] [0000m.21s.734ms] [3] DONE

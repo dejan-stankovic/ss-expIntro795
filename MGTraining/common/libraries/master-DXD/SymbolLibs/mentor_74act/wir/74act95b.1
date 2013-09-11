@@ -1,0 +1,99 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 335840609900 74ls95b
+DW 74act95b
+Q Case
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:shfe 1
+AS builtin:shfe PINORDER=REF DATA
+AP builtin:shfe 1 PINTYPE=IN
+AP builtin:shfe 2 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+M builtin:shre $1I204
+I $1I204 builtin:shre $1N206 D THOLD=@THOLD_DATA`TSU=@TSU_DATA`
+M builtin:shre $1I198
+I $1I198 builtin:shre $1N206 A TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:shre $1I194
+I $1I194 builtin:shre $1N206 B TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:shfe $1I179
+I $1I179 builtin:shfe ~CK2 MODE THOLD=0`TSU=@TINH_CK2`
+M builtin:shre $1I178
+I $1I178 builtin:shre ~CK2 MODE THOLD=0`TSU=@TENA_CK2`
+M builtin:shre $1I176
+I $1I176 builtin:shre ~CK1 MODE TSU=@TENA_CK1`THOLD=0`
+M builtin:shfe $1I177
+I $1I177 builtin:shfe ~CK1 MODE TSU=@TINH_CK1`THOLD=0`
+M builtin:not $1I148
+I $1I148 builtin:not $1N84 MODE 
+M builtin:udfdl $1I149
+I $1I149 builtin:udfdl ? QA DATA_A ? ? $1N206 ? ? ? ? TPLH=@CKTOQ1`TPHL=@CKTOQ0`TPOSC=@PW_CK`
+M builtin:andnor22 $1I142
+I $1I142 builtin:andnor22 $1N206 $1N84 ~CK1 MODE ~CK2 
+M builtin:andnor22 $1I141
+I $1I141 builtin:andnor22 DATA_D D MODE $1N84 QC 
+M builtin:andnor22 $1I140
+I $1I140 builtin:andnor22 DATA_B B MODE $1N84 QA 
+M builtin:andnor22 $1I139
+I $1I139 builtin:andnor22 DATA_C C MODE $1N84 QB 
+M builtin:udfdl $1I173
+I $1I173 builtin:udfdl ? QB DATA_B ? ? $1N206 ? ? ? ? TPHL=@CKTOQ0`TPLH=@CKTOQ1`
+M builtin:udfdl $1I174
+I $1I174 builtin:udfdl ? QC DATA_C ? ? $1N206 ? ? ? ? TPLH=@CKTOQ1`TPHL=@CKTOQ0`
+M builtin:udfdl $1I175
+I $1I175 builtin:udfdl ? QD DATA_D ? ? $1N206 ? ? ? ? TPHL=@CKTOQ0`TPLH=@CKTOQ1`
+M builtin:andnor22 $1I138
+I $1I138 builtin:andnor22 DATA_A A MODE $1N84 SI 
+M builtin:shre $1I191
+I $1I191 builtin:shre $1N206 SI THOLD=@THOLD_DATA`TSU=@TSU_DATA`
+M builtin:shre $1I201
+I $1I201 builtin:shre $1N206 C TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+P ? D
+I D ? D
+P ? C
+I C ? C
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? QD
+I QD ? QD
+P ? MODE
+I MODE ? MODE
+P ? QB
+I QB ? QB
+P ? QC
+I QC ? QC
+P ? ~CK2
+I ~CK2 ? ~CK2
+P ? ~CK1
+I ~CK1 ? ~CK1
+P ? SI
+I SI ? SI
+P ? QA
+I QA ? QA
+EW

@@ -1,0 +1,17 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing memory
+	Adding symbol 74als187 
+	Adding symbol 8KX8RAM 
+	Adding symbol CHARROM 
+	Adding symbol IMS1203 
+	Adding symbol IMS1423 
+	Adding symbol OKCHAROM 
+	Adding symbol OKVIDRAM 
+	Adding symbol VIDEORAM 
+DXLIB2LMC utility complete

@@ -1,0 +1,93 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 59347015690 74ls194a
+DW 74act194a
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:mux41 1
+AS builtin:mux41 PINORDER=Q INH S0 S1 D0 D1 D2 D3
+AP builtin:mux41 1 PINTYPE=OUT
+AP builtin:mux41 2 PINTYPE=IN
+AP builtin:mux41 3 PINTYPE=IN
+AP builtin:mux41 4 PINTYPE=IN
+AP builtin:mux41 5 PINTYPE=IN
+AP builtin:mux41 6 PINTYPE=IN
+AP builtin:mux41 7 PINTYPE=IN
+AP builtin:mux41 8 PINTYPE=IN
+G GND
+M builtin:udfdl $1I255
+I $1I255 builtin:udfdl QD ? $1N158 ? ~CLR CLK ? ? ? ? TPHLRQ=@CLRTOQ0`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`TRECRC=@TR_CLR`TNEGC=@PWCLK0`TPOSC=@PWCLK1`TPULSER=@PW_CLR`AASYNCLEV=0`
+M builtin:udfdl $1I254
+I $1I254 builtin:udfdl QC ? $1N181 ? ~CLR CLK ? ? ? ? AASYNCLEV=0`TPULSER=@PW_CLR`TPOSC=@PWCLK1`TNEGC=@PWCLK0`TRECRC=@TR_CLR`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPHLRQ=@CLRTOQ0`
+M builtin:udfdl $1I253
+I $1I253 builtin:udfdl QB ? $1N161 ? ~CLR CLK ? ? ? ? TPHLRQ=@CLRTOQ0`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`TRECRC=@TR_CLR`TNEGC=@PWCLK0`TPOSC=@PWCLK1`TPULSER=@PW_CLR`AASYNCLEV=0`
+M builtin:udfdl $1I231
+I $1I231 builtin:udfdl QA ? $1N166 ? ~CLR CLK ? ? ? ? AASYNCLEV=0`TPULSER=@PW_CLR`TPOSC=@PWCLK1`TNEGC=@PWCLK0`TRECRC=@TR_CLR`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPHLRQ=@CLRTOQ0`
+M builtin:shre $1I250
+I $1I250 builtin:shre CLK C THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I252
+I $1I252 builtin:shre CLK D TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I251
+I $1I251 builtin:shre CLK L THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I249
+I $1I249 builtin:shre CLK B THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I248
+I $1I248 builtin:shre CLK A TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I226
+I $1I226 builtin:shre CLK R TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I225
+I $1I225 builtin:shre CLK S1 THOLD=@TH_SEL`TSU=@TS_SEL`
+M builtin:shre $1I224
+I $1I224 builtin:shre CLK S0 TSU=@TS_SEL`THOLD=@TH_SEL`
+M builtin:mux41 $1I237
+I $1I237 builtin:mux41 $1N158 GND S0 S1 QD QC L D 
+M builtin:mux41 $1I236
+I $1I236 builtin:mux41 $1N181 GND S0 S1 QC QB QD C 
+M builtin:mux41 $1I235
+I $1I235 builtin:mux41 $1N161 GND S0 S1 QB QA QC B 
+M builtin:mux41 $1I234
+I $1I234 builtin:mux41 $1N166 GND S0 S1 QA R QB A 
+P ? QD
+I QD ? QD
+P ? QC
+I QC ? QC
+P ? QB
+I QB ? QB
+P ? QA
+I QA ? QA
+P ? CLK
+I CLK ? CLK
+P ? D
+I D ? D
+P ? L
+I L ? L
+P ? R
+I R ? R
+P ? S1
+I S1 ? S1
+P ? S0
+I S0 ? S0
+P ? A
+I A ? A
+P ? C
+I C ? C
+P ? B
+I B ? B
+P ? ~CLR
+I ~CLR ? ~CLR
+EW

@@ -1,0 +1,37 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 272503869800 74ls30
+DW 74act30
+Q Case
+|Q builtin:nand8 1
+AS builtin:nand8 PINORDER=QN A B C D E F G H
+AP builtin:nand8 1 PINTYPE=OUT
+AP builtin:nand8 2 PINTYPE=IN
+AP builtin:nand8 3 PINTYPE=IN
+AP builtin:nand8 4 PINTYPE=IN
+AP builtin:nand8 5 PINTYPE=IN
+AP builtin:nand8 6 PINTYPE=IN
+AP builtin:nand8 7 PINTYPE=IN
+AP builtin:nand8 8 PINTYPE=IN
+AP builtin:nand8 9 PINTYPE=IN
+M builtin:nand8 $1I26
+I $1I26 builtin:nand8 Y A B C D E F G H TPLH=@INTOOUT1`TPHL=@INTOOUT0`
+P ? Y
+I Y ? Y
+P ? H
+I H ? H
+P ? G
+I G ? G
+P ? F
+I F ? F
+P ? E
+I E ? E
+P ? D
+I D ? D
+P ? C
+I C ? C
+P ? B
+I B ? B
+P ? A
+I A ? A
+EW

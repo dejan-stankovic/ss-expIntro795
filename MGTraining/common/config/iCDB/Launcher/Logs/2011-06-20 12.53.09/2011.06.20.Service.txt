@@ -1,0 +1,21 @@
+[2011.06.20 12:53:09] [0000m.00s.015ms] [0] WELCOME
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Remote Server Configuration Manager ver.1.091, 0XsVZbnMvCAokxoWCsr9pA, build:426267 created 2010-10-27 08:24:21, sources stamp:0XsVZbnMvCAokxoWCsr9pA
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Base flow version [7.9.1]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] GBS Install Id [18853], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] GBS Install Id [19252], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Machine [esvm01]  User [SYSTEM]  PID [1732]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Current working dir [C:\WINDOWS\system32]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] PATH [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] SDD_HOME [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME] on file system [NTFS]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] SDD_PLATFORM [win32]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2011.06.20 12:53:10] [0000m.00s.046ms] [0] LT: No proxy mode
+[2011.06.20 12:53:10] [0000m.00s.125ms] [1] Service: Starting service
+[2011.06.20 12:53:10] [0000m.00s.140ms] [0] LT: START
+[2011.06.20 12:53:10] [0000m.00s.140ms] [1] LT: Listening for client connections on port [9000]
+[2011.06.20 12:53:10] [0000m.00s.140ms] [0] LT: Set listening socket on port [9000]
+[2011.06.20 12:53:10] [0000m.00s.218ms] [0] LT: Network ID: [esvm01:192.168.1.96,192.168.221.171,esvm01:9000]
+[2011.06.20 12:53:10] [0000m.00s.218ms] [0] LT: Starting threads
+[2011.06.20 12:53:10] [0000m.00s.234ms] [0] BT: Listening for broadcast messages on port [10000]

@@ -1,0 +1,19 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 65900949090 74ls136
+DW 74act136
+Q Case
+|Q builtin:xor2 1
+AS builtin:xor2 PINORDER=Q A B
+AP builtin:xor2 1 PINTYPE=OUT
+AP builtin:xor2 2 PINTYPE=IN
+AP builtin:xor2 3 PINTYPE=IN
+M builtin:xor2 $1I8
+I $1I8 builtin:xor2 Y A B STR01=DZ`TPHL=@INTOOUT0`TPLH=@INTOOUT1`
+P ? Y
+I Y ? Y
+P ? A
+I A ? A
+P ? B
+I B ? B
+EW

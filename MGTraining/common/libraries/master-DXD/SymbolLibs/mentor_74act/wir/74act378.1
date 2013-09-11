@@ -1,0 +1,86 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 168524105100 74ls378
+DW 74act378
+Q Case
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:dor2 1
+AS builtin:dor2 PINORDER=Q QN A B
+AP builtin:dor2 1 PINTYPE=OUT
+AP builtin:dor2 2 PINTYPE=OUT
+AP builtin:dor2 3 PINTYPE=IN
+AP builtin:dor2 4 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+M builtin:pw $1I192
+I $1I192 builtin:pw CLK TNEG=@PWCLK0`TPOS=@PWCLK1`
+M builtin:udfdl $1I226
+I $1I226 builtin:udfdl 6Q ? 6D ? ? $1N221 ? ? ? ? TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+M builtin:udfdl $1I223
+I $1I223 builtin:udfdl 3Q ? 3D ? ? $1N221 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I203
+I $1I203 builtin:udfdl 1Q ? 1D ? ? $1N221 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:and2 $1I195
+I $1I195 builtin:and2 $1N221 $1N149 CLK 
+M builtin:dor2 $1I193
+I $1I193 builtin:dor2 $1N152 $1N149 ~G $1N159 
+M builtin:and2 $1I194
+I $1I194 builtin:and2 $1N159 CLK $1N152 
+M builtin:shre $1I191
+I $1I191 builtin:shre CLK ~G TSU=@TS_ENABLE`THOLD=@TH_ENABLE`
+M builtin:udfdl $1I222
+I $1I222 builtin:udfdl 2Q ? 2D ? ? $1N221 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I224
+I $1I224 builtin:udfdl 4Q ? 4D ? ? $1N221 ? ? ? ? TSUD0=@TS_D0`THOLDD0=@TH_D0`TSUD1=@TS_D1`THOLDD1=@TH_D1`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`
+M builtin:udfdl $1I225
+I $1I225 builtin:udfdl 5Q ? 5D ? ? $1N221 ? ? ? ? TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`THOLDD1=@TH_D1`TSUD1=@TS_D1`THOLDD0=@TH_D0`TSUD0=@TS_D0`
+P ? 3Q
+I 3Q ? 3Q
+P ? 6D
+I 6D ? 6D
+P ? 2D
+I 2D ? 2D
+P ? 6Q
+I 6Q ? 6Q
+P ? 5Q
+I 5Q ? 5Q
+P ? 2Q
+I 2Q ? 2Q
+P ? 5D
+I 5D ? 5D
+P ? 4D
+I 4D ? 4D
+P ? 3D
+I 3D ? 3D
+P ? CLK
+I CLK ? CLK
+P ? 1D
+I 1D ? 1D
+P ? 1Q
+I 1Q ? 1Q
+P ? ~G
+I ~G ? ~G
+P ? 4Q
+I 4Q ? 4Q
+EW

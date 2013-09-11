@@ -1,0 +1,163 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 70696741190 74ls148
+DW 74act148
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:and8 1
+AS builtin:and8 PINORDER=Q A B C D E F G H
+AP builtin:and8 1 PINTYPE=OUT
+AP builtin:and8 2 PINTYPE=IN
+AP builtin:and8 3 PINTYPE=IN
+AP builtin:and8 4 PINTYPE=IN
+AP builtin:and8 5 PINTYPE=IN
+AP builtin:and8 6 PINTYPE=IN
+AP builtin:and8 7 PINTYPE=IN
+AP builtin:and8 8 PINTYPE=IN
+AP builtin:and8 9 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:nor4 1
+AS builtin:nor4 PINORDER=QN A B C D
+AP builtin:nor4 1 PINTYPE=OUT
+AP builtin:nor4 2 PINTYPE=IN
+AP builtin:nor4 3 PINTYPE=IN
+AP builtin:nor4 4 PINTYPE=IN
+AP builtin:nor4 5 PINTYPE=IN
+M builtin:delay $1I326
+I $1I326 builtin:delay $1N336 $1N1 TPHL=@DTOGS0`TPLH=@DTOGS1`
+M builtin:nand2 $1I244
+I $1I244 builtin:nand2 ~GS $1N231 $1N311 
+M builtin:not $1I274
+I $1I274 builtin:not $1N314 ~EI TPHL=@EITOEO1`TPLH=@EITOEO0`
+M builtin:delay $1I325
+I $1I325 builtin:delay $1N332 $1N1 TPHL=@DTOEO1`TPLH=@DTOEO0`
+M builtin:and8 $1I270
+I $1I270 builtin:and8 $1N1 ~D7 ~D6 ~D5 ~D4 ~D3 ~D2 ~D1 ~D0 
+M builtin:not $1I302
+I $1I302 builtin:not $1N222 ~D7 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+M builtin:not $1I301
+I $1I301 builtin:not $1N353 ~D6 
+M builtin:delay $1I351
+I $1I351 builtin:delay $1N352 $1N353 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+M builtin:delay $1I347
+I $1I347 builtin:delay $1N348 $1N142 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+M builtin:delay $1I343
+I $1I343 builtin:delay $1N342 $1N345 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+M builtin:not $1I299
+I $1I299 builtin:not $1N345 ~D4 
+M builtin:not $1I298
+I $1I298 builtin:not $1N127 ~D3 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+M builtin:delay $1I339
+I $1I339 builtin:delay $1N338 $1N341 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+M builtin:not $1I297
+I $1I297 builtin:not $1N341 ~D2 
+M builtin:and2 $1I262
+I $1I262 builtin:and2 $1N7 $1N222 $1N307 
+M builtin:and2 $1I261
+I $1I261 builtin:and2 $1N75 $1N352 $1N307 
+M builtin:and2 $1I260
+I $1I260 builtin:and2 $1N70 $1N222 $1N307 
+M builtin:and2 $1I259
+I $1I259 builtin:and2 $1N83 $1N342 $1N307 
+M builtin:and2 $1I258
+I $1I258 builtin:and2 $1N88 $1N348 $1N307 
+M builtin:and2 $1I257
+I $1I257 builtin:and2 $1N91 $1N352 $1N307 
+M builtin:and2 $1I256
+I $1I256 builtin:and2 $1N96 $1N222 $1N307 
+M builtin:and8 $1I243
+I $1I243 builtin:and8 $1N20 ? ? ? $1N31 $1N34 $1N39 $1N56 $1N307 FLOATVAL=1`
+M builtin:and4 $1I264
+I $1I264 builtin:and4 $1N17 $1N127 $1N39 $1N56 $1N307 
+M builtin:and3 $1I263
+I $1I263 builtin:and3 $1N12 $1N348 $1N56 $1N307 
+M builtin:and4 $1I254
+I $1I254 builtin:and4 $1N65 $1N338 $1N39 $1N50 $1N307 
+M builtin:and4 $1I255
+I $1I255 builtin:and4 $1N80 $1N127 $1N39 $1N50 $1N307 
+M builtin:nor4 $1I247
+I $1I247 builtin:nor4 ~A0 $1N20 $1N17 $1N12 $1N7 
+M builtin:nor4 $1I248
+I $1I248 builtin:nor4 ~A1 $1N65 $1N80 $1N75 $1N70 
+M builtin:nor4 $1I265
+I $1I265 builtin:nor4 ~A2 $1N83 $1N88 $1N91 $1N96 
+M builtin:not $1I300
+I $1I300 builtin:not $1N142 ~D5 
+M builtin:not $1I309
+I $1I309 builtin:not $1N311 ~EI TPHL=@EITOGS1`TPLH=@EITOGS0`
+M builtin:not $1I273
+I $1I273 builtin:not $1N307 ~EI TPHL=@EITOA1`TPLH=@EITOA0`
+M builtin:nand2 $1I272
+I $1I272 builtin:nand2 EO $1N332 $1N314 
+M builtin:nand2 $1I317
+I $1I317 builtin:nand2 $1N231 $1N336 $1N321 
+M builtin:not $1I320
+I $1I320 builtin:not $1N321 ~EI TPHL=@EITOGS0`TPLH=@EITOGS1`
+M builtin:not $1I305
+I $1I305 builtin:not $1N56 $1N353 TPHL=@DTOAOUT1`TPLH=@DTOAOUT0`
+M builtin:not $1I303
+I $1I303 builtin:not $1N39 $1N345 TPHL=@DTOAOUT1`TPLH=@DTOAOUT0`
+M builtin:not $1I304
+I $1I304 builtin:not $1N50 $1N142 TPHL=@DTOAOUT1`TPLH=@DTOAOUT0`
+M builtin:not $1I269
+I $1I269 builtin:not $1N34 $1N341 TPHL=@DTOAOUT1`TPLH=@DTOAOUT0`
+M builtin:not $1I266
+I $1I266 builtin:not $1N31 ~D1 TPHL=@DTOAIN1`TPLH=@DTOAIN0`
+P ? EO
+I EO ? EO
+P ? ~A0
+I ~A0 ? ~A0
+P ? ~D2
+I ~D2 ? ~D2
+P ? ~D3
+I ~D3 ? ~D3
+P ? ~D1
+I ~D1 ? ~D1
+P ? ~D4
+I ~D4 ? ~D4
+P ? ~D5
+I ~D5 ? ~D5
+P ? ~D6
+I ~D6 ? ~D6
+P ? ~D7
+I ~D7 ? ~D7
+P ? ~D0
+I ~D0 ? ~D0
+P ? ~A1
+I ~A1 ? ~A1
+P ? ~A2
+I ~A2 ? ~A2
+P ? ~GS
+I ~GS ? ~GS
+P ? ~EI
+I ~EI ? ~EI
+EW

@@ -1,0 +1,35 @@
+| Wirelist created using version 5.2.
+| Sch_Warning - Component $10I4, Symbol=builtin:vcsc at (760, 320), is not connected.
+| Sch_Warning - Component $10I1, Symbol=builtin:shre at (120, 650), is not connected.
+| Sch_Warning - Component $10I2, Symbol=builtin:shfe at (730, 650), is not connected.
+| Sch_Warning - Component $10I3, Symbol=builtin:pw at (165, 295), is not connected.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 171958726000 builtin
+DW builtin
+SA MXFRSKEW=32767 
+|Q builtin:vcsc 1
+AS builtin:vcsc PINORDER=ERR C1 C2
+AP builtin:vcsc 1 PINTYPE=OUT
+AP builtin:vcsc 2 PINTYPE=IN
+AP builtin:vcsc 3 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:shfe 1
+AS builtin:shfe PINORDER=REF DATA
+AP builtin:shfe 1 PINTYPE=IN
+AP builtin:shfe 2 PINTYPE=IN
+|Q builtin:pw 1
+AS builtin:pw PINORDER=PULSE
+AP builtin:pw 1 PINTYPE=IN
+M builtin:vcsc $10I4
+I $10I4 builtin:vcsc ? ? ? MXFFSKEW=32767`
+M builtin:shre $10I1
+I $10I1 builtin:shre ? ? TSU=0`THOLD=0`
+M builtin:shfe $10I2
+I $10I2 builtin:shfe ? ? TSU=0`THOLD=0`
+M builtin:pw $10I3
+I $10I3 builtin:pw ? TPOS=0`TNEG=0`
+EW

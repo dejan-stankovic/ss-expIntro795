@@ -1,0 +1,238 @@
+[2008.09.09 13:42:43] [0000m.00s.046ms] [0] WELCOME
+[2008.09.09 13:42:43] [0000m.00s.046ms] [1] iCDB Server ver.1.003, rn2j7pD41dC4/njOyFv9yA, build:305412 created 2008-09-02 10:44:26, sources stamp:rn2j7pD41dC4/njOyFv9yA
+[2008.09.09 13:42:43] [0000m.00s.046ms] [1] Copyright 2008 Mentor Graphics Corporation. All Rights Reserved.
+[2008.09.09 13:42:43] [0000m.00s.062ms] [1] Machine [esvm01]  User [student]  PID [3936]
+[2008.09.09 13:42:43] [0000m.00s.062ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (Build 2600)]
+[2008.09.09 13:42:43] [0000m.00s.062ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2008.09.09 13:42:43] [0000m.00s.078ms] [2] PathTranslator: WARNING: Config file not found [C:\MGTraining\common\config\iCDB\PathsMap.cfg]
+[2008.09.09 13:42:43] [0000m.00s.078ms] [2] S: Loading config files
+[2008.09.09 13:42:43] [0000m.00s.078ms] [3] S: Config loaded
+[2008.09.09 13:42:43] [0000m.00s.109ms] [0] S: Auto close mode
+[2008.09.09 13:42:43] [0000m.00s.109ms] [0] S: Started up automatically by iCDB Client: esvm01:student:1788
+[2008.09.09 13:42:43] [0000m.00s.109ms] [0] S: Project [C:\MGTraining\projects\2007-DXD\database]
+[2008.09.09 13:42:43] [0000m.00s.109ms] [0] S: START
+[2008.09.09 13:42:43] [0000m.00s.109ms] [0] S: Server startup lock file created
+[2008.09.09 13:42:43] [0000m.00s.171ms] [0] S: Listening for client connections on port [10000]
+[2008.09.09 13:42:43] [0000m.00s.171ms] [0] S: Server GUID [68bf-1947-53ac-ad01-3cfd-6c87-cfd6-c840-ae02-718f-2c7c-0ac5]
+[2008.09.09 13:42:43] [0000m.00s.171ms] [0] S: Project GUID [0b49-240e-a18a-a4c6-3f19-f887-f19f-8840-9b22-818f-2c8c-d9c5]
+[2008.09.09 13:42:43] [0000m.00s.171ms] [0] S: Wrote data to server address file
+[2008.09.09 13:42:43] [0000m.00s.171ms] [0] S: Server startup lock file removed
+[2008.09.09 13:42:43] [0000m.00s.765ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2008.09.09 13:42:43] [0000m.00s.781ms] [0] S: Local disc access time: 122 us
+[2008.09.09 13:42:43] [0000m.00s.781ms] [0] S: Filer access time: 85 us
+[2008.09.09 13:42:43] [0000m.00s.781ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\2007-DXD\database]
+[2008.09.09 13:42:43] [0000m.00s.796ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\2007-DXD\database] opened
+[2008.09.09 13:42:43] [0000m.00s.796ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2008.09.09 13:42:43] [0000m.00s.796ms] [0] iCDB Server PI: Checking constraint definitions version
+[2008.09.09 13:42:43] [0000m.00s.937ms] [0] iCDB Database: Upgrading constraint definitions from version [6.0.0]
+[2008.09.09 13:42:43] [0000m.00s.937ms] [1] CORE: Upgrade atlas from version 507[C:\MGTraining\projects\2007-DXD\database\s1\cdbcatlg\catlgatl]
+[2008.09.09 13:42:43] [0000m.00s.953ms] [1] CORE: Upgrade atlas from version 508[C:\MGTraining\projects\2007-DXD\database\s1\cdbcatlg\catlgatl]
+[2008.09.09 13:42:44] [0000m.01s.187ms] [1] CORE: Upgrade atlas from version 504[C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\2000000020000050.blk\blkatl]
+[2008.09.09 13:42:44] [0000m.01s.203ms] [1] CORE: Upgrade atlas from version 613[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\2000000020000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.203ms] [1] CORE: Upgrade atlas from version 614[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\2000000020000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.218ms] [1] CORE: Upgrade atlas from version 504[C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\4700000010000050.blk\blkatl]
+[2008.09.09 13:42:44] [0000m.01s.234ms] [1] CORE: Upgrade atlas from version 613[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4700000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.234ms] [1] CORE: Upgrade atlas from version 614[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4700000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.250ms] [1] CORE: Upgrade atlas from version 504[C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\e800000010000050.blk\blkatl]
+[2008.09.09 13:42:44] [0000m.01s.250ms] [1] CORE: Upgrade atlas from version 613[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\e800000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.250ms] [1] CORE: Upgrade atlas from version 614[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\e800000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.265ms] [1] CORE: Upgrade atlas from version 504[C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\6a00000010000050.blk\blkatl]
+[2008.09.09 13:42:44] [0000m.01s.281ms] [1] CORE: Upgrade atlas from version 613[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\6a00000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.281ms] [1] CORE: Upgrade atlas from version 614[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\6a00000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.281ms] [1] CORE: Upgrade atlas from version 504[C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\9a00000010000050.blk\blkatl]
+[2008.09.09 13:42:44] [0000m.01s.296ms] [1] CORE: Upgrade atlas from version 613[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\9a00000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.296ms] [1] CORE: Upgrade atlas from version 614[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\9a00000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.296ms] [1] CORE: Upgrade atlas from version 504[C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\4b00000010000050.blk\blkatl]
+[2008.09.09 13:42:44] [0000m.01s.296ms] [1] CORE: Upgrade atlas from version 613[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4b00000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.296ms] [1] CORE: Upgrade atlas from version 614[C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4b00000010000050.blk\default.cnfg\cesatl]
+[2008.09.09 13:42:44] [0000m.01s.593ms] [0] iCDB Database: Constraint definitions upgraded to version [7.3.0]
+[2008.09.09 13:42:44] [0000m.01s.609ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\2000000020000050.blk\blkatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.609ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\2000000020000050.blk\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.609ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\4700000010000050.blk\blkatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.609ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\4700000010000050.blk\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\4b00000010000050.blk\blkatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\4b00000010000050.blk\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\6a00000010000050.blk\blkatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\6a00000010000050.blk\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\9a00000010000050.blk\blkatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\9a00000010000050.blk\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\e800000010000050.blk\blkatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbblks\e800000010000050.blk\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.625ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcatlg\grpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_54\7900000030000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_54\7900000030000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\0010000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\0010000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\0900000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\0900000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\0900000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\0900000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\7900000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.640ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\7900000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ab00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ab00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ae00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ae00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\b900000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\b900000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\cb00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\cb00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ce00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ce00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\db00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.656ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\db00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ee00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\als_74\ee00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\borders\2000000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\borders\2000000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\borders\46000000d0000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\borders\46000000d0000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\borders\e800000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\borders\e800000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\0f00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\0f00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.671ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\2c00000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\2c00000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000030000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000030000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000040000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000040000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000050000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.687ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\4600000050000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.703ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\46000000b0000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.703ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\46000000b0000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.703ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\46000000c0000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.703ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\46000000c0000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.703ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\8400000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.703ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\8400000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.718ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\db00000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.718ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\builtin\db00000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.718ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\caps\2000000030000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.718ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\caps\2000000030000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.718ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\caps\2000000040000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.718ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\caps\2000000040000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\caps\b500000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\caps\b500000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\conn\2000000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\conn\2000000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\conn\4600000090000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\conn\4600000090000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\crystal\2c00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.734ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\crystal\2c00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\memory\7900000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\memory\7900000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\opamp\ba00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\opamp\ba00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res\a000000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res\a000000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res\c800000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res\c800000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res_pak\cb00000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res_pak\cb00000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.750ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res_variable\b900000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmpcache\res_variable\b900000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4600000060000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4600000060000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4600000070000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4600000070000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4600000080000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4600000080000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\46000000a0000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\46000000a0000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\46000000f0000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\46000000f0000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4700000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.765ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4700000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4b00000010000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\4b00000010000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\8400000020000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\8400000020000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\8400000030000060.cmp\cmpatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcmps\8400000030000060.cmp\dxdatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\2000000020000050.blk\cesatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\2000000020000050.blk\cnfgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4700000010000050.blk\cesatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.781ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4700000010000050.blk\cnfgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4b00000010000050.blk\cesatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\4b00000010000050.blk\cnfgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\6a00000010000050.blk\cesatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\6a00000010000050.blk\cnfgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\9a00000010000050.blk\cesatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\9a00000010000050.blk\cnfgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\e800000010000050.blk\cesatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\cdbcnfgs\e800000010000050.blk\cnfgatl.v] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.796ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\2007-DXD\database\s1\uids] - auto-saving it
+[2008.09.09 13:42:44] [0000m.01s.812ms] [0] iCDB Server PI: Initializing plugins
+[2008.09.09 13:42:44] [0000m.01s.812ms] [0] iCDB Server PI: Plugins initialized
+[2008.09.09 13:42:44] [0000m.01s.812ms] [0] S: iCDB database loaded
+[2008.09.09 13:42:44] [0000m.01s.828ms] [0] S: Starting threads
+[2008.09.09 13:42:44] [0000m.01s.828ms] [0] BT: Listening for broadcast messages on port [10000]
+[2008.09.09 13:42:44] [0000m.01s.843ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2008.09.09 13:42:44] [0000m.01s.843ms] [0] IT: Session [274] for host [esvm01] user [student] with process ID [1788] created
+[2008.09.09 13:42:44] [0000m.01s.843ms] [1] SC[274]: Registered sub-client [DxD] with ID [1] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:44] [0000m.01s.937ms] [1] SC[274]: Registered sub-client [xprob_icdb] with ID [2] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:44] [0000m.01s.953ms] [1] CMT: There are [1] clients now
+[2008.09.09 13:42:46] [0000m.03s.609ms] [1] SC[274]: Registered sub-client [SelectionHolder] with ID [3] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:46] [0000m.03s.625ms] [1] SC[274]: Registered sub-client [ConsReuseSubClient] with ID [4] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:46] [0000m.03s.812ms] [1] SC[274]: Registered sub-client [Navigator] with ID [5] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:46] [0000m.03s.828ms] [1] SC[274]: Registered sub-client [PlaceDevice] with ID [6] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:47] [0000m.04s.312ms] [1] SC[274]: Registered sub-client [OutputWindow] with ID [7] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:47] [0000m.04s.312ms] [1] SC[274]: Registered sub-client [SAE] with ID [8] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:47] [0000m.04s.328ms] [1] SC[274]: Registered sub-client [ICE] with ID [9] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:42:47] [0000m.04s.343ms] [1] SC[274]: Registered sub-client [DxDbSearch] with ID [10] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:43:03] [0000m.20s.234ms] [1] SC[274]: Registered sub-client [BlockCacheDxD] with ID [11] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:43:03] [0000m.20s.234ms] [1] SC[274]: Registered sub-client [ObjectHolder0] with ID [12] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:48:48] [0006m.05s.078ms] [0] IT: Session [275] for host [esvm01] user [student] with process ID [2240] created
+[2008.09.09 13:48:48] [0006m.05s.078ms] [1] CMT: There are [2] clients now
+[2008.09.09 13:48:48] [0006m.05s.078ms] [1] SC[275]: Registered sub-client [Vdrc] with ID [1] for session ID [275] host [esvm01] user [student] process ID [2240]
+[2008.09.09 13:48:48] [0006m.05s.250ms] [1] SC[275]: UnRegistered sub-client [Vdrc] with ID [1] for session ID [275] host [esvm01] user [student] process ID [2240]
+[2008.09.09 13:48:48] [0006m.05s.296ms] [1] CMT: Removed client [275]
+[2008.09.09 13:48:48] [0006m.05s.296ms] [1] CMT: There are [1] clients now
+[2008.09.09 13:48:54] [0006m.11s.906ms] [0] IT: Session [276] for host [esvm01] user [student] with process ID [1776] created
+[2008.09.09 13:48:54] [0006m.11s.906ms] [1] SC[276]: Registered sub-client [CDBPackagerGUI] with ID [1] for session ID [276] host [esvm01] user [student] process ID [1776]
+[2008.09.09 13:48:54] [0006m.11s.968ms] [1] SC[276]: UnRegistered sub-client [CDBPackagerGUI] with ID [1] for session ID [276] host [esvm01] user [student] process ID [1776]
+[2008.09.09 13:48:55] [0006m.12s.046ms] [1] CMT: There are [2] clients now
+[2008.09.09 13:48:55] [0006m.12s.078ms] [1] CMT: Removed client [276]
+[2008.09.09 13:48:55] [0006m.12s.078ms] [1] CMT: There are [1] clients now
+[2008.09.09 13:48:59] [0006m.16s.062ms] [0] IT: Session [277] for host [esvm01] user [student] with process ID [2040] created
+[2008.09.09 13:48:59] [0006m.16s.062ms] [1] SC[277]: Registered sub-client [Packager_96321421] with ID [1] for session ID [277] host [esvm01] user [student] process ID [2040]
+[2008.09.09 13:48:59] [0006m.16s.140ms] [1] CMT: There are [2] clients now
+[2008.09.09 13:48:59] [0006m.16s.937ms] [1] SC[277]: UnRegistered sub-client [Packager_96321421] with ID [1] for session ID [277] host [esvm01] user [student] process ID [2040]
+[2008.09.09 13:49:00] [0006m.17s.046ms] [1] CMT: Removed client [277]
+[2008.09.09 13:49:00] [0006m.17s.046ms] [1] CMT: There are [1] clients now
+[2008.09.09 13:49:17] [0006m.34s.484ms] [1] SC[274]: UnRegistered sub-client [BlockCacheDxD] with ID [11] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:17] [0006m.34s.484ms] [1] SC[274]: UnRegistered sub-client [ObjectHolder0] with ID [12] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:17] [0006m.34s.484ms] [1] SC[274]: UnRegistered sub-client [ICE] with ID [9] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:17] [0006m.34s.500ms] [1] SC[274]: UnRegistered sub-client [SelectionHolder] with ID [3] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:17] [0006m.34s.515ms] [1] SC[274]: Registered sub-client [DxDesigner] with ID [13] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:17] [0006m.34s.531ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[1788] # SessionID[274]] # SubClientData[SubClientName[DxDesigner] # SubClientID[13]]] ProjectPath[C:\MGTraining\projects\2007-DXD\database] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1220993357\database] WithLogFiles[1] Overwrite[0]
+[2008.09.09 13:49:17] [0006m.34s.921ms] [1] SC[274]: UnRegistered sub-client [DxDesigner] with ID [13] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:18] [0006m.35s.156ms] [1] SC[274]: UnRegistered sub-client [ConsReuseSubClient] with ID [4] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:18] [0006m.35s.171ms] [1] SC[274]: UnRegistered sub-client [DxD] with ID [1] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:18] [0006m.35s.203ms] [1] SC[274]: UnRegistered sub-client [xprob_icdb] with ID [2] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:18] [0006m.35s.750ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[1788] # SessionID[274]] # SubClientData[SubClientName[DxDesigner] # SubClientID[13]]] BackupPath[C:\MGTraining\projects\2007-DXD\AutoBackup\1220993357\database] WithLogFiles[1] Overwrite[0]
+[2008.09.09 13:49:19] [0006m.36s.750ms] [1] SC[274]: UnRegistered sub-client [Navigator] with ID [5] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:19] [0006m.36s.750ms] [1] SC[274]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:19] [0006m.36s.750ms] [1] SC[274]: UnRegistered sub-client [SAE] with ID [8] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:19] [0006m.36s.750ms] [1] SC[274]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:19] [0006m.36s.781ms] [1] SC[274]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [274] host [esvm01] user [student] process ID [1788]
+[2008.09.09 13:49:19] [0006m.36s.890ms] [1] CMT: Removed client [274]
+[2008.09.09 13:49:19] [0006m.36s.890ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.09.09 13:49:21] [0006m.38s.093ms] [0] CMT: Starting server auto-close
+[2008.09.09 13:49:21] [0006m.38s.187ms] [0] S: Closing server
+[2008.09.09 13:49:21] [0006m.38s.328ms] [0] iCDB Server PI: Closing plugins
+[2008.09.09 13:49:21] [0006m.38s.328ms] [0] iCDB Server PI: Plugins closed
+[2008.09.09 13:49:21] [0006m.38s.328ms] [0] iCDB Server PI: Unloading database
+[2008.09.09 13:49:21] [0006m.38s.328ms] [0] iCDB Server PI: Saving storage
+[2008.09.09 13:49:21] [0006m.38s.328ms] [0] iCDB Server PI: Closing database
+[2008.09.09 13:49:21] [0006m.38s.406ms] [0] iCDB Server PI: Database closed
+[2008.09.09 13:49:21] [0006m.38s.406ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [2672582] ticks
+[2008.09.09 13:49:21] [0006m.38s.406ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [746626] microseconds
+[2008.09.09 13:49:21] [0006m.38s.406ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [156]
+[2008.09.09 13:49:21] [0006m.38s.406ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [208] commands per second
+[2008.09.09 13:49:21] [0006m.38s.625ms] [0] S: STOP

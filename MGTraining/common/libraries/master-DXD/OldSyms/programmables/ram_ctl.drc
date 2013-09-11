@@ -1,0 +1,56 @@
+| Using ini file c:\dxdes_trn\std_epd\vdrc.ini
+PinType: Error: - spn IBUF.I: Invalid pin type: CHIPIN
+PinType: Error: - spn OBUF.O: Invalid pin type: CHIPTRI
+InvalidGlobal: Error: GENERIC1:OBUF net GTS: Global net name not listed in legal_globals
+PinMatch: Error: GENERIC1:OBUF net GTS: PINTYPE mismatch -- symbol=IN, schematic=OUT
+InvalidGlobal: Error: GENERIC2:DFF net ALT_GRST: Global net name not listed in legal_globals
+InPinCon: Warning: GENERIC2:DFF pin $1I1.PD: Unconnected input pin
+InPinCon: Warning: GENERIC2:DFF pin $1I1.PE: Unconnected input pin
+NoPinCon: Warning: RAM_CTL com $1I235: No connected output pins
+NoPinCon: Warning: RAM_CTL com $1I344: No connected output pins
+NameInvalid: Error: RAM_CTL net _1I152_CUR_STATE_4___O1_105.CLK: Invalid net label syntax: _1I152_CUR_STATE_4___O1_105.CLK
+NameInvalid: Error: RAM_CTL net _1I152_CUR_STATE_4___O1_105.D: Invalid net label syntax: _1I152_CUR_STATE_4___O1_105.D
+FanOut: Error: RAM_CTL net _1I152_CUR_STATE_4___O1_105_Q: Overloaded net -- load=21.2, drive=10
+NameInvalid: Error: RAM_CTL net _1I152_CUR_STATE_5___O1_106.CLK: Invalid net label syntax: _1I152_CUR_STATE_5___O1_106.CLK
+NameInvalid: Error: RAM_CTL net _1I152_CUR_STATE_5___O1_106.D: Invalid net label syntax: _1I152_CUR_STATE_5___O1_106.D
+FanOut: Error: RAM_CTL net _1I152_CUR_STATE_5___O1_106_Q: Overloaded net -- load=30.08, drive=10
+NameInvalid: Error: RAM_CTL net _1I152_CUR_STATE_6___O1_107.CLK: Invalid net label syntax: _1I152_CUR_STATE_6___O1_107.CLK
+NameInvalid: Error: RAM_CTL net _1I152_CUR_STATE_6___O1_107.D: Invalid net label syntax: _1I152_CUR_STATE_6___O1_107.D
+FanOut: Error: RAM_CTL net _1I152_CUR_STATE_6___O1_107_Q: Overloaded net -- load=23.42, drive=10
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__0_108X1.OUT: Invalid net label syntax: _1I152_DIN__CUR_STATE__0_108X1.OUT
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__0_108X1.OUTXNOT: Invalid net label syntax: _1I152_DIN__CUR_STATE__0_108X1.OUTXNOT
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__0_108X2.OUT: Invalid net label syntax: _1I152_DIN__CUR_STATE__0_108X2.OUT
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__0_108X3.OUT: Invalid net label syntax: _1I152_DIN__CUR_STATE__0_108X3.OUT
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__1_109X1.OUTXNOT: Invalid net label syntax: _1I152_DIN__CUR_STATE__1_109X1.OUTXNOT
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__1_109X2.OUT: Invalid net label syntax: _1I152_DIN__CUR_STATE__1_109X2.OUT
+NameInvalid: Error: RAM_CTL net _1I152_DIN__CUR_STATE__1_109X2.OUTXNOT: Invalid net label syntax: _1I152_DIN__CUR_STATE__1_109X2.OUTXNOT
+NameInvalid: Error: RAM_CTL net _1I158_79.OUT: Invalid net label syntax: _1I158_79.OUT
+NameInvalid: Error: RAM_CTL net _1I158_79.OUTXNOT: Invalid net label syntax: _1I158_79.OUTXNOT
+NameInvalid: Error: RAM_CTL net _1I348_100.CLK: Invalid net label syntax: _1I348_100.CLK
+NameInvalid: Error: RAM_CTL net _1I348_100.D: Invalid net label syntax: _1I348_100.D
+NameInvalid: Error: RAM_CTL net _1N136_147X1.IN1: Invalid net label syntax: _1N136_147X1.IN1
+NameInvalid: Error: RAM_CTL net _1N136_147X1.OUT: Invalid net label syntax: _1N136_147X1.OUT
+NameInvalid: Error: RAM_CTL net _1N136_147X2.OUT: Invalid net label syntax: _1N136_147X2.OUT
+NameInvalid: Error: RAM_CTL net _1N136_147X3.OUT: Invalid net label syntax: _1N136_147X3.OUT
+NameInvalid: Error: RAM_CTL net _1N164_150.IN1: Invalid net label syntax: _1N164_150.IN1
+NameInvalid: Error: RAM_CTL net _1N164_150.OUT: Invalid net label syntax: _1N164_150.OUT
+NameInvalid: Error: RAM_CTL net _1N164_150.OUTXNOT: Invalid net label syntax: _1N164_150.OUTXNOT
+NameInvalid: Error: RAM_CTL net _1N169_152.CLK: Invalid net label syntax: _1N169_152.CLK
+NameInvalid: Error: RAM_CTL net _1N169_152.D: Invalid net label syntax: _1N169_152.D
+NameInvalid: Error: RAM_CTL net _1N287_159.OUT: Invalid net label syntax: _1N287_159.OUT
+NameInvalid: Error: RAM_CTL net _PORT_SYNC_171.CLK: Invalid net label syntax: _PORT_SYNC_171.CLK
+NameInvalid: Error: RAM_CTL net _PORT_SYNC_171.D: Invalid net label syntax: _PORT_SYNC_171.D
+NameInvalid: Error: RAM_CTL net _PORT_SYNC_171.PRN: Invalid net label syntax: _PORT_SYNC_171.PRN
+NameInvalid: Error: RAM_CTL net _PORT_SYNC_171.QXNOT: Invalid net label syntax: _PORT_SYNC_171.QXNOT
+NameInvalid: Error: RAM_CTL net _PRT_RST_172.CLK: Invalid net label syntax: _PRT_RST_172.CLK
+NameInvalid: Error: RAM_CTL net _PRT_RST_172.D: Invalid net label syntax: _PRT_RST_172.D
+FanOut: Error: RAM_CTL net PRT_CNTRLB: Overloaded net -- load=13.43, drive=10
+NameInvalid: Error: RAM_CTL net XR/W: Invalid net label syntax: XR/W
+NameInvalid: Error: RAM_CTL net XR/WB: Invalid net label syntax: XR/WB
+NameInvalid: Error: RAM_CTL net ZAND5__1I152_XU_10_40ZOUT.OUT: Invalid net label syntax: ZAND5__1I152_XU_10_40ZOUT.OUT
+NameInvalid: Error: RAM_CTL net ZAND5__1I152_XU_10_40ZOUTX1.IN1: Invalid net label syntax: ZAND5__1I152_XU_10_40ZOUTX1.IN1
+NameInvalid: Error: RAM_CTL net ZAND5__1I152_XU_10_40ZOUTX1.OUT: Invalid net label syntax: ZAND5__1I152_XU_10_40ZOUTX1.OUT
+NameInvalid: Error: RAM_CTL net ZNAND5__1I152_XU_28_59ZOUT.OUT: Invalid net label syntax: ZNAND5__1I152_XU_28_59ZOUT.OUT
+NameInvalid: Error: RAM_CTL net ZNAND5__1I152_XU_28_59ZOUT.OUTXNOT: Invalid net label syntax: ZNAND5__1I152_XU_28_59ZOUT.OUTXNOT
+NameInvalid: Error: RAM_CTL net ZNAND5__1I152_XU_28_59ZOUTX1.IN1: Invalid net label syntax: ZNAND5__1I152_XU_28_59ZOUTX1.IN1
+NameInvalid: Error: RAM_CTL net ZNAND5__1I152_XU_28_59ZOUTX1.OUT: Invalid net label syntax: ZNAND5__1I152_XU_28_59ZOUTX1.OUT

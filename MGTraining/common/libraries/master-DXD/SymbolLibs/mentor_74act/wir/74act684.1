@@ -1,0 +1,148 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 173563721100 74ls684
+DW 74act684
+Q Case
+|Q builtin:nor8 1
+AS builtin:nor8 PINORDER=QN A B C D E F G H
+AP builtin:nor8 1 PINTYPE=OUT
+AP builtin:nor8 2 PINTYPE=IN
+AP builtin:nor8 3 PINTYPE=IN
+AP builtin:nor8 4 PINTYPE=IN
+AP builtin:nor8 5 PINTYPE=IN
+AP builtin:nor8 6 PINTYPE=IN
+AP builtin:nor8 7 PINTYPE=IN
+AP builtin:nor8 8 PINTYPE=IN
+AP builtin:nor8 9 PINTYPE=IN
+|Q builtin:nand8 1
+AS builtin:nand8 PINORDER=QN A B C D E F G H
+AP builtin:nand8 1 PINTYPE=OUT
+AP builtin:nand8 2 PINTYPE=IN
+AP builtin:nand8 3 PINTYPE=IN
+AP builtin:nand8 4 PINTYPE=IN
+AP builtin:nand8 5 PINTYPE=IN
+AP builtin:nand8 6 PINTYPE=IN
+AP builtin:nand8 7 PINTYPE=IN
+AP builtin:nand8 8 PINTYPE=IN
+AP builtin:nand8 9 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:nand3 1
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+|Q builtin:nand4 1
+AS builtin:nand4 PINORDER=QN A B C D
+AP builtin:nand4 1 PINTYPE=OUT
+AP builtin:nand4 2 PINTYPE=IN
+AP builtin:nand4 3 PINTYPE=IN
+AP builtin:nand4 4 PINTYPE=IN
+AP builtin:nand4 5 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:xnor2 1
+AS builtin:xnor2 PINORDER=QN A B
+AP builtin:xnor2 1 PINTYPE=OUT
+AP builtin:xnor2 2 PINTYPE=IN
+AP builtin:xnor2 3 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+M builtin:nor8 $1I275
+I $1I275 builtin:nor8 ~PGTQ $1N126 $1N131 $1N136 $1N141 $1N159 $1N154 $1N149 $1N144 TPHL=@PQTOPGTQ0`TPLH=@PQTOPGTQ1`
+M builtin:nand8 $1I276
+I $1I276 builtin:nand8 ~PEQQ $1N72 $1N92 $1N110 $1N58 $1N48 $1N38 $1N30 $1N22 TPHL=@PQTOPEQQ0`TPLH=@PQTOPEQQ1`
+M builtin:not $1I284
+I $1I284 builtin:not $1N329 P7 
+M builtin:nand3 $1I286
+I $1I286 builtin:nand3 $1N7 $1N92 $1N72 P5 
+M builtin:nand4 $1I287
+I $1I287 builtin:nand4 $1N10 $1N110 $1N92 $1N72 P4 
+M builtin:nand8 $1I277
+I $1I277 builtin:nand8 $1N13 $1N58 $1N110 $1N92 $1N72 P3 ? ? ? FLOATVAL = 1`
+M builtin:nand8 $1I278
+I $1I278 builtin:nand8 $1N16 $1N48 $1N58 $1N110 $1N92 $1N72 P2 ? ? FLOATVAL = 1`
+M builtin:nand8 $1I279
+I $1I279 builtin:nand8 $1N19 $1N38 $1N48 $1N58 $1N110 $1N92 $1N72 P1 ? FLOATVAL = 1`
+M builtin:nand8 $1I291
+I $1I291 builtin:nand8 $1N27 $1N30 $1N38 $1N48 $1N58 $1N110 $1N92 $1N72 P0 
+M builtin:nor2 $1I300
+I $1I300 builtin:nor2 $1N136 $1N16 Q2 
+M builtin:xnor2 $1I299
+I $1I299 builtin:xnor2 $1N92 P6 Q6 
+M builtin:xnor2 $1I298
+I $1I298 builtin:xnor2 $1N110 P5 Q5 
+M builtin:xnor2 $1I297
+I $1I297 builtin:xnor2 $1N72 P7 Q7 
+M builtin:xnor2 $1I296
+I $1I296 builtin:xnor2 $1N58 P4 Q4 
+M builtin:xnor2 $1I295
+I $1I295 builtin:xnor2 $1N48 P3 Q3 
+M builtin:xnor2 $1I294
+I $1I294 builtin:xnor2 $1N38 P2 Q2 
+M builtin:xnor2 $1I293
+I $1I293 builtin:xnor2 $1N30 P1 Q1 
+M builtin:nor2 $1I290
+I $1I290 builtin:nor2 $1N126 $1N27 Q0 
+M builtin:nor2 $1I289
+I $1I289 builtin:nor2 $1N131 $1N19 Q1 
+M builtin:nor2 $1I288
+I $1I288 builtin:nor2 $1N141 $1N13 Q3 
+M builtin:nand2 $1I285
+I $1I285 builtin:nand2 $1N4 $1N72 P6 
+M builtin:nor2 $1I283
+I $1I283 builtin:nor2 $1N159 $1N10 Q4 
+M builtin:nor2 $1I282
+I $1I282 builtin:nor2 $1N154 $1N7 Q5 
+M builtin:nor2 $1I281
+I $1I281 builtin:nor2 $1N149 $1N4 Q6 
+M builtin:nor2 $1I280
+I $1I280 builtin:nor2 $1N144 $1N329 Q7 
+M builtin:xnor2 $1I292
+I $1I292 builtin:xnor2 $1N22 P0 Q0 
+P ? Q7
+I Q7 ? Q7
+P ? P7
+I P7 ? P7
+P ? Q6
+I Q6 ? Q6
+P ? P6
+I P6 ? P6
+P ? Q5
+I Q5 ? Q5
+P ? P5
+I P5 ? P5
+P ? Q4
+I Q4 ? Q4
+P ? P4
+I P4 ? P4
+P ? P3
+I P3 ? P3
+P ? Q3
+I Q3 ? Q3
+P ? P2
+I P2 ? P2
+P ? Q2
+I Q2 ? Q2
+P ? P1
+I P1 ? P1
+P ? Q1
+I Q1 ? Q1
+P ? P0
+I P0 ? P0
+P ? Q0
+I Q0 ? Q0
+P ? ~PEQQ
+I ~PEQQ ? ~PEQQ
+P ? ~PGTQ
+I ~PGTQ ? ~PGTQ
+EW

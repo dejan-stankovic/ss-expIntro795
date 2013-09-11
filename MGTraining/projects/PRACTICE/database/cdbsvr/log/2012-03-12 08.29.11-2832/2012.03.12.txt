@@ -1,0 +1,100 @@
+[2012.03.12 08:29:11] [0000m.00s.046ms] [0] WELCOME
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] iCDB Server ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Base flow version [7.9.3]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] GBS Install Id [23291], Flow Id [EE7.9.3], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Nov 1 2011]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Machine [ESVM01]  User [student]  PID [2832]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] PATH [C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] SDD_HOME [C:\MentorGraphics\7.9.3EE\SDD_HOME] on file system [NTFS]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] SDD_PLATFORM [win32]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.3EE\SDD_HOME\standard]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.03.12 08:29:11] [0000m.00s.046ms] [2] S: Loading config files
+[2012.03.12 08:29:11] [0000m.00s.046ms] [1] Config file [C:\MGTraining\projects\PRACTICE\database\cdbsvr\Server.cfg] not found
+[2012.03.12 08:29:11] [0000m.00s.062ms] [3] S: Config loaded
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Project path [C:\MGTraining\projects\PRACTICE\database] on file system [NTFS]
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Project file (.prj) path [C:\MGTraining\projects\PRACTICE\PRACTICE.prj] on file system [NTFS]
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Single-user mode (auto)
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Event polling mode autodetection
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Started up automatically by iCDB Client: ESVM01:student:2008
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Auto close mode
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Database ID [03fb-d901-1a75-c214-9d51-e5fd-d51e-5f40-f8a8-5765-72cf-9da8]
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] PathTranslator: BEGIN dumping
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] PathTranslator: Local -> global path prefix list
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] PathTranslator: Global -> local path prefix list
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] PathTranslator: END dumping
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: START
+[2012.03.12 08:29:11] [0000m.00s.062ms] [0] S: Server startup lock file created
+[2012.03.12 08:29:11] [0000m.00s.078ms] [0] S: Listening for client connections on port [10000]
+[2012.03.12 08:29:11] [0000m.00s.078ms] [0] S: Server network ID [esvm01:192.168.1.102,192.168.192.209,esvm01:10000]
+[2012.03.12 08:29:11] [0000m.00s.078ms] [0] S: Server GUID [d74f-18fa-dd06-ae4b-7461-e5fb-461e-5f40-f9a8-5765-72cf-9da8]
+[2012.03.12 08:29:11] [0000m.00s.078ms] [0] S: Project GUID [03fb-d901-1a75-c214-9d51-e5fd-d51e-5f40-f8a8-5765-72cf-9da8]
+[2012.03.12 08:29:11] [0000m.00s.078ms] [0] S: Wrote data to server address file
+[2012.03.12 08:29:11] [0000m.00s.078ms] [0] S: Server startup lock file removed
+[2012.03.12 08:29:11] [0000m.00s.078ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\MGTraining\projects\PRACTICE\PRACTICE.prj]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] S: Local disc access time: 64 us
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] S: File server access time: 92 us
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] size [249328 (243.5 kB)]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [1] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] opened in read-write mode
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] Database GUARD OK: [249328]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] Database GUARD OK: [249328]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] SingleFile: [89f5-1764-6253-cf0d] SFI version check [1009] [1009]
+[2012.03.12 08:29:11] [0000m.00s.296ms] [0] SingleFile: [89f5-1764-6253-cf0d] Database SFI header has been read in [5ms 511us]
+[2012.03.12 08:29:11] [0000m.00s.312ms] [0] iCDB Server PI: Server & plugin session [431]
+[2012.03.12 08:29:11] [0000m.00s.312ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2012.03.12 08:29:11] [0000m.00s.312ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2012.03.12 08:29:11] [0000m.00s.328ms] [0] iCDB Database: Checking existence of constraint definitions
+[2012.03.12 08:29:11] [0000m.00s.328ms] [0] iCDB Database: Checking constraint definitions version
+[2012.03.12 08:29:12] [0000m.00s.375ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.23;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8] up to date
+[2012.03.12 08:29:12] [0000m.00s.390ms] [0] iCDB Server PI: Initializing plugins
+[2012.03.12 08:29:12] [0000m.00s.406ms] [0] iCDB Server PI: Plugins initialized
+[2012.03.12 08:29:12] [0000m.00s.406ms] [0] S: iCDB database loaded
+[2012.03.12 08:29:12] [0000m.00s.406ms] [0] S: Starting threads
+[2012.03.12 08:29:12] [0000m.00s.406ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2012.03.12 08:29:12] [0000m.00s.406ms] [0] IT: Session [432] for host [esvm01] user [student] with process ID [2008] created
+[2012.03.12 08:29:12] [0000m.00s.406ms] [0] BT: Listening for broadcast messages on port [10000]
+[2012.03.12 08:29:12] [0000m.00s.406ms] [1] SC[432]: Registered sub-client [Expedition PCB_371593] with ID [1] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:12] [0000m.00s.531ms] [1] CMT: There are [1] clients now: 432
+[2012.03.12 08:29:12] [0000m.00s.562ms] [1] SC[432]: Registered sub-client [EEVM_EEVM_115760740] with ID [2] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:12] [0000m.00s.656ms] [1] SC[432]: UnRegistered sub-client [EEVM_EEVM_115760740] with ID [2] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:12] [0000m.00s.656ms] [1] SC[432]: Registered sub-client [EEVM_EEVM_115760740] with ID [3] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:12] [0000m.00s.687ms] [1] CORE: Applying a fix no 93 stage [fsAtlasLoaded] to atlas [C:\MGTraining\projects\PRACTICE\database\s3\cdbcatlg\catlgatl]
+[2012.03.12 08:29:12] [0000m.00s.687ms] [1] CORE: Applying a fix no 99 stage [fsAtlasLoaded] to atlas [C:\MGTraining\projects\PRACTICE\database\s3\cdbcatlg\catlgatl]
+[2012.03.12 08:29:12] [0000m.00s.687ms] [1] CORE: Applying a fix no 101 stage [fsAtlasLoaded] to atlas [C:\MGTraining\projects\PRACTICE\database\s3\cdbcatlg\catlgatl]
+[2012.03.12 08:29:12] [0000m.00s.687ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [C:\MGTraining\projects\PRACTICE\database\s3\cdbcatlg\catlgatl]
+[2012.03.12 08:29:12] [0000m.00s.718ms] [1] SC[432]: UnRegistered sub-client [EEVM_EEVM_115760740] with ID [3] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:18] [0000m.06s.453ms] [1] SC[432]: Registered sub-client [ExpeditionCrossProber] with ID [4] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:37] [0000m.26s.062ms] [1] SC[432]: Registered sub-client [EEVM_EEVM_1240300] with ID [5] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:37] [0000m.26s.062ms] [1] SC[432]: UnRegistered sub-client [EEVM_EEVM_1240300] with ID [5] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:38] [0000m.26s.484ms] [0] IT: Session [433] for host [esvm01] user [student] with process ID [3688] created
+[2012.03.12 08:29:38] [0000m.26s.484ms] [1] SC[433]: Registered sub-client [Expedition_398343] with ID [1] for session ID [433] host [esvm01] user [student] process ID [3688]
+[2012.03.12 08:29:38] [0000m.26s.531ms] [1] CMT: There are [2] clients now: 432, 433
+[2012.03.12 08:29:38] [0000m.26s.625ms] [1] SC[433]: UnRegistered sub-client [Expedition_398343] with ID [1] for session ID [433] host [esvm01] user [student] process ID [3688]
+[2012.03.12 08:29:38] [0000m.26s.672ms] [1] CMT: Removed client [433]
+[2012.03.12 08:29:38] [0000m.26s.672ms] [1] CMT: There are [1] clients now: 432
+[2012.03.12 08:29:41] [0000m.29s.984ms] [1] SC[432]: UnRegistered sub-client [ExpeditionCrossProber] with ID [4] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:41] [0000m.30s.203ms] [1] SC[432]: UnRegistered sub-client [Expedition PCB_371593] with ID [1] for session ID [432] host [esvm01] user [student] process ID [2008]
+[2012.03.12 08:29:41] [0000m.30s.297ms] [1] CMT: Removed client [432]
+[2012.03.12 08:29:41] [0000m.30s.297ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2012.03.12 08:29:42] [0000m.30s.718ms] [0] DFAMT: File server access time: 161 us
+[2012.03.12 08:29:43] [0000m.31s.390ms] [0] CMT: Starting server auto-close
+[2012.03.12 08:29:43] [0000m.31s.406ms] [0] S: Closing server
+[2012.03.12 08:29:43] [0000m.31s.531ms] [0] iCDB Server PI: Closing plugins
+[2012.03.12 08:29:43] [0000m.31s.531ms] [0] iCDB Server PI: Plugins closed
+[2012.03.12 08:29:43] [0000m.31s.531ms] [0] iCDB Server PI: Unloading database
+[2012.03.12 08:29:43] [0000m.31s.531ms] [0] iCDB Server PI: Saving storage
+[2012.03.12 08:29:43] [0000m.31s.531ms] [0] iCDB Server PI: Closing database
+[2012.03.12 08:29:43] [0000m.31s.531ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[8%] data[91%]
+[2012.03.12 08:29:43] [0000m.31s.531ms] [1] iCDB Server PI: Stats: Database file size [255304 (249.3 kB)]
+[2012.03.12 08:29:43] [0000m.31s.547ms] [0] iCDB Server PI: Database closed
+[2012.03.12 08:29:43] [0000m.31s.547ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [322072] ticks
+[2012.03.12 08:29:43] [0000m.31s.547ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [89975] microseconds
+[2012.03.12 08:29:43] [0000m.31s.547ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [162]
+[2012.03.12 08:29:43] [0000m.31s.547ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [1800] commands per second
+[2012.03.12 08:29:43] [0000m.31s.547ms] [0] Single file [C:\MGTraining\projects\PRACTICE\database\icdb.dat] closed with size [255304 (249.3 kB)]
+[2012.03.12 08:29:43] [0000m.31s.718ms] [0] S: STOP

@@ -1,0 +1,85 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 250263902500 74ls156
+DW 74act156
+Q Case
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+|Q builtin:nand3 1
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+M builtin:delay $1I123
+I $1I123 builtin:delay $1N80 B TPLH=@BTOY30`TPHL=@BTOY31`
+M builtin:nand3 $1I91
+I $1I91 builtin:nand3 ~1Y0 $1N78 $1N77 $1N83 STR01=DZ`
+M builtin:not $1I73
+I $1I73 builtin:not $1N78 B TPHL=@BTOY21`TPLH=@BTOY20`
+M builtin:not $1I106
+I $1I106 builtin:not $1N77 A TPHL=@ATOY21`TPLH=@ATOY20`
+M builtin:nand3 $1I115
+I $1I115 builtin:nand3 ~2Y3 $1N80 $1N79 $1N82 STR01=DZ`
+M builtin:nand3 $1I113
+I $1I113 builtin:nand3 ~2Y1 $1N78 $1N79 $1N82 STR01=DZ`
+M builtin:nand3 $1I112
+I $1I112 builtin:nand3 ~2Y0 $1N78 $1N77 $1N82 STR01=DZ`
+M builtin:nand3 $1I111
+I $1I111 builtin:nand3 ~1Y3 $1N80 $1N79 $1N83 STR01=DZ`
+M builtin:nand3 $1I110
+I $1I110 builtin:nand3 ~1Y2 $1N80 $1N77 $1N83 STR01=DZ`
+M builtin:nand3 $1I109
+I $1I109 builtin:nand3 ~1Y1 $1N78 $1N79 $1N83 STR01=DZ`
+M builtin:not $1I71
+I $1I71 builtin:not $1N81 1C TPLH=@1CTOY31`TPHL=@1CTOY30`
+M builtin:delay $1I72
+I $1I72 builtin:delay $1N76 ~1G TPHL=@ABCGTOY20`TPLH=@ABCGTOY21`
+M builtin:nor2 $1I75
+I $1I75 builtin:nor2 $1N83 $1N76 $1N81 
+M builtin:delay $1I107
+I $1I107 builtin:delay $1N79 A TPHL=@ATOY31`TPLH=@ATOY30`
+M builtin:nor2 $1I108
+I $1I108 builtin:nor2 $1N82 ~2C ~2G TPHL=@CGTOY21`TPLH=@CGTOY20`
+M builtin:nand3 $1I114
+I $1I114 builtin:nand3 ~2Y2 $1N80 $1N77 $1N82 STR01=DZ`
+P ? ~2G
+I ~2G ? ~2G
+P ? ~2C
+I ~2C ? ~2C
+P ? ~2Y3
+I ~2Y3 ? ~2Y3
+P ? ~2Y0
+I ~2Y0 ? ~2Y0
+P ? ~1Y3
+I ~1Y3 ? ~1Y3
+P ? ~1Y2
+I ~1Y2 ? ~1Y2
+P ? ~1Y1
+I ~1Y1 ? ~1Y1
+P ? ~1G
+I ~1G ? ~1G
+P ? 1C
+I 1C ? 1C
+P ? B
+I B ? B
+P ? A
+I A ? A
+P ? ~1Y0
+I ~1Y0 ? ~1Y0
+P ? ~2Y1
+I ~2Y1 ? ~2Y1
+P ? ~2Y2
+I ~2Y2 ? ~2Y2
+EW

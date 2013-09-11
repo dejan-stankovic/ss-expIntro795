@@ -1,0 +1,42 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 355255646300 74ls55
+DW 74act55
+Q Case
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+M builtin:and4 $1I34
+I $1I34 builtin:and4 $1N33 E F G H 
+M builtin:and4 $1I35
+I $1I35 builtin:and4 $1N28 A B C D 
+M builtin:nor2 $1I36
+I $1I36 builtin:nor2 Y $1N28 $1N33 TPLH=@INTOOUTY1`TPHL=@INTOOUTY0`
+P ? A
+I A ? A
+P ? B
+I B ? B
+P ? C
+I C ? C
+P ? D
+I D ? D
+P ? E
+I E ? E
+P ? F
+I F ? F
+P ? G
+I G ? G
+P ? H
+I H ? H
+P ? Y
+I Y ? Y
+EW

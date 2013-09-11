@@ -1,0 +1,16 @@
+[2011.06.21 11:15:21] [0000m.00s.593ms] [0] WELCOME
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] iCDB API ver.1.092, dDIpY0GKBXTaphtjZSQNoQ, build:456818 created 2011-06-18 09:26:46, sources stamp:dDIpY0GKBXTaphtjZSQNoQ
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] Copyright 2011 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] Base flow version [7.9.2]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] GBS Install Id [18853], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] GBS Install Id [19252], Flow Id [EE7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [May 1 2011]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] GBS Install Id [19309], Flow Id [EE 7.9.2], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Mar 1 2011]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] Machine [esvm01]  User [student]  PID [3816]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DC]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] PATH [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/bin;C:/MentorGraphics/7.9.2EE/7.9.2EE/MGC_HOME.ixn/lib;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.2EE\7.9.2EE\MGC_HOME.ixn\lib;]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] SDD_HOME [C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME] on file system [NTFS]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] SDD_PLATFORM [win32]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard]
+[2011.06.21 11:15:21] [0000m.00s.828ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2011.06.21 11:15:26] [0000m.05s.734ms] [0] PM: Entering client mode

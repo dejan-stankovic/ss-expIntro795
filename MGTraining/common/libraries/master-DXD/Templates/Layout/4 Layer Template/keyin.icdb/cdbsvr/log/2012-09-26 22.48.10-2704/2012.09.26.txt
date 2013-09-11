@@ -1,0 +1,120 @@
+[2012.09.26 22:48:10] [0000m.00s.046ms] [0] WELCOME
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] iCDB Server ver.1.094, a0HSsGQ+3llE3aODnNgIUw, build:515009 created 2012-08-09 08:10:43, sources stamp:a0HSsGQ+3llE3aODnNgIUw
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] Base flow version [7.9.4]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] GBS Install Id [26418], Flow Id [EE7.9.4], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] Machine [ESVM01]  User [student]  PID [2704]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] PATH [C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.4EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.4EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] SDD_HOME [C:\MentorGraphics\7.9.4EE\SDD_HOME] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] SDD_PLATFORM [win32]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.4EE\SDD_HOME\standard]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [1] S: Config file name [ServerWG.cfg]
+[2012.09.26 22:48:10] [0000m.00s.046ms] [2] S: Loading config files
+[2012.09.26 22:48:10] [0000m.00s.062ms] [1] Config file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbsvr\ServerWG.cfg] not found
+[2012.09.26 22:48:10] [0000m.00s.062ms] [1] Config: Non-default value [System.SingleUserMode] = [no]
+[2012.09.26 22:48:10] [0000m.00s.062ms] [3] S: Config loaded
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Project path [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Project file (.prj) path [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.prj] on file system [NTFS]
+[2012.09.26 22:48:10] [0000m.00s.062ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Multi-user mode (config)
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Event polling mode autodetection
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Started up automatically by iCDB Client: ESVM01:student:3540
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Auto close mode
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: Database ID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] PathTranslator: BEGIN dumping
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] PathTranslator: Local -> global path prefix list
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] PathTranslator: Global -> local path prefix list
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] PathTranslator: END dumping
+[2012.09.26 22:48:10] [0000m.00s.062ms] [0] S: START
+[2012.09.26 22:48:10] [0000m.00s.078ms] [0] S: Server startup lock file created
+[2012.09.26 22:48:10] [0000m.00s.078ms] [0] S: Listening for client connections on port [10000]
+[2012.09.26 22:48:10] [0000m.00s.093ms] [0] S: Server network ID [esvm01:192.168.107.128,esvm01:10000]
+[2012.09.26 22:48:10] [0000m.00s.093ms] [0] S: Server GUID [3877-e6e5-2c1a-6baa-a98e-360f-98e3-6050-11c1-718f-2c7c-0ac5]
+[2012.09.26 22:48:10] [0000m.00s.093ms] [0] S: Project GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2012.09.26 22:48:10] [0000m.00s.093ms] [0] S: Wrote data to server address file
+[2012.09.26 22:48:10] [0000m.00s.093ms] [0] S: Server startup lock file removed
+[2012.09.26 22:48:10] [0000m.00s.093ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.prj]
+[2012.09.26 22:48:10] [0000m.00s.109ms] [0] PrjBackupMgr: Migrating iCDB upgrade backups from directory [4 Layer Template\keyin.icdb\cdbback] to Project Backup format.
+[2012.09.26 22:48:10] [0000m.00s.109ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2011-04-15 11.23.14-29894-pbmf.zip] - will not be migrated.
+[2012.09.26 22:48:11] [0000m.00s.375ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2012.09.26 22:48:11] [0000m.00s.390ms] [0] S: Local disc access time: 54 us
+[2012.09.26 22:48:11] [0000m.00s.390ms] [0] S: File server access time: 58 us
+[2012.09.26 22:48:11] [0000m.00s.515ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] size [54704 (53.4 kB)]
+[2012.09.26 22:48:11] [0000m.00s.515ms] [1] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] opened in read-write mode
+[2012.09.26 22:48:11] [0000m.00s.515ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.09.26 22:48:11] [0000m.00s.515ms] [0] Database GUARD OK: [54704]
+[2012.09.26 22:48:11] [0000m.00s.546ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2012.09.26 22:48:11] [0000m.00s.546ms] [0] Database GUARD OK: [54704]
+[2012.09.26 22:48:11] [0000m.00s.546ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] SFI version check [1009] [1009]
+[2012.09.26 22:48:11] [0000m.00s.546ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] Database SFI header has been read in [1ms 111us]
+[2012.09.26 22:48:11] [0000m.00s.593ms] [0] iCDB Server PI: Server & plugin session [49]
+[2012.09.26 22:48:11] [0000m.00s.593ms] [0] iCDB Server PI: Opening database [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:11] [0000m.00s.593ms] [0] iCDB Server PI: Database [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] opened
+[2012.09.26 22:48:11] [0000m.00s.703ms] [0] iCDB Database: Checking existence of constraint definitions
+[2012.09.26 22:48:11] [0000m.00s.703ms] [0] iCDB Database: Checking constraint definitions version
+[2012.09.26 22:48:11] [0000m.00s.890ms] [0] iCDB Database: Creating database content backup before upgrade
+[2012.09.26 22:48:11] [0000m.00s.890ms] [1] iCDB Storage Server: Database backup: ProjectPath[C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb]
+[2012.09.26 22:48:11] [0000m.00s.906ms] [0] iCDB Storage Server Backup Thread: Database backup: BackupPath[C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbback\2012-09-26 22.48.11-2704.zip]
+[2012.09.26 22:48:11] [0000m.00s.937ms] [0] iCDB Storage Server Backup Thread: Backup database DONE: Result[ Succeeded[TRUE]] BackupPath[C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbback\2012-09-26 22.48.11-2704.zip]
+[2012.09.26 22:48:11] [0000m.00s.968ms] [0] iCDB Database: Database content backed up to [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbback\2012-09-26 22.48.11-2704.zip] of size [18 533 bytes (18.1 kB)]  in [71ms 357us]
+[2012.09.26 22:48:11] [0000m.01s.000ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.10.23;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.09.26 22:48:11] [0000m.01s.109ms] [0] iCDB Database: Upgrading snapshot [1:PCB] from version [2704]
+[2012.09.26 22:48:12] [0000m.01s.171ms] [1] CORE: Upgrade snapshot PCB completed successfully.
+[2012.09.26 22:48:12] [0000m.01s.171ms] [0] iCDB Database: Snapshot [1:PCB] upgraded to version [2709] in [63ms 405us]
+[2012.09.26 22:48:12] [0000m.01s.171ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [1:PCB]
+[2012.09.26 22:48:12] [0000m.01s.171ms] [0] iCDB Database: Constraint definitions for snapshot [1:PCB] upgraded in [344us]
+[2012.09.26 22:48:12] [0000m.01s.171ms] [0] iCDB Database: Saving upgraded snapshot [1:PCB]
+[2012.09.26 22:48:12] [0000m.01s.187ms] [0] iCDB Database: Upgraded snapshot [1:PCB] saved in [7ms 387us]
+[2012.09.26 22:48:12] [0000m.01s.218ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2012.09.26 22:48:12] [0000m.01s.218ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\s1\cdbcnfgs\2000000010000050.blk\ces_obj_state] - auto-saving it
+[2012.09.26 22:48:12] [0000m.01s.218ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\s1\params] - auto-saving it
+[2012.09.26 22:48:12] [0000m.01s.234ms] [0] iCDB Database: Upgrading snapshot [2:PCB_Layout_Temp] from version [2704]
+[2012.09.26 22:48:12] [0000m.01s.234ms] [1] CORE: Upgrade snapshot PCB_Layout_Temp completed successfully.
+[2012.09.26 22:48:12] [0000m.01s.234ms] [0] iCDB Database: Snapshot [2:PCB_Layout_Temp] upgraded to version [2709] in [12ms 789us]
+[2012.09.26 22:48:12] [0000m.01s.250ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [2:PCB_Layout_Temp]
+[2012.09.26 22:48:12] [0000m.01s.250ms] [0] iCDB Database: Constraint definitions for snapshot [2:PCB_Layout_Temp] upgraded in [295us]
+[2012.09.26 22:48:12] [0000m.01s.250ms] [0] iCDB Database: Saving upgraded snapshot [2:PCB_Layout_Temp]
+[2012.09.26 22:48:12] [0000m.01s.250ms] [0] iCDB Database: Upgraded snapshot [2:PCB_Layout_Temp] saved in [4ms 112us]
+[2012.09.26 22:48:12] [0000m.01s.250ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\s2\cdbcatlg\catlgatl.v] - auto-saving it
+[2012.09.26 22:48:12] [0000m.01s.250ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\s2\cdbcnfgs\2000000010000050.blk\ces_obj_state] - auto-saving it
+[2012.09.26 22:48:12] [0000m.01s.250ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\s2\params] - auto-saving it
+[2012.09.26 22:48:12] [0000m.01s.281ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.09.26 22:48:12] [0000m.01s.343ms] [0] iCDB Server PI: Initializing plugins
+[2012.09.26 22:48:12] [0000m.01s.375ms] [0] iCDB Server PI: Plugins initialized
+[2012.09.26 22:48:12] [0000m.01s.375ms] [0] S: iCDB database loaded
+[2012.09.26 22:48:12] [0000m.01s.500ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\ProjectBackup\backups\2012-09-26 22.48.12 - upgrade.zip] with GUID [a44b-26c8-ba3d-972c-c98e-3601-a8e3-6050-11c1-718f-2c7c-0ac5]
+[2012.09.26 22:48:12] [0000m.01s.500ms] [1] PrjBackupMgr: Migrated iCDB content backup file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbback\2012-09-26 22.48.11-2704.zip] removed
+[2012.09.26 22:48:12] [0000m.01s.531ms] [0] S: Starting threads
+[2012.09.26 22:48:12] [0000m.01s.531ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2012.09.26 22:48:12] [0000m.01s.531ms] [0] BT: Listening for broadcast messages on port [10000]
+[2012.09.26 22:48:12] [0000m.01s.546ms] [0] IT: Session [50] for host [esvm01] user [student] with process ID [3540] created
+[2012.09.26 22:48:12] [0000m.01s.546ms] [1] SC[50]: Registered sub-client [Expedition PCB_174581171] with ID [1] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:12] [0000m.01s.625ms] [1] SC[50]: Registered sub-client [EEVM_EEVM_121207756] with ID [2] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:12] [0000m.01s.625ms] [1] SC[50]: UnRegistered sub-client [EEVM_EEVM_121207756] with ID [2] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:12] [0000m.01s.640ms] [1] CMT: There are [1] clients now: 50
+[2012.09.26 22:48:17] [0000m.06s.922ms] [1] SC[50]: Registered sub-client [ExpeditionCrossProber] with ID [3] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:19] [0000m.08s.734ms] [1] SC[50]: Registered sub-client [JobPrefsDBPI_174590531] with ID [4] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:19] [0000m.08s.734ms] [1] SC[50]: UnRegistered sub-client [JobPrefsDBPI_174590531] with ID [4] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:29] [0000m.19s.047ms] [1] SC[50]: UnRegistered sub-client [ExpeditionCrossProber] with ID [3] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:30] [0000m.19s.375ms] [1] SC[50]: UnRegistered sub-client [Expedition PCB_174581171] with ID [1] for session ID [50] host [esvm01] user [student] process ID [3540]
+[2012.09.26 22:48:30] [0000m.19s.485ms] [1] CMT: Removed client [50]
+[2012.09.26 22:48:30] [0000m.19s.485ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2012.09.26 22:48:32] [0000m.21s.235ms] [0] CMT: Starting server auto-close
+[2012.09.26 22:48:32] [0000m.21s.329ms] [0] S: Closing server
+[2012.09.26 22:48:32] [0000m.21s.391ms] [0] iCDB Server PI: Closing plugins
+[2012.09.26 22:48:32] [0000m.21s.391ms] [0] iCDB Server PI: Plugins closed
+[2012.09.26 22:48:32] [0000m.21s.391ms] [0] iCDB Server PI: Unloading database
+[2012.09.26 22:48:32] [0000m.21s.391ms] [0] iCDB Server PI: Saving storage
+[2012.09.26 22:48:32] [0000m.21s.391ms] [0] iCDB Server PI: Closing database
+[2012.09.26 22:48:32] [0000m.21s.391ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[10%] data[81%]
+[2012.09.26 22:48:32] [0000m.21s.391ms] [1] iCDB Server PI: Stats: Database file size [63560 (62.1 kB)]
+[2012.09.26 22:48:32] [0000m.21s.407ms] [0] iCDB Server PI: Database closed
+[2012.09.26 22:48:32] [0000m.21s.407ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [144246] ticks
+[2012.09.26 22:48:32] [0000m.21s.407ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [40297] microseconds
+[2012.09.26 22:48:32] [0000m.21s.407ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [12]
+[2012.09.26 22:48:32] [0000m.21s.407ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [297] commands per second
+[2012.09.26 22:48:32] [0000m.21s.407ms] [0] Single file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\icdb.dat] closed with size [63560 (62.1 kB)]
+[2012.09.26 22:48:32] [0000m.21s.657ms] [0] S: STOP

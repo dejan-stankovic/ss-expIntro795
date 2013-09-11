@@ -1,0 +1,59 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 338789009100 min_cntr
+DW min_cntr
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+|Q dx_ok_dgtl_clk:mod_59 1
+AS dx_ok_dgtl_clk:mod_59 @NAME=modulo_59
+AS dx_ok_dgtl_clk:mod_59 PINORDER=CLOCK DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA MODULO_60 Q[7:0] SYNC1 SYNC2 SYNC3 SYS_CLR
+AP dx_ok_dgtl_clk:mod_59 1 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 2 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 3 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 4 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 5 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 6 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 7 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 8 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 9 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 10 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 11 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 12 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 13 PINTYPE=OUT
+AP dx_ok_dgtl_clk:mod_59 14 PINTYPE=OUT
+AP dx_ok_dgtl_clk:mod_59 15 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 16 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 17 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 18 PINTYPE=IN
+AN DSPLY_DATA[7:0] VLBUSISONSHEET=1
+AN DATA_[7:0] VLBUSISONSHEET=1
+P builtin:in RESET
+I RESET builtin:in RESET 
+P builtin:out HOURS_PULSE
+I HOURS_PULSE builtin:out HOURS_PULSE 
+P builtin:in CLOCK
+I CLOCK builtin:in CLOCK 
+P builtin:in ENT
+I ENT builtin:in ENT 
+P builtin:in LOAD_DATA
+I LOAD_DATA builtin:in LOAD_DATA 
+P builtin:in ENP
+I ENP builtin:in ENP 
+P builtin:in SYNC1
+I SYNC1 builtin:in SYNC1 
+P builtin:in SYNC2
+I SYNC2 builtin:in SYNC2 
+P builtin:in SYNC3
+I SYNC3 builtin:in SYNC3 
+W dx_ok_dgtl_clk:mod_59 $1I46
+I $1I46 dx_ok_dgtl_clk:mod_59 CLOCK DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA HOURS_PULSE DSPLY_DATA[7:0] SYNC1 SYNC2 SYNC3 RESET STATUS=TBD`DESCRIPTION=Synchronous Modulo 60 counter; count 0 to 59; resets to zero on`
+P ? DSPLY_DATA[7:0]
+I DSPLY_DATA[7:0] ? DSPLY_DATA[7:0]
+P ? DATA_[7:0]
+I DATA_[7:0] ? DATA_[7:0]
+EW

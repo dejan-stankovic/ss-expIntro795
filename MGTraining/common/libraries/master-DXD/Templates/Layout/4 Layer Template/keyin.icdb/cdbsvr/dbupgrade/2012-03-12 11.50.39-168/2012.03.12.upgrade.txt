@@ -1,0 +1,33 @@
+[2012.03.12 11:50:40] [0000m.00s.437ms] [0] WELCOME
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] iCDB Server ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] Base flow version [7.9.3]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] GBS Install Id [23291], Flow Id [EE7.9.3], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Nov 1 2011]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] Machine [ESVM01]  User [student]  PID [168]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] Current working dir [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] PATH [C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.3EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.3EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] SDD_HOME [C:\MentorGraphics\7.9.3EE\SDD_HOME] on file system [NTFS]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] SDD_PLATFORM [win32]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.3EE\SDD_HOME\standard]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2012.03.12 11:50:40] [0000m.00s.437ms] [0] Creating database content backup before upgrade
+[2012.03.12 11:50:40] [0000m.00s.453ms] [0] Database content backed up to [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbback\2012-03-12 11.50.40-168.zip] of size [18 230 bytes (17.8 kB)] in [14ms 876us]
+[2012.03.12 11:50:40] [0000m.00s.468ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.16;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.03.12 11:50:40] [0000m.00s.500ms] [0] Upgrading snapshot [1:PCB] from version [2654]
+[2012.03.12 11:50:40] [0000m.00s.500ms] [1] CORE: Upgrade snapshot PCB completed successfully.
+[2012.03.12 11:50:40] [0000m.00s.500ms] [0] Snapshot [1:PCB] upgraded to version [2704] in [13ms 343us]
+[2012.03.12 11:50:40] [0000m.00s.500ms] [0] Upgrading constraint definitions for snapshot [1:PCB]
+[2012.03.12 11:50:40] [0000m.00s.515ms] [0] Constraint definitions for snapshot [1:PCB] upgraded in [9ms 86us]
+[2012.03.12 11:50:40] [0000m.00s.515ms] [0] Saving upgraded snapshot [1:PCB]
+[2012.03.12 11:50:40] [0000m.00s.515ms] [0] Upgraded snapshot [1:PCB] saved in [1ms 509us]
+[2012.03.12 11:50:40] [0000m.00s.546ms] [0] Upgrading snapshot [2:PCB_Layout_Temp] from version [2654]
+[2012.03.12 11:50:40] [0000m.00s.546ms] [1] CORE: Upgrade snapshot PCB_Layout_Temp completed successfully.
+[2012.03.12 11:50:40] [0000m.00s.546ms] [0] Snapshot [2:PCB_Layout_Temp] upgraded to version [2704] in [5ms 840us]
+[2012.03.12 11:50:40] [0000m.00s.546ms] [0] Upgrading constraint definitions for snapshot [2:PCB_Layout_Temp]
+[2012.03.12 11:50:40] [0000m.00s.546ms] [0] Constraint definitions for snapshot [2:PCB_Layout_Temp] upgraded in [144us]
+[2012.03.12 11:50:40] [0000m.00s.546ms] [0] Saving upgraded snapshot [2:PCB_Layout_Temp]
+[2012.03.12 11:50:40] [0000m.00s.546ms] [0] Upgraded snapshot [2:PCB_Layout_Temp] saved in [1ms 564us]
+[2012.03.12 11:50:40] [0000m.00s.562ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.23;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2012.03.12 11:50:40] [0000m.00s.578ms] [0] DONE
+[2012.03.12 11:50:40] [0000m.00s.578ms] [0] .

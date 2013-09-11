@@ -1,0 +1,80 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 108622344500 16bit
+DW sec_cntr
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+|Q builtin:1b_rip 1
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+|Q dx_ok_dgtl_clk:pls_cntr 1
+AS dx_ok_dgtl_clk:pls_cntr @NAME=pls_cntr
+AS dx_ok_dgtl_clk:pls_cntr PINORDER=CLOCK DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA ONE_SECOND Q[7:0] SYS_CLR
+AP dx_ok_dgtl_clk:pls_cntr 1 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 2 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 3 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 4 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 5 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 6 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 7 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 8 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 9 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 10 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 11 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 12 PINTYPE=IN
+AP dx_ok_dgtl_clk:pls_cntr 13 PINTYPE=OUT
+AP dx_ok_dgtl_clk:pls_cntr 14 PINTYPE=OUT
+AP dx_ok_dgtl_clk:pls_cntr 15 PINTYPE=IN
+|Q dx_ok_dgtl_clk:mod_59 1
+AS dx_ok_dgtl_clk:mod_59 @NAME=modulo_59
+AS dx_ok_dgtl_clk:mod_59 PINORDER=CLOCK DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA MODULO_60 Q[7:0] SYNC1 SYNC2 SYNC3 SYS_CLR
+AP dx_ok_dgtl_clk:mod_59 1 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 2 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 3 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 4 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 5 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 6 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 7 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 8 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 9 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 10 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 11 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 12 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 13 PINTYPE=OUT
+AP dx_ok_dgtl_clk:mod_59 14 PINTYPE=OUT
+AP dx_ok_dgtl_clk:mod_59 15 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 16 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 17 PINTYPE=IN
+AP dx_ok_dgtl_clk:mod_59 18 PINTYPE=IN
+AN DATA_[15:0] VLBUSISONSHEET=1
+AN DSPLY_DATA[15:0] VLBUSISONSHEET=1
+AN DSPLY_DATA[15:8] VLBUSISONSHEET=1
+AN DSPLY_DATA[7:0] VLBUSISONSHEET=1
+AN MODULO_60 NET_ALIAS=ONE_SECOND_PULSE
+AN SECOND_PULSE NET_ALIAS=MODULO_60
+P builtin:in CLOCK
+I CLOCK builtin:in CLOCK 
+P builtin:out MINUTE_PULSE
+I MINUTE_PULSE builtin:out MINUTE_PULSE 
+P builtin:out SECOND_PULSE
+I SECOND_PULSE builtin:out MODULO_60 
+P builtin:in ENT/ENP
+I ENT/ENP builtin:in ENT/ENP 
+P builtin:in RESET
+I RESET builtin:in RESET 
+P builtin:in LOAD
+I LOAD builtin:in LOAD 
+W dx_ok_dgtl_clk:pls_cntr $1I145
+I $1I145 dx_ok_dgtl_clk:pls_cntr CLOCK DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENT/ENP ENT/ENP LOAD ONE_SECOND_PULSE DSPLY_DATA[7:0] RESET STATUS=TBD`DESCRIPTION=Pulse counter for a digital clock;uses mod_59`
+W dx_ok_dgtl_clk:mod_59 $1I156
+I $1I156 dx_ok_dgtl_clk:mod_59 CLOCK DATA_8 DATA_9 DATA_10 DATA_11 DATA_12 DATA_13 DATA_14 DATA_15 ENT/ENP ONE_SECOND_PULSE LOAD MINUTE_PULSE DSPLY_DATA[15:8] ONE_SECOND_PULSE ONE_SECOND_PULSE ONE_SECOND_PULSE RESET STATUS=TBD`DESCRIPTION=Synchronous Modulo 60 counter; count 0 to 59; resets to zero on`
+P ? DATA_[15:0]
+I DATA_[15:0] ? DATA_[15:0]
+P ? DSPLY_DATA[15:0]
+I DSPLY_DATA[15:0] ? DSPLY_DATA[15:0]
+EW
+| Sch_Info - Net MODULO_60 has alias of ONE_SECOND_PULSE.
+| Sch_Info - Net SECOND_PULSE has alias of MODULO_60.

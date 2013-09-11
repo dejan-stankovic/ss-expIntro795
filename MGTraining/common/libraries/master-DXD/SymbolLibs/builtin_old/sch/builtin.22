@@ -1,0 +1,38 @@
+V 50
+K 171958726000 builtin
+Y 0
+D 0 0 1100 850
+Z 10
+i 5
+T 550 805 20 0 5 VIEWSIM BUILTINS PARTS - BUS RIPPERS
+T 450 250 10 0 5 * Note: For a full explanation of these bus rippers refer the Vi
++ ewdraw Reference Guide.
+T 820 570 10 0 5 (Bus or net)
+T 470 490 10 0 5 (Bus or net)
+T 820 590 10 0 5 Input pin A1
+T 470 510 10 0 5 Input pin A1
+T 120 450 10 0 5 Input pin A1
+T 890 20 14 0 5 ( BUILTIN.22 )
+I 5 builtin:8B_RIP 1 900 400 0 1 '
+X 3 0
+X 2 0
+X 5 0
+X 10 0
+X 9 0
+X 8 0
+X 7 0
+X 6 0
+X 4 0
+I 4 builtin:4B_RIP 1 550 400 0 1 '
+X 4 0
+X 6 0
+X 5 0
+X 2 0
+X 3 0
+I 3 builtin:1B_RIP 1 200 400 0 1 '
+X 3 0
+X 2 0
+T 550 765 20 0 5 REV 5.2-Alias builtin
+T 5 5 14 0 3 Copyright (c) 1985-1991 Viewlogic Systems, Inc.
+T 120 430 10 0 5 (Bus or net)
+E

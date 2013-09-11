@@ -1,0 +1,112 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 344661028400 hrs_cntr
+DW hrs_cntr
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+|Q dx_ok_dgtl_clk:8_bit 1
+AS dx_ok_dgtl_clk:8_bit @NAME=8_BIT
+AS dx_ok_dgtl_clk:8_bit PINORDER=CP DATA_0 DATA_1 DATA_2 DATA_3 DATA_4 DATA_5 DATA_6 DATA_7 ENP ENT LOAD_DATA Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 ~CLEAR
+AP dx_ok_dgtl_clk:8_bit 1 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 2 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 3 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 4 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 5 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 6 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 7 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 8 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 9 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 10 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 11 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 12 PINTYPE=IN
+AP dx_ok_dgtl_clk:8_bit 13 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 14 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 15 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 16 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 17 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 18 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 19 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 20 PINTYPE=OUT
+AP dx_ok_dgtl_clk:8_bit 21 PINTYPE=IN
+|Q mentor_74act:74act20 1
+AS mentor_74act:74act20 NC=3,11
+AS mentor_74act:74act20 PINSWAP=(A,B,C,D)
+AS mentor_74act:74act20 DEVICE=74ACT20
+AS mentor_74act:74act20 SIGNAL=VDD;14
+AS mentor_74act:74act20 SIGNAL=GND;7
+AS mentor_74act:74act20 PKG_TYPE=14PSOIC
+AS mentor_74act:74act20 PARTS=2
+AS mentor_74act:74act20 LEVEL=STD
+AS mentor_74act:74act20 REFDES=U?
+AS mentor_74act:74act20 @INTOOUT0=100:100:150
+AS mentor_74act:74act20 @INTOOUT1=90:90:150
+AS mentor_74act:74act20 PINORDER=A B C D Y
+AS mentor_74act:74act20 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act20 1 PINTYPE=IN
+AP mentor_74act:74act20 1 #=1,9
+AP mentor_74act:74act20 2 PINTYPE=IN
+AP mentor_74act:74act20 2 #=2,10
+AP mentor_74act:74act20 3 PINTYPE=IN
+AP mentor_74act:74act20 3 #=4,12
+AP mentor_74act:74act20 4 PINTYPE=IN
+AP mentor_74act:74act20 4 #=5,13
+AP mentor_74act:74act20 5 #=6,8
+AP mentor_74act:74act20 5 PINTYPE=OUT
+|Q mentor_74act:74act08 1
+AS mentor_74act:74act08 PINSWAP=(A,B)
+AS mentor_74act:74act08 SIGNAL=VDD;14
+AS mentor_74act:74act08 PKG_TYPE=14PSOIC
+AS mentor_74act:74act08 DEVICE=74ACT08
+AS mentor_74act:74act08 SIGNAL=GND;7
+AS mentor_74act:74act08 PARTS=4
+AS mentor_74act:74act08 LEVEL=STD
+AS mentor_74act:74act08 REFDES=U?
+AS mentor_74act:74act08 @INTOOUT0=100:100:200
+AS mentor_74act:74act08 @INTOOUT1=80:80:150
+AS mentor_74act:74act08 PINORDER=A B Y
+AS mentor_74act:74act08 INOV_VER_REC=19:06_2-4-04
+AP mentor_74act:74act08 1 #=1,4,9,12
+AP mentor_74act:74act08 1 PINTYPE=IN
+AP mentor_74act:74act08 2 #=2,5,10,13
+AP mentor_74act:74act08 2 PINTYPE=IN
+AP mentor_74act:74act08 3 PINTYPE=OUT
+AP mentor_74act:74act08 3 #=3,6,8,11
+AN DSPLY_DATA[7:0] VLBUSISONSHEET=1
+AN HR_MUX[7:0] VLBUSISONSHEET=1
+P builtin:in SYNC1
+I SYNC1 builtin:in SYNC1 
+P builtin:in SYNC2
+I SYNC2 builtin:in SYNC2 
+P builtin:in SYNC3
+I SYNC3 builtin:in SYNC3 
+W dx_ok_dgtl_clk:8_bit $1I34
+I $1I34 dx_ok_dgtl_clk:8_bit CLOCK HR_MUX0 HR_MUX1 HR_MUX2 HR_MUX3 HR_MUX4 HR_MUX5 HR_MUX6 HR_MUX7 ENP ENT $1N57 DSPLY_DATA0 DSPLY_DATA1 DSPLY_DATA2 DSPLY_DATA3 DSPLY_DATA4 DSPLY_DATA5 DSPLY_DATA6 DSPLY_DATA7 RESET STATUS=TBD`DESCRIPTION=8 bit synchronous binary counter`
+P builtin:in ENT
+I ENT builtin:in ENT 
+P builtin:in ENP
+I ENP builtin:in ENP 
+P builtin:in CLOCK
+I CLOCK builtin:in CLOCK 
+P builtin:in RESET
+I RESET builtin:in RESET 
+P builtin:in DSPLY_CNTRL
+I DSPLY_CNTRL builtin:in DSPLY_CNTRL 
+P builtin:in LOAD_DATA
+I LOAD_DATA builtin:in LOAD_DATA 
+W mentor_74act:74act20 $1I62
+I $1I62 mentor_74act:74act20 DSPLY_CNTRL SYNC1 SYNC2 SYNC3 $1N55 DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT20`REFDES=U?`
+API $1I62 mentor_74act:74act20 1 #=9
+API $1I62 mentor_74act:74act20 2 #=10
+API $1I62 mentor_74act:74act20 3 #=12
+API $1I62 mentor_74act:74act20 4 #=13
+API $1I62 mentor_74act:74act20 5 #=8
+W mentor_74act:74act08 $1I61
+I $1I61 mentor_74act:74act08 LOAD_DATA $1N55 $1N57 DXDB_LIBNAME=MENTOR_74ACT`PKG_TYPE=14PSOIC`DEVICE=74ACT08`REFDES=U?`
+API $1I61 mentor_74act:74act08 1 #=4
+API $1I61 mentor_74act:74act08 2 #=5
+API $1I61 mentor_74act:74act08 3 #=6
+P ? DSPLY_DATA[7:0]
+I DSPLY_DATA[7:0] ? DSPLY_DATA[7:0]
+EW

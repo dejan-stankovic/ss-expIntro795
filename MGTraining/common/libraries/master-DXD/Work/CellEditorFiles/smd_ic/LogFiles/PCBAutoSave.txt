@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                        07:19 AM Thursday, March 16, 2006
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\smd_ic\SO20W.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                        07:26 AM Thursday, March 16, 2006
+Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\smd_ic\SO20W.pcb
+

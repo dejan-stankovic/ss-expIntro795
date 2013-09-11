@@ -1,0 +1,59 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 251318497900 74ls90
+DW 74act90
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+M builtin:udfdl $1I222
+I $1I222 builtin:udfdl QC $1N223 $1N223 ? $1N105 $1N243 ? $1N241 ? ? TPHLCQ=@CKBTOQC0`TPLHCQ=@CKBTOQC1`TPHLCLQ=@SETTO90`TPHLRQ=@SETTO0`
+M builtin:udfdl $1I217
+I $1I217 builtin:udfdl QB $1N243 $1N202 ? $1N105 ~B ? $1N241 ? ? ACEDGE=0`TPOSC=@PWBCLK1`TNEGC=@PWBCLK0`TPLHCQN=@CKBTOQB1`TPHLCQN=@CKBTOQB0`TPHLRQ=@SETTO0`TPHLCLQ=@SETTO90`
+M builtin:and2 $1I175
+I $1I175 builtin:and2 $1N105 R01 R02 
+M builtin:and2 $1I171
+I $1I171 builtin:and2 $1N113 QC QB 
+M builtin:and2 $1I165
+I $1I165 builtin:and2 $1N241 R91 R92 
+M builtin:udfdl $1I166
+I $1I166 builtin:udfdl QA $1N199 $1N199 $1N241 $1N105 ~A ? ? ? ? TRECSC=@REC_SETTO9`TPULSES=@PW_SETTO9`TPLHSQ=@SETTO91`TPHLRQ=@SETTO0`TPHL=@CKATOQA0`TPLH=@CKATOQA1`TRECRC=@REC_SETTO0`TPULSER=@PW_SETTO0`TNEGC=@PWACLK0`TPOSC=@PWACLK1`ACEDGE=0`
+M builtin:udfdl $1I239
+I $1I239 builtin:udfdl QD $1N206 $1N113 $1N241 $1N105 ~B ? ? ? ? TPLHSQ=@SETTO91`TPHLRQ=@SETTO0`TPHLCQ=@CKBTOQD0`TPLHCQ=@CKBTOQD1`ACEDGE=0`
+M builtin:and2 $1I242
+I $1I242 builtin:and2 $1N202 $1N243 $1N206 
+P ? QD
+I QD ? QD
+P ? QA
+I QA ? QA
+P ? ~A
+I ~A ? ~A
+P ? R01
+I R01 ? R01
+P ? R02
+I R02 ? R02
+P ? R91
+I R91 ? R91
+P ? R92
+I R92 ? R92
+P ? ~B
+I ~B ? ~B
+P ? QB
+I QB ? QB
+P ? QC
+I QC ? QC
+EW

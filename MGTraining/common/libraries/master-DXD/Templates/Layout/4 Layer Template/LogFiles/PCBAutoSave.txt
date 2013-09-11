@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                     10:48 PM Wednesday, September 26, 2012
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                     10:48 PM Wednesday, September 26, 2012
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\template.pcb
+

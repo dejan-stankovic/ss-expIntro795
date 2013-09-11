@@ -1,0 +1,108 @@
+[2009.10.07 11:13:27] [0000m.00s.312ms] [0] WELCOME
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] iCDB Server ver.1.007, HvQ8kKCvhuzsBu5CD2LCWg, build:369282 created 2009-09-30 07:43:26, sources stamp:HvQ8kKCvhuzsBu5CD2LCWg
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] Copyright 2009 Mentor Graphics Corporation. All Rights Reserved.
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] Base flow version [2007.7]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] GBS Install Id [11783], Flow Id [EE2007.7], Full Flow Name[Expedition Enterprise Flow], Exact Access Date[Aug 1 2009]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] Machine [esvm01]  User [student]  PID [2332]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] Current working dir [C:\MGTraining\projects\PRACTICE\PCB]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] PATH [C:\MentorGraphics\2007.7EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\2007.7EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\2007.7EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\2007.7EE\SDD_HOME\common\win32\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/2007.7EE/MGC_HOME.ixn/bin;C:/MentorGraphics/2007.7EE/MGC_HOME.ixn/lib;C:\MentorGraphics\2007.7EE\MGC_HOME.ixn\bin;C:\MentorGraphics\2007.7EE\MGC_HOME.ixn\lib;]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] WDIR [C:\MGTraining\common\config\iCDB]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] SDD_HOME [C:\MentorGraphics\2007.7EE\SDD_HOME]
+[2009.10.07 11:13:27] [0000m.00s.312ms] [1] SDD_PLATFORM [win32]
+[2009.10.07 11:13:27] [0000m.00s.343ms] [2] S: Loading config files
+[2009.10.07 11:13:27] [0000m.00s.406ms] [1] Config: WARNING: Could not open config file [C:\MGTraining\projects\PRACTICE\database\cdbsvr\Server.cfg]
+[2009.10.07 11:13:27] [0000m.00s.406ms] [3] S: Config loaded
+[2009.10.07 11:13:27] [0000m.00s.437ms] [0] S: Single-user mode (auto)
+[2009.10.07 11:13:27] [0000m.00s.437ms] [0] S: Event polling mode autodetection
+[2009.10.07 11:13:27] [0000m.00s.484ms] [0] S: Started up automatically by iCDB Client: esvm01:student:1612
+[2009.10.07 11:13:27] [0000m.00s.484ms] [0] S: Auto close mode
+[2009.10.07 11:13:27] [0000m.00s.484ms] [0] S: Project [C:\MGTraining\projects\PRACTICE\database]
+[2009.10.07 11:13:27] [0000m.00s.484ms] [0] S: Database ID [e482-0e18-7c6f-00d3-8047-13ac-0471-3a40-a741-718f-2c8c-99c5]
+[2009.10.07 11:13:27] [0000m.00s.484ms] [0] S: START
+[2009.10.07 11:13:27] [0000m.00s.484ms] [0] S: Server startup lock file created
+[2009.10.07 11:13:27] [0000m.00s.796ms] [0] S: Listening for client connections on port [10000]
+[2009.10.07 11:13:27] [0000m.00s.796ms] [0] S: Server network ID [esvm01:192.168.247.131,esvm01:10000]
+[2009.10.07 11:13:27] [0000m.00s.796ms] [0] S: Server GUID [dba0-4dda-9b24-154b-74ad-ccab-4adc-ca40-24a1-718f-2c8c-99c5]
+[2009.10.07 11:13:27] [0000m.00s.828ms] [0] S: Project GUID [e482-0e18-7c6f-00d3-8047-13ac-0471-3a40-a741-718f-2c8c-99c5]
+[2009.10.07 11:13:27] [0000m.00s.843ms] [0] S: Wrote data to server address file
+[2009.10.07 11:13:27] [0000m.00s.859ms] [0] S: Server startup lock file removed
+[2009.10.07 11:13:29] [0000m.02s.687ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2009.10.07 11:13:29] [0000m.02s.687ms] [0] S: Local disc access time: 246 us
+[2009.10.07 11:13:29] [0000m.02s.687ms] [0] S: Filer access time: 173 us
+[2009.10.07 11:13:29] [0000m.02s.750ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2009.10.07 11:13:29] [0000m.02s.828ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2009.10.07 11:13:29] [0000m.02s.828ms] [0] SingleFile: [0d0b-8244-bc6d-d3e9] SFI version check [1008] [1008]
+[2009.10.07 11:13:29] [0000m.02s.937ms] [0] iCDB Server PI: Server & plugin session [411]
+[2009.10.07 11:13:29] [0000m.02s.937ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\PRACTICE\database]
+[2009.10.07 11:13:29] [0000m.02s.937ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\PRACTICE\database] opened
+[2009.10.07 11:13:29] [0000m.02s.937ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2009.10.07 11:13:29] [0000m.02s.937ms] [0] iCDB Server PI: Checking constraint definitions version
+[2009.10.07 11:13:30] [0000m.03s.718ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.6.4]
+[2009.10.07 11:13:30] [0000m.03s.718ms] [1] iCDB Storage Server: Backup snapshot: ProjectPath[C:\MGTraining\projects\PRACTICE\database] SnapshotID[1]
+[2009.10.07 11:13:30] [0000m.03s.765ms] [0] iCDB Storage Server Backup Thread: Backup snapshot: BackupPath[C:\MGTraining\projects\PRACTICE\database\cdbback\2009-10-07 11.13.30-2332.zip]
+[2009.10.07 11:13:30] [0000m.03s.843ms] [0] iCDB Storage Server Backup Thread: Backup snapshot DONE: Result[ Succeeded[TRUE]] BackupPath[C:\MGTraining\projects\PRACTICE\database\cdbback]
+[2009.10.07 11:13:31] [0000m.04s.062ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\2000000020000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.062ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\2000000020000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.078ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\4700000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.078ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\4700000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.093ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\e800000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.093ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\e800000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.109ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\6a00000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.109ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\6a00000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.109ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\9a00000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.125ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\9a00000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.140ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\4b00000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.140ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\4b00000010000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.140ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2009.10.07 11:13:31] [0000m.04s.218ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s2\cdbcnfgs\2000000020000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.218ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s2\cdbcnfgs\2000000020000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.234ms] [1] CORE: Upgrade snapshot DEMO_layout_temp completed successfully.
+[2009.10.07 11:13:31] [0000m.04s.281ms] [1] CORE: Applying a fix no 10 to atlas [C:\MGTraining\projects\PRACTICE\database\s3\cdbcnfgs\2000000020000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.281ms] [1] CORE: Atlas fixed successfully [C:\MGTraining\projects\PRACTICE\database\s3\cdbcnfgs\2000000020000050.blk\cesatl]
+[2009.10.07 11:13:31] [0000m.04s.296ms] [1] CORE: Upgrade snapshot DEMO completed successfully.
+[2009.10.07 11:13:31] [0000m.04s.437ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.7.1]
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\2000000020000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\4700000010000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\4b00000010000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\6a00000010000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\9a00000010000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.437ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s1\cdbcnfgs\e800000010000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.453ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s2\cdbcatlg\catlgatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.453ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s2\cdbcnfgs\2000000020000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.453ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s3\cdbcatlg\catlgatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.453ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\MGTraining\projects\PRACTICE\database\s3\cdbcnfgs\2000000020000050.blk\cesatl.v] - auto-saving it
+[2009.10.07 11:13:31] [0000m.04s.468ms] [0] iCDB Server PI: Initializing plugins
+[2009.10.07 11:13:31] [0000m.04s.578ms] [0] iCDB Server PI: Plugins initialized
+[2009.10.07 11:13:31] [0000m.04s.609ms] [0] S: iCDB database loaded
+[2009.10.07 11:13:31] [0000m.04s.609ms] [0] S: Starting threads
+[2009.10.07 11:13:31] [0000m.04s.609ms] [0] BT: Listening for broadcast messages on port [10000]
+[2009.10.07 11:13:31] [0000m.04s.609ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2009.10.07 11:13:31] [0000m.04s.687ms] [0] IT: Session [412] for host [esvm01] user [student] with process ID [1612] created
+[2009.10.07 11:13:31] [0000m.04s.687ms] [1] SC[412]: Registered sub-client [Expedition PCB_11425890] with ID [1] for session ID [412] host [esvm01] user [student] process ID [1612]
+[2009.10.07 11:13:31] [0000m.04s.718ms] [1] CMT: There are [1] clients now
+[2009.10.07 11:13:52] [0000m.25s.640ms] [1] SC[412]: Registered sub-client [ExpeditionCrossProber] with ID [2] for session ID [412] host [esvm01] user [student] process ID [1612]
+[2009.10.07 11:15:59] [0002m.32s.500ms] [1] SC[412]: UnRegistered sub-client [ExpeditionCrossProber] with ID [2] for session ID [412] host [esvm01] user [student] process ID [1612]
+[2009.10.07 11:15:59] [0002m.32s.921ms] [1] SC[412]: Registered sub-client [iCDBBackup] with ID [3] for session ID [412] host [esvm01] user [student] process ID [1612]
+[2009.10.07 11:15:59] [0002m.32s.953ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[1612] # SessionID[412]] # SubClientData[SubClientName[iCDBBackup] # SubClientID[3]]] ProjectPath[C:\MGTraining\projects\PRACTICE\database] BackupPath[C:\MGTraining\projects\PRACTICE\AutoBackup\1254939359\database] WithLogFiles[1] Overwrite[0]
+[2009.10.07 11:16:00] [0002m.33s.484ms] [1] SC[412]: UnRegistered sub-client [iCDBBackup] with ID [3] for session ID [412] host [esvm01] user [student] process ID [1612]
+[2009.10.07 11:16:00] [0002m.33s.609ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[esvm01] # ClientUserName[student] # ClientProcessID[1612] # SessionID[412]] # SubClientData[SubClientName[iCDBBackup] # SubClientID[3]]] BackupPath[C:\MGTraining\projects\PRACTICE\AutoBackup\1254939359] WithLogFiles[1] Overwrite[0]
+[2009.10.07 11:16:00] [0002m.33s.718ms] [1] SC[412]: UnRegistered sub-client [Expedition PCB_11425890] with ID [1] for session ID [412] host [esvm01] user [student] process ID [1612]
+[2009.10.07 11:16:00] [0002m.33s.765ms] [1] CMT: Removed client [412]
+[2009.10.07 11:16:00] [0002m.33s.765ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2009.10.07 11:16:02] [0002m.35s.078ms] [0] CMT: Starting server auto-close
+[2009.10.07 11:16:02] [0002m.35s.109ms] [0] S: Closing server
+[2009.10.07 11:16:02] [0002m.35s.234ms] [0] iCDB Server PI: Closing plugins
+[2009.10.07 11:16:02] [0002m.35s.234ms] [0] iCDB Server PI: Plugins closed
+[2009.10.07 11:16:02] [0002m.35s.234ms] [0] iCDB Server PI: Unloading database
+[2009.10.07 11:16:02] [0002m.35s.234ms] [0] iCDB Server PI: Saving storage
+[2009.10.07 11:16:02] [0002m.35s.250ms] [0] iCDB Server PI: Closing database
+[2009.10.07 11:16:02] [0002m.35s.250ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[11%] data[92%]
+[2009.10.07 11:16:02] [0002m.35s.250ms] [1] iCDB Server PI: Stats: Database file size [286512] bytes
+[2009.10.07 11:16:02] [0002m.35s.343ms] [0] iCDB Server PI: Database closed
+[2009.10.07 11:16:02] [0002m.35s.343ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [214894] ticks
+[2009.10.07 11:16:02] [0002m.35s.343ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [60033] microseconds
+[2009.10.07 11:16:02] [0002m.35s.343ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [4]
+[2009.10.07 11:16:02] [0002m.35s.343ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [66] commands per second
+[2009.10.07 11:16:02] [0002m.35s.453ms] [0] S: STOP

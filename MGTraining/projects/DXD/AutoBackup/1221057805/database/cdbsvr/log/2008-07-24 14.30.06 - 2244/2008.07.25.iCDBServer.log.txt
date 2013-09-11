@@ -1,0 +1,20 @@
+[2008.07.25 07:02:23] [0992m.16s.829ms] [1] SC[242]: UnRegistered sub-client [Navigator] with ID [5] for session ID [242] host [esvm01] user [student] process ID [2756]
+[2008.07.25 07:02:24] [0992m.17s.845ms] [1] SC[242]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [242] host [esvm01] user [student] process ID [2756]
+[2008.07.25 07:02:24] [0992m.17s.860ms] [1] SC[242]: UnRegistered sub-client [SAE] with ID [8] for session ID [242] host [esvm01] user [student] process ID [2756]
+[2008.07.25 07:02:24] [0992m.18s.329ms] [1] SC[242]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [242] host [esvm01] user [student] process ID [2756]
+[2008.07.25 07:02:25] [0992m.19s.407ms] [1] SC[242]: UnRegistered sub-client [PlaceDevice] with ID [6] for session ID [242] host [esvm01] user [student] process ID [2756]
+[2008.07.25 07:02:26] [0992m.19s.892ms] [1] CMT: Removed client [242]
+[2008.07.25 07:02:26] [0992m.19s.907ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2008.07.25 07:02:28] [0992m.21s.595ms] [0] CMT: Starting server auto-close
+[2008.07.25 07:02:28] [0992m.21s.704ms] [0] S: Closing server
+[2008.07.25 07:02:28] [0992m.21s.829ms] [0] iCDB Server PI: Closing plugins
+[2008.07.25 07:02:28] [0992m.21s.829ms] [0] iCDB Server PI: Plugins closed
+[2008.07.25 07:02:28] [0992m.21s.923ms] [0] iCDB Server PI: Unloading database
+[2008.07.25 07:02:28] [0992m.21s.923ms] [0] iCDB Server PI: Saving storage
+[2008.07.25 07:02:28] [0992m.21s.923ms] [0] iCDB Server PI: Closing database
+[2008.07.25 07:02:28] [0992m.22s.157ms] [0] iCDB Server PI: Database closed
+[2008.07.25 07:02:28] [0992m.22s.157ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [7159041] ticks
+[2008.07.25 07:02:28] [0992m.22s.157ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1999986] microseconds
+[2008.07.25 07:02:28] [0992m.22s.157ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [227]
+[2008.07.25 07:02:28] [0992m.22s.157ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [113] commands per second
+[2008.07.25 07:02:29] [0992m.22s.985ms] [0] S: STOP

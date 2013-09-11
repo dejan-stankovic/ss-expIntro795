@@ -1,0 +1,94 @@
+[2013.04.30 13:42:34] [0000m.05s.608ms] [0] WELCOME
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] iCDB Server ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] Base flow version [7.9.4]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] Machine [ESVM01]  User [student]  PID [2696]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] SDD_PLATFORM [win32]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] WDIR [c:\WDIR;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [1] Local iCDB working dir [c:\WDIR\iCDB] on file system [NTFS]
+[2013.04.30 13:42:34] [0000m.05s.608ms] [0] Creating database content backup before upgrade
+[2013.04.30 13:42:35] [0000m.05s.795ms] [0] Database content backed up to [C:\MGTraining\projects\DXD\database\cdbback\2013-04-30 13.42.34-2696.zip] of size [306 027 bytes (298.9 kB)] in [181ms 560us]
+[2013.04.30 13:42:35] [0000m.05s.795ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8]
+[2013.04.30 13:42:35] [0000m.05s.827ms] [0] Loading snapshot [1:DxD] version [2709]
+[2013.04.30 13:42:35] [0000m.05s.889ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.05s.905ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.05s.920ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.05s.967ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.045ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.186ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.264ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.295ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.326ms] [0] Snapshot [1:DxD] loaded in [497ms 153us]
+[2013.04.30 13:42:35] [0000m.06s.326ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2013.04.30 13:42:35] [0000m.06s.342ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [18ms 54us]
+[2013.04.30 13:42:35] [0000m.06s.342ms] [0] Saving snapshot [1:DxD]
+[2013.04.30 13:42:35] [0000m.06s.389ms] [0] Snapshot [1:DxD] saved in [47ms 308us]
+[2013.04.30 13:42:35] [0000m.06s.608ms] [0] Loading snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] version [2709]
+[2013.04.30 13:42:35] [0000m.06s.608ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.608ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.608ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.623ms] [0] Snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] loaded in [14ms 938us]
+[2013.04.30 13:42:35] [0000m.06s.623ms] [0] Upgrading constraint definitions for snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]]
+[2013.04.30 13:42:35] [0000m.06s.623ms] [0] Constraint definitions for snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] upgraded in [3ms 854us]
+[2013.04.30 13:42:35] [0000m.06s.623ms] [0] Saving snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]]
+[2013.04.30 13:42:35] [0000m.06s.639ms] [0] Snapshot [2:_savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]] saved in [8ms 698us]
+[2013.04.30 13:42:35] [0000m.06s.639ms] [0] Loading snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] version [2709]
+[2013.04.30 13:42:35] [0000m.06s.655ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.655ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.655ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.655ms] [0] Snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] loaded in [10ms 425us]
+[2013.04.30 13:42:35] [0000m.06s.655ms] [0] Upgrading constraint definitions for snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]]
+[2013.04.30 13:42:35] [0000m.06s.655ms] [0] Constraint definitions for snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] upgraded in [4ms 75us]
+[2013.04.30 13:42:35] [0000m.06s.655ms] [0] Saving snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]]
+[2013.04.30 13:42:35] [0000m.06s.670ms] [0] Snapshot [3:_savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]] saved in [8ms 500us]
+[2013.04.30 13:42:35] [0000m.06s.686ms] [0] Loading snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] version [2709]
+[2013.04.30 13:42:35] [0000m.06s.686ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.686ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.701ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.701ms] [0] Snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] loaded in [15ms 741us]
+[2013.04.30 13:42:35] [0000m.06s.701ms] [0] Upgrading constraint definitions for snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]]
+[2013.04.30 13:42:35] [0000m.06s.701ms] [0] Constraint definitions for snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] upgraded in [2ms 297us]
+[2013.04.30 13:42:35] [0000m.06s.701ms] [0] Saving snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]]
+[2013.04.30 13:42:35] [0000m.06s.717ms] [0] Snapshot [4:_savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]] saved in [8ms 528us]
+[2013.04.30 13:42:35] [0000m.06s.717ms] [0] Loading snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] version [2709]
+[2013.04.30 13:42:35] [0000m.06s.733ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.733ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.733ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:35] [0000m.06s.733ms] [0] Snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] loaded in [12ms 238us]
+[2013.04.30 13:42:35] [0000m.06s.733ms] [0] Upgrading constraint definitions for snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]]
+[2013.04.30 13:42:35] [0000m.06s.748ms] [0] Constraint definitions for snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] upgraded in [2ms 760us]
+[2013.04.30 13:42:35] [0000m.06s.748ms] [0] Saving snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]]
+[2013.04.30 13:42:35] [0000m.06s.748ms] [0] Snapshot [5:_savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]] saved in [9ms 571us]
+[2013.04.30 13:42:36] [0000m.06s.764ms] [0] Loading snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] version [2709]
+[2013.04.30 13:42:36] [0000m.06s.764ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.764ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.764ms] [0] Snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] loaded in [7ms 370us]
+[2013.04.30 13:42:36] [0000m.06s.764ms] [0] Upgrading constraint definitions for snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]]
+[2013.04.30 13:42:36] [0000m.06s.764ms] [0] Constraint definitions for snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] upgraded in [1ms 929us]
+[2013.04.30 13:42:36] [0000m.06s.764ms] [0] Saving snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]]
+[2013.04.30 13:42:36] [0000m.06s.780ms] [0] Snapshot [6:_savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]] saved in [5ms 927us]
+[2013.04.30 13:42:36] [0000m.06s.780ms] [0] Loading snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] version [2709]
+[2013.04.30 13:42:36] [0000m.06s.795ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.795ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.795ms] [0] Snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] loaded in [8ms 659us]
+[2013.04.30 13:42:36] [0000m.06s.795ms] [0] Upgrading constraint definitions for snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]]
+[2013.04.30 13:42:36] [0000m.06s.795ms] [0] Constraint definitions for snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] upgraded in [1ms 904us]
+[2013.04.30 13:42:36] [0000m.06s.795ms] [0] Saving snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]]
+[2013.04.30 13:42:36] [0000m.06s.811ms] [0] Snapshot [7:_savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]] saved in [6ms 99us]
+[2013.04.30 13:42:36] [0000m.06s.811ms] [0] Loading snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] version [2709]
+[2013.04.30 13:42:36] [0000m.06s.811ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.826ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.826ms] [1] CORE: Fix: cleared overlapping drawing order!
+[2013.04.30 13:42:36] [0000m.06s.826ms] [0] Snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] loaded in [11ms 76us]
+[2013.04.30 13:42:36] [0000m.06s.826ms] [0] Upgrading constraint definitions for snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]]
+[2013.04.30 13:42:36] [0000m.06s.826ms] [0] Constraint definitions for snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] upgraded in [2ms 524us]
+[2013.04.30 13:42:36] [0000m.06s.826ms] [0] Saving snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]]
+[2013.04.30 13:42:36] [0000m.06s.842ms] [0] Snapshot [8:_savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]] saved in [9ms 65us]
+[2013.04.30 13:42:36] [0000m.06s.842ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.24;user.cns=5e0b-ea27-b28c-45b9-5092-081a-0920-8150-1001-718f-2c7c-0ac5]
+[2013.04.30 13:42:36] [0000m.06s.858ms] [0] DONE
+[2013.04.30 13:42:36] [0000m.06s.858ms] [0] .

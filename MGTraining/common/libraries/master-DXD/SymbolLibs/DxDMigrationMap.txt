@@ -1,0 +1,3 @@
+C:\MGTraining\common\libraries\DxDLibs\74act,C:\MGTraining\common\libraries\master-DXD\SymbolLibs\mentor_74act
+C:\MGTraining\projects\ram_controller_fpga,C:\MGTraining\common\libraries\master-DXD\SymbolLibs\programmables
+C:\MGTraining\common\libraries\DxDLibs\dxdb\programmables,C:\MGTraining\common\libraries\master-DXD\SymbolLibs\programmables

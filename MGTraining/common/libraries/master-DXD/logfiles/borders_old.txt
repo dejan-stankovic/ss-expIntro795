@@ -1,0 +1,36 @@
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing borders_old
+	Adding symbol bsheet 
+	Adding symbol csheet 
+	Adding symbol dsheet 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing borders_old
+	Adding symbol bsheet 
+	Adding symbol csheet 
+	Adding symbol dsheet 
+DXLIB2LMC utility complete
+
+
+
+	DXLIB2LMC  -  Add DX Symbol Information to LMC. Version 16.4.0.0
+	(c) Copyright Mentor Graphics Corporation 2007.
+	All Rights Reserved.
+
+Processing borders_old
+	Adding symbol bsheet 
+	Adding symbol csheet 
+	Adding symbol dsheet 
+DXLIB2LMC utility complete

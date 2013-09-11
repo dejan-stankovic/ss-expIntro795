@@ -1,0 +1,39 @@
+
+Schematic unused pins from : Packager  12-Mar-2012  08:51
+
+------------------------------------------------------------------------
+            Part/Reference             |          Unused pins
+                                       |  (G) - Gate, (P) - Partial Gate
+------------------------------------------------------------------------
+ Part CAP-SMD0603-100P                 |
+ Part CAP-SMD0805-5P                   |
+ Part CAP-SMD1206-10P                  |
+ Part CTX071-ND                        |
+ Part ECONN44X50                       |
+  J1                                   | (P)  33 38 36 42 34 41 37 35
+ Part OP215A                           |
+ Part PCAP-SM7343-100U                 |
+ Part RES-SMD1206-3K                   |
+ Part RES-SMD1206-100K                 |
+ Part 9P_PCONN                         |
+ Part 54ALS1008_LCC                    |
+  U7                                   | (P)  4
+ Part 74ALS00_SOP                      |
+ Part 74ALS04_SOP                      |
+  U14                                  | (P)  2
+  U14                                  | (P)  4
+ Part 74ALS30_SOP                      |
+ Part 74ALS32_SOP                      |
+ Part 74ALS49_SOP                      |
+  U17                                  | (P)  12
+ Part 74ALS187_DIP                     |
+ Part 74ALS240_SOP                     |
+ Part 74ALS655_SOP                     |
+  U9                                   | (P)  21 22
+  U10                                  | (P)  21 22
+  U11                                  | (P)  21 22
+  U12                                  | (P)  21 22
+ Part 3296P-103-ND                     |
+ Part 4310R-1-103-ND                   |
+  RN1                                  | (P)  10
+  RN2                                  | (P)  10

@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                       02:39 PM Monday, February 04, 2008
+Job Name: C:\MGTraining\projects\DEMO\PCB\Output\Drawings\Fabrication\fab_drawing.mdf
+
+
+                               Autosave log closed
+                               -------------------
+
+                       06:29 AM Tuesday, February 05, 2008
+Job Name: C:\MGTraining\projects\DEMO\PCB\Output\Drawings\Fabrication\fab_drawing.mdf
+

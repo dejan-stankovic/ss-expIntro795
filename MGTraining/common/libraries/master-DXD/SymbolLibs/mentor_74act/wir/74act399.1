@@ -1,0 +1,97 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 192273619700 74ls399
+DW 74act399
+Q Case
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:andnor22 1
+AS builtin:andnor22 PINORDER=Q A B C D
+AP builtin:andnor22 1 PINTYPE=OUT
+AP builtin:andnor22 2 PINTYPE=IN
+AP builtin:andnor22 3 PINTYPE=IN
+AP builtin:andnor22 4 PINTYPE=IN
+AP builtin:andnor22 5 PINTYPE=IN
+M builtin:udfdl $1I159
+I $1I159 builtin:udfdl ? 4Q $1N21 ? ? CLK ? ? ? ? TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`
+M builtin:udfdl $1I158
+I $1I158 builtin:udfdl ? 3Q $1N18 ? ? CLK ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`
+M builtin:udfdl $1I157
+I $1I157 builtin:udfdl ? 2Q $1N24 ? ? CLK ? ? ? ? TPLHCQN=@CLKTOQN1`TPHLCQN=@CLKTOQN0`
+M builtin:shre $1I131
+I $1I131 builtin:shre CLK 1B THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I135
+I $1I135 builtin:shre CLK 2A THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I136
+I $1I136 builtin:shre CLK 2B TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I138
+I $1I138 builtin:shre CLK 4A TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I141
+I $1I141 builtin:shre CLK 3A THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:not $1I143
+I $1I143 builtin:not $1N7 S 
+M builtin:shre $1I142
+I $1I142 builtin:shre CLK 3B TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:shre $1I137
+I $1I137 builtin:shre CLK 4B THOLD=@TH_DATA`TSU=@TS_DATA`
+M builtin:shre $1I154
+I $1I154 builtin:shre CLK S TSU=@TS_SEL`THOLD=@TH_SEL`
+M builtin:shre $1I132
+I $1I132 builtin:shre CLK 1A TSU=@TS_DATA`THOLD=@TH_DATA`
+M builtin:udfdl $1I127
+I $1I127 builtin:udfdl ? 1Q $1N27 ? ? CLK ? ? ? ? TPHLCQN=@CLKTOQN0`TPLHCQN=@CLKTOQN1`TNEGC=@PWCLK0`TPOSC=@PWCLK1`
+M builtin:andnor22 $1I163
+I $1I163 builtin:andnor22 $1N24 2A $1N7 2B S 
+M builtin:andnor22 $1I164
+I $1I164 builtin:andnor22 $1N18 3A $1N7 3B S 
+M builtin:andnor22 $1I165
+I $1I165 builtin:andnor22 $1N21 4A $1N7 4B S 
+M builtin:andnor22 $1I133
+I $1I133 builtin:andnor22 $1N27 1A $1N7 1B S 
+P ? 1Q
+I 1Q ? 1Q
+P ? S
+I S ? S
+P ? 4Q
+I 4Q ? 4Q
+P ? 1B
+I 1B ? 1B
+P ? 1A
+I 1A ? 1A
+P ? 2A
+I 2A ? 2A
+P ? 3A
+I 3A ? 3A
+P ? 4A
+I 4A ? 4A
+P ? 2B
+I 2B ? 2B
+P ? 3B
+I 3B ? 3B
+P ? 4B
+I 4B ? 4B
+P ? 2Q
+I 2Q ? 2Q
+P ? 3Q
+I 3Q ? 3Q
+P ? CLK
+I CLK ? CLK
+EW

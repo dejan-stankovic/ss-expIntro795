@@ -1,0 +1,195 @@
+| Wirelist created using version 5.4.
+V 5.4
+K 92545808890 74ls162a
+DW 74act162a
+Q Case
+|Q builtin:shre 1
+AS builtin:shre PINORDER=REF DATA
+AP builtin:shre 1 PINTYPE=IN
+AP builtin:shre 2 PINTYPE=IN
+|Q builtin:udfdl 1
+AS builtin:udfdl PINORDER=Q QN D S R CK PRE CLR PD PE
+AP builtin:udfdl 1 PINTYPE=OUT
+AP builtin:udfdl 2 PINTYPE=OUT
+AP builtin:udfdl 3 PINTYPE=IN
+AP builtin:udfdl 4 PINTYPE=IN
+AP builtin:udfdl 5 PINTYPE=IN
+AP builtin:udfdl 6 PINTYPE=IN
+AP builtin:udfdl 7 PINTYPE=IN
+AP builtin:udfdl 8 PINTYPE=IN
+AP builtin:udfdl 9 PINTYPE=IN
+AP builtin:udfdl 10 PINTYPE=IN
+|Q builtin:or3 1
+AS builtin:or3 PINORDER=Q A B C
+AP builtin:or3 1 PINTYPE=OUT
+AP builtin:or3 2 PINTYPE=IN
+AP builtin:or3 3 PINTYPE=IN
+AP builtin:or3 4 PINTYPE=IN
+|Q builtin:dand4 1
+AS builtin:dand4 PINORDER=Q QN A B C D
+AP builtin:dand4 1 PINTYPE=OUT
+AP builtin:dand4 2 PINTYPE=OUT
+AP builtin:dand4 3 PINTYPE=IN
+AP builtin:dand4 4 PINTYPE=IN
+AP builtin:dand4 5 PINTYPE=IN
+AP builtin:dand4 6 PINTYPE=IN
+|Q builtin:and3 1
+AS builtin:and3 PINORDER=Q A B C
+AP builtin:and3 1 PINTYPE=OUT
+AP builtin:and3 2 PINTYPE=IN
+AP builtin:and3 3 PINTYPE=IN
+AP builtin:and3 4 PINTYPE=IN
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+|Q builtin:and4 1
+AS builtin:and4 PINORDER=Q A B C D
+AP builtin:and4 1 PINTYPE=OUT
+AP builtin:and4 2 PINTYPE=IN
+AP builtin:and4 3 PINTYPE=IN
+AP builtin:and4 4 PINTYPE=IN
+AP builtin:and4 5 PINTYPE=IN
+|Q builtin:nand3 1
+AS builtin:nand3 PINORDER=QN A B C
+AP builtin:nand3 1 PINTYPE=OUT
+AP builtin:nand3 2 PINTYPE=IN
+AP builtin:nand3 3 PINTYPE=IN
+AP builtin:nand3 4 PINTYPE=IN
+|Q builtin:and8 1
+AS builtin:and8 PINORDER=Q A B C D E F G H
+AP builtin:and8 1 PINTYPE=OUT
+AP builtin:and8 2 PINTYPE=IN
+AP builtin:and8 3 PINTYPE=IN
+AP builtin:and8 4 PINTYPE=IN
+AP builtin:and8 5 PINTYPE=IN
+AP builtin:and8 6 PINTYPE=IN
+AP builtin:and8 7 PINTYPE=IN
+AP builtin:and8 8 PINTYPE=IN
+AP builtin:and8 9 PINTYPE=IN
+|Q builtin:nor2 1
+AS builtin:nor2 PINORDER=QN A B
+AP builtin:nor2 1 PINTYPE=OUT
+AP builtin:nor2 2 PINTYPE=IN
+AP builtin:nor2 3 PINTYPE=IN
+|Q builtin:nand2 1
+AS builtin:nand2 PINORDER=QN A B
+AP builtin:nand2 1 PINTYPE=OUT
+AP builtin:nand2 2 PINTYPE=IN
+AP builtin:nand2 3 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+|Q builtin:delay 1
+AS builtin:delay PINORDER=OUT IN
+AP builtin:delay 1 PINTYPE=TRI
+AP builtin:delay 2 PINTYPE=IN
+M builtin:shre $1I397
+I $1I397 builtin:shre CK ENT THOLD=@THOLD_ENT`TSU=@TSU_ENT`
+M builtin:shre $1I359
+I $1I359 builtin:shre CK ENP TSU=@TSU_ENP`THOLD=@THOLD_ENP`
+M builtin:shre $1I361
+I $1I361 builtin:shre CK ~CLR THOLD=@THOLD_CLR`TSU=@TSU_CLR`
+M builtin:shre $1I360
+I $1I360 builtin:shre CK ~LOAD TSU=@TSU_LOAD`THOLD=@THOLD_LOAD`
+M builtin:shre $1I362
+I $1I362 builtin:shre CK A TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:udfdl $1I403
+I $1I403 builtin:udfdl QA $1N48 $1N186 ? ? CK ? ? ? ? TPOSC=@CLK_PULSE1`TNEGC=@CLK_PULSE0`TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPLHCQN=@CLKTORCO0`TPHLCQN=@CLKTORCO1`
+M builtin:or3 $1I379
+I $1I379 builtin:or3 $1N149 $1N133 $1N143 $1N128 
+M builtin:dand4 $1I394
+I $1I394 builtin:dand4 $1N285 $1N97 ~CLR ~LOAD ENP ENT 
+M builtin:or3 $1I383
+I $1I383 builtin:or3 $1N175 $1N167 $1N172 $1N162 
+M builtin:and3 $1I372
+I $1I372 builtin:and3 RCO $1N201 $1N206 $1N411 
+M builtin:not $1I396
+I $1I396 builtin:not $1N315 ~CLR 
+M builtin:and3 $1I381
+I $1I381 builtin:and3 $1N167 QB $1N159 $1N222 
+M builtin:and4 $1I382
+I $1I382 builtin:and4 $1N172 QA $1N285 $1N74 $1N152 
+M builtin:and4 $1I378
+I $1I378 builtin:and4 $1N143 QB QA $1N285 $1N194 
+M builtin:nand3 $1I375
+I $1I375 builtin:nand3 $1N120 QB QA $1N285 
+M builtin:and3 $1I377
+I $1I377 builtin:and3 $1N133 QC $1N120 $1N222 
+M builtin:and3 $1I370
+I $1I370 builtin:and3 $1N138 QD $1N117 $1N222 
+M builtin:and8 $1I367
+I $1I367 builtin:and8 $1N69 ? QC QB $1N285 $1N74 QA ? ? FLOATVAL = 1`
+M builtin:or3 $1I387
+I $1I387 builtin:or3 $1N186 $1N181 $1N178 $1N189 
+M builtin:and3 $1I385
+I $1I385 builtin:and3 $1N181 QA $1N222 $1N97 
+M builtin:nor2 $1I395
+I $1I395 builtin:nor2 $1N302 $1N315 ~LOAD 
+M builtin:nor2 $1I393
+I $1I393 builtin:nor2 $1N222 $1N315 $1N302 
+M builtin:nand2 $1I392
+I $1I392 builtin:nand2 $1N159 QA $1N285 
+M builtin:and2 $1I386
+I $1I386 builtin:and2 $1N178 $1N285 $1N48 
+M builtin:and2 $1I384
+I $1I384 builtin:and2 $1N189 $1N302 A 
+M builtin:and2 $1I380
+I $1I380 builtin:and2 $1N162 $1N302 B 
+M builtin:and2 $1I376
+I $1I376 builtin:and2 $1N128 $1N302 C 
+M builtin:and2 $1I371
+I $1I371 builtin:and2 $1N123 $1N302 D 
+M builtin:nand2 $1I369
+I $1I369 builtin:nand2 $1N117 QA $1N285 
+M builtin:shre $1I365
+I $1I365 builtin:shre CK D TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:shre $1I364
+I $1I364 builtin:shre CK C TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:shre $1I363
+I $1I363 builtin:shre CK B TSU=@TSU_DATA`THOLD=@THOLD_DATA`
+M builtin:udfdl $1I406
+I $1I406 builtin:udfdl QB $1N152 $1N175 ? ? CK ? ? ? ? TPHLCQN=@CLKTORCO1`TPLHCQN=@CLKTORCO0`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`
+M builtin:or3 $1I368
+I $1I368 builtin:or3 $1N146 $1N138 $1N69 $1N123 
+M builtin:udfdl $1I404
+I $1I404 builtin:udfdl QD $1N74 $1N146 ? ? CK ? ? ? ? TPHLCQN=@CLKTORCO1`TPLHCQN=@CLKTORCO0`TPHLCQ=@CLKTOQ0`TPLHCQ=@CLKTOQ1`
+M builtin:udfdl $1I405
+I $1I405 builtin:udfdl QC $1N194 $1N149 ? ? CK ? ? ? ? TPLHCQ=@CLKTOQ1`TPHLCQ=@CLKTOQ0`TPLHCQN=@CLKTORCO0`TPHLCQN=@CLKTORCO1`
+M builtin:not $1I374
+I $1I374 builtin:not $1N206 $1N48 
+M builtin:not $1I373
+I $1I373 builtin:not $1N201 $1N74 
+M builtin:delay $1I408
+I $1I408 builtin:delay $1N411 ENT TPLH=@ENTTORCO1`TPHL=@ENTTORCO0`
+P ? ENT
+I ENT ? ENT
+P ? ENP
+I ENP ? ENP
+P ? ~CLR
+I ~CLR ? ~CLR
+P ? CK
+I CK ? CK
+P ? RCO
+I RCO ? RCO
+P ? A
+I A ? A
+P ? QD
+I QD ? QD
+P ? B
+I B ? B
+P ? C
+I C ? C
+P ? D
+I D ? D
+P ? ~LOAD
+I ~LOAD ? ~LOAD
+P ? QC
+I QC ? QC
+P ? QB
+I QB ? QB
+P ? QA
+I QA ? QA
+EW

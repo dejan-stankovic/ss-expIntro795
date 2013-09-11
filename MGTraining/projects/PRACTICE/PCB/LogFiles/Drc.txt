@@ -1,0 +1,922 @@
+
+                                DRC - Plane Data
+                                ----------------
+
+                      03:36 PM Wednesday, January 23, 2008
+               Job Name: C:\MGTraining\projects\DEMO\PCB\DEMO.pcb
+
+
+    ---------
+    PROXIMITY
+    ---------
+    
+    Use DRC Window                   : NO
+
+
+    Disable Same Cell Pad-Pad Checks : YES
+
+
+    Enable Same Net Pad-Pad Checks   : YES
+
+    
+    Layers Specifed To Check         : Layer 1
+                                       Layer 2
+                                       Layer 5
+                                       Layer 6
+
+
+
+
+    Net Class Clearances And Rules
+    ------------------------------
+
+        Components Top TO Components Top
+            No Hazards.
+
+        Traces Layer 1 TO Traces Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Mounting Hole Pads Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Part Pads SMD Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Part Pads Thru Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Part Holes Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Via Pads Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Mounting Hole Pads Layer 1
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Part Pads SMD Layer 1
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Part Pads Thru Layer 1
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Part Holes Layer 1
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Via Pads Layer 1
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Part Pads SMD Layer 1 TO Part Pads SMD Layer 1
+            No Hazards.
+
+        Part Pads SMD Layer 1 TO Part Pads Thru Layer 1
+            No Hazards.
+
+        Part Pads SMD Layer 1 TO Part Holes Layer 1
+            No Hazards.
+
+        Part Pads SMD Layer 1 TO Via Pads Layer 1
+            No Hazards.
+
+        Part Pads SMD Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Part Pads Thru Layer 1 TO Part Pads Thru Layer 1
+            No Hazards.
+
+        Part Pads Thru Layer 1 TO Part Holes Layer 1
+            No Hazards.
+
+        Part Pads Thru Layer 1 TO Via Pads Layer 1
+            No Hazards.
+
+        Part Pads Thru Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Part Holes Layer 1 TO Via Pads Layer 1
+            No Hazards.
+
+        Part Holes Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Via Pads Layer 1 TO Via Pads Layer 1
+            No Hazards.
+
+        Via Pads Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Via Holes Layer 1 TO Via Holes Layer 1
+            No Hazards.
+
+        Traces Layer 1 TO Edge Connector Pads Top
+            No Hazards.
+
+        Edge Connector Pads Top TO Edge Connector Pads Top
+            No Hazards.
+
+        Edge Connector Pads Top TO Mounting Hole Pads Layer 1
+            No Hazards.
+
+        Edge Connector Pads Top TO Part Pads SMD Layer 1
+            No Hazards.
+
+        Edge Connector Pads Top TO Part Pads Thru Layer 1
+            No Hazards.
+
+        Edge Connector Pads Top TO Part Holes Layer 1
+            No Hazards.
+
+        Edge Connector Pads Top TO Via Pads Layer 1
+            No Hazards.
+
+        Edge Connector Pads Top TO Via Holes Layer 1
+            No Hazards.
+
+        Traces Layer 2 TO Traces Layer 2
+            No Hazards.
+
+        Traces Layer 2 TO Differential Pair Traces Layer 2
+            No Hazards.
+
+        Traces Layer 2 TO Mounting Hole Pads Layer 2
+            No Hazards.
+
+        Traces Layer 2 TO Part Pads Thru Layer 2
+            No Hazards.
+
+        Traces Layer 2 TO Part Holes Layer 2
+            No Hazards.
+
+        Traces Layer 2 TO Via Pads Layer 2
+            No Hazards.
+
+        Traces Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Differential Pair Traces Layer 2 TO Mounting Hole Pads Layer 2
+            No Hazards.
+
+        Differential Pair Traces Layer 2 TO Part Pads Thru Layer 2
+            No Hazards.
+
+        Differential Pair Traces Layer 2 TO Part Holes Layer 2
+            No Hazards.
+
+        Differential Pair Traces Layer 2 TO Via Pads Layer 2
+            No Hazards.
+
+        Differential Pair Traces Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Mounting Hole Pads Layer 2 TO Mounting Hole Pads Layer 2
+            No Hazards.
+
+        Mounting Hole Pads Layer 2 TO Part Pads Thru Layer 2
+            No Hazards.
+
+        Mounting Hole Pads Layer 2 TO Part Holes Layer 2
+            No Hazards.
+
+        Mounting Hole Pads Layer 2 TO Via Pads Layer 2
+            No Hazards.
+
+        Mounting Hole Pads Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Part Pads Thru Layer 2 TO Part Pads Thru Layer 2
+            No Hazards.
+
+        Part Pads Thru Layer 2 TO Part Holes Layer 2
+            No Hazards.
+
+        Part Pads Thru Layer 2 TO Via Pads Layer 2
+            No Hazards.
+
+        Part Pads Thru Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Part Holes Layer 2 TO Via Pads Layer 2
+            No Hazards.
+
+        Part Holes Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Via Pads Layer 2 TO Via Pads Layer 2
+            No Hazards.
+
+        Via Pads Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Via Holes Layer 2 TO Via Holes Layer 2
+            No Hazards.
+
+        Traces Layer 5 TO Traces Layer 5
+            No Hazards.
+
+        Traces Layer 5 TO Differential Pair Traces Layer 5
+            No Hazards.
+
+        Traces Layer 5 TO Mounting Hole Pads Layer 5
+            No Hazards.
+
+        Traces Layer 5 TO Part Pads Thru Layer 5
+            No Hazards.
+
+        Traces Layer 5 TO Part Holes Layer 5
+            No Hazards.
+
+        Traces Layer 5 TO Via Pads Layer 5
+            No Hazards.
+
+        Traces Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Differential Pair Traces Layer 5
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Mounting Hole Pads Layer 5
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Part Pads Thru Layer 5
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Part Holes Layer 5
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Via Pads Layer 5
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Mounting Hole Pads Layer 5 TO Mounting Hole Pads Layer 5
+            No Hazards.
+
+        Mounting Hole Pads Layer 5 TO Part Pads Thru Layer 5
+            No Hazards.
+
+        Mounting Hole Pads Layer 5 TO Part Holes Layer 5
+            No Hazards.
+
+        Mounting Hole Pads Layer 5 TO Via Pads Layer 5
+            No Hazards.
+
+        Mounting Hole Pads Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Part Pads Thru Layer 5 TO Part Pads Thru Layer 5
+            No Hazards.
+
+        Part Pads Thru Layer 5 TO Part Holes Layer 5
+            No Hazards.
+
+        Part Pads Thru Layer 5 TO Via Pads Layer 5
+            No Hazards.
+
+        Part Pads Thru Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Part Holes Layer 5 TO Via Pads Layer 5
+            No Hazards.
+
+        Part Holes Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Via Pads Layer 5 TO Via Pads Layer 5
+            No Hazards.
+
+        Via Pads Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Via Holes Layer 5 TO Via Holes Layer 5
+            No Hazards.
+
+        Components Bottom TO Components Bottom
+            No Hazards.
+
+        Traces Layer 6 TO Traces Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Differential Pair Traces Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Mounting Hole Pads Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Part Pads SMD Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Part Holes Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Mounting Hole Pads Layer 6
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Part Pads SMD Layer 6
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Part Holes Layer 6
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Mounting Hole Pads Layer 6
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Part Pads SMD Layer 6
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Part Holes Layer 6
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Part Pads SMD Layer 6 TO Part Pads SMD Layer 6
+            No Hazards.
+
+        Part Pads SMD Layer 6 TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Part Pads SMD Layer 6 TO Part Holes Layer 6
+            No Hazards.
+
+        Part Pads SMD Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Part Pads SMD Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Part Pads Thru Layer 6 TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Part Pads Thru Layer 6 TO Part Holes Layer 6
+            No Hazards.
+
+        Part Pads Thru Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Part Pads Thru Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Part Holes Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Part Holes Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Via Pads Layer 6 TO Via Pads Layer 6
+            No Hazards.
+
+        Via Pads Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Via Holes Layer 6 TO Via Holes Layer 6
+            No Hazards.
+
+        Traces Layer 6 TO Edge Connector Pads Bottom
+            No Hazards.
+
+        Traces Layer 6 TO Test Pads Bottom
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Edge Connector Pads Bottom
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Test Pads Bottom
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Edge Connector Pads Bottom
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Mounting Hole Pads Layer 6
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Part Pads SMD Layer 6
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Part Holes Layer 6
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Test Pads Bottom
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Via Pads Layer 6
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Via Holes Layer 6
+            No Hazards.
+
+        Test Pads Bottom TO Mounting Hole Pads Layer 6
+            No Hazards.
+
+        Test Pads Bottom TO Part Pads SMD Layer 6
+            No Hazards.
+
+        Test Pads Bottom TO Part Pads Thru Layer 6
+            No Hazards.
+
+        Test Pads Bottom TO Part Holes Layer 6
+            No Hazards.
+
+        Test Pads Bottom TO Test Pads Bottom
+            No Hazards.
+
+        Test Pads Bottom TO Via Pads Layer 6
+            No Hazards.
+
+        Test Pads Bottom TO Via Holes Layer 6
+            No Hazards.
+
+
+        Total Hazards Found : 0
+
+
+
+
+    Planes Clearances And Rules
+    ---------------------------
+
+        No Proximity Checks Performed.
+
+
+
+
+    Non-Net Class Element To Element Clearances And Rules
+    -----------------------------------------------------
+
+        Via Obstructs Layer 1 TO Via Pads Layer 1    Clearance: 0th
+            No Hazards.
+
+        Via Holes Layer 1 TO Via Obstructs Layer 1    Clearance: 0th
+            No Hazards.
+
+        Traces Layer 1 TO Trace Obstructs Layer 1    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Via Pads Layer 1    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Traces Layer 1    Clearance: 0th
+            No Hazards.
+
+        Placement Obstructs Layer 1 TO Placement Outlines Top    Clearance: 10th
+            No Hazards.
+
+        Part Pads SMD Layer 1 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Part Pads Thru Layer 1 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Hole Pads Layer 1 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Part Pads Thru Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Mounting Hole Pads Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Via Holes Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Via Pads Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Mounting Holes Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Part Holes Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Part Pads SMD Layer 1    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 1 TO Traces Layer 1    Clearance: 10th
+            No Hazards.
+
+        Edge Connector Pads Top TO Mounting Holes Layer 1    Clearance: 10th
+            No Hazards.
+
+        Board Outline TO Part Pads Thru Layer 1    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Hole Pads Layer 1    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Holes Layer 1    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Pads Layer 1    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Holes Layer 1    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Part Holes Layer 1    Clearance: 0th
+            No Hazards.
+
+    >>  Board Outline TO Placement Outlines Top    Clearance: 10th
+            Hazards Found : 3
+
+        Board Outline TO Part Pads SMD Layer 1    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Traces Layer 1    Clearance: 0th
+            No Hazards.
+
+        Via Obstructs Layer 2 TO Via Pads Layer 2    Clearance: 0th
+            No Hazards.
+
+        Via Holes Layer 2 TO Via Obstructs Layer 2    Clearance: 0th
+            No Hazards.
+
+        Traces Layer 2 TO Trace Obstructs Layer 2    Clearance: 0th
+            No Hazards.
+
+        Differential Pair Traces Layer 2 TO Trace Obstructs Layer 2    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Via Pads Layer 2    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Traces Layer 2    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Differential Pair Traces Layer 2    Clearance: 0th
+            No Hazards.
+
+        Part Pads Thru Layer 2 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Hole Pads Layer 2 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Part Pads Thru Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Mounting Hole Pads Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Via Holes Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Via Pads Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Mounting Holes Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Part Holes Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Traces Layer 2    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 2 TO Differential Pair Traces Layer 2    Clearance: 10th
+            No Hazards.
+
+        Board Outline TO Part Pads Thru Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Hole Pads Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Holes Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Pads Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Holes Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Part Holes Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Traces Layer 2    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Differential Pair Traces Layer 2    Clearance: 0th
+            No Hazards.
+
+        Via Obstructs Layer 5 TO Via Pads Layer 5    Clearance: 0th
+            No Hazards.
+
+        Via Holes Layer 5 TO Via Obstructs Layer 5    Clearance: 0th
+            No Hazards.
+
+        Traces Layer 5 TO Trace Obstructs Layer 5    Clearance: 0th
+            No Hazards.
+
+        Differential Pair Traces Layer 5 TO Trace Obstructs Layer 5    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Via Pads Layer 5    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Traces Layer 5    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Differential Pair Traces Layer 5    Clearance: 0th
+            No Hazards.
+
+        Part Pads Thru Layer 5 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Hole Pads Layer 5 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Part Pads Thru Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Mounting Hole Pads Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Via Holes Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Via Pads Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Mounting Holes Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Part Holes Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Traces Layer 5    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 5 TO Differential Pair Traces Layer 5    Clearance: 10th
+            No Hazards.
+
+        Board Outline TO Part Pads Thru Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Hole Pads Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Holes Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Pads Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Holes Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Part Holes Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Traces Layer 5    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Differential Pair Traces Layer 5    Clearance: 0th
+            No Hazards.
+
+        Via Obstructs Layer 6 TO Via Pads Layer 6    Clearance: 0th
+            No Hazards.
+
+        Via Holes Layer 6 TO Via Obstructs Layer 6    Clearance: 0th
+            No Hazards.
+
+        Test Point Centers Bottom TO Test Point Centers Bottom    Clearance: 10th
+            No Hazards.
+
+        Traces Layer 6 TO Trace Obstructs Layer 6    Clearance: 0th
+            No Hazards.
+
+        Differential Pair Traces Layer 6 TO Trace Obstructs Layer 6    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Via Pads Layer 6    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Test Pads Bottom    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Traces Layer 6    Clearance: 0th
+            No Hazards.
+
+        Route Border TO Differential Pair Traces Layer 6    Clearance: 0th
+            No Hazards.
+
+        Placement Obstructs Layer 6 TO Placement Outlines Bottom    Clearance: 10th
+            No Hazards.
+
+        Part Pads SMD Layer 6 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Part Pads Thru Layer 6 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Hole Pads Layer 6 TO Route Border    Clearance: 0th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Part Pads Thru Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Mounting Hole Pads Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Via Holes Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Via Pads Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Mounting Holes Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Part Holes Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Part Pads SMD Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Test Pads Bottom    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Traces Layer 6    Clearance: 10th
+            No Hazards.
+
+        Mounting Holes Layer 6 TO Differential Pair Traces Layer 6    Clearance: 10th
+            No Hazards.
+
+        Edge Connector Pads Bottom TO Mounting Holes Layer 6    Clearance: 10th
+            No Hazards.
+
+        Board Outline TO Part Pads Thru Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Hole Pads Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Holes Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Via Pads Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Mounting Holes Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Part Holes Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Placement Outlines Bottom    Clearance: 10th
+            No Hazards.
+
+        Board Outline TO Part Pads SMD Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Test Pads Bottom    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Traces Layer 6    Clearance: 0th
+            No Hazards.
+
+        Board Outline TO Differential Pair Traces Layer 6    Clearance: 0th
+            No Hazards.
+
+
+        Total Hazards Found : 3
+
+
+
+    Total Proximity Hazards Found : 3
+
+
+
+
+    ----------------------------
+    CONNECTIVITY & SPECIAL RULES
+    ----------------------------
+
+
+    Check For Unplaced Parts                      : YES
+        No Hazards.
+
+
+    Check For Missing Parts                       : YES
+        No Hazards.
+
+
+    Check Trace Hangers                           : YES
+        No Hazards.
+
+
+    Check Trace Loops                             : YES
+        No Hazards.
+
+
+    Check Trace Widths                            : YES
+        No Hazards.
+
+
+    Check Single Point Nets                       : YES
+        No Hazards.
+
+
+    Check NonPlane Unrouted/Partially Routed Nets : YES
+        No Hazards.
+
+
+    Check Plane Unrouted/Partial Routed Nets      : YES
+        No Hazards.
+
+
+    Check Routed Plane Pins                       : YES
+        No Hazards.
+
+
+    Check Plane Islands                           : YES
+        No Hazards.
+
+
+    Check Dangling Vias/Jumpers                   : NO
+
+
+    Check Unrouted Pins                           : NO
+
+
+    Check Routed Non-Plated Pins                  : NO
+
+
+    Check Minimum Annular Ring                    : YES
+        Annular Distance : 6th
+        No Hazards.
+
+
+    Check For Vias Under SMD Pads                 : NO
+
+
+    Check For Vias Under Top Place Outlines       : NO
+
+
+    Check For Vias Under Bottom Place Outlines    : NO
+
+
+    Check For Missing Conductive Pads             : All Pads / All Layers
+        No Hazards.
+
+
+    Check For Missing Part Soldermask Pads        : YES
+        No Hazards.
+
+
+    Check For Missing Via Soldermask Pads         : YES
+        No Hazards.
+
+
+    Check For Missing Solderpaste Pads            : YES
+        Hazards Found : 80
+
+
+
+    Total Connectivity/SpecialRules Hazards Found : 80
+
+
+
+    ====================================================================
+
+
+
+    Total DRC Hazards Found : 83
+
+
+
+                         03:36 PM Wednesday, January 23, 2008

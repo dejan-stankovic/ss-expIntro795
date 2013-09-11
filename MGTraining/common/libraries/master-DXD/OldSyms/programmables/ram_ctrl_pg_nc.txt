@@ -1,0 +1,30 @@
+
+Pins not used:
+
+NC=5,6,7,13,28,29,30,31,32,33,34,35
+NC=36,37,38,39,40,47,48,49,50,51,52
+NC=53,54,55,56,57,58,59,60,61,62,74
+NC=75,76,77,78,79,80,82
+
+
+Supply pins:
+
+
+VCC1	3		Top	ram_ctl_pg
+VCC2	8		Top	ram_ctl_pg
+VCC3	15		Top	ram_ctl_pg
+VCC4	27		Top	ram_ctl_pg
+VCC5	41		Top	ram_ctl_pg
+VCC6	45		Top	ram_ctl_pg
+VCC7	69		Top	ram_ctl_pg
+VCC8	83		Top	ram_ctl_pg
+GND1	4		Bottom	ram_ctl_pg
+GND2	12		Bottom	ram_ctl_pg
+GND3	14		Bottom	ram_ctl_pg
+GND4	20		Bottom	ram_ctl_pg
+GND5	26		Bottom	ram_ctl_pg
+GND6	46		Bottom	ram_ctl_pg
+GND7	63		Bottom	ram_ctl_pg
+GND8	68		Bottom	ram_ctl_pg
+GND9	70		Bottom	ram_ctl_pg
+GND10	72		Bottom	ram_ctl_pg
