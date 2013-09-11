@@ -2,13 +2,13 @@
                                 Autosave Log File
                                 -----------------
 
-                        05:36 PM Friday, January 11, 2008
+                       02:49 PM Thursday, August 15, 2013
 Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\temp\14DIP.pcb
 
 
                                Autosave log closed
                                -------------------
 
-                        05:50 PM Friday, January 11, 2008
+                       02:49 PM Thursday, August 15, 2013
 Job Name: C:\MGTraining\common\libraries\master-DXD\Work\CellEditorFiles\temp\14DIP.pcb
 
