@@ -1,0 +1,21 @@
+Tue Aug 20 07:28:14 2013
+
+Project path: C:\MGTraining\projects\PRACTICE\database
+
+Loaded cns info: C:\MentorGraphics\7.9.5EE\SDD_HOME\standard\ce_ee.cns=7.10.24;C:\MGTraining\common\config\user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8
+Before global upgrade from version: 7.10.24 to version: 7.10.24
+
+BeforeGlobalUpgrade took 15ms, 0s
+
+Upgrade snapshot DxD
+UpgradeSnapshot took 32ms, 0s
+
+Upgrade snapshot DEMO_layout_temp
+UpgradeSnapshot took 16ms, 0s
+
+Upgrade snapshot DEMO
+UpgradeSnapshot took 16ms, 0s
+
+After global upgrade
+AfterGlobalUpgrade took 0ms, 0s
+

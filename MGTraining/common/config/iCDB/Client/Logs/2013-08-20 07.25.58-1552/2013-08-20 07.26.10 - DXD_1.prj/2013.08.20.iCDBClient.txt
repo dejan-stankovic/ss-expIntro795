@@ -1,0 +1,81 @@
+[2013.08.20 07:26:10] [0000m.12s.249ms] [0] WELCOME
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] iCDB Client ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] Base flow version [7.9.4]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] Machine [ESVM01]  User [student]  PID [1552]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] Current working dir [C:\MGTraining\projects\DXD]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\wv\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] SDD_PLATFORM [win32]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [3] AMP: CREATE
+[2013.08.20 07:26:10] [0000m.12s.249ms] [2] NE: CREATE
+[2013.08.20 07:26:10] [0000m.12s.249ms] [2] AMP: START
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] IC: Project GUID [c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] IC: Project path [C:\MGTraining\projects\DXD\database] on file system [NTFS]
+[2013.08.20 07:26:10] [0000m.12s.249ms] [1] IC: Working in FULL access mode
+[2013.08.20 07:26:10] [0000m.12s.249ms] [2] IC: EDM BLP: Trying to log with empty user id.
+[2013.08.20 07:26:10] [0000m.12s.343ms] [0] ServerToolkit: Running server: command [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin\iCDBNetServer.exe] with parameters [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin\iCDBNetServer.exe -db "C:\MGTraining\projects\DXD\database" -prj "C:\MGTraining\projects\DXD\DXD_1.prj" -dbid "c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8" -autoclose -client "ESVM01:student:1552" 
+[2013.08.20 07:26:10] [0000m.12s.343ms] [0] ServerToolkit: Server command executed
+[2013.08.20 07:26:10] [0000m.12s.468ms] [0] ServerToolkit: Server for project [C:\MGTraining\projects\DXD\database] is running
+[2013.08.20 07:26:10] [0000m.12s.468ms] [1] ServerProperties: Reading server properties for project [C:\MGTraining\projects\DXD\database]
+[2013.08.20 07:26:10] [0000m.12s.468ms] [0] ServerProperties: Host [esvm01]  IP [127.0.0.1]  Port [10000]  GUID [fe26-0af3-bd15-65b3-28c7-3127-8c73-1250-6de1-418f-2c7c-0ac5]  for project [C:\MGTraining\projects\DXD\database] with GUID [c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8]
+[2013.08.20 07:26:10] [0000m.12s.468ms] [1] Connecting to iCDB Server:  Host [esvm01] IP [127.0.0.1]  Port [10000]
+[2013.08.20 07:26:10] [0000m.12s.468ms] [1] Network: DNS query IP [127.0.0.1]
+[2013.08.20 07:26:10] [0000m.12s.468ms] [1] Connected to iCDB Server [127.0.0.1]
+[2013.08.20 07:26:11] [0000m.13s.171ms] [1] Session [307] opened
+[2013.08.20 07:26:11] [0000m.13s.171ms] [1] Working mode: Online
+[2013.08.20 07:26:11] [0000m.13s.171ms] [1] C: Registered sub-client: [DxD] with ID: [1]
+[2013.08.20 07:26:11] [0000m.13s.171ms] [1] INFO: Exclusive read locks disabled
+[2013.08.20 07:26:11] [0000m.13s.265ms] [1] C: Registered sub-client: [TransactionRollbackSubClient] with ID: [2]
+[2013.08.20 07:26:11] [0000m.13s.312ms] [1] C: Registered sub-client: [xprob] with ID: [3]
+[2013.08.20 07:26:13] [0000m.14s.999ms] [1] C: Registered sub-client: [SelectionHolder] with ID: [4]
+[2013.08.20 07:26:13] [0000m.15s.015ms] [1] C: Registered sub-client: [SymbolEditor] with ID: [5]
+[2013.08.20 07:26:13] [0000m.15s.030ms] [1] C: Registered sub-client: [EEVM_EEVM_194261068] with ID: [6]
+[2013.08.20 07:26:13] [0000m.15s.030ms] [1] C: Unregistered sub-client: [EEVM_EEVM_194261068] with ID: [6]
+[2013.08.20 07:26:13] [0000m.15s.030ms] [1] C: Registered sub-client: [EEVM_EEVM_194261068] with ID: [7]
+[2013.08.20 07:26:13] [0000m.15s.046ms] [1] C: Unregistered sub-client: [EEVM_EEVM_194261068] with ID: [7]
+[2013.08.20 07:26:13] [0000m.15s.046ms] [1] C: Registered sub-client: [EEVM_EEVM_194261068] with ID: [8]
+[2013.08.20 07:26:13] [0000m.15s.046ms] [1] C: Unregistered sub-client: [EEVM_EEVM_194261068] with ID: [8]
+[2013.08.20 07:26:13] [0000m.15s.062ms] [1] C: Registered sub-client: [EEVM_EEVM_194261068] with ID: [9]
+[2013.08.20 07:26:13] [0000m.15s.062ms] [1] C: Unregistered sub-client: [EEVM_EEVM_194261068] with ID: [9]
+[2013.08.20 07:26:13] [0000m.15s.359ms] [1] C: Registered sub-client: [HdlProject] with ID: [10]
+[2013.08.20 07:26:13] [0000m.15s.374ms] [1] C: Registered sub-client: [Navigator] with ID: [11]
+[2013.08.20 07:26:13] [0000m.15s.405ms] [1] C: Registered sub-client: [OutputWindow] with ID: [12]
+[2013.08.20 07:26:13] [0000m.15s.405ms] [1] C: Registered sub-client: [PlaceDevice] with ID: [13]
+[2013.08.20 07:26:13] [0000m.15s.437ms] [1] C: Registered sub-client: [SAE] with ID: [14]
+[2013.08.20 07:26:13] [0000m.15s.452ms] [1] C: Registered sub-client: [CCZAddin] with ID: [15]
+[2013.08.20 07:26:13] [0000m.15s.452ms] [1] C: Registered sub-client: [DxThumbnails] with ID: [16]
+[2013.08.20 07:26:13] [0000m.15s.640ms] [1] C: Registered sub-client: [SheetConnectorsCacheDxD:1377008773] with ID: [17]
+[2013.08.20 07:26:13] [0000m.15s.687ms] [1] C: Registered sub-client: [NetsNamesCollectorDxD:1377008773] with ID: [18]
+[2013.08.20 07:26:14] [0000m.15s.905ms] [1] C: Registered sub-client: [DxDbSearch] with ID: [19]
+[2013.08.20 07:26:16] [0000m.18s.046ms] [1] C: Registered sub-client: [ObjectHolder_284553336] with ID: [20]
+[2013.08.20 07:26:16] [0000m.18s.062ms] [1] C: Registered sub-client: [BlockCacheDxD:126953952] with ID: [21]
+[2013.08.20 07:26:16] [0000m.18s.062ms] [1] C: Registered sub-client: [GlobalNetAliasUpdater_284693296] with ID: [22]
+[2013.08.20 07:26:16] [0000m.18s.077ms] [1] C: Registered sub-client: [IcdbNetProcessorSubClientDxD:284561744] with ID: [23]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [GlobalNetAliasUpdater_284693296] with ID: [22]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [BlockCacheDxD:126953952] with ID: [21]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [ObjectHolder_284553336] with ID: [20]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [IcdbNetProcessorSubClientDxD:284561744] with ID: [23]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [SelectionHolder] with ID: [4]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [SheetConnectorsCacheDxD:1377008773] with ID: [17]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [NetsNamesCollectorDxD:1377008773] with ID: [18]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [TransactionRollbackSubClient] with ID: [2]
+[2013.08.20 07:26:20] [0000m.21s.952ms] [1] C: Unregistered sub-client: [DxD] with ID: [1]
+[2013.08.20 07:26:20] [0000m.21s.968ms] [1] C: Unregistered sub-client: [xprob] with ID: [3]
+[2013.08.20 07:26:20] [0000m.21s.968ms] [1] C: Unregistered sub-client: [SymbolEditor] with ID: [5]
+[2013.08.20 07:26:20] [0000m.21s.983ms] [1] C: Unregistered sub-client: [Navigator] with ID: [11]
+[2013.08.20 07:26:20] [0000m.21s.983ms] [1] C: Unregistered sub-client: [OutputWindow] with ID: [12]
+[2013.08.20 07:26:20] [0000m.21s.983ms] [1] C: Unregistered sub-client: [DxDbSearch] with ID: [19]
+[2013.08.20 07:26:20] [0000m.21s.999ms] [1] C: Unregistered sub-client: [SAE] with ID: [14]
+[2013.08.20 07:26:20] [0000m.21s.999ms] [1] C: Unregistered sub-client: [CCZAddin] with ID: [15]
+[2013.08.20 07:26:20] [0000m.22s.015ms] [1] C: Unregistered sub-client: [DxThumbnails] with ID: [16]
+[2013.08.20 07:26:21] [0000m.23s.187ms] [1] C: Unregistered sub-client: [PlaceDevice] with ID: [13]
+[2013.08.20 07:26:21] [0000m.23s.202ms] [1] C: Unregistered sub-client: [HdlProject] with ID: [10]
+[2013.08.20 07:26:21] [0000m.23s.280ms] [1] Disconnected from iCDB Server
+[2013.08.20 07:26:21] [0000m.23s.280ms] [1] Working mode: Offline
+[2013.08.20 07:26:21] [0000m.23s.671ms] [0] C: Stop
+[2013.08.20 07:26:21] [0000m.23s.671ms] [0] .

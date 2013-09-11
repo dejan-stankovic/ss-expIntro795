@@ -1,0 +1,16 @@
+[2013.08.20 07:26:33] [0000m.00s.906ms] [0] WELCOME
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] iCDB API ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] Base flow version [7.9.4]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] Machine [ESVM01]  User [student]  PID [3540]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] Current working dir [C:\MentorGraphics\7.9.5EE\SDD_HOME\lm\win32\bin]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] SDD_PLATFORM [win32]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2013.08.20 07:26:33] [0000m.00s.906ms] [0] PM: Entering client mode
+[2013.08.20 07:27:29] [0000m.56s.811ms] [0] PM: Closing client mode
+[2013.08.20 07:27:29] [0000m.56s.811ms] [0] .

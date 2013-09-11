@@ -1,0 +1,36 @@
+Tue Aug 20 07:26:10 2013
+
+Project path: C:\MGTraining\projects\DXD\database
+
+Loaded cns info: C:\MentorGraphics\7.9.5EE\SDD_HOME\standard\ce_ee.cns=7.10.24;C:\MGTraining\common\config\user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8
+Before global upgrade from version: 7.10.24 to version: 7.10.24
+
+BeforeGlobalUpgrade took 31ms, 0s
+
+Upgrade snapshot DxD
+UpgradeSnapshot took 15ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230380446679156][4971973992911994996][15:47:28_3-12-12][1331567248]
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230389036613812][4971973992911995060][15:47:43_3-12-12][1331567263]
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230380446679206][4971973992911995046][15:47:55_3-12-12][1331567275]
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230380446679182][4971973992911995022][15:48:01_3-12-12][1331567281]
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230380446679209][4971973992911995049][15:42:38_3-12-12][1331567287]
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230384741646338][4971973992911995177][15:42:16_3-12-12][1331567291]
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot _savepoint[SCH][288230384741646338][4971973997206962178][15:48:16_3-12-12][1331567296]
+UpgradeSnapshot took 0ms, 0s
+
+After global upgrade
+AfterGlobalUpgrade took 0ms, 0s
+
