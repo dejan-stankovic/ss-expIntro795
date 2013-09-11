@@ -1,0 +1,14 @@
+
+                                Autosave Log File
+                                -----------------
+
+                       03:00 PM Thursday, August 15, 2013
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\template.pcb
+
+
+                               Autosave log closed
+                               -------------------
+
+                       03:03 PM Thursday, August 15, 2013
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\template.pcb
+

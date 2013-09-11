@@ -1,0 +1,32 @@
+[2013.08.15 15:00:01] [0000m.21s.530ms] [0] WELCOME
+[2013.08.15 15:00:01] [0000m.21s.530ms] [1] iCDB Client ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.08.15 15:00:01] [0000m.21s.530ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.08.15 15:00:01] [0000m.21s.530ms] [1] Base flow version [7.9.4]
+[2013.08.15 15:00:01] [0000m.21s.530ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] Machine [ESVM01]  User [student]  PID [3192]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] Current working dir [C:\]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] SDD_PLATFORM [win32]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] IC: Project GUID [e4b3-b5af-3ad5-26ff-a96e-8fde-96e8-fd40-cc58-c7c5-4f20-4da8]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] IC: Project path [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] on file system [NTFS]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] IC: Working in READ-ONLY access mode
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] IC: Opened project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with session [51] in read only mode [1]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [1] IC: Adding sub-client [usr_icdbLTDlg] with ID [1] to project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with session [51]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [0] Database GUARD OK: [63560]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] SFI version check [1009] [1009]
+[2013.08.15 15:00:01] [0000m.21s.545ms] [0] SingleFile: [4b7a-0d44-20fe-51f8] Database SFI header has been read in [217us]
+[2013.08.15 15:00:01] [0000m.21s.561ms] [1] IC: Adding sub-client [] with ID [2] to project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with session [51]
+[2013.08.15 15:00:01] [0000m.21s.561ms] [0] iCDB Database: Checking existence of constraint definitions
+[2013.08.15 15:00:01] [0000m.21s.561ms] [0] iCDB Database: Checking constraint definitions version
+[2013.08.15 15:00:01] [0000m.21s.608ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8] up to date
+[2013.08.15 15:00:01] [0000m.21s.608ms] [1] IC: Removing sub-client [2] from project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with session [51]
+[2013.08.15 15:00:01] [0000m.21s.624ms] [1] Config file [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb\cdbsvr\Server.cfg] not found
+[2013.08.15 15:00:01] [0000m.21s.624ms] [1] IC: Removing sub-client [1] from project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with session [51]
+[2013.08.15 15:00:01] [0000m.21s.624ms] [1] IC: Closing project [C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb] with session [51] for sub-client [1]
+[2013.08.15 15:00:01] [0000m.21s.624ms] [0] STOP
+[2013.08.15 15:00:01] [0000m.21s.624ms] [0] .

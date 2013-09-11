@@ -1,0 +1,23 @@
+Wed Jun 15 10:06:34 2011
+
+Project path: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\4 Layer Template\keyin.icdb
+
+Constraints definition "CONS_DEF_LOADER" added.
+Loaded cns info: C:\MentorGraphics\7.9.2EE\7.9.2EE\SDD_HOME\standard\ce_ee.cns=7.10.16;C:\MGTraining\common\config\user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8
+Before global upgrade from version: 7.10.6 to version: 7.10.16
+
+Constraints definition "DIFF_IMPEDANCE" added.
+Constraints definition "POUR_DRAW_STYLE" added (default value: Hatched).
+Constraints definition "THERMAL_COND" added.
+BeforeGlobalUpgrade took 15ms, 0s
+
+Upgrade snapshot PCB
+UpgradeSnapshot took 0ms, 0s
+
+Upgrade snapshot PCB_Layout_Temp
+UpgradeSnapshot took 0ms, 0s
+
+After global upgrade
+Constraints definition "TOPO_PIN_GROUP" deleted.
+AfterGlobalUpgrade took 0ms, 0s
+

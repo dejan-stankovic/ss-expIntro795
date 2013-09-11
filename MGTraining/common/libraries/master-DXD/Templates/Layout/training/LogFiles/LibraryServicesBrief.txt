@@ -1,0 +1,7 @@
+
+                      Library Services Warnings and Errors
+                      ------------------------------------
+
+                       03:02 PM Thursday, August 15, 2013
+Job Name: C:\MGTraining\common\libraries\master-DXD\Templates\Layout\training\Work\Layout_Temp\Design.llm
+

@@ -1,0 +1,3 @@
+[2013.08.15 15:02:46] [0002m.32s.433ms] [1] Notifier: OnErrorAdd: ClientObserver[0F8003C8] SnapshotName[PCB_Layout_Temp] SubClientName[Expedition PCB_32572265] ParentUID[2-1-21 (CesDesign)] AddedUID[53-1-62 (CesVia)] EventAdd[CesVia]
+[2013.08.15 15:03:22] [0003m.08s.666ms] [1] Notifier: OnErrorAdd: ClientObserver[0F8003C8] SnapshotName[PCB_Layout_Temp] SubClientName[Expedition PCB_32572265] ParentUID[2-1-21 (CesDesign)] AddedUID[53-2-62 (CesVia)] EventAdd[CesVia]
+[2013.08.15 15:03:34] [0003m.20s.291ms] [0] .
