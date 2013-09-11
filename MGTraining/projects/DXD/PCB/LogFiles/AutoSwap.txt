@@ -1,0 +1,206 @@
+
+                          Automatic Swap by Part Number
+                          -----------------------------
+
+                        01:43 PM Tuesday, August 20, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+
+Starting length:  135,253 (th)
+
+Potential gate swaps:
+    No swappable pins for: 4310R-1-103-ND
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS655_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    Swapped gates of U14 with pins = 8 and 10 for a saving of  133.5 (th)
+    No swappable pins for: RES-SMD1206-100K
+    No swappable pins for: RES-SMD1206-3K
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: CAP-SMD1206-10P
+    No swappable pins for: CAP-SMD0805-5P
+    No swappable pins for: CAP-SMD0603-100P
+    No swappable pins for: 4310R-1-103-ND
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS655_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: RES-SMD1206-100K
+    No swappable pins for: RES-SMD1206-3K
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: CAP-SMD1206-10P
+    No swappable pins for: CAP-SMD0805-5P
+    No swappable pins for: CAP-SMD0603-100P
+Gate swap length saved:  133.5 (th)
+Number of gate swaps: 1
+Percent saved: 0.10%%
+
+Potential gate set swaps:
+    No swappable pins for: 4310R-1-103-ND
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS655_SOP
+    No swappable pins for: 74ALS240_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS32_SOP
+    No swappable pins for: 74ALS30_SOP
+    No swappable pins for: 74ALS04_SOP
+    No swappable pins for: 74ALS00_SOP
+    No swappable pins for: 54ALS1008_LCC
+    No swappable pins for: 9P_PCONN
+    No swappable pins for: RES-SMD1206-100K
+    No swappable pins for: RES-SMD1206-3K
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: OP215A
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: CAP-SMD1206-10P
+    No swappable pins for: CAP-SMD0805-5P
+    No swappable pins for: CAP-SMD0603-100P
+Gate set swap length saved:  0 (th)
+Number of gate set swaps: 0
+Percent saved: 0.00%%
+
+Potential symbol gate swaps:
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS30_SOP
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    Swapped a gate of C20 with a pin = 2
+          for a gate of C19 with a pin = 1 for a saving of  101.5 (th)
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS30_SOP
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+Symbol gate swap length saved:  101.5 (th)
+Number of symbol gate swaps: 1
+Percent saved: 0.08%%
+
+Potential gate swaps:
+    No swappable pins for: 4310R-1-103-ND
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS655_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: RES-SMD1206-100K
+    No swappable pins for: RES-SMD1206-3K
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: CAP-SMD1206-10P
+    No swappable pins for: CAP-SMD0805-5P
+    No swappable pins for: CAP-SMD0603-100P
+Gate swap length saved:  0 (th)
+Number of gate swaps: 0
+Percent saved: 0.00%%
+
+Potential gate set swaps:
+    No swappable pins for: 4310R-1-103-ND
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS655_SOP
+    No swappable pins for: 74ALS240_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS32_SOP
+    No swappable pins for: 74ALS30_SOP
+    No swappable pins for: 74ALS04_SOP
+    No swappable pins for: 74ALS00_SOP
+    No swappable pins for: 54ALS1008_LCC
+    No swappable pins for: 9P_PCONN
+    No swappable pins for: RES-SMD1206-100K
+    No swappable pins for: RES-SMD1206-3K
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: OP215A
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: CAP-SMD1206-10P
+    No swappable pins for: CAP-SMD0805-5P
+    No swappable pins for: CAP-SMD0603-100P
+Gate set swap length saved:  0 (th)
+Number of gate set swaps: 0
+Percent saved: 0.00%%
+
+Potential symbol gate swaps:
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS30_SOP
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+Symbol gate swap length saved:  0 (th)
+Number of symbol gate swaps: 0
+Percent saved: 0.00%%
+
+Potential ending length:  135,018 (th)
+
+Starting length:  135,119.5 (th)
+
+Potential pin swaps:
+    No swappable pins for: 3296P-103-ND
+    Swapped pins 1 and 23 of U12 for saving of  250 (th)
+    No swappable pins for: 74ALS240_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS04_SOP
+    No swappable pins for: 9P_PCONN
+    Swapped pins 1 and 2 of R7 for saving of  127 (th)
+    Swapped pins 1 and 2 of R1 for saving of  10 (th)
+    Swapped pins 1 and 2 of R3 for saving of  110 (th)
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: OP215A
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: 3296P-103-ND
+    Swapped pins 1 and 23 of U10 for saving of  100 (th)
+    No swappable pins for: 74ALS240_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS04_SOP
+    No swappable pins for: 9P_PCONN
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: OP215A
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS240_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS04_SOP
+    No swappable pins for: 9P_PCONN
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: OP215A
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+Pin swap length saved:  597 (th)
+Number of pin swaps: 5
+Percent saved: 0.44%%
+
+Potential ending length:  134,522.5 (th)
+
+Starting length:  134,522.5 (th)
+
+Potential pin swaps:
+    No swappable pins for: 3296P-103-ND
+    No swappable pins for: 74ALS240_SOP
+    No swappable pins for: 74ALS187_DIP
+    No swappable pins for: 74ALS49_SOP
+    No swappable pins for: 74ALS04_SOP
+    No swappable pins for: 9P_PCONN
+    No swappable pins for: PCAP-SM7343-100U
+    No swappable pins for: OP215A
+    No swappable pins for: ECONN44X50
+    No swappable pins for: CTX071-ND
+Pin swap length saved:  0 (th)
+Number of pin swaps: 0
+Percent saved: 0.00%%
+
+Potential ending length:  134,522.5 (th)

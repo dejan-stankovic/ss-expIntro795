@@ -1,0 +1,14 @@
+Fri Aug 16 06:41:24 2013
+
+Note: Cns file "C:\MentorGraphics\7.9.5EE\SDD_HOME\standard\ce_ee.cns" loaded (read-only).
+Custom cns file "C:\MGTraining\common\config\user.cns" loaded.
+Warning: Constraints' definitions have been modified.
+
+More details can be found in a log file: C:\MGTraining\projects\DXD\CES\LogFiles\ConsDef\2011.06.17_10.05.39.log
+Note: Loading Nets page: Total objects: 505
+Note: Central Library: "C:\MGTraining\common\libraries\master-DXD\master-DXD.lmc"
+Note: Layout Template: "training"
+Note: iCDB server address: "esvm01"
+Note: Loading Clearances page: Total objects: 16
+Note: Cross probing server stopped.
+Note: Cross probing server stopped.

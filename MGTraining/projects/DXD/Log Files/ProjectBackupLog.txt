@@ -32,3 +32,9 @@
 [2013-08-16 06.13.49] Migrated iCDB content backup file [cdbback\2013-08-16 06.13.16-4004.zip] removed.
 [2013-08-16 06.13.49] Successfully migrated iCDB upgrade backup file [2013-08-16 06.13.16-4004] to Project Backup format [2013-08-16 06.13.16 - upgrade.zip]
 [2013-08-16 06.14.19] Successfully created [AutoSave] backup [2013-08-16 06.14.19 - auto.zip] requested by [ESVM01:student].
+[2013-08-20 08.34.05] Successfully created [AutoSave] backup [2013-08-20 08.34.05 - auto.zip] requested by [ESVM01:student].
+[2013-08-20 08.34.05] Removing excessive [AutoSave] backup file [C:\MGTraining\projects\DXD\ProjectBackup\backups\2011-06-17 10.05.41 - auto.zip].
+[2013-08-20 08.34.05] [AutoSave] backup file [DXD\ProjectBackup\backups\2011-06-17 10.05.41 - auto.zip] removed.
+[2013-08-20 13.41.50] Successfully created [AutoSave] backup [2013-08-20 13.41.50 - auto.zip] requested by [ESVM01:student].
+[2013-08-20 13.41.50] Removing excessive [AutoSave] backup file [C:\MGTraining\projects\DXD\ProjectBackup\backups\2012-03-12 08.29.59 - auto.zip].
+[2013-08-20 13.41.50] [AutoSave] backup file [DXD\ProjectBackup\backups\2012-03-12 08.29.59 - auto.zip] removed.

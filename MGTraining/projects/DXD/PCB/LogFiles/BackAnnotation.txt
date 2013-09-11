@@ -2,7 +2,7 @@
                                  BackAnnotation
                                  --------------
 
-                        06:39 AM Friday, August 16, 2013
+                        01:44 PM Tuesday, August 20, 2013
                Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
 
 
@@ -10,11 +10,9 @@
 
      Version:  99.00.05
 
-     No changes made to Existing Schematic Packaging.
+     There have been 18 pin number changes.
 
-
-     There is no symbol data to be back annotated to the schematic source.
-
+     The Common DataBase has been successfully updated.
 
      The Logic DataBase has been updated and the Common DataBase has
       automatically been brought into sync with the Logic DataBase.
@@ -25,7 +23,7 @@
      Updating the CDB Properties
      Finished updating the CDB Properties
 
-     Updating LogicDB Version from 2 to 3.
+     Updating LogicDB Version from 4 to 5.
 
      Creating a formatted Schematic Netlist (LogFiles\AfterBakAnnoNetlist.txt)...
      A formatted Schematic Netlist has been created.

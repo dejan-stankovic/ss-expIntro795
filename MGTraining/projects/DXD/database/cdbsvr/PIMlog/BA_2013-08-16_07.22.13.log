@@ -1,0 +1,623 @@
+--------------------------------------------------------------------------------
+ Project integration - START (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+FE snapshot name: DxD
+BE snapshot name: DXD_1_layout_temp
+Top level block: (2-2-5)
+Parameters: BAConnectivity,BAConstraints,FEWin,
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ Connection synchronization - START (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,cap.1,(236-1-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als04.1,(242-1-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als04.1,(244-1-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,xxx240.1,(256-1-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,74als49.1,(262-1-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als32.1,(242-3-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,54als1008.1,(244-3-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,xxx240.1,(256-3-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,74als187.1,(262-3-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als32.1,(242-4-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,potentiometer.1,(236-7-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,54als1008.1,(244-7-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-9-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-9-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,rn_10_pack.1,(238-9-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,rn_10_pack.1,(238-9-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,54als1008.1,(244-9-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-10-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,rn_10_pack.1,(238-10-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,rn_10_pack.1,(238-10-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als32.1,(234-11-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,54als1008.1,(244-11-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als32.1,(234-12-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als30.1,(238-13-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-14-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-15-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,RES.1,(238-15-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,nand2.1,(234-16-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als04.1,(238-17-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,nand2.1,(234-18-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,nand2.1,(234-19-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-19-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-19-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,cap.1,(238-19-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,RES.1,(236-20-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,cap.1,(238-21-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,xtal.1,(238-23-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,d_2_a,(166-1-5)] [O: FlatComp,nand2.1,(234-24-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,cap.1,(236-24-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,cap.1,(236-25-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,cap.1,(236-25-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,44p_econn.1,(232-27-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,RES.1,(238-27-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,cap.1,(236-29-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,cap.1,(238-29-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,cap.1,(236-30-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,cap.1,(236-30-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als04.1,(238-31-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als04.1,(238-32-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,opamp5.1,(236-34-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,amp,(169-1-5)] [O: FlatComp,opamp5.1,(236-35-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,ecl,(180-1-5)] [O: FlatComp,74als04.1,(236-39-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-43-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-43-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-44-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-44-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-48-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-48-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-49-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: Block,array,(142-1-5)] [O: FlatComp,74als655.1,(232-49-8)]
+	Property: Ref Designator was skipped to be synchronized within CES part
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-64-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-65-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-66-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-70-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-71-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-72-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-74-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-76-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-77-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-78-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,9_pconn.1,(297-79-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-80-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-81-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-82-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-83-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-84-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-85-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-86-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-87-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-88-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-89-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-90-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,cap.1,(297-91-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,pcap.1,(297-92-8)]
+	Property: Cell Name, Operation: Change
+[Ok][Modification] - [BE->FE] [P: Block,DiscreteCircuit,(2-2-5)] [O: FlatComp,pcap.1,(297-93-8)]
+	Property: Cell Name, Operation: Change
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(244-1-8)] [O: FlatPin,A,(244-1-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(244-1-8)] [O: FlatPin,Y,(244-2-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als32.1,(242-3-8)] [O: FlatPin,A,(242-5-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-3-8)] [O: FlatPin,A,(244-5-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als32.1,(242-3-8)] [O: FlatPin,B,(242-6-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-3-8)] [O: FlatPin,B,(244-6-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als32.1,(242-3-8)] [O: FlatPin,Y,(242-7-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-3-8)] [O: FlatPin,Y,(244-7-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-7-8)] [O: FlatPin,A,(244-17-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-7-8)] [O: FlatPin,B,(244-18-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-7-8)] [O: FlatPin,Y,(244-19-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,RES.1,(236-9-8)] [O: FlatPin,B1,(236-21-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,RES.1,(236-9-8)] [O: FlatPin,B2,(236-22-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-9-8)] [O: FlatPin,A,(244-23-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-9-8)] [O: FlatPin,B,(244-24-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-9-8)] [O: FlatPin,Y,(244-25-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-11-8)] [O: FlatPin,A,(244-29-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-11-8)] [O: FlatPin,B,(244-30-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als32.1,(234-11-8)] [O: FlatPin,A,(234-31-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,54als1008.1,(244-11-8)] [O: FlatPin,Y,(244-31-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als32.1,(234-11-8)] [O: FlatPin,B,(234-32-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als32.1,(234-11-8)] [O: FlatPin,Y,(234-33-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,RES.1,(236-15-8)] [O: FlatPin,B1,(236-33-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,RES.1,(236-15-8)] [O: FlatPin,B2,(236-34-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,RES.1,(236-19-8)] [O: FlatPin,B1,(236-41-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,RES.1,(236-19-8)] [O: FlatPin,B2,(236-42-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-16-8)] [O: FlatPin,A,(234-46-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-16-8)] [O: FlatPin,B,(234-47-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-16-8)] [O: FlatPin,Y,(234-48-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-18-8)] [O: FlatPin,A,(234-52-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-18-8)] [O: FlatPin,B,(234-53-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,cap.1,(236-25-8)] [O: FlatPin,B2,(236-53-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-18-8)] [O: FlatPin,Y,(234-54-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,cap.1,(236-25-8)] [O: FlatPin,B1,(236-54-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-19-8)] [O: FlatPin,A,(234-55-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-19-8)] [O: FlatPin,B,(234-56-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-19-8)] [O: FlatPin,Y,(234-57-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,10,(238-61-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,9,(238-62-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,cap.1,(236-30-8)] [O: FlatPin,B2,(236-63-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,8,(238-63-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,cap.1,(236-30-8)] [O: FlatPin,B1,(236-64-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,7,(238-64-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,6,(238-65-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,5,(238-66-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,4,(238-67-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,3,(238-68-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,2,(238-69-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-24-8)] [O: FlatPin,A,(234-70-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-9-8)] [O: FlatPin,1,(238-70-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-24-8)] [O: FlatPin,B,(234-71-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,10,(238-71-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,nand2.1,(234-24-8)] [O: FlatPin,Y,(234-72-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,9,(238-72-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,8,(238-73-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,7,(238-74-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,6,(238-75-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,5,(238-76-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,4,(238-77-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,3,(238-78-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,2,(238-79-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,rn_10_pack.1,(238-10-8)] [O: FlatPin,1,(238-80-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(236-39-8)] [O: FlatPin,A,(236-96-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(236-39-8)] [O: FlatPin,Y,(236-97-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,A,(238-101-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,B,(238-102-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,C,(238-103-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,D,(238-104-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,E,(238-105-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,F,(238-106-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,G,(238-107-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als30.1,(238-13-8)] [O: FlatPin,H,(238-108-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,PI,(232-122-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,OE2N,(232-123-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(238-17-8)] [O: FlatPin,A,(238-123-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,OE1N,(232-124-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(238-17-8)] [O: FlatPin,Y,(238-124-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,OE0N,(232-125-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D0,(232-126-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D1,(232-127-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D2,(232-128-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D3,(232-129-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D4,(232-130-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D5,(232-131-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D6,(232-132-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,D7,(232-133-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,SUME,(232-134-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,SUMO,(232-135-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q0,(232-136-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q1,(232-137-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q2,(232-138-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q3,(232-139-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q4,(232-140-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q5,(232-141-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q6,(232-142-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-43-8)] [O: FlatPin,Q7,(232-143-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,PI,(232-144-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,OE2N,(232-145-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,OE1N,(232-146-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,OE0N,(232-147-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,cap.1,(238-29-8)] [O: FlatPin,B2,(238-147-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D0,(232-148-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,cap.1,(238-29-8)] [O: FlatPin,B1,(238-148-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D1,(232-149-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D2,(232-150-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D3,(232-151-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(238-31-8)] [O: FlatPin,A,(238-151-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D4,(232-152-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(238-31-8)] [O: FlatPin,Y,(238-152-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D5,(232-153-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(238-32-8)] [O: FlatPin,A,(238-153-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D6,(232-154-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als04.1,(238-32-8)] [O: FlatPin,Y,(238-154-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,D7,(232-155-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,SUME,(232-156-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,SUMO,(232-157-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q0,(232-158-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q1,(232-159-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q2,(232-160-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q3,(232-161-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q4,(232-162-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q5,(232-163-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q6,(232-164-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-44-8)] [O: FlatPin,Q7,(232-165-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,PI,(232-232-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,OE2N,(232-233-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,OE1N,(232-234-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,OE0N,(232-235-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D0,(232-236-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D1,(232-237-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D2,(232-238-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D3,(232-239-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D4,(232-240-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D5,(232-241-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D6,(232-242-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,D7,(232-243-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,SUME,(232-244-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,SUMO,(232-245-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q0,(232-246-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q1,(232-247-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q2,(232-248-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q3,(232-249-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q4,(232-250-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q5,(232-251-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q6,(232-252-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-48-8)] [O: FlatPin,Q7,(232-253-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,PI,(232-254-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,OE2N,(232-255-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,OE1N,(232-256-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,OE0N,(232-257-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D0,(232-258-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D1,(232-259-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D2,(232-260-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D3,(232-261-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D4,(232-262-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D5,(232-263-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D6,(232-264-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,D7,(232-265-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,SUME,(232-266-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,SUMO,(232-267-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q0,(232-268-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q1,(232-269-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q2,(232-270-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q3,(232-271-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q4,(232-272-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q5,(232-273-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q6,(232-274-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+[Skipped][Modification] - [BE->FE] [P: FlatComp,74als655.1,(232-49-8)] [O: FlatPin,Q7,(232-275-11)]
+	Property: Pin Number was skipped to be synchronized within CES part
+--------------------------------------------------------------------------------
+ Connection synchronization - END (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ CES synchronization - START (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ABT,(307-1-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,AC,(307-2-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ACT,(307-3-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ALS,(307-4-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,AS,(307-5-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,C,(307-6-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E10E,(307-7-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E10H,(307-8-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E10K,(307-9-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E100E,(307-10-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E100K,(307-11-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,FAST,(307-12-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,FCT,(307-13-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,GTL,(307-14-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,HC,(307-15-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,HCT,(307-16-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,LS,(307-17-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,S,(307-18-29)]
+[Ok][Deletion] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,TTL,(307-19-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ABT,(314-1-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,AC,(314-2-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ACT,(314-3-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ALS,(314-4-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,AS,(314-5-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,C,(314-6-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E10E,(314-7-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E10H,(314-8-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E10K,(314-9-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E100E,(314-10-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,E100K,(314-11-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,FAST,(314-12-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,FCT,(314-13-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,GTL,(314-14-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,HC,(314-15-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,HCT,(314-16-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,LS,(314-17-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,S,(314-18-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,TTL,(314-19-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,UNDEFINED,(314-20-29)]
+[Ok][Addition] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesPartTech,ANALOG,(314-21-29)]
+[Ok][Modification] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesLayer,SIGNAL_3,(307-6-23)]
+[Ok][Modification] - [BE->FE] [P: CesDesign,CesDesign,(2-2-21)] [O: CesLayer,SIGNAL_4,(307-10-23)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U19,(260-19-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U7,(260-20-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,C23,(260-25-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,C25,(260-27-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U14,(260-29-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,RN2,(260-31-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,RN1,(260-32-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U15,(260-33-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,R4,(260-35-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,C19,(260-39-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U18,(260-42-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U10,(260-43-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U12,(260-44-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U9,(260-45-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,U11,(260-46-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,R8,(260-48-51)]
+[Ok][Modification] - [BE->FE] [O: CesComp,R6,(260-50-51)]
+
+--------------------------------------------------------------------------------
+ TOPOLOGY synchronization - START (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ TOPOLOGY synchronization - END (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+[Ok][Modification] - [BE->FE] [P: CesLayer,SIGNAL_3,(307-6-23)] [O: CesConstraint,LAYER_USAGE,(307-104-22)]
+[Ok][Modification] - [BE->FE] [P: CesLayer,SIGNAL_4,(307-10-23)] [O: CesConstraint,LAYER_USAGE,(307-176-22)]
+[Ok][Modification] - [BE->FE] [P: CesViaSpan,Through,(307-1-27)] [O: CesConstraint,DEFAULT_VIA,(307-231-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_3,(307-6-23)] [O: CesConstraint,PLANE_TYPE,(315-1-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_3,(307-6-23)] [O: CesConstraint,PLANE_NETS,(315-2-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_3,(307-6-23)] [O: CesConstraint,PNET_CLEARANCES,(315-3-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_3,(307-6-23)] [O: CesConstraint,PNET_UBORDERS,(315-4-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_4,(307-10-23)] [O: CesConstraint,PLANE_NETS,(315-5-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_4,(307-10-23)] [O: CesConstraint,PNET_CLEARANCES,(315-6-22)]
+[Ok][Addition] - [BE->FE] [P: CesLayer,SIGNAL_4,(307-10-23)] [O: CesConstraint,PNET_UBORDERS,(315-7-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,CE2PARTS,(328-1-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,CE2NONPLANECONDUCTOR,(328-2-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,CE2PLANECONDUCTOR,(328-3-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,CE2CE,(328-4-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,CMH2MH,(328-5-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,CMH2NC,(328-6-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,PLCOUT2PLCOUT,(328-7-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,PLCOUT2PLCOB,(328-8-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,PLCOUT2BRDEDGE,(328-9-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,TRACE2RESISTOR,(328-10-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,PAD2RESISTOR,(328-11-22)]
+[Ok][Addition] - [BE->FE] [P: CesGenClear,CesGenClear,(2-2-28)] [O: CesConstraint,TPCENTER2TPCENTER,(328-12-22)]
+--------------------------------------------------------------------------------
+ CES synchronization - END (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ VMVariant synchronization - START (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ VMVariant synchronization - END (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+ Project integration - END (2013-08-16 07:22:13) 
+--------------------------------------------------------------------------------
