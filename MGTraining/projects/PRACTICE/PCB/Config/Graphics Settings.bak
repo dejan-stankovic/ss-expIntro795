@@ -2,7 +2,7 @@
 ! change it at your own peril
 
 !
-! Created 04/30/13 13:41:39
+! Created 09/26/12 22:50:07
 !
 
 .Global_Constants 87 5
@@ -15,7 +15,7 @@
 	0x00000001	! showCmd
 	(-1, -1)	! ptMinPosition
 	(-1, -1)	! ptMaxPosition
-	(462, 78) (1575,951)	! ..rcNormalPosition
+	(116, 84) (1641,1080)	! ..rcNormalPosition
     ..Active_Place_Layer_Top             True
     ..Active_Place_Layer_Bottom          True
     ..Active_Place_Layer_Internal        False
@@ -1804,8 +1804,8 @@
 
 .view "Practice"
     ..extrema
-	(-64117234,-18170539)		! (xmin, ymin)
-	(133966979,82940567)		! (xmax, ymax)
+	(-61776253,-18170539)		! (xmin, ymin)
+	(131625998,82940618)		! (xmax, ymax)
     ..WindowPlacement
 	0x00000002	! flags
 	0x00000003	! showCmd
@@ -2055,10 +2055,10 @@
                                          True 	! bottom
     ..All_Wirebond_Enabled               True 	! top
                                          True 	! bottom
-    ..Diepinpad_On                       True 	! top
-                                         True 	! bottom
-    ..Bondwire_On                        True 	! top
-                                         True 	! bottom
+    ..Diepinpad_On                       False	! top
+                                         False	! bottom
+    ..Bondwire_On                        False	! top
+                                         False	! bottom
     ..Wire_Level0_On                     True 	! top
                                          True 	! bottom
     ..Wire_Level1_On                     True 	! top

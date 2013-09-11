@@ -2,13 +2,13 @@
                                 Autosave Log File
                                 -----------------
 
-                        07:28 AM Tuesday, August 20, 2013
+                        01:27 PM Tuesday, April 30, 2013
            Job Name: C:\MGTraining\projects\PRACTICE\PCB\Practice.pcb
 
 
                                Autosave log closed
                                -------------------
 
-                        07:29 AM Tuesday, August 20, 2013
+                        01:41 PM Tuesday, April 30, 2013
            Job Name: C:\MGTraining\projects\PRACTICE\PCB\Practice.pcb
 

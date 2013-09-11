@@ -26,7 +26,3 @@
 [2012-09-24 11.29.40] Migrated iCDB content backup file [cdbback\2012-09-24 11.29.40-340.zip] removed.
 [2013-04-30 13.42.36] Successfully created [Constraints Definition Upgrade] backup [2013-04-30 13.42.36 - consDefUpgr.zip] requested by [ESVM01:student].
 [2013-04-30 13.42.36] Migrated iCDB content backup file [cdbback\2013-04-30 13.42.34-2696.zip] removed.
-[2013-08-20 07.26.11] Successfully created [Constraints Definition Upgrade] backup [2013-08-20 07.26.11 - consDefUpgr.zip] requested by [ESVM01:student].
-[2013-08-20 07.26.11] Removing excessive [Constraints Definition Upgrade] backup file [C:\MGTraining\projects\DXD\ProjectBackup\backups\2013-04-30 13.42.36 - consDefUpgr.zip].
-[2013-08-20 07.26.11] [Constraints Definition Upgrade] backup file [DXD\ProjectBackup\backups\2013-04-30 13.42.36 - consDefUpgr.zip] removed.
-[2013-08-20 07.26.11] Migrated iCDB content backup file [cdbback\2013-08-20 07.26.10-3484.zip] removed.
