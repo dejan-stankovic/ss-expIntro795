@@ -2,7 +2,7 @@
 ! change it at your own peril
 
 !
-! Created 08/16/13 06:18:09
+! Created 08/20/13 08:27:26
 !
 
 .Global_Constants 88 2
@@ -874,11 +874,11 @@
     ..Contour_Nopaque                    False
     ..Contour_Outline                    True
     ..Contour_Span_Color 0x00ffffff	! RGB(255,255,255)
-    ..Cavity_Color 0x3b444e47	! RGB( 71, 78, 68)
+    ..Cavity_Color 0x00000000	! RGB(  0,  0,  0)
     ..Cavity_Ptrnidx 0
     ..Cavity_Nopaque                     False
     ..Cavity_Outline                     True
-    ..Milling_Color 0x0000000c	! RGB( 12,  0,  0)
+    ..Milling_Color 0x00000000	! RGB(  0,  0,  0)
     ..Milling_Ptrnidx 0
     ..Milling_Nopaque                    False
     ..Milling_Outline                    True
@@ -1174,12 +1174,12 @@
 	0x0000ff00	! bottom  RGB(  0,255,  0)
     )
     ..Diepinpad_Color (
-	0x30343253	! top     RGB( 83, 50, 52)
-	0x504f535f	! bottom  RGB( 95, 83, 79)
+	0x00000000	! top     RGB(  0,  0,  0)
+	0x00000000	! bottom  RGB(  0,  0,  0)
     )
     ..Bondwire_Color (
 	0x00000000	! top     RGB(  0,  0,  0)
-	0x00000005	! bottom  RGB(  5,  0,  0)
+	0x00000000	! bottom  RGB(  0,  0,  0)
     )
     ..Wire_Level0_Color (
 	0x0099ff99	! top     RGB(153,255,153)
@@ -1240,87 +1240,87 @@
 	"UnConnected_Net"	! [1]
 	"(Net0)"	! [2]
 	"(Spacer_Net)"	! [3]
-	"$1N10"	! [4]
-	"$1N10_13"	! [5]
-	"$1N14"	! [6]
-	"$1N14_13"	! [7]
-	"$1N20"	! [8]
-	"$1N20_13"	! [9]
-	"$1N22"	! [10]
-	"$1N25"	! [11]
-	"$1N26"	! [12]
-	"$1N27"	! [13]
-	"$1N28"	! [14]
-	"$1N29"	! [15]
-	"$1N29_8"	! [16]
-	"$1N29_12"	! [17]
-	"$1N30"	! [18]
-	"$1N45"	! [19]
-	"$1N47"	! [20]
-	"$1N115"	! [21]
-	"$1N115_8"	! [22]
-	"$2N15"	! [23]
-	"$2N17"	! [24]
-	"$2N21"	! [25]
-	"$2N25"	! [26]
-	"$2N27"	! [27]
-	"AMP1_IN"	! [28]
-	"AMP2_IN"	! [29]
-	"A0"	! [30]
-	"A1"	! [31]
-	"A2"	! [32]
-	"A3"	! [33]
-	"A4"	! [34]
-	"A5"	! [35]
-	"A6"	! [36]
-	"A7"	! [37]
-	"BANK0"	! [38]
-	"BANK1"	! [39]
-	"DA0"	! [40]
-	"DA1"	! [41]
-	"DA2"	! [42]
-	"DA3"	! [43]
-	"DA4"	! [44]
-	"DA5"	! [45]
-	"DA6"	! [46]
-	"DA7"	! [47]
-	"DP1_NEG"	! [48]
-	"DP1_POS"	! [49]
-	"D0"	! [50]
-	"D1"	! [51]
-	"D2"	! [52]
-	"D3"	! [53]
-	"D4"	! [54]
-	"D5"	! [55]
-	"D6"	! [56]
-	"D7"	! [57]
-	"D8"	! [58]
-	"D9"	! [59]
-	"D10"	! [60]
-	"D11"	! [61]
-	"D12"	! [62]
-	"D13"	! [63]
-	"D14"	! [64]
-	"D15"	! [65]
-	"GND"	! [66]
-	"HS_CLK"	! [67]
-	"HS0"	! [68]
-	"HS1"	! [69]
-	"HS2"	! [70]
-	"HS3"	! [71]
-	"HS4"	! [72]
-	"HS5"	! [73]
-	"HS6"	! [74]
-	"HS7"	! [75]
-	"Q0"	! [76]
-	"Q1"	! [77]
-	"Q2"	! [78]
-	"Q3"	! [79]
-	"RAMWR0"	! [80]
-	"RAMWR1"	! [81]
-	"VCC"	! [82]
-	"VDD"	! [83]
-	"VEE"	! [84]
+	"GND"	! [4]
+	"VCC"	! [5]
+	"VDD"	! [6]
+	"VEE"	! [7]
+	"$1N10"	! [8]
+	"$1N10_13"	! [9]
+	"$1N14"	! [10]
+	"$1N14_13"	! [11]
+	"$1N20"	! [12]
+	"$1N20_13"	! [13]
+	"$1N22"	! [14]
+	"$1N25"	! [15]
+	"$1N26"	! [16]
+	"$1N27"	! [17]
+	"$1N28"	! [18]
+	"$1N29"	! [19]
+	"$1N29_8"	! [20]
+	"$1N29_12"	! [21]
+	"$1N30"	! [22]
+	"$1N45"	! [23]
+	"$1N47"	! [24]
+	"$1N115"	! [25]
+	"$1N115_8"	! [26]
+	"$2N15"	! [27]
+	"$2N17"	! [28]
+	"$2N21"	! [29]
+	"$2N25"	! [30]
+	"$2N27"	! [31]
+	"AMP1_IN"	! [32]
+	"AMP2_IN"	! [33]
+	"A0"	! [34]
+	"A1"	! [35]
+	"A2"	! [36]
+	"A3"	! [37]
+	"A4"	! [38]
+	"A5"	! [39]
+	"A6"	! [40]
+	"A7"	! [41]
+	"BANK0"	! [42]
+	"BANK1"	! [43]
+	"DA0"	! [44]
+	"DA1"	! [45]
+	"DA2"	! [46]
+	"DA3"	! [47]
+	"DA4"	! [48]
+	"DA5"	! [49]
+	"DA6"	! [50]
+	"DA7"	! [51]
+	"DP1_NEG"	! [52]
+	"DP1_POS"	! [53]
+	"D0"	! [54]
+	"D1"	! [55]
+	"D2"	! [56]
+	"D3"	! [57]
+	"D4"	! [58]
+	"D5"	! [59]
+	"D6"	! [60]
+	"D7"	! [61]
+	"D8"	! [62]
+	"D9"	! [63]
+	"D10"	! [64]
+	"D11"	! [65]
+	"D12"	! [66]
+	"D13"	! [67]
+	"D14"	! [68]
+	"D15"	! [69]
+	"HS_CLK"	! [70]
+	"HS0"	! [71]
+	"HS1"	! [72]
+	"HS2"	! [73]
+	"HS3"	! [74]
+	"HS4"	! [75]
+	"HS5"	! [76]
+	"HS6"	! [77]
+	"HS7"	! [78]
+	"Q0"	! [79]
+	"Q1"	! [80]
+	"Q2"	! [81]
+	"Q3"	! [82]
+	"RAMWR0"	! [83]
+	"RAMWR1"	! [84]
 	"WR0"	! [85]
 	"WR1"	! [86]
 	"~DS"	! [87]
@@ -1776,8 +1776,8 @@
 
 .view "DXD_1"
     ..extrema
-	(-72339209,-35801748)		! (xmin, ymin)
-	(123138887,86601857)		! (xmax, ymax)
+	(-37146792,-15037328)		! (xmin, ymin)
+	(142358336,101725412)		! (xmax, ymax)
     ..WindowPlacement
 	0x00000002	! flags
 	0x00000003	! showCmd
@@ -1887,7 +1887,7 @@
                                          True 	! bottom
     ..Drill_Drawing_Through_On           True
     ..Redline_Layer_On                   True
-    ..All_User_Draft_Enabled             True
+    ..All_User_Draft_Enabled             False
     ..User_Draft_On ( 
 	T T T T T T T T T T 	! [1 - 10]
 	T T T T T T T T T T 	! [11 - 20]
@@ -1934,7 +1934,7 @@
     ..Pad_Obstruct_On                    True
     ..Rule_Area_On                       False
     ..Drc_Window_On                      True
-    ..Manufacturing_Outline_On           True
+    ..Manufacturing_Outline_On           False
     ..All_Panel_Items_Enabled            True
     ..Panel_Outline_On                   True
     ..Panel_Border_On                    True
@@ -1956,7 +1956,7 @@
     ..Cell_Property_Text_On              True
     ..All_Mult_Designers_Enabled         True
     ..Reserved_Areas_On                  True
-    ..Fixture_Outline_On                 True
+    ..Fixture_Outline_On                 False
     ..All_Xds_Force_Fields_Enabled       True
     ..This_Xdc_Handle_On                 True
     ..Other_Xdcs_On                      True
@@ -2027,10 +2027,10 @@
                                          True 	! bottom
     ..All_Wirebond_Enabled               True 	! top
                                          True 	! bottom
-    ..Diepinpad_On                       False	! top
-                                         False	! bottom
-    ..Bondwire_On                        False	! top
-                                         False	! bottom
+    ..Diepinpad_On                       True 	! top
+                                         True 	! bottom
+    ..Bondwire_On                        True 	! top
+                                         True 	! bottom
     ..Wire_Level0_On                     True 	! top
                                          True 	! bottom
     ..Wire_Level1_On                     True 	! top

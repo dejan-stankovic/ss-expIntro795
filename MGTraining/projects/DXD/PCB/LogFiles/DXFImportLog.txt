@@ -1,0 +1,16 @@
+
+                                    DXFImport
+                                    ---------
+
+                        06:27 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+    DXFile "C:\MGTraining\common\drafting\outline.dxf" loaded successfully.
+    
+    DXFile C:\MGTraining\common\drafting\outline.dxf created 10/27/2009 at 14:06:43
+    
+
+    DXF data has been imported onto a new layer. 
+    To make this data visible select the checkbox for the new user layer in Display Control.    
+    DXFile "C:\MGTraining\common\drafting\outline.dxf" imported successfully.
+    

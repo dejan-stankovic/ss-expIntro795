@@ -1,0 +1,137 @@
+[2013.08.16 06:26:45] [0000m.00s.031ms] [0] WELCOME
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] iCDB Server ver.1.094, vt40T8RtWJOG2cE2Nlvc5A, build:535943 created 2013-01-08 09:09:26, sources stamp:vt40T8RtWJOG2cE2Nlvc5A
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] Copyright 2013 Mentor Graphics Corporation. All Rights Reserved.
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] Base flow version [7.9.4]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] GBS Install Id [30163], Flow Id [EE7.9.5], Full Flow Name [Expedition Enterprise Flow], Exact Access Date [Jun 1 2012]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] Machine [ESVM01]  User [student]  PID [3928]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 2 (build 2600)]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] Current working dir [C:\MGTraining\projects\DXD\PCB]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] PATH [C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\xe\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\wg\win32\lib;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\bin;C:\MentorGraphics\7.9.5EE\SDD_HOME\common\win32\lib;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\bin;C:\MentorGraphics\7.9.5EE\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] SDD_HOME [C:\MentorGraphics\7.9.5EE\SDD_HOME] on file system [NTFS]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] SDD_PLATFORM [win32]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] WDIR [C:\MGTraining\common\config;C:\MentorGraphics\7.9.5EE\SDD_HOME\standard]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [1] Local iCDB working dir [C:\MGTraining\common\config\iCDB] on file system [NTFS]
+[2013.08.16 06:26:45] [0000m.00s.031ms] [2] S: Loading config files
+[2013.08.16 06:26:45] [0000m.00s.046ms] [1] Config file [C:\MGTraining\projects\DXD\database\cdbsvr\Server.cfg] not found
+[2013.08.16 06:26:45] [0000m.00s.046ms] [3] S: Config loaded
+[2013.08.16 06:26:45] [0000m.00s.062ms] [0] S: Project path [C:\MGTraining\projects\DXD\database] on file system [NTFS]
+[2013.08.16 06:26:45] [0000m.00s.062ms] [0] S: Project file (.prj) path [C:\MGTraining\projects\DXD\DXD_1.prj] on file system [NTFS]
+[2013.08.16 06:26:45] [0000m.00s.062ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2013.08.16 06:26:45] [0000m.00s.062ms] [0] S: Single-user mode (auto)
+[2013.08.16 06:26:45] [0000m.00s.062ms] [0] S: Event polling mode autodetection
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Started up automatically by iCDB Client: ESVM01:student:1084
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Auto close mode
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Database ID [c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8]
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] PathTranslator: BEGIN dumping
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] PathTranslator: Local -> global path prefix list
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] PathTranslator: Global -> local path prefix list
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] PathTranslator: END dumping
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: START
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Server startup lock file created
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Listening for client connections on port [10000]
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Server network ID [esvm01:192.168.234.128,esvm01:10000]
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Server GUID [8155-16f1-7293-f05f-5982-e02a-982e-0250-ea12-418f-2c7c-0ac5]
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Project GUID [c541-c208-8a34-c77b-cda4-82e0-ea48-2e40-4a38-c7c5-4f00-4da8]
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Wrote data to server address file
+[2013.08.16 06:26:45] [0000m.00s.078ms] [0] S: Server startup lock file removed
+[2013.08.16 06:26:45] [0000m.00s.078ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\MGTraining\projects\DXD\DXD_1.prj]
+[2013.08.16 06:26:45] [0000m.00s.187ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] S: Local disc access time: 58 us
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] S: File server access time: 325 us
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] S: Server will not release in-memory storage after read (memory usage overhead) - for better performance
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] size [633048 (618.2 kB)]
+[2013.08.16 06:26:45] [0000m.00s.203ms] [1] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] opened in read-write mode
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] Database GUARD OK: [633048]
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] Database GUARD OK: [633048]
+[2013.08.16 06:26:45] [0000m.00s.203ms] [0] SingleFile: [cd2e-0dae-a49c-2374] SFI version check [1009] [1009]
+[2013.08.16 06:26:45] [0000m.00s.218ms] [0] SingleFile: [cd2e-0dae-a49c-2374] Database SFI header has been read in [19ms 802us]
+[2013.08.16 06:26:45] [0000m.00s.218ms] [0] iCDB Server PI: Server & plugin session [319]
+[2013.08.16 06:26:45] [0000m.00s.218ms] [0] iCDB Server PI: Opening database [C:\MGTraining\projects\DXD\database]
+[2013.08.16 06:26:45] [0000m.00s.218ms] [0] iCDB Server PI: Database [C:\MGTraining\projects\DXD\database] opened
+[2013.08.16 06:26:45] [0000m.00s.250ms] [0] iCDB Database: Checking existence of constraint definitions
+[2013.08.16 06:26:45] [0000m.00s.250ms] [0] iCDB Database: Checking constraint definitions version
+[2013.08.16 06:26:45] [0000m.00s.375ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.24;user.cns=7747-7955-dbd5-5030-921e-8fdd-21e8-fd40-09f7-c7c5-4f20-4da8] up to date
+[2013.08.16 06:26:45] [0000m.00s.406ms] [0] iCDB Server PI: Initializing plugins
+[2013.08.16 06:26:45] [0000m.00s.406ms] [0] iCDB Server PI: Plugins initialized
+[2013.08.16 06:26:45] [0000m.00s.406ms] [0] S: iCDB database loaded
+[2013.08.16 06:26:45] [0000m.00s.406ms] [0] S: Starting threads
+[2013.08.16 06:26:45] [0000m.00s.421ms] [0] BT: Listening for broadcast messages on port [10000]
+[2013.08.16 06:26:45] [0000m.00s.421ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2013.08.16 06:26:45] [0000m.00s.421ms] [0] IT: Session [320] for host [esvm01] user [student] with process ID [1084] created
+[2013.08.16 06:26:45] [0000m.00s.421ms] [1] SC[320]: Registered sub-client [Expedition PCB_2925218] with ID [1] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:45] [0000m.00s.531ms] [1] CMT: There are [1] clients now: 320
+[2013.08.16 06:26:46] [0000m.00s.593ms] [1] SC[320]: Registered sub-client [EEVM_EEVM_122428260] with ID [2] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:46] [0000m.00s.687ms] [1] SC[320]: UnRegistered sub-client [EEVM_EEVM_122428260] with ID [2] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:46] [0000m.00s.687ms] [1] SC[320]: Registered sub-client [EEVM_EEVM_122428260] with ID [3] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:46] [0000m.00s.734ms] [1] SC[320]: UnRegistered sub-client [EEVM_EEVM_122428260] with ID [3] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:47] [0000m.01s.843ms] [1] SC[320]: Registered sub-client [ExpeditionCrossProber] with ID [4] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:48] [0000m.03s.469ms] [1] SC[320]: Registered sub-client [JobPrefsDBPI_2928812] with ID [5] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:26:48] [0000m.03s.469ms] [1] SC[320]: UnRegistered sub-client [JobPrefsDBPI_2928812] with ID [5] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:27:15] [0000m.30s.424ms] [0] DFAMT: File server access time: 63 us
+[2013.08.16 06:27:47] [0001m.01s.708ms] [1] SC[320]: Registered sub-client [JobPrefsDBPI_2987046] with ID [6] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:27:47] [0001m.01s.723ms] [1] SC[320]: Registered sub-client [JobPrefsDBPI_2987062] with ID [7] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:27:47] [0001m.01s.723ms] [1] SC[320]: UnRegistered sub-client [JobPrefsDBPI_2987062] with ID [7] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:28:26] [0001m.41s.007ms] [1] SC[320]: Registered sub-client [JobPrefsDBPI_3026343] with ID [8] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:28:26] [0001m.41s.007ms] [1] SC[320]: UnRegistered sub-client [JobPrefsDBPI_3026343] with ID [8] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:28:26] [0001m.41s.070ms] [1] SC[320]: UnRegistered sub-client [JobPrefsDBPI_2987046] with ID [6] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:31:41] [0004m.56s.554ms] [1] SC[320]: Registered sub-client [EEVM_EEVM_1239256] with ID [9] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:31:41] [0004m.56s.554ms] [1] SC[320]: UnRegistered sub-client [EEVM_EEVM_1239256] with ID [9] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:31:42] [0004m.56s.898ms] [0] IT: Session [321] for host [esvm01] user [student] with process ID [2848] created
+[2013.08.16 06:31:42] [0004m.56s.898ms] [1] SC[321]: Registered sub-client [Expedition_3222125] with ID [1] for session ID [321] host [esvm01] user [student] process ID [2848]
+[2013.08.16 06:31:42] [0004m.57s.007ms] [1] CMT: There are [2] clients now: 320, 321
+[2013.08.16 06:31:42] [0004m.57s.007ms] [1] SC[321]: UnRegistered sub-client [Expedition_3222125] with ID [1] for session ID [321] host [esvm01] user [student] process ID [2848]
+[2013.08.16 06:31:42] [0004m.57s.117ms] [1] CMT: Removed client [321]
+[2013.08.16 06:31:42] [0004m.57s.117ms] [1] CMT: There are [1] clients now: 320
+[2013.08.16 06:32:17] [0005m.32s.088ms] [1] SC[320]: UnRegistered sub-client [ExpeditionCrossProber] with ID [4] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:32:17] [0005m.32s.120ms] [1] SC[320]: UnRegistered sub-client [Expedition PCB_2925218] with ID [1] for session ID [320] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:32:17] [0005m.32s.213ms] [1] CMT: Removed client [320]
+[2013.08.16 06:32:17] [0005m.32s.213ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2013.08.16 06:32:17] [0005m.32s.573ms] [0] IT: Session [322] for host [esvm01] user [student] with process ID [1084] created
+[2013.08.16 06:32:17] [0005m.32s.573ms] [1] SC[322]: Registered sub-client [Expedition PCB_3257828] with ID [1] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:32:18] [0005m.33s.510ms] [1] SC[322]: Registered sub-client [ExpeditionCrossProber] with ID [2] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:32:18] [0005m.33s.542ms] [1] SC[322]: Registered sub-client [JobPrefsDBPI_3258859] with ID [3] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:32:18] [0005m.33s.542ms] [1] SC[322]: UnRegistered sub-client [JobPrefsDBPI_3258859] with ID [3] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:39:08] [0012m.22s.911ms] [1] SC[322]: Registered sub-client [EEVM_EEVM_1239256] with ID [4] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:39:08] [0012m.22s.911ms] [1] SC[322]: UnRegistered sub-client [EEVM_EEVM_1239256] with ID [4] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:39:08] [0012m.23s.255ms] [0] IT: Session [323] for host [esvm01] user [student] with process ID [476] created
+[2013.08.16 06:39:08] [0012m.23s.255ms] [1] SC[323]: Registered sub-client [Expedition_3668437] with ID [1] for session ID [323] host [esvm01] user [student] process ID [476]
+[2013.08.16 06:39:08] [0012m.23s.271ms] [1] CMT: There are [2] clients now: 322, 323
+[2013.08.16 06:39:08] [0012m.23s.364ms] [1] SC[323]: UnRegistered sub-client [Expedition_3668437] with ID [1] for session ID [323] host [esvm01] user [student] process ID [476]
+[2013.08.16 06:39:08] [0012m.23s.443ms] [1] CMT: Removed client [323]
+[2013.08.16 06:39:08] [0012m.23s.443ms] [1] CMT: There are [1] clients now: 322
+[2013.08.16 06:39:38] [0012m.53s.557ms] [0] IT: Session [324] for host [esvm01] user [student] with process ID [2516] created
+[2013.08.16 06:39:38] [0012m.53s.557ms] [1] SC[324]: Registered sub-client [JobWizard_3698750] with ID [1] for session ID [324] host [esvm01] user [student] process ID [2516]
+[2013.08.16 06:39:39] [0012m.53s.635ms] [1] SC[324]: UnRegistered sub-client [JobWizard_3698750] with ID [1] for session ID [324] host [esvm01] user [student] process ID [2516]
+[2013.08.16 06:39:39] [0012m.53s.651ms] [1] CMT: There are [2] clients now: 322, 324
+[2013.08.16 06:39:39] [0012m.53s.651ms] [1] CMT: Removed client [324]
+[2013.08.16 06:39:39] [0012m.53s.651ms] [1] CMT: There are [1] clients now: 322
+[2013.08.16 06:39:39] [0012m.54s.213ms] [0] IT: Session [325] for host [esvm01] user [student] with process ID [2516] created
+[2013.08.16 06:39:39] [0012m.54s.213ms] [1] SC[325]: Registered sub-client [JobPrefsDBPI_3699359] with ID [1] for session ID [325] host [esvm01] user [student] process ID [2516]
+[2013.08.16 06:39:39] [0012m.54s.244ms] [1] SC[325]: UnRegistered sub-client [JobPrefsDBPI_3699359] with ID [1] for session ID [325] host [esvm01] user [student] process ID [2516]
+[2013.08.16 06:39:39] [0012m.54s.307ms] [1] CMT: There are [2] clients now: 322, 325
+[2013.08.16 06:39:39] [0012m.54s.307ms] [1] CMT: Removed client [325]
+[2013.08.16 06:39:39] [0012m.54s.307ms] [1] CMT: There are [1] clients now: 322
+[2013.08.16 06:39:50] [0013m.05s.371ms] [1] SC[322]: UnRegistered sub-client [ExpeditionCrossProber] with ID [2] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:39:51] [0013m.05s.652ms] [1] SC[322]: UnRegistered sub-client [Expedition PCB_3257828] with ID [1] for session ID [322] host [esvm01] user [student] process ID [1084]
+[2013.08.16 06:39:51] [0013m.05s.731ms] [1] CMT: Removed client [322]
+[2013.08.16 06:39:51] [0013m.05s.731ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2013.08.16 06:39:53] [0013m.07s.700ms] [0] CMT: Starting server auto-close
+[2013.08.16 06:39:53] [0013m.07s.793ms] [0] S: Closing server
+[2013.08.16 06:39:53] [0013m.07s.950ms] [0] iCDB Server PI: Closing plugins
+[2013.08.16 06:39:53] [0013m.07s.950ms] [0] iCDB Server PI: Plugins closed
+[2013.08.16 06:39:53] [0013m.07s.950ms] [0] iCDB Server PI: Unloading database
+[2013.08.16 06:39:53] [0013m.07s.950ms] [0] iCDB Server PI: Saving storage
+[2013.08.16 06:39:53] [0013m.07s.950ms] [0] iCDB Server PI: Closing database
+[2013.08.16 06:39:53] [0013m.07s.950ms] [1] Hole: zero line at 632972 of size 24 bytes.
+[2013.08.16 06:39:53] [0013m.07s.950ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[8%] data[74%]
+[2013.08.16 06:39:53] [0013m.07s.950ms] [1] iCDB Server PI: Stats: Database file size [633048 (618.2 kB)]
+[2013.08.16 06:39:53] [0013m.07s.950ms] [1] Hole: zero line at 632972 of size 24 bytes.
+[2013.08.16 06:39:53] [0013m.07s.965ms] [0] iCDB Server PI: Database closed
+[2013.08.16 06:39:53] [0013m.07s.965ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [86350] ticks
+[2013.08.16 06:39:53] [0013m.07s.965ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [24123] microseconds
+[2013.08.16 06:39:53] [0013m.07s.965ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [477]
+[2013.08.16 06:39:53] [0013m.07s.965ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [19773] commands per second
+[2013.08.16 06:39:53] [0013m.07s.965ms] [0] Single file [C:\MGTraining\projects\DXD\database\icdb.dat] closed with size [633048 (618.2 kB)]
+[2013.08.16 06:39:53] [0013m.08s.137ms] [0] S: STOP

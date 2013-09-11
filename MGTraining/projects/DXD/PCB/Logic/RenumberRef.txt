@@ -51,3 +51,25 @@
 ;------------------------------- --------------------------------
 ; STARTING AN IMPLICIT FORWARD ANNOTATION
 ;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        06:31 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------
+
+                      Renumbered Reference Designator List
+                      ------------------------------------
+
+                        06:39 AM Friday, August 16, 2013
+               Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
+
+
+;------------------------------- --------------------------------
+; STARTING AN IMPLICIT FORWARD ANNOTATION
+;------------------------------- --------------------------------

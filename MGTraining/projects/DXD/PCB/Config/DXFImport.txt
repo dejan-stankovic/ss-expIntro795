@@ -1,0 +1,14 @@
+.FILETYPE DXF_IMPORT_SETTINGS
+.VERSION "VB99.1"
+.DATE "08/16/2013 06:28:26"
+
+!  This file contains settings for the most recent DXF import session
+
+.DXF_INPUT_FILE "C:\\MGTraining\\common\\drafting\\outline.dxf"
+.UNITS th
+
+.SCALE 1
+
+.DXF_STYLE "STANDARD"
+ ..USER_FONT "Arial"
+

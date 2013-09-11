@@ -2,7 +2,7 @@
                                  BackAnnotation
                                  --------------
 
-                        06:17 AM Friday, August 16, 2013
+                        06:39 AM Friday, August 16, 2013
                Job Name: C:\MGTraining\projects\DXD\PCB\DXD_1.pcb
 
 
@@ -25,7 +25,7 @@
      Updating the CDB Properties
      Finished updating the CDB Properties
 
-     Updating LogicDB Version from 1 to 2.
+     Updating LogicDB Version from 2 to 3.
 
      Creating a formatted Schematic Netlist (LogFiles\AfterBakAnnoNetlist.txt)...
      A formatted Schematic Netlist has been created.

@@ -1,0 +1,3 @@
+[2013.08.16 06:39:50] [0013m.16s.091ms] [0] Notifier: ERROR: No snapshot for RemoveEventObserver: SubClientID[1] SnapshotID[9] EventObserver[0EFEA700]
+[2013.08.16 06:39:50] [0013m.16s.091ms] [0] Notifier: ERROR: No PIMgr for RemovePIMObserver: SubClientID[1] PIIndex[0-6-127 (ProjectIntegration)] ProjectIntegrationEventObserver[0EFF9328]
+[2013.08.16 06:39:51] [0013m.16s.638ms] [0] .
